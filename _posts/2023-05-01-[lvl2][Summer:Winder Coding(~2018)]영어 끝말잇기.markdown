@@ -165,4 +165,6 @@ def solution(n, words):
             Pnum= (Pnum+1)%n
             return [0,0]
     answer = [Pnum+1,math.ceil(count)]
-    return answer```
+    return answer
+
+```
