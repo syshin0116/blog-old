@@ -1,0 +1,74 @@
+---
+layout: post
+title: "[lvl1][월간 코드 챌린지 시즌3]없는 숫자 더하기"
+date: 2022-08-04 20:31:29 +0900
+categories: code-test
+---
+
+출처: [Programmers [월간 코드 챌린지 시즌3]없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051)
+
+## 문제 설명:
+
+0부터 9까지의 숫자 중 일부가 들어있는 정수 배열 numbers가 매개변수로 주어집니다. 
+
+numbers에서 찾을 수 없는 0부터 9까지의 숫자를 모두 찾아 더한 수를 return 하도록 solution 함수를 완성해주세요.
+
+### [제한사항]
+* 1 ≤ numbers의 길이 ≤ 9
+* 0 ≤ numbers의 모든 원소 ≤ 9
+* numbers의 모든 원소는 서로 다릅니다.
+
+### 입출력 예:
+<br>
+
+| numbers 	| result 	|
+|---	|---	|
+| [1,2,3,4,6,7,8,0] 	| 14 	|
+| [5,8,4,0,6,7,9] 	| 6 	|
+
+<br>
+### 입출력 예 설명:
+
+#### 입출력 예 #1:
+
+* 5, 9가 numbers에 없으므로, 5 + 9 = 14를 return 해야 합니다.
+
+#### 입출력 예 #2:
+
+* 1, 2, 3이 numbers에 없으므로, 1 + 2 + 3 = 6을 return 해야 합니다.
+
+<br>
+
+<hr>
+
+## 보완해야 할 점: 
+x
+
+
+<br>
+
+## 코드설명:
+* 0~9까지 숫자를 for문을 돌려 number리스트에 없는것들을 answer리스트에 추가
+* sum함수를 사용하여 answer리스트 요소들의 합을 리턴
+
+## 코드:
+
+```python
+def solution(numbers):
+    answer = []
+    for i in range(0,10):
+        if i not in numbers:
+            print(i)
+            answer.append(i)
+    
+    return sum(answer)
+```
+
+## 우수답변자 코드:
+* 0~9의 합은 45로 고정되있음을 활용 (참신해서 가져와봤다)
+
+```python
+def solution(numbers):
+    return 45 - sum(numbers)
+
+```

@@ -1,0 +1,70 @@
+---
+layout: post
+title: "[lvl1]내적"
+date: 2022-08-08 10:35:29 +0900
+categories: code-test
+---
+
+출처: [Programmers > 2021 카카오 채용연계형 인턴쉽 > 거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302)
+
+## 문제 설명:
+
+길이가 같은 두 1차원 정수 배열 a, b가 매개변수로 주어집니다. a와 b의 내적을 return 하도록 solution 함수를 완성해주세요.
+
+이때, a와 b의 내적은 a[0]\*b[0] + a[1]\*b[1] + ... + a[n-1]*b[n-1] 입니다. (n은 a, b의 길이)
+
+## [제한사항]
+a, b의 길이는 1 이상 1,000 이하입니다.
+a, b의 모든 수는 -1,000 이상 1,000 이하입니다.
+
+## 입출력 예:
+
+| a 	| b 	| result 	|
+|---	|---	|---	|
+| [1,2,3,4] 	| [-3,-1,0,2] 	| 3 	|
+| [-1,0,1] 	| [1,0,-1] 	| -2 	|
+
+### 입출력 예 설명:
+#### 입출력 예 #1:
+
+a와 b의 내적은 1\*(-3) + 2\*(-1) + 3\*0 + 4*2 = 3 입니다.
+#### 입출력 예 #2:
+
+a와 b의 내적은 (-1)\*1 + 0\*0 + 1*(-1) = -2 입니다.
+
+<br>
+
+<hr>
+
+## 피드백: 
+* 정수 answer=0을 먼저 선언한 뒤, answer+= a[i]\*b[i] 로 더했지만
+* 바로 sum([x*y for x, y in zip(a,b)]) 로 한줄로 간단히 구현이 가능했다
+
+
+<br>
+
+## 코드설명:
+
+* zip 함수를 활용하여 a, b를 묶어서 a[i]*b[i]를 구한 후 answer에 쌓아 나가는 방식을 사용했다
+
+## 코드:
+
+```python
+def solution(a, b):
+    answer = 0
+    for i, j in zip(a,b):
+        answer += (i*j)
+    return answer
+```
+
+## 우수답변자 코드:
+
+```python
+
+def solution(a, b):
+
+    return sum([x*y for x, y in zip(a,b)])
+
+
+```
+
