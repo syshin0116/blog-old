@@ -53,10 +53,11 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: 'G-DWQR047SDG'# fill in your Google Analytics ID
+
+  id: 'G-KP7BHWQ1W8'#'G-DWQR047SDG'# fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
-    proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
+    proxy_endpoint: 'https://syshin0116.du.r.appspot.com/query?id=agx2fnN5c2hpbjAxMTZyFQsSCEFwaVF1ZXJ5GICAgOjXh4EKDA' # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path: # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
