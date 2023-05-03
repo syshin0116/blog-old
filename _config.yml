@@ -54,7 +54,7 @@ google_site_verification: # fill in to your verification string
 
 google_analytics:
 
-  id:'G-KP7BHWQ1W8' #'G-DWQR047SDG'# fill in your Google Analytics ID
+  id:'G-XZB0EYZF1G' #'G-DWQR047SDG'# fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:'https://syshin0116.du.r.appspot.com/query?id=agx2fnN5c2hpbjAxMTZyFQsSCEFwaVF1ZXJ5GICAgOjXh4EKDA' # fill in the Google Analytics superProxy endpoint of Google App Engine
