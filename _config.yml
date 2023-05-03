@@ -96,12 +96,12 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: 'syshin0116/syshin0116.github.io' # <gh-username>/<repo>
-    repo_id:'R_kgDOJd1hgw'
-    category:'General'
-    category_id:'DIC_kwDOJd1hg84CWOc4'
-    mapping: # optional, default to 'pathname'
-    input_position: 'top'# optional, default to 'bottom'
+    repo: syshin0116/syshin0116.github.io # <gh-username>/<repo>
+    repo_id: "R_kgDOJd1hgw"
+    category: "General"
+    category_id: "DIC_kwDOJd1hg84CWOc4"
+    mapping: "pathname" # optional, default to 'pathname'
+    input_position: "top"# optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
