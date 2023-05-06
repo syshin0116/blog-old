@@ -14,7 +14,7 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 
 
 #### 공유url: http://naver.me/xoKMlnp5
-#### 암호: oracle
+#### 암호: 
 
 강사님 정보:
 
