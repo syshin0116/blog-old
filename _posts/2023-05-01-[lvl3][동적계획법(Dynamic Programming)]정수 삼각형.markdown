@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl3][동적계획법(Dynamic Programming)]정수 삼각형"
 date: 2023-05-01 10:31:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl3, programmers, python]
 ---
 
 출처: [Programmers > 코딩테스트 연습 > 연습문제 > 동적계획법(Dynamic Programming) > 정수 삼각형"](https://school.programmers.co.kr/learn/courses/30/lessons/43105)

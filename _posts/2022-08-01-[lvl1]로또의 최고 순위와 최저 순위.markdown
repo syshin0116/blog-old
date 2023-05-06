@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl1]로또의 최고 순위와 최저 순위"
 date: 2022-08-01 19:31:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl1, programmers]
 ---
 출처: [Programmers 로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484?language=python3)
 

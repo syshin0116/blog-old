@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Architect Associate Certification SAA-C03 Notes
 date: 2022-12-07 16:50:23 +0900
-category: AWS
+categories: [AWS, Architect-Associate]
+tags: [AWS, Architect-Associate, SAA-C03] 
 ---
 # Architect Associate Certification SAA-C03 Notes
 

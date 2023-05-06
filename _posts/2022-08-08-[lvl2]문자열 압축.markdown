@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl2][2020 KAKAO BLIND RECRUITMENT]문자열 압축"
 date: 2022-08-08 10:35:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl2, programmers, python, kakao-blind-recruitment]
 ---
 
 출처: [Programmers > 2020 KAKAO BLIND RECRUITMENT > 문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057)

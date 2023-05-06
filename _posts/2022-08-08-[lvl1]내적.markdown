@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl1]내적"
 date: 2022-08-08 10:35:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl1, programmers, python]
 ---
 
 출처: [Programmers > 2021 카카오 채용연계형 인턴쉽 > 거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302)

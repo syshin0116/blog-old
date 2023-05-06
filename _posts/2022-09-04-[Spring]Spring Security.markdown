@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "[spring]spring security"
+title: "[Spring]spring security"
 date: 2022-09-04 03:35:29 +0900
-categories: Spring
+categories: [Java, Spring]
+tags: [spring, spring-security, java, thmeleaf]
 ---
 
-# [spring]thymeleaf spring security
+# [spring]spring security
 
 ## spring security란
 

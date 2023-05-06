@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "[spring]DAO vs DTO vs VO"
+title: "[Spring]DAO vs DTO vs VO"
 date: 2022-09-04 02:35:29 +0900
-categories: Spring
+categories: [Java, Spring]
+tags: [spring, java]
 ---
 
-# [spring]DTO vs DAO vs VO
+# [Spring]DTO vs DAO vs VO
 ## DAO
 ### : Data Access Object
 #### 실질적으로 DB에 접근하는 객체를 말한다. 효율적인 커넥션 관리와 보안성 때문에 사용한다.

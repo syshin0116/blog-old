@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl1]소수 만들기"
 date: 2022-08-08 10:31:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl1, programmers, python]
 ---
 
 출처: [Programmers > Summer/Winter Coding(~2018) > 소수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12977)

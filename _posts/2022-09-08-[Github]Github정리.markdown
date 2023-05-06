@@ -1,8 +1,8 @@
 ---
-layout: post
 title: "[Github]Github 정리"
 date: 2022-09-08 02:35:29 +0900
-categories: Github
+categories: [ETC, Github]
+tags: [github]
 ---
 
 # [Github]Github 정리

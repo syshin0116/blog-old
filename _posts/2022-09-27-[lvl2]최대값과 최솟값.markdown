@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl2]최댓값과 최솟값"
 date: 2022-09-27 10:31:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl2, programmers, python]
 ---
 
 출처: [Programmers > 코딩테스트 연습 > 연습문제 > 최댓값과 최솟값

@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl1]당구연습"
 date: 2023-03-18 10:31:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl1, programmers, python]
 ---
 
 출처: [Programmers > 코딩테스트 연습 > 연습문제 > 당구 연습](https://school.programmers.co.kr/learn/courses/30/lessons/169198)

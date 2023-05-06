@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl2][2022 KAKAO TECH INTERNSHIP]두 큐 합 같게 만들기"
 date: 2022-08-19 10:35:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl2, programmers, python, kakao-tech-internship]
 ---
 
 출처: [Programmers > 2022 KAKAO Tech Intership > 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)

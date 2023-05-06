@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl1]체육복"
 date: 2022-08-05 10:31:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl1, programmers, python]
 ---
 
 출처: [Programmers > 탐욕복(Greedy) > 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)

@@ -2,7 +2,8 @@
 layout: post
 title: "[lvl1][월간 코드 챌린지 시즌2]음양 더하기"
 date: 2022-08-04 20:40:29 +0900
-categories: code-test
+categories: [Code-Test, Programmers]
+tags: [lvl1, programmers, python]
 ---
 
 출처: [Programmers [월간 코드 챌린지 시즌2]음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501)
