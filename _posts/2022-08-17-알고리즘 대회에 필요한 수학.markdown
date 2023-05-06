@@ -3,7 +3,7 @@ layout: post
 title: "알고리즘 대회에 필요한 수학"
 date: 2022-08-17 10:35:29 +0900
 categories: [Code-Test, Algorithm]
-tags: [Algorithm, Math]
+tags: [algorithm, math]
 ---
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
