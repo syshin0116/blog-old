@@ -1,11 +1,4 @@
 ---
-layout: post
-title: "[lvl2][Summer/Winder Coding(~2018)]영어 끝말잇기"
-date: 2023-05-01 10:31:29 +0900
-categories: code-test
----
-
----
 title: "[ORACLE WDP]1일차- 리눅스 환경, 오라클 설치"
 date: 2023-05-07 20:00:00 +0900
 categories: [Database,ORACLE WDP]
