@@ -22,17 +22,17 @@ tags: [algorithm, math]
 	<nav>
 		<ul class="tab-switch">
 			<li>
-				<a class="default-tab current" href="/wiki/read/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EB%8C%80%ED%9A%8C%EC%97%90_%ED%95%84%EC%9A%94%ED%95%9C_%EC%88%98%ED%95%99" rel="tooltip" title="Read article">
+				<a class="default-tab current" href="http://en.wikipedia.org/wiki/read/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EB%8C%80%ED%9A%8C%EC%97%90_%ED%95%84%EC%9A%94%ED%95%9C_%EC%88%98%ED%95%99" rel="tooltip" title="Read article">
 					읽기
 				</a>
 			</li>
 			<li>
-				<a class="" href="/wiki/edit/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EB%8C%80%ED%9A%8C%EC%97%90_%ED%95%84%EC%9A%94%ED%95%9C_%EC%88%98%ED%95%99" rel="tooltip" title="Edit article">
-					편집하기
+				<a class="" href="http://en.wikipedia.org/wiki/edit/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EB%8C%80%ED%9A%8C%EC%97%90_%ED%95%84%EC%9A%94%ED%95%9C_%EC%88%98%ED%95%99" rel="tooltip" title="Edit article">
+				편집하기
 				</a>
 			</li>
 			<li>
-				<a class="" href="/wiki/history/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EB%8C%80%ED%9A%8C%EC%97%90_%ED%95%84%EC%9A%94%ED%95%9C_%EC%88%98%ED%95%99" rel="tooltip" title="See article history">
+				<a class="" href="http://en.wikipedia.org/wiki/history/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EB%8C%80%ED%9A%8C%EC%97%90_%ED%95%84%EC%9A%94%ED%95%9C_%EC%88%98%ED%95%99" rel="tooltip" title="See article history">
 					편집 내역
 				</a>
 			</li>
@@ -744,7 +744,7 @@ I + A + A^2 + \cdots + A^{n-1} & = (I - A^n)(I-A)^{-1}\\
 </ul></li>
 <li>FFT는 특정 성질을 띠는 <span class="mathjax-preview" style="display: none;"></span><span class="MathJax_MathML" id="MathJax-Element-186-Frame"><span class="MathJax_MathContainer" tabindex="-1" style="position: relative; display: inline-block; white-space: nowrap;"><span style="display: inline-block;"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span></span></span><script type="math/tex" id="MathJax-Element-186">x</script>들을 선택해, 이 두 형태간의 변환을 <span class="mathjax-preview" style="display: none;"></span><span class="MathJax_MathML" id="MathJax-Element-187-Frame"><span class="MathJax_MathContainer" tabindex="-1" style="position: relative; display: inline-block; white-space: nowrap;"><span style="display: inline-block;"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mi>lg</mi><mo>⁡</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n \lg n)</annotation></semantics></math></span></span></span><script type="math/tex" id="MathJax-Element-187">O(n \lg n)</script>에 수행한다.</li>
 <li>곱셈 자체는 <span class="mathjax-preview" style="display: none;"></span><span class="MathJax_MathML" id="MathJax-Element-188-Frame"><span class="MathJax_MathContainer" tabindex="-1" style="position: relative; display: inline-block; white-space: nowrap;"><span style="display: inline-block;"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n)</annotation></semantics></math></span></span></span><script type="math/tex" id="MathJax-Element-188">O(n)</script>이다.</li>
-<li>자세히는 <a href="/wiki/read/wookayin">wookayin</a>님의 <a href="http://bit.ly/1j6jhGb">슬라이드</a>를 보자: </li>
+<li>자세히는 <a href="http://en.wikipedia.org/wiki/read/wookayin">wookayin</a>님의 <a href="http://bit.ly/1j6jhGb">슬라이드</a>를 보자: </li>
 </ul>
 
 <p>C++ 구현:</p>
