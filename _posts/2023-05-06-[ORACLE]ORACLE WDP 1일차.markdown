@@ -1,5 +1,5 @@
 ---
-title: "[ORACLE WDP]1일차- 리눅스 환경, 오라클 설치"
+title: "[ORACLE-WDP]1일차- 리눅스 환경, 오라클 설치"
 date: 2023-05-06 20:00:00 +0900
 categories: [Database,ORACLE-WDP]
 tags: [oracle, wdp, database]     # TAG names should always be lowercase
