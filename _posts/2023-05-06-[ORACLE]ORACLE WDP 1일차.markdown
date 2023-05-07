@@ -6,14 +6,14 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 ---
 
 
-#### 공유url: http://naver.me/xoKMlnp5
-#### 암호: 
+<!--#### 공유url: http://naver.me/xoKMlnp5
+#### 암호: -->
 
-강사님 정보:
+<!--강사님 정보:
 
-- 경력: 전북은행 새마을금고 DB, DW/DM
+- 경력: 전북은행 새마을금고 DB, DW/DM-->
 
-## VM Virtual Machine
+# VM Virtual Machine
 - download : https://www.virtualbox.org/wiki/Downloads
 - 네트워크 설정
     - network > 수동어댑터 설정 > ipv4 주소: 10.0.2.2 > ncpa.cpl > 이더넷 > ipv4 > 속성에서 바뀐것 확인
@@ -92,20 +92,20 @@ s8:
 
 
 
-## Oracle 19c 설치
+# Oracle 19c 설치
 ### 1.  putty HOST 설정
 - Host ip address: 10.0.2.15
 - id: root
 - password: oracle
 
 ### 2. Linux 설정 추가
-```
+```shell
 vi /etc/hosts
 ```
 - 10.0.2.15 HORA19C HORA19C 추가
 ![화면 캡처 2023-05-06 112918](https://user-images.githubusercontent.com/99532836/236594224-421a671e-2643-4554-beed-3b6c9fcc3930.png)
 
-```
+```shell
 vi /etc/selinux/config
 ```
 - #SELINUX=enforcing 주석처리
@@ -113,13 +113,13 @@ SELINUX=permissive 추가
 ![화면 캡처 2023-05-06 113039](https://user-images.githubusercontent.com/99532836/236594226-abb54b9b-8a64-4cef-99f8-4da21508d20d.png)
 
 ### 3. Linux 패키지 추가 설치
-```
+```shell
 yum search preinstall
 yum install make perl xorg-x11-xauth xterm libGL libEGL nmap
 ```
 
 ### 4. oracle 계정 그룹 변경
-```
+```shell
 cd /home
 ls
 ```
@@ -129,14 +129,14 @@ ls
 
 - oracle 계정의 그룹을 oinstall에서 dba 그룹으로 변경 , 패스워드 변경
 - 패스워드는 oracle 을 두번 입력한다.
-```
+```shell
 usermod -g dba -G dba oracle
 passwd oracle
 ```
 ![화면 캡처 2023-05-06 114718](https://user-images.githubusercontent.com/99532836/236594640-0fd5733b-2a53-4bb3-98b3-be17484d3011.png)
 
 ### 5. 오라클 홈디렉토리 생성 및 권한/소속그룹 변경
-```
+```shell
 mkdir -p /app/oracle/product/19.3/db_1
 chmod 775 -R /app
 chown -R oracle:dba /app
@@ -145,7 +145,7 @@ chown -R oracle:dba /app
 
 ### 6. Linux 불필요한 서비스 종료
 
-```
+```shell
 systemctl stop bluetooth.service
 systemctl disable bluetooth.service
 systemctl stop firewalld
@@ -168,7 +168,7 @@ oracle 계정으로 전환
 ctrl + D : 로그아웃, quit
 exit : 
 oracle/oracle로 다시 로그인
-```
+```shell
 $ cd /home/oracle/
 $ vi .bash_profile
 export ORACLE_HOSTNAME=HORA19C
@@ -204,7 +204,7 @@ export PS1='[$PWD]\\$ '
 
 
 ### 10. 리눅스 시작 > 오라클 설치 파일 압축 풀기 (oracle 계정
-```
+```shell
 cd $ORACLE_HOME
 unzip LINUX.X64_193000_db_home.zip
 ```
@@ -283,26 +283,27 @@ poweroff
 
 VM VirtualBox
 ![백업](https://user-images.githubusercontent.com/99532836/236601685-6f1b6395-4947-459e-9f97-a10d529b6286.png)
-[Oracle WDP 1일차.md](https://github.com/syshin0116/Study/files/11411403/Oracle.WDP.1.md)
+
 
 # Oracle
 ## Oracle 접속/종료
 ### putty 10.0.2.2 접속
 ### 리스너 구동, 성공적 구동 확인:
-```
+
+```sh
 $ lsnrctl start
 ```
 ### 8.sqlplus 접속:
 
 #### 1. OS 인증방식으로 접속
-```
+```shell
 sqlplus / as sysdba
 sqlplus sys/oracle as sysdba
 sqlplus oracle/oracle as sysdba
 ```
 #### 2. EZ CONNECT 방법
 - (OS 인증방식으로 들어가서 startup을 해 놔야 가능)
-```
+```shell
 sqlplus 아이디/비밀번호@IP 주소:포트번호/sid
 sqlplus sys/oracle@10.0.2.2:1521/ora19c as sysdba
 sqlplus sys/oracle@10.0.2.15:1521/ora19c as sysdba
@@ -313,7 +314,7 @@ sqlplus hr/hr@10.0.2.2:1521/ora19c
 - tnsnames.ora 에 호스트명, IP, PORT, 서비스 이름등 접속 정보가 저장되어있다.
 호스트명(ALIAS)은 대소문자를 구분 하지 않는다.
 - (OS 인증방식으로 들어가서 startup을 해 놔야 가능)
-```
+```shell
 sqlplus 아이디/비밀번호@호스트명(ALIAS)
 sqlplus sys/oracle@ora19c as sysdba
 sqlplus hr/hr@ora19c
@@ -321,15 +322,15 @@ sqlplus hr/hr@ora19c
 
 
 ### 11. 오라클의 인스턴스명과 상태를 확인한다.
-```
+```sql
 SQL > select instance_name, status from v$instance;
 ```
 ### 12. 리스터 종료, 정상종료 확인
-```
+```shell
  lsnrctl stop
 ```
 ### 13. 오라클 종료
-```
+```shell
 SQL > shutdwon immediate
 ```
 
