@@ -22,8 +22,10 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
     - 위치: E drive vmFile
     - skip unattended installation
     - iso: USB다운로드 파일
-   ![image](https://user-images.githubusercontent.com/99532836/236602113-5a39c54e-63d0-4acf-b2a1-a864d341a6b4.png)
-       ![image](https://user-images.githubusercontent.com/99532836/236602132-4ef07410-1b0f-46b0-b3bc-10b4883a293f.png)
+
+    
+![image](https://user-images.githubusercontent.com/99532836/236602113-5a39c54e-63d0-4acf-b2a1-a864d341a6b4.png)
+![image](https://user-images.githubusercontent.com/99532836/236602132-4ef07410-1b0f-46b0-b3bc-10b4883a293f.png)
     - virtual hard disk : 200GB
 
 ![image](https://user-images.githubusercontent.com/99532836/236602190-f82c231b-50e0-4d3d-a246-2784b6c8e2cd.png)
@@ -34,6 +36,7 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 
 - 키보드 설정
     - 입력 > 키보드 > 키보드 설정 > 호스트 키 조합: Application 
+
 ![key설정](https://user-images.githubusercontent.com/99532836/236591177-345fb000-7eae-4ddf-b4b8-7919fe51de02.png)
 
 ## Installation Summary
@@ -66,6 +69,7 @@ CLI를 이용한 가장 기본적인 환경 설정
     - net mask: 24
     - gateway: 10.0.2.1
     - DNS server: 168.126.63.1
+
 ![image](https://user-images.githubusercontent.com/99532836/236603410-31eed586-fccf-4bd1-a17e-ca0828af9403.png)
 
 
@@ -85,6 +89,11 @@ s8:
 - ```ping 168.126.63.1``` > 확인
 - 윈도우 cmd: ```ping 10.0.2.15``` > 확인
 
+## FeedBack
+- 처음 설치 해봤을땐 문제 없었으나, 본 블로그에 정리한 대로 다시 해보니 네트워크 오류(핑 실패)가 발생했다
+- /etc/sysconfig/network-scripts/ifcfg-emp0s3 에서 vi로 ip address, DNS server, gateway를 지워주고 껐다 키니 정상 작동됐다
+- emp0s3 은 ip를 동적할당 받기 때문에 위와 같은 해결이 가능했다
+
 ## FileZilla, Xming, Putty 설치
 - 네이버 드라이브 > SW > 1.기타 프로그램에 설치 파일 있음 
 - XMing
@@ -99,10 +108,12 @@ s8:
 - password: oracle
 
 ### 2. Linux 설정 추가
-```shell
+```sh
 vi /etc/hosts
 ```
 - 10.0.2.15 HORA19C HORA19C 추가
+
+
 ![화면 캡처 2023-05-06 112918](https://user-images.githubusercontent.com/99532836/236594224-421a671e-2643-4554-beed-3b6c9fcc3930.png)
 
 ```shell
@@ -110,6 +121,8 @@ vi /etc/selinux/config
 ```
 - #SELINUX=enforcing 주석처리
 SELINUX=permissive 추가
+
+
 ![화면 캡처 2023-05-06 113039](https://user-images.githubusercontent.com/99532836/236594226-abb54b9b-8a64-4cef-99f8-4da21508d20d.png)
 
 ### 3. Linux 패키지 추가 설치
@@ -133,6 +146,7 @@ ls
 usermod -g dba -G dba oracle
 passwd oracle
 ```
+
 ![화면 캡처 2023-05-06 114718](https://user-images.githubusercontent.com/99532836/236594640-0fd5733b-2a53-4bb3-98b3-be17484d3011.png)
 
 ### 5. 오라클 홈디렉토리 생성 및 권한/소속그룹 변경
@@ -164,10 +178,10 @@ systemctl disable cups.service
 
 
 ### 7. Oracle 계정의 .bash_profile 설정
-oracle 계정으로 전환
-ctrl + D : 로그아웃, quit
-exit : 
-oracle/oracle로 다시 로그인
+- oracle 계정으로 전환
+- ctrl + D : 로그아웃, quit, exit
+- oracle/oracle로 다시 로그인
+
 ```shell
 $ cd /home/oracle/
 $ vi .bash_profile
@@ -216,6 +230,7 @@ unzip LINUX.X64_193000_db_home.zip
 #### 12.1 Putty 설정
 
 ![화면 캡처 2023-05-06 121808](https://user-images.githubusercontent.com/99532836/236599503-8795498a-d3ed-43f5-a743-a1c53d05bc26.png)
+
 - OS 인증 에러 방지를 위해 $CV_ASSUME_DISTID 환경 변수 설정
 
 ```
@@ -341,7 +356,7 @@ SQL > shutdwon immediate
 
 
 ## sqlDeveloper
-- 접속 ( + 모양)
+- 접속 [+] 모양
 ![image](https://user-images.githubusercontent.com/99532836/236611426-a9d320d4-947e-4116-b182-7f5145be0617.png)
 
 ### SQL 단축키

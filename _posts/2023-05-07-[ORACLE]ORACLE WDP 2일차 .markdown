@@ -6,9 +6,7 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 ---
 
 
-# 윈도우용 64bit 인스턴트 클라이언트 설치 및 sqlplus 접속 테스트
-
-![](https://velog.velcdn.com/images/syshin0116/post/00d5f805-5096-4318-ae89-7724d77f1735/image.pdf)
+## 윈도우용 64bit 인스턴트 클라이언트 설치 및 sqlplus 접속 테스트
 
 1. oracle client download 19c로 검색하여 다운로드 사이트 클릭
 설치파일 : WINDOWS.X64_193000_client.zip
@@ -86,17 +84,21 @@ Database mounted.
 Database opened.
 ```
 
-# rlwap 설치 매뉴얼
-![](https://velog.velcdn.com/images/syshin0116/post/e316ce6a-fe88-41db-83e9-4fd606ddd846/image.pdf)
+## rlwrap 설치 매뉴얼
 
+### rlwarp이란?
+- rlwrap은 sqlplus에서 up, down 방향키로 과거 입력 명령어를 찾을 수 있게 해준다.
 
-1. root 계정으로 접속
+- 사용법: sqlplus를 실행 시 rlwrap 실행
+-  자동 실행 설정 방법: alias 를 정의
+	ex) sqlplus / as sysdba -> rlwrap sqlplus / as sysdba 로 변환
+
+### 1. root 계정으로 접속
 1.1 yum ```-y install epel-release```
 
-1.2. ```yum -y install rlw![](https://velog.velcdn.com/images/syshin0116/post/aa6c5436-81de-4bad-92e5-301602552315/image.pdf)
-rap```
+1.2. ```yum -y install rlwrap```
 
-2. oracle 계정으로 로그인
+### 2. oracle 계정으로 로그인
 2.1. ```vi ~/.bash_profile``` 실행하여 아래 내용을 추가
 ```alias sqlplus="rlwrap sqlplus"```
 
@@ -108,8 +110,8 @@ rap```
 
 ![image](https://user-images.githubusercontent.com/99532836/236652130-077fea5f-81df-4c85-8150-4907f6e8388d.png)
 
-# Oracle Database 19c SQL.pdf
-![Oracle Database 19c SQL.pdf](https://velog.velcdn.com/images/syshin0116/post/24f07994-1b22-45d5-9774-3ab4c6cc5b18/image.pdf)
+## Oracle Database 19c SQL.pdf
+
 
 
 ## 1. RDBMS 이해
@@ -469,14 +471,18 @@ FROM employees
 WHERE job_id = 'SA_REP'
 OR job_id = 'AD_PRES'
 AND salary > 15000;
-
+```
+```sql
 SELECT last_name, job_id, salary
 FROM employees
 WHERE (job_id = 'SA_REP'
 OR job_id = 'AD_PRES')
 AND salary > 15000;
 ```
-## 함수(Function) 활용
+
+## 4. 함수(Function) 활용
+
+### 목표
 - 함수(FUNCTION) 이해
 - 문자 처리 함수
 - 숫자 처리 함수
@@ -1061,7 +1067,8 @@ ORDER BY department_id;
 
 #### Group data 결과 제한 : Having
 
-#### Quiz) 사원 테이블에서 업무에 REP가 포함된 것은 제외하고 업무별 전체 급여 합계를 구하고 업무별 전체 급여 합계 중 $13000 보다 큰 것만 조건으로 전체 급여 합계로 오름차순 정렬해서 출력 하시오.
+#### Quiz) 사원 테이블에서 업무에 REP가 포함된 것은 제외하고 업무별 전체 급여 합계를 구하고 업무별 전체 급여 합계 중 \$13000 보다 큰 것만 조건으로 전체 급여 합계로 오름차순 정렬해서 출력 하시오.
+
 ```sql
 SELECT job_id, SUM(salary) PAYROLL
 FROM employees
@@ -1070,7 +1077,8 @@ GROUP BY job_id
 HAVING SUM(salary) > 13000
 ORDER BY SUM(salary) ASC;
 ```
-####  Group 함수를 중첩하는 경우 반드시 Group by 절을 사용해야 한다
+
+#### Group 함수를 중첩하는 경우 반드시 Group by 절을 사용해야 한다
 ```sql
 SELECT MAX(AVG(salary))
 FROM employees
@@ -1110,7 +1118,7 @@ GROUP BY job_id;
 SELECT COUNT(DISTINCT manager_id) "Number of Managers"
 FROM employees;
 ```
-#### Exam4) 관리자 번호 및 해당 관리자에 속한 사원의 최저 급여를 출력. 관리자를 알 수 없는 사원 및 최저 급여가 $6,000 미만인 그룹은 제외시키고, 최저급여에 대한 내림차순 정렬 하시오.
+#### Exam4) 관리자 번호 및 해당 관리자에 속한 사원의 최저 급여를 출력. 관리자를 알 수 없는 사원 및 최저 급여가 \$6,000 미만인 그룹은 제외시키고, 최저급여에 대한 내림차순 정렬 하시오.
 ```sql
 SELECT manager_id, MIN(salary)
 FROM employees
@@ -1131,7 +1139,7 @@ ORDER BY department_id ;
 ```
 ![](https://velog.velcdn.com/images/syshin0116/post/f1408b4e-0c6b-41e7-ba46-21a277fb14bb/image.png)
 
-#### Exam6) 업무별 급여 합계 및 평균급여를 $표시와 함께 출력하시오. 단, 80번 부서에 대한 정보만 출력하고, 업무별로 오름차순 정렬하시오.
+#### Exam6) 업무별 급여 합계 및 평균급여를 \$표시와 함께 출력하시오. 단, 80번 부서에 대한 정보만 출력하고, 업무별로 오름차순 정렬하시오.
 ```sql
 SELECT job_id,
 TO_CHAR(SUM(salary), '$999,999.00') tot_sal,
@@ -1272,8 +1280,7 @@ department_id, job_id;
 
 
 
-# HR,SCOTT 스키마 실습환경 설정하기
-![](https://velog.velcdn.com/images/syshin0116/post/cbc7d9ca-048e-4d90-82a9-9f58f69b6508/image.pdf)
+## HR,SCOTT 스키마 실습환경 설정하기
 
 ## 명령어
 #### 유저생성
@@ -1387,7 +1394,7 @@ where username in ('HR', 'SCOTT', 'USER01');
 #### 8. SCOTT ERD 확인
 ![](https://velog.velcdn.com/images/syshin0116/post/07e80754-6a71-4fba-b40a-cc0331b4a0c9/image.png)
 
-# 유저생성 및 권한부여
+## 유저생성 및 권한부여
 ![](https://velog.velcdn.com/images/syshin0116/post/96c9cc07-c66a-46a9-9a77-aa282f36030c/image.png)
 
 #### 유저생성
@@ -1530,7 +1537,7 @@ select * from dba_ts_quotas
 where username in ('HR', 'SCOTT', 'USER01');
 ```
 
-# Oracle SQL Developer에서 HR ERD 추출 방법
+## Oracle SQL Developer에서 HR ERD 추출 방법
 #### 1. 파일 > Data Modeler > 임포트 > 데이터 딕셔너리 선택
 ![](https://velog.velcdn.com/images/syshin0116/post/7734bee9-bf57-4622-9f29-95f24238424f/image.png)
 #### 2. HR 선택후 다음 버튼 클릭
@@ -1547,7 +1554,7 @@ where username in ('HR', 'SCOTT', 'USER01');
 우측 마우스 클릭 > 세부정보 보기 > 열 클릭
 ![](https://velog.velcdn.com/images/syshin0116/post/b2f40d00-67d5-4b7b-8022-e0e4cd6056b3/image.png)
 
-# SQL 수행되는 순서
+## SQL 수행되는 순서
 5. SELECT
 1. FROM
 2. WHERE
