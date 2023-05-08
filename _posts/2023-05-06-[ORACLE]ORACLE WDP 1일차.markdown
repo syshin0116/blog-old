@@ -14,7 +14,7 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 - 경력: 전북은행 새마을금고 DB, DW/DM-->
 
 # VM Virtual Machine
-- download : https://www.virtualbox.org/wiki/Downloads
+- Download url : https://www.virtualbox.org/wiki/Downloads
 - 네트워크 설정
     - network > 수동어댑터 설정 > ipv4 주소: 10.0.2.2 > ncpa.cpl > 이더넷 > ipv4 > 속성에서 바뀐것 확인
 - machine > 새로 만들기 > 

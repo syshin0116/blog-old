@@ -611,6 +611,7 @@ from employees;
 ### 주의사항
 - 월 단위 이상을 계한 할 떄는 add_months 함수를 이용한다.
 - 월별로 일 수가 일정하지 않고(ex. 28일, 30일, 31일), 윤년, 평년도 있어서 계산하기 어렵다.
+
 ```sql
 SELECT
 	add_months(to_Date('20230227', 'YYYYMMDD'), 1), -- 1
@@ -618,7 +619,9 @@ SELECT
     
 FROM dual;
 ```
+
 - TRUNC는 특정 데이터의 뒤쪽 데이터를 잘라버리는 함수이다.
+
 ```sql
 SELECT
 	to_char(sysdate, 'YYYY-MM-DD HH24
@@ -645,11 +648,13 @@ FROM dual;
 
 #### 변환 함수 : 날짜에 TO_CHAR 함수 사용
 ![](https://velog.velcdn.com/images/syshin0116/post/322c89cc-71d9-4306-b164-6a7731288bd7/image.png)
+
 ```sql
 SELECT employee_id, TO_CHAR(hire_date, 'MM/YY') Month_Hired
 FROM employees
 WHERE last_name = 'Higgins';
 ```
+
 #### 변환 함수 : 날짜에 TO_CHAR 함수 사용
 - 시간 요소는 날짜에서 시간부분의 형식 지정 가능
 	HH24:MI:SS AM -> 15:45:32 PM
@@ -1282,7 +1287,7 @@ department_id, job_id;
 
 ## HR,SCOTT 스키마 실습환경 설정하기
 
-## 명령어
+### 명령어
 #### 유저생성
 ```sql
 CREATE USER <유저명> IDENTIFIED BY 패스워드;
@@ -1298,7 +1303,7 @@ ALTER USER <유저명> QUOTA 사이즈 ON USERS;
 ```sql
 GRANT <권한> TO <유저명>;
 ```
-#### 1. SCOTT 스키마 생성 스크립트 확인 및 생성
+### 1. SCOTT 스키마 생성 스크립트 확인 및 생성
 @는 해당 경로의 sql 파일을 실행한다
 ```shell
 vi $ORACLE_HOME/rdbms/admin/utlsampl.sql
@@ -1309,20 +1314,20 @@ from dba_users
 where username in ('HR', 'SCOTT');
 ```
 
-#### 2. SCOTT 계정 접속
+### 2. SCOTT 계정 접속
 ```shell
 sqlplus scott/tiger
 SQL> desc emp;
 ```
 
-#### 3. HR 계정 접속
+### 3. HR 계정 접속
 ```shell
 sqlplus hr/hr
 ERROR:
 ORA-28000: The account is locked.
 ```
-#### 4. 관리자 계정 접속
-##### 4.1 SCOTT, HR 상태 및 테이블스페이스 쿼터 정보 확인
+### 4. 관리자 계정 접속
+#### 4.1 SCOTT, HR 상태 및 테이블스페이스 쿼터 정보 확인
 ```sql
 select username, account_status
 from dba_users
@@ -1332,22 +1337,22 @@ where username in ('HR', 'SCOTT');
 ```
 
 
-##### 4.2 HR 계정 락 해제
+#### 4.2 HR 계정 락 해제
     
 ```sql
 ALTER USER HR ACCOUNT UNLOCK;
 ```
-##### 4.3 HR 계정 비밀번호 변경
+#### 4.3 HR 계정 비밀번호 변경
 ```sql
 ALTER USER HR IDENTIFIED by hr;
 ```
-#### 5. HR 계정 접속
+### 5. HR 계정 접속
 ```
 sqlplus hr/hr
 desc employees;
 ```
 
-##### 5.1. HR 계정에서 job_grades 테이블 생성
+#### 5.1. HR 계정에서 job_grades 테이블 생성
 ```sql
 DROP TABLE job_grades;
 CREATE TABLE job_grades (
@@ -1366,7 +1371,7 @@ INSERT INTO job_grades VALUES ('E', 15000, 24999);
 INSERT INTO job_grades VALUES ('F', 25000, 40000);
 COMMIT;
 ```
-#### 6. SCOTT, HR, USER01의 권한, 롤, 쿼터 확인
+### 6. SCOTT, HR, USER01의 권한, 롤, 쿼터 확인
 ```sql
 -- SCOTT, HR, USER01에게 부여된 시스템 권한
 select grantee, privilege
@@ -1388,10 +1393,10 @@ select * from dba_ts_quotas
 where username in ('HR', 'SCOTT', 'USER01');
 ```
 
-#### 7. HR ERD 확인
+### 7. HR ERD 확인
 ![](https://velog.velcdn.com/images/syshin0116/post/55cbcafc-ac11-4568-8ef5-38cc4c9cb19c/image.png)
 
-#### 8. SCOTT ERD 확인
+### 8. SCOTT ERD 확인
 ![](https://velog.velcdn.com/images/syshin0116/post/07e80754-6a71-4fba-b40a-cc0331b4a0c9/image.png)
 
 ## 유저생성 및 권한부여
