@@ -2,7 +2,7 @@
 title: "[Pytorch]Vision Transformer notes"
 date: 2022-12-30 09:50:23 +0900
 categories: [Deep-Learning, Computer-Vision]
-tags: [pytorch, computer-vision, inflearn]
+tags: [pytorch, computer-vision,deep-learning, inflearn]
 ---
 
 # [Inflearn]최신 딥러닝 기술 Vision Transformer 개념부터 Pytorch 구현까지
