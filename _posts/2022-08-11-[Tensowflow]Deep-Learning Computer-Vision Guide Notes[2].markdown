@@ -2,7 +2,7 @@
 title: Deep-Learning Computer-Vision Guide Notes[2]
 date: 2022-08-11 16:50:23 +0900
 categories: [Deep-Learning, Computer-Vision]
-tags: [ai, deep learning, computer vision] 
+tags: [ai, deep-learning, computer-vision] 
 ---
 # Deep-Learning Computer-Vision Guide Notes[2]
 

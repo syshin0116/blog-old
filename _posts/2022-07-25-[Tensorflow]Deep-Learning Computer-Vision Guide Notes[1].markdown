@@ -2,7 +2,7 @@
 title: Deep-Learning Computer-Vision Guide Notes[1]
 date: 2022-07-25 16:50:23 +0900
 categories: [Deep-Learning, Computer-Vision]
-tags: [ai, deep learning, computer vision]     # TAG names should always be lowercase
+tags: [ai, deep-learning, computer-vision]     # TAG names should always be lowercase
 ---
 # Deep-Learning Computer-Vision Guide Notes[1]
 
