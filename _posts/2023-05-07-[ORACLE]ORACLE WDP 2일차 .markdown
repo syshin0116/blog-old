@@ -1,5 +1,5 @@
 ---
-title: "[ORACLE-WDP]2일차- SELECT, WHERE, ORDERBY절"
+title: "[ORACLE-WDP]2일차 - SELECT, WHERE, ORDER BY절"
 date: 2023-05-07 10:00:00 +0900
 categories: [Database,ORACLE-WDP]
 tags: [oracle, wdp, database]     # TAG names should always be lowercase

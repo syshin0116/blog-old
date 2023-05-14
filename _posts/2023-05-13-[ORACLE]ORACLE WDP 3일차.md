@@ -1,5 +1,5 @@
 ---
-title: "[ORACLE-WDP]3일차-함수, GROUP BY, JOIN, SEBQUERY"
+title: "[ORACLE-WDP]3일차-함수, GROUP BY, JOIN, SUBQUERY"
 date: 2023-05-13 21:00:00 +0900
 categories: [Database, ORACLE-WDP]
 tags: [oracle, wdp, database]     # TAG names should always be lowercase
