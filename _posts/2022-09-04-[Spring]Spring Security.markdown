@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Spring]spring security"
+title: "[Spring]Spring Security"
 date: 2022-09-04 03:35:29 +0900
 categories: [Java, Spring]
 tags: [spring, spring-security, java, thmeleaf]
