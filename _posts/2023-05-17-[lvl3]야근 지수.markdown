@@ -1,0 +1,164 @@
+---
+layout: post
+title: "[lvl3]야근 지수"
+date: 2023-05-17 20:35:29 +0900
+categories: [Code-Test, Programmers]
+tags: [lvl3, programmers, python]
+---
+
+출처: [Programmers > 코딩테스트 연습 > 연습문제 > 야근 지수](https://school.programmers.co.kr/learn/courses/30/lessons/12927)
+
+## 문제 설명:
+
+회사원 Demi는 가끔은 야근을 하는데요, 야근을 하면 야근 피로도가 쌓입니다. 야근 피로도는 야근을 시작한 시점에서 남은 일의 작업량을 제곱하여 더한 값입니다. Demi는 N시간 동안 야근 피로도를 최소화하도록 일할 겁니다.Demi가 1시간 동안 작업량 1만큼을 처리할 수 있다고 할 때, 퇴근까지 남은 N 시간과 각 일에 대한 작업량 works에 대해 야근 피로도를 최소화한 값을 리턴하는 함수 solution을 완성해주세요.
+
+## 제한사항:
+- works는 길이 1 이상, 20,000 이하인 배열입니다.
+- works의 원소는 50000 이하인 자연수입니다.
+- n은 1,000,000 이하인 자연수입니다.
+
+
+## 입출력 예:
+
+| works     | n | result |
+|-----------|---|--------|
+| [4, 3, 3] | 4 | 12     |
+| [2, 1, 2] | 1 | 6      |
+| [1,1]     | 3 | 0      |
+
+## 입출력 예에 대한 설명:
+
+### 입출력 예 #1:
+
+n=4 일 때, 남은 일의 작업량이 [4, 3, 3] 이라면 야근 지수를 최소화하기 위해 4시간동안 일을 한 결과는 [2, 2, 2]입니다. 이 때 야근 지수는 $$2^2 + 2^2 + 2^2 = 12$$ 입니다.
+### 입출력 예 #2:
+
+n=1일 때, 남은 일의 작업량이 [2,1,2]라면 야근 지수를 최소화하기 위해 1시간동안 일을 한 결과는 [1,1,2]입니다. 야근지수는 $$1^2 + 1^2 + 2^2 = 6$$ 입니다.
+
+### 입출력 예 #3
+
+남은 작업량이 없으므로 피로도는 0입니다.
+
+<br>
+
+<hr>
+
+## 피드백: 
+* heap에 대해서 잘 몰라서 찾아본 뒤에야 풀 수 있었다
+*  heap을 사용하기 전에는 정확성 테스트는 다 통과했으나 효율성 테스트를 통과하지 못했다
+* heapreplace 를 쓰면 더 효율적으로 할 수 있을것 같아서 시도해보다가 중간에 수를 바꿔줘야 해서 heappop, heappush를 썼다
+
+
+<br>
+
+## 풀이:
+### 첫 시도 
+#### 설명:
+- heap 사용 안하고 진행했다
+- 예외상황 sum(works)<n 은 If문으로 처리
+- 파이썬의 기본 함수 max()를 사용하여 가장 큰 수를 찾고, .index() 함수를 사용해 가장 큰 수의 인덱스를 찾아 -1를 해서 바꿔주었다
+- 정확성 테스트는 통과했지만, 효율성 테스트는 모두 실패하였다
+- list를 deque로 혹시 몰라 바꿔봤는데 큰 차이는 없었다
+
+#### 코드:
+```python
+def solution(n, works):
+    if sum(works)<n: return 0
+    for i in range(n):
+        works[works.index(max(works))] -= 1
+    return sum([x**2 for x in works])
+```
+### 두번째 시도 
+#### 설명:
+
+- max()함수 대신 nlargest를 사용했다
+- 첫번째 코드와 같이 정확성 테스트는 통과했지만, 효율성 테스트는 모두 실패하였다 큰 차이는 없나보다
+
+#### 코드:
+
+```python
+from heapq import heapify, nlargest
+def solution(n, works):
+    if sum(works)<n: return 0
+    while n:
+        works[works.index(nlargest(1, works)[0])] -=1
+        n-=1
+    return sum([x**2 for x in works])
+```
+
+#### 최종:
+#### 설명:
+
+- works를 heapify를 사용하여 heap형태로 변환
+- 변환할때 heap이 최소값을 구하는데 최적화되있는 점을 고려해 모두 -1를 곱해서 변환했다
+- heapreplace를 써보려 했으나, heappop 한 숫자를 +1
+
+
+#### 코드:
+
+```python
+from heapq import heapify, nlargest, heappop, heappush
+def solution(n, works):
+    if sum(works)<n: return 0
+    heap = [-x for x in works]
+    heapify(heap)
+    while n:
+        heappush(heap, heappop(heap)+1)
+        n-=1
+    return sum([x**2 for x in heap])
+
+```
+
+## 우수답변자 코드:
+
+```python
+from heapq import heapify, heappush, heappop
+def solution(n, works):
+    heapify(works := [-i for i in works])
+    for i in range(min(n, abs(sum(works)))):
+        heappush(works, heappop(works)+1)
+    return sum([i*i for i in works])
+```
+
+## 우수답변자2 코드:
+```python
+# 문제가 개편되었습니다. 이로 인해 함수 구성이나 테스트케이스가 변경되어, 과거의 코드는 동작하지 않을 수 있습니다.
+# 새로운 함수 구성을 적용하려면 [코드 초기화] 버튼을 누르세요. 단, [코드 초기화] 버튼을 누르면 작성 중인 코드는 사라집니다.
+def noOvertime(n, works):
+  if n>=sum(works):
+    return 0;
+
+  while n > 0:
+    works[works.index(max(works))] -= 1
+    n -= 1
+
+  result = sum([w ** 2 for w in works])
+
+  return result
+```
+
+## 우수답변자3 코드:
+```python
+def solution(n, works):
+
+    works.sort(reverse=True)
+    while n > 0 and works[0] != 0:
+        count = works.count(works[0])
+        if count == len(works):
+            sub = 1
+        else:
+            sub = works[0] - works[count]
+
+        for i in range(0, count * sub):
+            if n - 1 >= 0:
+                works[i%count] = works[i%count] - 1
+                n = n - 1
+            else:
+                break
+
+    answer = 0
+    for x in works:
+        answer = answer + x * x
+    return answer
+```
+
