@@ -12,21 +12,25 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 
 # Exploring the Oracle Database Architecture
 # 1. 소개
-[01_오라클 과정 소개.pdf](https://github.com/syshin0116/Study/files/11521160/01_.pdf)
 
-• 과정 목표 설명
-• 과정 일정 설명
-• HR 스키마 설명
+[오라클 과정 소개.pdf](https://github.com/syshin0116/Study/files/11521160/01_.pdf)
+
+
+
+- 과정 목표 설명
+- 과정 일정 설명
+- HR 스키마 설명
 
 ## 1.1 과정 목표
-• 오라클 아키텍처 설명
-• 응용 프로그램 지원을 위한 데이터베이스 구성
-• 데이터베이스 보안 관리 및 감사(audit) 구현
-• 기본 백업 및 Recovery 절차 구현
-• 데이터베이스 및 파일 간 데이터 이동
-• 기본 모니터링 절차 적용 및 성능 관리
-• 리소스 관리 및 작업 자동화
-• Oracle Support 활용
+
+- 오라클 아키텍처 설명
+- 응용 프로그램 지원을 위한 데이터베이스 구성
+- 데이터베이스 보안 관리 및 감사(audit) 구현
+- 기본 백업 및 Recovery 절차 구현
+- 데이터베이스 및 파일 간 데이터 이동
+- 기본 모니터링 절차 적용 및 성능 관리
+- 리소스 관리 및 작업 자동화
+- Oracle Support 활용
 
 ## 1.2 과정 예제: HR 예제 스키마
 
@@ -34,13 +38,13 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 
 # 2. 오라클 데이터베이스 구조 탐색
 ## 2.1 목표
-• 오라클 기본 배경지식 설명
-• 오라클 데이터베이스를 구성하는 주요 요소 설명
-• 메모리 구조 설명
-• 백그라운드 프로세스 설명
-• 논리적/물리적 저장 영역 구조 상호 연관
-• 플러그 가능한 데이터베이스 설명(멀티테넌트 아키텍처)
-• ASM 저장 영역 구성 요소 설명
+- 오라클 기본 배경지식 설명
+- 오라클 데이터베이스를 구성하는 주요 요소 설명
+- 메모리 구조 설명
+- 백그라운드 프로세스 설명
+- 논리적/물리적 저장 영역 구조 상호 연관
+- 플러그 가능한 데이터베이스 설명(멀티테넌트 아키텍처)
+- ASM 저장 영역 구성 요소 설명
 
 ## 2.2 오라클 기본 배경지식
 - 운영체제(OS)
@@ -57,26 +61,25 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 - 오라클이 지향하는 점
 
 > ## 용어 정리:
-#### 운영체제(OS):
+>#### 운영체제(OS):
 오라클 입장에서의 운영체제의 역할
 	- 자원 배분 역할
-#### 프로그램:
+>#### 프로그램:
 디스크에 저장되어 있는 실행할 수 있는 바이너리 파일
-#### 프로세스:
-실행중인 프로그램
-방식:
-OS에게 프로그램 실행 요청
-프로그램
+>#### 프로세스:
+- 방식: OS에게 프로그램 실행 요청
+- 프로그램
 	- 프로세스(1개 이상)
-    - 메모리
-    	1. 프로세스만 전용으로 사용하는 메모리 공간(PGA)
-        2. 오라클과 같이 복잡도가 높은 프로그램인 경우
-        	- 프로세스가 여러개 생성
-            - 프로세스들 간에 공유할 수 있는 메모리 공간(SGA)
-#### 메모리:
+	- 메모리
+	1. 프로세스만 전용으로 사용하는 메모리 공간(PGA)
+	2. 오라클과 같이 복잡도가 높은 프로그램인 경우
+		- 프로세스가 여러개 생성
+		- 프로세스들 간에 공유할 수 있는 메모리 공간(SGA)
+
+>#### 메모리:
 1. 캐시: 
 	- 디스크에서 필요 자료를 메모리에 로딩/캐시/저장/기록
-    - 두번째 필요시에는 디스크에 접근하지 않고 메모리에서 해당 데이터를 재사용
+	- 두번째 필요시에는 디스크에 접근하지 않고 메모리에서 해당 데이터를 재사용
 2. 버퍼:
 	- 데이터를 한꺼번에 모았다가 디스크에 기록
 
@@ -148,8 +151,10 @@ selct * from v&version;
 - 사용자의 요구사항에 대한 빠른 응답속도
 - commit한 데이터 보장
 	- commit 직후 오라클에 장애 발생 하여도 보장
-    - 리두 로그 파일을 통해 보장
+	- 리두 로그 파일을 통해 보장
+	
 > 리두 로그 파일이 있기 때문에 commit한 내용 보장도 되고, rollback도 가능하다
+
 ## 2.8 데이터베이스 Instance에 연결
 - 연결: User Process와 Instance 간의 통신
 - 세션: 오라클 DB에서 데이터 베이스 접속을 시작으로 **여러 작업**을 수행한 뒤 접속을 종료하기까지의 **전체기간**
@@ -159,7 +164,7 @@ selct * from v&version;
 ![](https://velog.velcdn.com/images/syshin0116/post/136acab1-baa5-491d-8255-58d7b1ee7be6/image.png)
 
 
-> session 확인
+> #### session 확인
 ```sql
 select sid, serial#, username
 from v$session
@@ -328,7 +333,9 @@ SGA: 공용으로 사용되는 메모리 공간
 	- SQL 문장들 가운데 가장 최근까지 자주 사용된 SQL 문장들만 보관
 	- 마지막에 사용하고 가장 오랫동안 사용이 안된 SQL을 메모리에서 삭제하여 저장 공간 확보
 	- 최근에 가장 적게 사용한 것을 스케줄링
+	
 >오라클의 메모리 저장, 캐싱 알고리즘!!
+
 ## 2.23 Shared Pool(Library Cache)
 1. 파싱한 SQL 정보(실행계획)와 컴파일된 PL/SQL 코드 저장
 2. 저장된 실행계획은 다른 사용자와 **공유 및 재사용**됨
@@ -341,15 +348,13 @@ SGA: 공용으로 사용되는 메모리 공간
 
 ## 2.24 Shared Pool(Dictionary Cache)
 1. SQL 파싱 과정의 semantic 검사단계에서 서버 프로세스는 데이터 딕셔너리에서 객체 명, 접근권한 등을 참조
-2. SQL 파싱 과정에서 참조된 데이터 딕셔너리 오브젝트 정보를
-저장하는 공간
+2. SQL 파싱 과정에서 참조된 데이터 딕셔너리 오브젝트 정보를 저장하는 공간
 3. 딕셔너리 캐시에 저장되는 정보
 	- 모든 테이블과 뷰의 이름
 	- 테이블의 컬럼명과 데이터 타입
 	- 모든 사용자의 권한 등 객체에 대한 정보
 	- 오라클 내부의 구성정보
 4. 데이터 딕셔너리 정보를 메모리에 캐시 하면 SQL과 DML에 대한 응답 시간을 줄이는 효과 발생
-
 5. 데이터 딕셔너리 캐시 공간 확인
 ```sql
 select 	pool, name, bytes/1024/1024 MB
@@ -398,8 +403,8 @@ Cache에서 읽은 횟수(GETS)와 Cache에 없어서 디스크 I/O를
 		- 테이블내 로우 건수, 데이터 량, 컬럼의 최소/최대 값 등
 4. 실행계획에는 인덱스 사용여부,
 테이블의 검색순서, 조인 방법이 포함
-> 옵티마이저의 역할: 
-여러 방법들을 실행해 보고 가장 효율적인 방법으로 결정, 실행
+
+> 옵티마이저의 역할: 여러 방법들을 실행해 보고 가장 효율적인 방법으로 결정, 실행
 
 
 ## 2.27 데이터베이스 버퍼 캐시
@@ -513,9 +518,12 @@ Streams Pool 메모리는 Oracle Streams에서 다음 작업 전용으로 사용
 4. 커서 정보 : SQL의 파싱 정보를 저장하는 커서의 주소 저장
 5. 변수 저장 공간 : SQL에서 바인드 변수의 값을 저장
 6. PGA = UGA + 변수 저장 공간
-> PGA and UGA
-What is PGA and UGA in Oracle?
-pga and uga is always a server side concept. they are oracle memory regions. pga is PROCESS global area, it is in dedicated and shared servers (never in the SGA) the uga is USER global area, it is session memory and it is in the PGA when using dedicated server, in the SGA when using shared server.
+
+> ### PGA and UGA
+#### What is PGA and UGA in Oracle?
+1. pga and uga is always a server side concept. 
+2. they are oracle memory regions. 
+3. pga is PROCESS global area, it is in dedicated and shared servers (never in the SGA) the uga is USER global area, it is session memory and it is in the PGA when using dedicated server, in the SGA when using shared server.
 
 ## 2.37 In-Memory 열 저장소: 소개
 1. 메모리에 테이블 또는 파티션을 **통째로 In-Memory 열 저장소 올려서 Disk I/O 시간을 제거**하여 성능을 크게 개선
@@ -582,14 +590,19 @@ pga and uga is always a server side concept. they are oracle memory regions. pga
 
 ## 2.43 프로세스 아키텍처
 #### User process
-	- 오라클 데이터베이스에 연결하는 응용 프로그램 또는 도구
+- 오라클 데이터베이스에 연결하는 응용 프로그램 또는 도구
+	
 #### 서버 프로세스: Oracle Instance에 연결되며
-	- 유저가 세션을 설정하면 시작됩니다.
+- 유저가 세션을 설정하면 시작됩니다.
+
+
 #### 백그라운드 프로세스
-	- Oracle Instance가 시작될 때 시작됩니다.
+- Oracle Instance가 시작될 때 시작됩니다.
+
+
 #### Daemon/응용 프로그램 프로세스
-	- 네트워킹 리스너
-	- Grid Infrastructure Daemon
+- 네트워킹 리스너
+- Grid Infrastructure Daemon
     
 ## 2.44 프로세스 구조
 ![](https://velog.velcdn.com/images/syshin0116/post/29a7244a-810f-4eda-a5cf-04e3cd26a73a/image.png)
@@ -895,8 +908,9 @@ WHERE (SQL_TEXT LIKE '%EMPID%' or SQL_TEXT LIKE '%empid%')
 AND PARSING_SCHEMA_NAME IN ('HR');
 ```
 ![](https://velog.velcdn.com/images/syshin0116/post/b3786f22-884f-4878-be81-e79711b66240/image.png)
->SQL_ID: sql에 id가 부여되어 캐시에 저장된다 -> 이후 소프트 파싱시 사용된다
-주의) 한 글자만 틀려도(띄어쓰기 포함) 다른 문장으로 이해하여 하드파싱으로 진행된다
+
+>>SQL_ID: sql에 id가 부여되어 캐시에 저장된다 -> 이후 소프트 파싱시 사용된다
+>>주의) 한 글자만 틀려도(띄어쓰기 포함) 다른 문장으로 이해하여 하드파싱으로 진행된다
 
 4. HR 계정에서 같은 SQL 문장을 재실행한다.
 ```sql
@@ -926,14 +940,16 @@ AND PARSING_SCHEMA_NAME IN ('HR');
 
 ## 2.2 데이터베이스 버퍼 캐시 기능 확인
 
-AUTOTRACE의 통계 출력값
-db block gets 변경을 위한 블록 요청 횟수
-consistent gets 조회를 위한 블록 요청 횟수
-**physical reads 디스크에서 읽어 온 블록의 합계**
-redo size 생성된 REDO의 합계(바이트 단위)
-sorts(memory) 디스크를 사용하지 않고 메모리에서만 수행한 정렬 작업 수
-sorts(disk) 한 번 이상 디스크를 사용한 정렬 작업 수
-rows processed 작업 중에 처리된 로우의 수
+* AUTOTRACE의 통계 출력값
+* db block gets 변경을 위한 블록 요청 횟수
+* consistent gets 조회를 위한 블록 요청 횟수
+* **physical reads 디스크에서 읽어 온 블록의 합계**
+* redo size 생성된 REDO의 합계(바이트 단위)
+* sorts(memory) 디스크를 사용하지 않고 메모리에서만 수행한 정렬 작업 수
+* sorts(disk) 한 번 이상 디스크를 사용한 정렬 작업 수
+* rows processed 작업 중에 처리된 로우의 수
+
+
 ### 1. HR 계정에서 임시 테이블 생성과 데이터를 입력후 건수를 확인한다. SQL Develpoer 에서 실행
 ```sql
 DROP TABLE EMP_COPY;
@@ -951,6 +967,7 @@ END;
 -- 107107 건이 조회됨
 SELECT COUNT(*) FROM EMP_COPY;
 ```
+
 ### 2. sqlplus sys/oracle as sysdba 로 접속하여 실행계획과 실행 통계만 표시하도록 설정하고 처리 시간을 표시하도록 설정한다.
 
 ```alter system flush buffer_cache;``` 은 데이터베이스 버퍼 캐시에 보관된 블록을 제거한다.
@@ -1027,6 +1044,7 @@ Statistics
  107107 rows processed
 ```
 #### 2.3 physical reads 통계 값을 비교하여 결과를 확인하다.
+
 1. physical reads는 디스크에서 읽어온 블록의 합계이다.
 2. ```ALTER SYSTEM FLUSH BUFFER_CACHE;``` 를 이용하여 데이터베이스 버퍼 캐시에 보관된 블록을 제거한후
 3. 첫번째 조회 결과는 디스크에서 읽어와서 조회했고
@@ -1041,37 +1059,41 @@ Statistics
 
 ## 2.3 UPDATE문을 통한 리두로그, 언두 세그먼트 생성 확인
 
-AUTOTRACE의 통계 출력값
-db block gets 변경을 위한 블록 요청 횟수
-consistent gets 조회를 위한 블록 요청 횟수
-physical reads 디스크에서 읽어 온 블록의 합계
-redo size 생성된 REDO의 합계(바이트 단위)
-sorts(memory) 디스크를 사용하지 않고 메모리에서만 수행한 정렬 작업 수
-sorts(disk) 한 번 이상 디스크를 사용한 정렬 작업 수
-rows processed 작업 중에 처리된 로우의 수
+* AUTOTRACE의 통계 출력값
+* db block gets 변경을 위한 블록 요청 횟수
+* consistent gets 조회를 위한 블록 요청 횟수
+* physical reads 디스크에서 읽어 온 블록의 합계
+* redo size 생성된 REDO의 합계(바이트 단위)
+* sorts(memory) 디스크를 사용하지 않고 메모리에서만 수행한 정렬 작업 수
+* sorts(disk) 한 번 이상 디스크를 사용한 정렬 작업 수
+* rows processed 작업 중에 처리된 로우의 수
 
-V$TRANSACTION
-xid 트랜잭션 ID
-xidusn 트랜잭션에 할당된 UNDO 세그먼트 번호
-status 트랜잭션의 상태, 실행 중인 트랜잭션일 때는 ‘ACTIVE’
-start_time 트랜잭션이 시작된 시간
+* V$TRANSACTION
+* xid 트랜잭션 ID
+* xidusn 트랜잭션에 할당된 UNDO 세그먼트 번호
+* status 트랜잭션의 상태, 실행 중인 트랜잭션일 때는 ‘ACTIVE’
+* start_time 트랜잭션이 시작된 시간
 
-V$ROLLSTAT
-usn UNDO 세그먼트 번호
-rssize UNDO 세그먼트 크기(Byte)
-extents UNDO 세그먼트에서 할당된 익스텐트 개수
-xacts UNDO 세그먼트를 사용중인 트랜잭션 개수
-status UNDO 세그먼트의 상태
+* V$ROLLSTAT
+* usn UNDO 세그먼트 번호
+* rssize UNDO 세그먼트 크기(Byte)
+* extents UNDO 세그먼트에서 할당된 익스텐트 개수
+* xacts UNDO 세그먼트를 사용중인 트랜잭션 개수
+* status UNDO 세그먼트의 상태
 
 ### 1. sqlplus sys/oracle as sysdba 로 접속하여 아래와 같이 실행
-SYSDBA 권한을 가진 SYS 계정으로 plustrce.sql를 실행해 PLUSTRCE 롤을 생성
-PLUSTRCE 과 DBA 롤을 HR 사용자에게 권한을 부여
-@는 리눅스의 경로의 plustrce.sql 파일을 실행시켜주기 위함이다.
+* SYSDBA 권한을 가진 SYS 계정으로 plustrce.sql를 실행해 PLUSTRCE 롤을 생성
+* PLUSTRCE 과 DBA 롤을 HR 사용자에게 권한을 부여
+* @는 리눅스의 경로의 plustrce.sql 파일을 실행시켜주기 위함이다.
+
+```sql
 SQL> @$ORACLE_HOME/sqlplus/admin/plustrce.sql
 SQL> grant plustrace to hr;
 SQL> grant dba to hr;
 ### 2. HR 계정으로 SQL Developer 로 접속하여 실행한다.
 임시 테이블 생성과 데이터를 입력후 건수를 확인한다.
+```
+
 ```sql
 DROP TABLE EMP_COPY PURGE;
 
@@ -1132,6 +1154,7 @@ Statistics
  
 #### 3.2 SYS 계정으로 SQL Developer 로 접속하여 실행한다.
 SYS 계정에서 트랜잭션과 UNDO 세그먼트의 크기 등을 확인한다.
+
 UPDATE 문이 실행되면 자동적으로 트랜잭션이 시작되고 하나의 트랜잭션에는 하나의 UNDO 세그먼트
 가 할당된다. 언두 세그먼트 크기가 2168KB인 것을 확인하자
 
@@ -1175,6 +1198,7 @@ AND UNDO.XACTS <> 0;
 
 ### 4. sqlplus 를 이용한 HR 계정에서 테이블 전체에 업데이트 하여 리두로그를 대량 발생 시킨다.
 redo size가 316에서 5344592으로 변경된 것을 확인할 수 있다.
+
 UPDATE를 1건 했을 때는 redo size 가 316 UPDATE를 전체에 적용했을 때는 5344592로 늘어났다는 것
 은 많은 UPDATE로 인해 redo size가 커진 것을 확인할 수 있다.
 ```sql
@@ -1210,6 +1234,7 @@ Statistics
  
 ### 5. SYS계정에서 트랜잭션과 UNDO 세그먼트 크기 등의 정보를 확인한다.
 언두 세그먼트 크기가 2168KB에서 5240KB로 늘어난 것을 확인할 수 있다.
+
 UPDATE를 전체로 적용해서 UNDO 데이터 량이 늘어난 것을 확인할 수 있다.
 ```sql
 -- 트랜잭션 확인
@@ -1295,18 +1320,20 @@ AND UNDO.XACTS <> 0;
 
 ## 2.4 PGA의 정렬공간 크기에 따른 메모리/디스크 정렬방식 확인
 
-AUTOTRACE의 통계 출력값
-db block gets 변경을 위한 블록 요청 횟수
-consistent gets 조회를 위한 블록 요청 횟수
-physical reads 디스크에서 읽어 온 블록의 합계
-redo size 생성된 REDO의 합계(바이트 단위)
-sorts(memory) 디스크를 사용하지 않고 메모리에서만 수행한 정렬 작업 수
-sorts(disk) 한 번 이상 디스크를 사용한 정렬 작업 수
-rows processed 작업 중에 처리된 로우의 수
+1. AUTOTRACE의 통계 출력값
+1. db block gets 변경을 위한 블록 요청 횟수
+1. consistent gets 조회를 위한 블록 요청 횟수
+1. physical reads 디스크에서 읽어 온 블록의 합계
+1. redo size 생성된 REDO의 합계(바이트 단위)
+1. sorts(memory) 디스크를 사용하지 않고 메모리에서만 수행한 정렬 작업 수
+1. sorts(disk) 한 번 이상 디스크를 사용한 정렬 작업 수
+1. rows processed 작업 중에 처리된 로우의 수
+
+
 ### 1. sqlplus sys/oracle as sysdba 로 접속하여 아래와 같이 실행
-SYSDBA 권한을 가진 SYS 계정으로 plustrce.sql를 실행해 PLUSTRCE 롤을 생성
-PLUSTRCE 과 DBA 롤을 HR 사용자에게 권한을 부여
-@는 리눅스의 경로의 plustrce.sql 파일을 실행시켜주기 위함이다.
+* SYSDBA 권한을 가진 SYS 계정으로 plustrce.sql를 실행해 PLUSTRCE 롤을 생성
+* PLUSTRCE 과 DBA 롤을 HR 사용자에게 권한을 부여
+* @는 리눅스의 경로의 plustrce.sql 파일을 실행시켜주기 위함이다.
 
 ```sql
 @$ORACLE_HOME/sqlplus/admin/plustrce.sql
@@ -1346,7 +1373,9 @@ EXECUTE DBMS_STATS.GATHER_SCHEMA_STATS('HR');
 ```
 ### 4. emp_copy를 정렬조건 없이 조회하여 실행계획과 통계정보를 확인한다.
 실행계획과 실행 통계만 표시하도록 설정하고 처리 시간을 표시하도록 설정한다.
+
 Statistics의 sorts (memory), sorts (disk)가 0 이므로 정렬 처리가 발생하지 않았다는 것을 알 수 있다.
+
 ```sql
 set autotrace traceonly;
 
@@ -1380,10 +1409,14 @@ Statistics
  0 sorts (disk)
  10807 rows processed
 ```
+
 ### 5. emp_copy를 정렬조건과 함께 조회하여 실행계획과 통계정보를 확인한다.
 Execution Plan 에서는 SORT ORDER BY의 실행계획이 수행된 것을 알 수 있다.
+
 Statistics 의 sorts (memory)가 1인것으로 보아 메모리에서 정렬한 것을 알 수 있다.
+
 Elapsed: 00:00:00.06 소요시간도 확인하자.
+
 ```sql
 SQL> select * from emp_copy order by last_name;
 10807 rows selected.
@@ -1417,8 +1450,11 @@ Statistics
 #### 6.1 workarea_size_policy를 세션 레벨에서 MANUAL로 설정
 #### 6.2 sort_area_size를 세션 레벨에서 30KB(30720 Byte)로 설정
 Execution Plan 에서는 SORT ORDER BY의 실행계획이 수행된 것을 알 수 있다.
+
 Statistics 의 sorts (disk) 가 1인것으로 보아 디스크 정렬이 일어난 것을 알 수 있다.
+
 Elapsed: 00:00:00.06 => 00:00:00.91 소요시간도 늘어난 것을 확인할 수 있다.
+
 ```
 -- PGA 관리방법을 세션 레벨에서 수동으로 설정
 alter session set workarea_size_policy = MANUAL;
