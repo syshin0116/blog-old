@@ -1,7 +1,7 @@
 ---
 title: "[ORACLE-WDP]6일차-3.데이터베이스 관리도구, 4.인스턴스관리, 5.네트워크 환경 구성, 6.유저 보안 관리"
 date: 2023-05-21 20:00:00 +0900
-categories: [Database,ORACLE-WDP]
+categories: [Database, ORACLE-WDP]
 tags: [oracle, wdp, database]     # TAG names should always be lowercase
 ---
 
@@ -28,9 +28,11 @@ tags: [oracle, wdp, database]     # TAG names should always be lowercase
 3. Oracle Enterprise Manager Database Express
 
 ### 3.3 SQL*Plus 사용
-SQL*Plus의 특징
-	- 명령행 도구
-	- 대화식 또는 일괄 처리 모드에서 사용
+
+SQL*Plus의 특징:
+
+- 명령행 도구
+- 대화식 또는 일괄 처리 모드에서 사용
 
 ### 3.4 셸 스크립트에서 SQL*Plus 호출
 ![](https://velog.velcdn.com/images/syshin0116/post/187f0fd2-aa40-49c0-b239-17baa648ecc7/image.png)
