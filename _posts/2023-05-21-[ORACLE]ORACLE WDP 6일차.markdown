@@ -111,12 +111,12 @@ env | grep ORA
 
 ### 4.3 초기화 파라미터 확인방법
 
-1. SHOW PARAMETERS [검색 문자열]
-2. V$PARAMETER
+#### ```SHOW PARAMETERS [검색 문자열]```
+2. ```V$PARAMETER```
 	- 현재 세션에 적용된 초기화 파라미터의 정보 표시
-3. V$SYSTEM_PARAMETER
+3. ```V$SYSTEM_PARAMETER```
 	- 현재 인스턴스에 적용된 초기화 파라미터의 정보 표시
-4. V$SPPARAMETER
+4. ```V$SPPARAMETER```
 	- 서버 파라미터 파일 내용에 대한 정보 표시
 ![](https://velog.velcdn.com/images/syshin0116/post/ab20be65-f83c-44bc-9397-7ad62880a464/image.png)
 
