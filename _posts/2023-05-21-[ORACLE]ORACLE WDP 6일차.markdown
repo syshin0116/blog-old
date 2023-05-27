@@ -97,12 +97,12 @@ sqlplus hr @script.sql
 4. 서버 파라미터 파일(SPFILE)
 	- Binary File로 구성, 편집기로 편집이 불가능
 	- 인스턴스 종료 및 시작 시에도 지속 유지
-	- 기본 파일명 : spfile<\SID>.ora
+	- 기본 파일명 : spfile\<SID\>.ora
 5. 텍스트 초기화 파라미터 파일(PFILE)
     - 텍스트 기반으로 편집기로 편집이 가능
     - 인스턴스 실행 시에 파라미터가 적용되어, 새로 적용하고자 한다면 인스턴스 다시 시작 필요
     - SPFILE을 찾을 수 없는 경우 인스턴스 시작 시 자동으로 검색
-    - 기본 파일명 : init<\SID>.ora
+    - 기본 파일명 : init\<SID\>.ora
  
 기본 설정 확인
 ```shell
@@ -145,10 +145,10 @@ env | grep ORA
 	- ALTER SESSION 및 ALTER SYSTEM 명령을 사용하여 변경
     
 3. 인스턴스 레벨에서의 변경
-	- ALTER SYSTEM SET <파라미터명> = <설정 값>
+	- ALTER SYSTEM SET \<파라미터명\> = \<설정 값\>
 	SCOPE = { MEMORY | SPFILE | BOTH(기본값) }
 4. 세션 레벨에서의 변경
-	- ALTER SESSION SET <파라미터명> = <설정 값>
+	- ALTER SESSION SET \<파라미터명\> = \<설정 값\>
 	SCOPE = { MEMORY | SPFILE | BOTH(기본값) }
     
 	MEMORY : 변경한 설정이 즉시 반영, 재 기동하면 초기화됨
@@ -209,13 +209,13 @@ env | grep ORA
 	WHERE NAME IN ('Diag Alert', 'Diag Trace’);
 	```
 2. Alert log 실시간 모니터링
-	- tail -f alert_<\SID>.log
+	- tail -f alert_\<SID\>.log
 	- tail -f alert_ORA19C.log
 3. Alert log 파일 관리
 	- 운영 중에 Alert log 파일을 삭제해도 무방
 	- Alert log 가 입력 될 때 자동으로 파일 생성
 4. Alert log 파일 찾기
-	- find / -name alert_*.log 2>/dev/null
+	- find / -name alert_*.log 2\>/dev/null
     
     
 ### 4.16 시작 옵션: 예제
@@ -286,9 +286,9 @@ shutdown immediate 하는 습관을 들이자..
 2. DDL 로그에는 각 DDL 문마다 하나씩 로그 레코드가 있습니다.
 3. 두 개의 DDL 로그에 동일한 정보가 있습니다.
 	- XML DDL 로그: log.xml은
-	```$ORACLE_BASE/diag/rdbms/<\dbname>/<\SID>/log/ddl```에 기록됨
+	```$ORACLE_BASE/diag/rdbms/<dbname>/<SID>/log/ddl```에 기록됨
 	- Text DDL: ddlsid.log는
-	```$ORACLE_BASE/diag/rdbms/<\dbname>/<\SID>/log```에 기록됨
+	```$ORACLE_BASE/diag/rdbms/<dbname>/<SID>/log```에 기록됨
 4. 예제:
 ```
 $ more ddl_orcl.log
@@ -459,8 +459,8 @@ startup pfile = 'PFILE 경로/ init<\SID>.ora
 유닉스/리눅스 : $ORACLE_HOME/dbs
 윈도우 : $ORACLE_HOME/database
 #### 파라미터 파일명의 규칙
-PFILE: init<SID>.ora
-SPFILE : spfile<\SID>.ora
+PFILE: init\<SID\>.ora
+SPFILE : spfile\<SID\>.ora
 SID는 데이터베이스 생성시 설정한 인스턴스 이름을 의미한다.
 #### 파라미터 파일 편집 시 주의사항
 PFILE은 텍스트 형식이기 때문에 편집기로 수정 가능하나
@@ -482,7 +482,7 @@ SQL> create pfile from spfile;
 
 [/app/oracle/product/19.3/db_1/dbs]$ pwd
 /app/oracle/product/19.3/db_1/dbs
-# init<\SID>.ora, spfile<\SID>.ora 형식으로 파일명이 형성된 것을 확인 할 수 있다.
+# init<SID>.ora, spfile<SID>.ora 형식으로 파일명이 형성된 것을 확인 할 수 있다.
 [/app/oracle/product/19.3/db_1/dbs]$ ls -l
 -rw-r-----. 1 oracle dba 1098 Mar 10 20:59 initORA19C.ora
 -rw-r-----. 1 oracle dba 2560 Mar 17 20:35 orapwORA19C
@@ -878,7 +878,7 @@ USING '<connect_string_for_remote_db>';
 권한이 부여된 계정을 보호하는 방법:
 
 1. 대소문자를 구분하는 암호로 이루어진 Password file 사용
-	- 패스워드 파일 위치 : $ORACLE_HOME/dbs/orapw<\SID>
+	- 패스워드 파일 위치 : $ORACLE_HOME/dbs/orapw\<SID\>
 	- Password file의 목적
 	- 원격 연결 시 권한 있는 유저를 인증하기 위함
 	- 로컬은 사용되지 않음
