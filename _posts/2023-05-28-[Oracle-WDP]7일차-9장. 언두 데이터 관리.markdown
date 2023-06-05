@@ -1,0 +1,206 @@
+---
+title: "[ORACLE-WDP]7일차-9장. 언두 데이터 관리"
+date: 2023-05-28 21:00:00 +0900
+categories: [Database, ORACLE-WDP]
+tags: [oracle, wdp, database]     # TAG names should always be lowercase
+---
+
+
+# 9장. 언두 데이터 관리
+
+## 목표
+- 언두 테이블스페이스와 언두 세그먼트 설명
+- DML 및 언두 데이터 생성 설명
+- 언두 데이터 모니터 및 관리
+- 언두 데이터와 리두 데이터의 차이점 설명
+- 언두 Retention 구성
+- 언두 Retention 보장
+
+## 1. 언두 데이터: 관련 용어
+
+- 언두 데이터(언두 이미지)
+	- 트랜잭션에서 DML에 의한 데이터가 **변경되기 이전의 값**
+- 언두 세그먼트
+	- 언두 데이터를 저장하는 세그먼트
+- 언두 테이블스페이스
+	- 언두 세그먼트를 저장하는 테이블스페이스
+    
+세그먼트
+- 저장 공간을 가질 수 있는 오라클 객체
+- 데이터를 저장해서 용량이 증가할 수 있는 객체
+- 여러 개의 익스텐트로 구성
+
+Ex) 테이블, 인덱스, 언두 세그먼트, 임시 세그먼트 익스텐트
+- 연속된 블록으로 이루어진 할당 단위
+
+## 2. 언두 데이터: 개요
+#### 언두 데이터의 특징
+- 트랜잭션에서 변경한 이전 값을 기록
+- 모든 트랜잭션은 데이터 변경 시 언두 데이터 생성
+- **적어도 트랜잭션이 종료될 때까지는 보존**
+
+> 트랜잭션이 종료될 떄까지 보존 (중요!!!)
+
+#### 언두 데이터가 사용되는 경우:
+- 트랜잭션 롤백
+- 읽기 일관성
+- 인스턴스 복구
+- Oracle Flashback Query, Oracle Flashback Transaction, Oracle Flashback Table
+
+## 3. 언두 테이블스페이스
+- 오직 언두 세그먼트만을 저장하기 위한 테이블스페이스
+- 테이블이나 인덱스 등의 오브젝트는 저장 불가
+- 데이터베이스를 생성하면 기본적으로 UNDOTBS1 테이블 스페이스가 생성됨
+	- UNDOTBS1 테이블스페이스는 undotbs01.dbf 와 연결됨
+- 언두 테이블스페이스와 해당 데이터파일 조회
+
+```sql
+select tablespace_name 		-- 테이블스페이스명
+, file_id 					-- 파일ID
+, file_name 				-- 파일경로및파일명
+, bytes/1024/1024 mb 		-- 파일사이즈
+, autoextensible 			-- 자동확장가능여부
+from dba_data_files;
+```
+
+## 4. 언두 테이블스페이스: 익스텐트 할당 방식
+- 언두 테이블스페이스의 익스텐트 할당 방식은 LOCAL 관리방식의 SYSTEM 자동 할당방식만사용 가능
+	- 사용 가능
+	- EXTENT MANAGEMENT LOCAL AUTOALLOCATE
+	- 사용 불가
+	- EXTENT MANAGEMENT LOCAL UNIFORM SIZE 1M
+- 오라클에 의해 익스텐트 할당은 자동으로 관리 된다.
+
+```sql
+select tablespace_name
+, extent_management
+, allocation_type
+, retention
+from dba_tablespaces
+where tablespace_name = 'UNDOTBS1';
+```
+
+## 5. 언두 관련 파라미터
+- UNDO_MANAGEMENT
+	- 자동/수동 관리(AUTO / MANUAL)
+- UNDO_TABLESPACE
+	- 현재 사용하는 언두 테이블스페이스 설정
+- UNDO_RETENTION
+	- 커밋된 데이터의 이전 값을 유지 하는 시간(단위: 초) 
+    
+```sql
+show parameter undo;
+
+select name, value, description
+from v$parameter
+where name like '%undo%';
+```
+
+> ### undo retention이란?
+- 일관성 읽기를 위해 제공되는 Undo 데이타의 보유 기간을 결정합니다.
+- 초기화 파일에서 설정하거나, ALTER SYSTEM 명령을 사용하여 동적으로 수정할 수 있습니다.
+이 parameter는 초 단위로 지정됩니다. 기본값은 900초이며, 이는 Undo 데이타를 15분 동안 보유합니다.
+- UNDO_RETENTION을 설정한 후에도 UNDO 테이블스페이스의 크기가 너무 작으면 지정한 시간 동안 Undo 데이타가 보유되지 않습니다.
+- UNDO_RETENTION 파라미터는 현재 Undo 테이블스페이스에 UNDO_RETENTION 기간 동안 발생하는 모든 트랜잭션을 수용할 수 있을 만큼 충분한 커야 합니다.
+- 대용량 이관작업이 있을때 undo tablespace가 비약적으로 상승이 된다. 보통 이럴때는 여분의 datafile를 하는 방법이 가장 쉽지만 datafile이 부족하여 추가가 불가할 경우 undo tablespace를 비워 상승하는 undo를 초기화(?) 시켜주면 임시적으로나마 undo tablespace가 100%에 도달하여 성능적 이슈가 발생하는것을 방지할 수 있다.
+
+## 6. 트랜잭션 및 언두 데이터
+
+![](https://velog.velcdn.com/images/syshin0116/post/7a08778a-9d67-4940-813b-eea1e4b83a4b/image.png)
+
+- 하나의 트랜잭션은 하나의 언두 세그먼트를 할당
+- 하나의 언두 세그먼트는 여러 개의 트랜잭션들이 동시에 사용
+	- 언두 세그먼트의 개별 블록은 하나의 트랜잭션만 사용
+
+## 7. 언두 테이블스페이스의 특징
+- 오직 언두 세그먼트만을 저장(사용자 데이터 저장 불가)
+- **여러 개**의 언두 세그먼트를 포함
+- 여러 언두 테이블스페이스가 존재 가능하지만 특정 시점에 **하나의** 언두 테이블스페이스를 설정 해서 사용함
+- Instance crash 등으로 인해 실패한 트랜잭션을 recovery하는 경우에는 언두 데이터가 필요하므로 언두 테이블스페이스는 Instance가 MOUNT 상태일 때만 recovery할 수 있음
+	- MOUNT 상태는 컨트롤파일을 읽은 상태
+	- 컨트롤 파일에 현재 사용하고 있는 언두 테이블스페이스의 데이터 파일의 위치정보가 저장되어 있음
+    
+## 8. 언두 데이터 및 리두 데이터 비교
+
+![](https://velog.velcdn.com/images/syshin0116/post/f418e5a9-37d1-4011-abe9-af6fe4d07389/image.png)
+
+## 9. 언두 관리 방식
+
+#### 자동 언두 관리
+- 오라클에 의해 언두 세그먼트가 자동으로 관리
+- DBA는 언두 테이블스페이스 사이즈 관리만 수행
+
+#### 수동 언두 관리
+- 오라클 9i 버전 이전에서 사용한 방식
+- DBA의 지속적인 언두 세그먼트 모니터링 및 관리 필요
+
+```sql
+-- 언두 관리 방식 확인
+select 		name, value, description
+from 		v$parameter
+where 		name = 'undo_management';
+```
+
+## 10. UNDO_RETENTION 파라미터(중요!!)
+- 커밋된 데이터의 이전 값을 유지 하는 시간(단위: 초)
+- Ex. 900 = 15분(기본값), 3600 = 60분, 86400 = 24시간
+- ALTER SYSTEM 명령어로 동적으로 수정 가능
+
+```sql
+show parameter undo_retention
+```
+
+```sql
+select name, value, description
+from v$parameter
+where name = 'undo_retention';
+```
+
+```sql
+ALTER SYSTEM SET undo_retention = 900;
+```
+## 11. 언두 상태 카테고리
+![](https://velog.velcdn.com/images/syshin0116/post/08021e43-0493-4ddb-8655-62de89ca5c04/image.png)
+
+- UNDO_RETENTION 파라미터 값이 무시되는 경우
+	- 언두 테이블스페이스의 공간을 모두 사용하여	언두 세그먼트 확장이 불가한 경우 언두 정보를 덮어쓴다.
+
+- 충분한 언두 테이블스페이스 크기로 관리해야 UNDO_RETENTION이 무시되는 경우를 예방 할 수 있음
+
+## 12. 언두 Retention 보장
+```sql
+SQL> ALTER TABLESPACE undotbs1 RETENTION GUARANTEE;
+SQL> ALTER TABLESPACE undotbs1 RETENTION NOGUARANTEE;
+```
+![](https://velog.velcdn.com/images/syshin0116/post/077b2d8a-87d5-467b-b1df-65937fbef81c/image.png)
+
+## 13. ORA-1555(snapshot too old)
+
+- 모든 언두 데이터를 저장 하고 유지 할 수는 없음
+- 언두 데이터를 저장할 수 있는 공간은 **유한함**
+- 기존 언두 데이터 공간을 다른 언두 데이터가 **덮어써서 재사용함**
+- 덮어쓰기로 인해 언두 데이터가 존재하지 않는 경우 ora-1555 에러 발생
+- 수행 시간이 긴 쿼리일수록 ora-1555 에러가 발생 가능성 높아짐
+
+> ### ora-1555 에러 줄이기 위한 노력
+- 언두 테이블스페이스의 크기를 충분하게 유지
+- UNDO_RETENTION의 언두 데이터 유지 기간을 충분히 설정
+
+
+
+## 요약
+
+- 언두 테이블스페이스와 언두 세그먼트 설명
+- DML 및 언두 데이터 생성 설명
+- 언두 데이터 모니터 및 관리
+- 언두 데이터와 리두 데이터의 차이점 설명
+- 언두 Retention 구성
+- 언두 Retention 보장
+
+# 9장. 실습
+
+[09.01 undo 관련 정보 조회 및 사용자가 사용하는 언두 세그먼트 모니터링.pdf](https://github.com/syshin0116/Study/files/11583971/09.01.undo.pdf)
+
+[09.02.언두 테이블스페이스 생성과 변경.pdf](https://github.com/syshin0116/Study/files/11583972/09.02.pdf)
+
+[09.03.언두 테이블스페이스 확장과 축소.pdf](https://github.com/syshin0116/Study/files/11583973/09.03.pdf)

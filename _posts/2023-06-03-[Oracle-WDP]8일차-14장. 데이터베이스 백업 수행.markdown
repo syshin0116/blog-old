@@ -1,0 +1,117 @@
+---
+title: "[ORACLE-WDP]8일차-14장. 데이터베이스 백업 수행"
+date: 2023-06-03 21:00:00 +0900
+categories: [Database, ORACLE-WDP]
+tags: [oracle, wdp, database]     # TAG names should always be lowercase
+---
+
+
+# 14장. 데이터베이스 백업 수행
+
+## 목표
+- 일관성 있는 데이터베이스 백업 생성
+- 데이터베이스를 종료하지 않고 백업
+- Incremental 백업 생성
+- 데이터베이스 백업 자동화
+- 백업 관리
+
+## 백업 솔루션: 개요
+![](https://velog.velcdn.com/images/syshin0116/post/feb04f3c-6bab-4b95-92ce-3ba32679f00a/image.png)
+
+
+## Oracle Secure Backup
+- Oracle Secure Backup 및 RMAN은 Oracle 환경에 다음과 같은 엔드 투 엔드 백업 솔루션을 제공합니다.
+	- 파일 시스템 데이터 및 오라클 데이터베이스에 대한 중앙화된 **테이프 백업 관리**
+	- 가장 잘 통합된 RMAN 백업용 Media Management 계층
+	- 네트워크상의 데이터 백업 지원(ex. NAS)
+- 전체 백업 솔루션에 대한 단일 기술 지원 리소스로 문제 해결이 가능합니다.
+- 간단하면서 비용이 저렴한 신뢰할 수 있는 데이터 보호를 보장합니다.
+
+>온라인백업: 핫백업이라고도 부름
+
+## User-managed 방식의 백업
+user-managed 방식의 시나리오는 다음과 같습니다.
+- 백업 필요성과 상태를 추적하는 수동 프로세스(DBA 수동 작업)
+- 일반적으로 직접 작성한 **스크립트** 사용(백업 작업 **자동화**)
+- 데이터베이스 파일을 올바른 백업 모드로 설정
+- 운영 체제 명령을 사용하여 파일 백업
+
+예) 스크립트 수행 절차
+1. V$DATAFILE 조회하여 백업이 필요한 데이터 파일과 상태 파악
+2. V$LOGFILE 조회하여 온라인 리두 로그 파일 식별
+3. V$CONTROLFILE 조회하여 백업할 Control File 식별
+4. 각 테이블스페이스를 온라인 백업 모드로 설정
+5. V$BACKUP 조회 하여 온라인 백업 모드에 놓인 테이블스페이스 확인
+6. 운영 체제 복사 명령을 실행하여 데이터 파일을 백업 위치에 복사
+7. 각 테이블스페이스의 온라인 백업 모드 해제
+
+## 백업 용어 이해
+- **백업 전략**에는 다음이 포함되어야 합니다.
+	- 전체 데이터베이스(Whole)
+	- 데이터베이스의 일부(Partial)
+- **백업 유형**이 포함하는 정보는 다음을 타냅니다.
+	- 선택한 파일 내의 모든 데이터 블록(Full)
+	- 이전 백업 이후 변경된 정보만(Incremental)
+		- 누적 증분 백업, Cumulative(마지막 레벨 0부터의 변경 사항)
+		- 차등 증분 백업, Differential(마지막 incremental부터의 변경 사항)
+- **백업 모드**는 다음과 같습니다.
+	- 오프라인(일관성 있음, 콜드)
+	- 온라인(일관성 없음, 핫)
+
+백업은 다음 형태로 저장됩니다.
+- Image Copy (모든 블록)
+- 백업 셋 (사용된 블록만)
+	- 공간 사용률 향상
+    
+![](https://velog.velcdn.com/images/syshin0116/post/df74b9a3-0aa1-4d3f-b011-baa86f67e360/image.png)
+
+
+## RMAN 백업 유형
+- Full 백업은 사용된 모든 데이터 파일 블록을 포함합니다.
+- **레벨 0 Incremental 백업**은 레벨 0으로 표시된 **Full 백업과 동일**합니다.
+- Cumulative 레벨 1 Incremental 백업은 **마지막 레벨 0 Incremental 백업 이후 수정한 블록만 포함**합니다.
+- Differential 레벨 1 Incremental 백업은 **마지막 Incremental 백업 이후 수정한 블록만 포함**합니다.
+
+![](https://velog.velcdn.com/images/syshin0116/post/e64ce6eb-8308-4280-a616-aae0ea1a36ab/image.png)
+
+> ### RMAN이란?
+RMAN(Recovery Manage)은 오라클 데이터베이스에 대해 백업과 복구를 관리하는 유틸리티 프로그램이다
+![](https://velog.velcdn.com/images/syshin0116/post/1ac59db9-3e38-4e62-9f96-0cade9c902a8/image.png)
+
+> ### RMAN에서 지원하는 것들
+![](https://velog.velcdn.com/images/syshin0116/post/e4e4cd9d-6a47-4537-825b-694c3fc07c4b/image.png)
+
+## RMAN(Recovery Manager) 사용
+- 강력한 제어 및 스크립팅 언어 제공
+- 범용 백업 소프트웨어와 연결할 수 있는 Published API 포함
+- **데이터, 컨트롤, 아카이브된 리두 로그 및 서버 파라미터 파일 백업**
+- 디스크 또는 테이프에 파일 백업
+- Enterprise Manager Cloud Control과 통합
+
+## Oracle 권장 백업
+- 백업 대상을 기반으로 하는 out-of-the-box 백업 전략 제공
+- 백업 관리를 위한 Recovery 윈도우 설정
+- 반복 및 즉시 백업 스케줄링:
+
+## RMAN 명령을 사용하여 백업 생성
+![](https://velog.velcdn.com/images/syshin0116/post/56df8977-eca8-4b9c-aa7e-90c43d2f76ee/image.png)
+
+## 요약
+- 일관성 있는 데이터베이스 백업 생성
+- 데이터베이스를 종료하지 않고 백업
+- Incremental 백업 생성
+- 데이터베이스 백업 자동화
+- 백업 관리 및 백업 보고서 보기
+
+    
+# Flashback 실습
+
+[01.Oracle Flashback Drop.pdf](https://github.com/syshin0116/Study/files/11641851/01.Oracle.Flashback.Drop.pdf)
+
+[02.Oracle Flashback Query (SELECT AS OF).pdf](https://github.com/syshin0116/Study/files/11641852/02.Oracle.Flashback.Query.SELECT.AS.OF.pdf)
+
+[03.Oracle Flashback Version Query, Oracle Flashback Transaction Query.pdf](https://github.com/syshin0116/Study/files/11641853/03.Oracle.Flashback.Version.Query.Oracle.Flashback.Transaction.Query.pdf)
+
+[04.Oracle Flashback Table.pdf](https://github.com/syshin0116/Study/files/11641854/04.Oracle.Flashback.Table.pdf)
+
+[05.Oracle Flashback Database.pdf](https://github.com/syshin0116/Study/files/11641855/05.Oracle.Flashback.Database.pdf)
