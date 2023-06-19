@@ -1,7 +1,7 @@
 ---
-title: "[paper summary]Track Anything: Segment Anything Meets Videos"
+title: "[paper-summary]Track Anything: Segment Anything Meets Videos"
 date: 2023-06-19 17:00:00 +0900
-categories: [ETC, paper_summary]
+categories: [ETC, paper-summary]
 tags: [tam, sam]     # TAG names should always be lowercase
 ---
 
