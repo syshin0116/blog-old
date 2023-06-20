@@ -6,7 +6,7 @@ tags: [tam, sam]     # TAG names should always be lowercase
 ---
 
 
-**URL:** [https://arxiv.org/pdf/2304.11968v1.pdf](https://arxiv.org/pdf/2304.11968v1.pdf)  
+**Paper URL:** [https://arxiv.org/pdf/2304.11968v1.pdf](https://arxiv.org/pdf/2304.11968v1.pdf)  
 
 **Code Source:** [https://github.com/gaomingqi/Track-Anything](https://github.com/gaomingqi/Track-Anything)
 
