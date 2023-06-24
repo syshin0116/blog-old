@@ -5,7 +5,7 @@ categories: [Deep-Learning, Computer-Vision]
 tags: [ai, deep-learning, computer-vision]     # TAG names should always be lowercase
 ---
 # Deep-Learning Computer-Vision Guide Notes[1]
-
+[[2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_]]
 
 ## 1. Object Detection, Segmentation에 대한 깊이 있는 이론 설명
 ## 2. 실습

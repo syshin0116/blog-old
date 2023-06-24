@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "c3fb324517773f1a",
+    "id": "cc7f57bc77b9e20b",
     "type": "split",
     "children": [
       {
-        "id": "828dc3bdcc1733da",
+        "id": "2909e918b9a629de",
         "type": "tabs",
         "children": [
           {
-            "id": "d79d0572b1528293",
+            "id": "b8cb40470343db39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-08-03-sql 문제 풀이.md",
+                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d5f40dda3ea7c5b0",
+    "id": "6979fc1469d9662e",
     "type": "split",
     "children": [
       {
-        "id": "83c2d584159ffc89",
+        "id": "989a61d76396df1b",
         "type": "tabs",
         "children": [
           {
-            "id": "72417f102ed4ed80",
+            "id": "65116f86b48ea874",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "3ed768a950c0052d",
+            "id": "532ba78387a8225a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "e4c0a784a1b86ad4",
+            "id": "902c6cc8013ec5c0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "e19da7810379ecaa",
+    "id": "4aa194f26ef87e06",
     "type": "split",
     "children": [
       {
-        "id": "b6856b35c8ab031f",
+        "id": "fed710e4b6ba6243",
         "type": "tabs",
         "children": [
           {
-            "id": "2bcaaa91e7d8c1df",
+            "id": "bce496e8adec292b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-08-03-sql 문제 풀이.md",
+                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "338eb12a573acc46",
+            "id": "447f0b4fa1d8e2aa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-08-03-sql 문제 풀이.md",
+                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9853f76476fb46bb",
+            "id": "ce8066953dd8373c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "c2285a76abf8af5d",
+            "id": "10a4d975f0d757b9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-08-03-sql 문제 풀이.md"
+                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md"
               }
             }
           }
@@ -146,37 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d79d0572b1528293",
+  "active": "b8cb40470343db39",
   "lastOpenFiles": [
-    "_posts/2022-08-01-[lvl1]로또의 최고 순위와 최저 순위.md",
-    "_posts/2022-07-25-[Tensorflow]Deep-Learning Computer-Vision Guide Notes[1].md",
-    "_posts/2022-08-03-sql 문제 풀이.md",
-    "_posts/2022-08-02-[lvl1]K번째 수.md",
-    "_posts/2022-08-01-[lvl1][카카오 인턴]키패드 누르기.md",
-    "_posts/2022-08-04-[lvl1][월간 코드 챌린지 시즌3]없는 숫자 더하기.md",
-    "_posts/2022-08-04-[lvl1][월간 코드 챌린지 시즌2]음양 더하기.md",
-    "_posts/2022-08-08-[lvl1]소수 만들기.md",
-    "_posts/2022-08-08-[lvl2]거리두기 확인하기.md",
-    "_posts/2022-08-19-[lvl2][2022 KAKAO TECH INTERNSHIP]두 큐 합 같게 만들기.md",
-    "_posts/2022-08-08-[lvl2]문자열 압축.md",
-    "_posts/2022-09-04-[Spring]DAO vs DTO vs VO.md",
-    "_posts/2023-03-18-[lvl1]당구 연습.md",
-    "_posts/2022-09-27-[lvl2]최대값과 최솟값.md",
-    "_posts/2023-03-19-[lvl2]귤 고르기.md",
-    "_posts/2023-05-01-[lvl3][동적계획법(Dynamic Programming)]정수 삼각형.md",
-    "_posts/2023-05-01-[lvl2][Summer:Winder Coding(~2018)]영어 끝말잇기.md",
-    "_posts/2022-08-17-알고리즘 대회에 필요한 수학.md",
-    "_posts/2022-08-11-[Tensowflow]Deep-Learning Computer-Vision Guide Notes[2].md",
-    "_posts/2022-12-30-[Pytorch] Vision Transformer notes.md",
-    "_posts/2022-12-07-[AWS] SAA-C03 notes.md",
-    "_posts/2023-05-08-Docker와 VM 차이.md",
-    "_posts/2023-05-16-[lvl3]최고의 집합.md",
-    "_posts/2022-09-04-[Spring]Spring Security.md",
-    "_posts/2023-05-17-[lvl3]야근 지수.md",
-    "_posts/2023-05-21-[ORACLE-WDP] 6일차.md",
-    "_posts/2023-06-19-[paper-summary]Track Anything:Segment Anything Meets Videos.markdown",
-    "_posts/2023-05-27-[SQLD]1과목-데이터 모델링의 이해.markdown",
-    "_posts/2023-06-03-[Oracle-WDP]8일차-15장. 데이터베이스 Recovery 수행.markdown",
-    "assets/attachments"
+    "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md",
+    "_posts/2022-08-01-_lvl1_숫자 문자열과 영단어.md",
+    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
+    "_posts/2022-09-08-_Github_Github정리.md",
+    "_posts/2022-08-02-_lvl1_완주하지 못한 선수.md",
+    "_posts/2022-08-02-_lvl1_K번째 수.md",
+    "_posts/2022-08-03-_lvl1_폰켓몬.md",
+    "_posts/2022-08-04-_lvl1__2022_KAKAO_BLIND_신고 결과 받기.md",
+    "_posts/2022-08-04-_lvl1__월간 코드 챌린지 시즌3_없는 숫자 더하기.md",
+    "_posts/2022-08-04-_lvl1__월간 코드 챌린지 시즌2_음양 더하기.md",
+    "_posts/2022-08-05-_lvl1_체육복.md",
+    "_posts/2022-08-08-_lvl1_소수 만들기.md",
+    "_posts/2022-08-08-_lvl2_거리두기 확인하기.md",
+    "_posts/2022-08-08-_lvl1_내적.md",
+    "_posts/2022-08-19-_lvl2__2022 KAKAO TECH INTERNSHIP_두 큐 합 같게 만들기.md",
+    "_posts/2022-08-08-_lvl2_문자열 압축.md",
+    "_posts/2022-09-04-_Spring_DAO vs DTO vs VO.md",
+    "_posts/2023-03-18-_lvl1_당구 연습.md",
+    "_posts/2022-09-27-_lvl2_최대값과 최솟값.md",
+    "_posts/2023-03-19-_lvl2_귤 고르기.md",
+    "_posts/2022-08-04-_lvl1__2019 카카오 인턴쉽_크레인 인형뽑기 게임.md",
+    "_posts/2023-05-01-_lvl3__동적계획법(Dynamic Programming)_정수 삼각형.md",
+    "_posts/2023-05-01-_lvl2__Summer:Winder Coding(~2018)_영어 끝말잇기.md",
+    "_posts/2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_.md",
+    "_posts/2022-12-30-_Pytorch_ Vision Transformer notes.md",
+    "_posts/2022-12-07-_AWS_ SAA-C03 notes.md"
   ]
 }
