@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "c3fb324517773f1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "828dc3bdcc1733da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d79d0572b1528293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-08-03-sql 문제 풀이.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5f40dda3ea7c5b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "83c2d584159ffc89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72417f102ed4ed80",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3ed768a950c0052d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4c0a784a1b86ad4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e19da7810379ecaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6856b35c8ab031f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bcaaa91e7d8c1df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2022-08-03-sql 문제 풀이.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "338eb12a573acc46",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2022-08-03-sql 문제 풀이.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9853f76476fb46bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c2285a76abf8af5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2022-08-03-sql 문제 풀이.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d79d0572b1528293",
+  "lastOpenFiles": [
+    "_posts/2022-08-01-[lvl1]로또의 최고 순위와 최저 순위.md",
+    "_posts/2022-07-25-[Tensorflow]Deep-Learning Computer-Vision Guide Notes[1].md",
+    "_posts/2022-08-03-sql 문제 풀이.md",
+    "_posts/2022-08-02-[lvl1]K번째 수.md",
+    "_posts/2022-08-01-[lvl1][카카오 인턴]키패드 누르기.md",
+    "_posts/2022-08-04-[lvl1][월간 코드 챌린지 시즌3]없는 숫자 더하기.md",
+    "_posts/2022-08-04-[lvl1][월간 코드 챌린지 시즌2]음양 더하기.md",
+    "_posts/2022-08-08-[lvl1]소수 만들기.md",
+    "_posts/2022-08-08-[lvl2]거리두기 확인하기.md",
+    "_posts/2022-08-19-[lvl2][2022 KAKAO TECH INTERNSHIP]두 큐 합 같게 만들기.md",
+    "_posts/2022-08-08-[lvl2]문자열 압축.md",
+    "_posts/2022-09-04-[Spring]DAO vs DTO vs VO.md",
+    "_posts/2023-03-18-[lvl1]당구 연습.md",
+    "_posts/2022-09-27-[lvl2]최대값과 최솟값.md",
+    "_posts/2023-03-19-[lvl2]귤 고르기.md",
+    "_posts/2023-05-01-[lvl3][동적계획법(Dynamic Programming)]정수 삼각형.md",
+    "_posts/2023-05-01-[lvl2][Summer:Winder Coding(~2018)]영어 끝말잇기.md",
+    "_posts/2022-08-17-알고리즘 대회에 필요한 수학.md",
+    "_posts/2022-08-11-[Tensowflow]Deep-Learning Computer-Vision Guide Notes[2].md",
+    "_posts/2022-12-30-[Pytorch] Vision Transformer notes.md",
+    "_posts/2022-12-07-[AWS] SAA-C03 notes.md",
+    "_posts/2023-05-08-Docker와 VM 차이.md",
+    "_posts/2023-05-16-[lvl3]최고의 집합.md",
+    "_posts/2022-09-04-[Spring]Spring Security.md",
+    "_posts/2023-05-17-[lvl3]야근 지수.md",
+    "_posts/2023-05-21-[ORACLE-WDP] 6일차.md",
+    "_posts/2023-06-19-[paper-summary]Track Anything:Segment Anything Meets Videos.markdown",
+    "_posts/2023-05-27-[SQLD]1과목-데이터 모델링의 이해.markdown",
+    "_posts/2023-06-03-[Oracle-WDP]8일차-15장. 데이터베이스 Recovery 수행.markdown",
+    "assets/attachments"
+  ]
+}
