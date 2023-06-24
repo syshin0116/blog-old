@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2909e918b9a629de",
+        "id": "662cdf8be569bf67",
         "type": "tabs",
         "children": [
           {
-            "id": "b8cb40470343db39",
+            "id": "ff554994a481ef9c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,11 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8cb40470343db39",
+  "active": "ff554994a481ef9c",
   "lastOpenFiles": [
+    "node_modules/stylelint/lib/rules/declaration-property-value-no-unknown/README.md",
+    "node_modules/stylelint/lib/rules/block-closing-brace-newline-after/README.md",
+    "_posts/2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_.md",
+    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
+    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md",
     "_posts/2022-08-01-_lvl1_숫자 문자열과 영단어.md",
-    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2022-09-08-_Github_Github정리.md",
     "_posts/2022-08-02-_lvl1_완주하지 못한 선수.md",
     "_posts/2022-08-02-_lvl1_K번째 수.md",
@@ -169,10 +165,6 @@
     "_posts/2022-09-27-_lvl2_최대값과 최솟값.md",
     "_posts/2023-03-19-_lvl2_귤 고르기.md",
     "_posts/2022-08-04-_lvl1__2019 카카오 인턴쉽_크레인 인형뽑기 게임.md",
-    "_posts/2023-05-01-_lvl3__동적계획법(Dynamic Programming)_정수 삼각형.md",
-    "_posts/2023-05-01-_lvl2__Summer:Winder Coding(~2018)_영어 끝말잇기.md",
-    "_posts/2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_.md",
-    "_posts/2022-12-30-_Pytorch_ Vision Transformer notes.md",
-    "_posts/2022-12-07-_AWS_ SAA-C03 notes.md"
+    "_posts/2023-05-01-_lvl3__동적계획법(Dynamic Programming)_정수 삼각형.md"
   ]
 }
