@@ -146,8 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65116f86b48ea874",
+  "active": "ff554994a481ef9c",
   "lastOpenFiles": [
+    "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기/index.html",
+    "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기",
+    "_site/posts/_paper-summary_Track-Anything-Segment-Anything-Meets-Videos/index.html",
+    "_site/posts/_paper-summary_Track-Anything-Segment-Anything-Meets-Videos",
+    "_site/posts/_Oracle-WDP_8일차-15장.-데이터베이스-Recovery-수행/index.html",
+    "_site/posts/_Oracle-WDP_8일차-15장.-데이터베이스-Recovery-수행",
+    "_site/posts/_Oracle-WDP_8일차-14장.-데이터베이스-백업-수행/index.html",
+    "_site/posts/_Oracle-WDP_8일차-14장.-데이터베이스-백업-수행",
+    "_site/posts/_Oracle-WDP_8일차-13장.-백업-및-Recovery-구성/index.html",
+    "_site/posts/_Oracle-WDP_8일차-13장.-백업-및-Recovery-구성",
+    "_site/posts/_Oracle-WDP_8일차-12장.-백업-및-Recovery-개념/index.html",
+    "_site/Untitled.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기~.md",
     "node_modules/stylelint/lib/rules/declaration-property-value-no-unknown/README.md",
     "node_modules/stylelint/lib/rules/block-closing-brace-newline-after/README.md",
@@ -171,8 +183,6 @@
     "_posts/2022-08-08-_lvl2_문자열 압축.md",
     "_posts/2022-09-04-_Spring_DAO vs DTO vs VO.md",
     "_posts/2023-03-18-_lvl1_당구 연습.md",
-    "_posts/2022-09-27-_lvl2_최대값과 최솟값.md",
-    "_posts/2023-03-19-_lvl2_귤 고르기.md",
-    "_posts/2022-08-04-_lvl1__2019 카카오 인턴쉽_크레인 인형뽑기 게임.md"
+    "_posts/2022-09-27-_lvl2_최대값과 최솟값.md"
   ]
 }
