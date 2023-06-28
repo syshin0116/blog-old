@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
+                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
+                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
+                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md"
+                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff554994a481ef9c",
+  "active": "65116f86b48ea874",
   "lastOpenFiles": [
+    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기/index.html",
     "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기",
     "_site/posts/_paper-summary_Track-Anything-Segment-Anything-Meets-Videos/index.html",
@@ -158,14 +159,12 @@
     "_site/posts/_Oracle-WDP_8일차-14장.-데이터베이스-백업-수행",
     "_site/posts/_Oracle-WDP_8일차-13장.-백업-및-Recovery-구성/index.html",
     "_site/posts/_Oracle-WDP_8일차-13장.-백업-및-Recovery-구성",
-    "_site/posts/_Oracle-WDP_8일차-12장.-백업-및-Recovery-개념/index.html",
     "_site/Untitled.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기~.md",
     "node_modules/stylelint/lib/rules/declaration-property-value-no-unknown/README.md",
     "node_modules/stylelint/lib/rules/block-closing-brace-newline-after/README.md",
     "_posts/2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
-    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md",
     "_posts/2022-08-01-_lvl1_숫자 문자열과 영단어.md",
     "_posts/2022-09-08-_Github_Github정리.md",
