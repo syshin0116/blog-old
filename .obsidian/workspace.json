@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
+                "file": "_posts/2023-07-01-숫자의 표현.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
+                "file": "_posts/2023-07-01-숫자의 표현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
+                "file": "_posts/2023-07-01-숫자의 표현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md"
+                "file": "_posts/2023-07-01-숫자의 표현.md"
               }
             }
           }
@@ -146,8 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65116f86b48ea874",
+  "active": "ff554994a481ef9c",
   "lastOpenFiles": [
+    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
+    "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기/index.html",
     "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기",
@@ -164,7 +166,6 @@
     "node_modules/stylelint/lib/rules/declaration-property-value-no-unknown/README.md",
     "node_modules/stylelint/lib/rules/block-closing-brace-newline-after/README.md",
     "_posts/2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_.md",
-    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md",
     "_posts/2022-08-01-_lvl1_숫자 문자열과 영단어.md",
     "_posts/2022-09-08-_Github_Github정리.md",
