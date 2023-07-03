@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-03-다음 큰 숫자.md",
+                "file": "_posts/2023-07-01-숫자의 표현.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-03-다음 큰 숫자.md",
+                "file": "_posts/2023-07-01-숫자의 표현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-03-다음 큰 숫자.md",
+                "file": "_posts/2023-07-01-숫자의 표현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-03-다음 큰 숫자.md"
+                "file": "_posts/2023-07-01-숫자의 표현.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "ff554994a481ef9c",
   "lastOpenFiles": [
+    "_posts/2023-07-03-다음 큰 숫자.md",
     "_posts/2023-07-01-숫자의 표현.md",
     "_site/posts/다음-큰-숫자/index.html",
     "_site/posts/다음-큰-숫자",
-    "_posts/2023-07-03-다음 큰 숫자.md",
     "_drafts/2023-05-06-_ORACLE-WDP_1일차.md",
     "_drafts/2023-05-07-_ORACLE-WDP_2일차.md",
     "_drafts/2023-05-08-title.md",
