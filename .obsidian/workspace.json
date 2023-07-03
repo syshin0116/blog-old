@@ -148,6 +148,8 @@
   },
   "active": "ff554994a481ef9c",
   "lastOpenFiles": [
+    "_site/posts/다음-큰-숫자/index.html",
+    "_site/posts/다음-큰-숫자",
     "_posts/2023-07-03-다음 큰 숫자.md",
     "_drafts/2023-05-06-_ORACLE-WDP_1일차.md",
     "_drafts/2023-05-07-_ORACLE-WDP_2일차.md",
@@ -177,12 +179,10 @@
     "_site/posts/_Oracle-WDP_8일차-14장.-데이터베이스-백업-수행/index.html",
     "_site/posts/_Oracle-WDP_8일차-14장.-데이터베이스-백업-수행",
     "_site/posts/_Oracle-WDP_8일차-13장.-백업-및-Recovery-구성/index.html",
-    "_site/posts/_Oracle-WDP_8일차-13장.-백업-및-Recovery-구성",
     "_site/Untitled.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기~.md",
     "node_modules/stylelint/lib/rules/declaration-property-value-no-unknown/README.md",
     "node_modules/stylelint/lib/rules/block-closing-brace-newline-after/README.md",
-    "_posts/2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_.md",
-    "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md"
+    "_posts/2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_.md"
   ]
 }
