@@ -146,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a35af63c78643da",
+  "active": "65116f86b48ea874",
   "lastOpenFiles": [
+    "_site/posts/소프트웨어-공학/index.html",
+    "_site/posts/소프트웨어-공학",
+    "_site/categories/정보처리기사/index.html",
+    "_site/categories/정보처리기사",
+    "_posts/2023-07-05-소프트웨어 공학.md",
     "_posts/2023-07-01-숫자의 표현.md",
     "_posts/2023-07-03-다음 큰 숫자.md",
     "_site/posts/다음-큰-숫자/index.html",
@@ -176,13 +181,8 @@
     "_site/posts/_paper-summary_Track-Anything-Segment-Anything-Meets-Videos/index.html",
     "_site/posts/_paper-summary_Track-Anything-Segment-Anything-Meets-Videos",
     "_site/posts/_Oracle-WDP_8일차-15장.-데이터베이스-Recovery-수행/index.html",
-    "_site/posts/_Oracle-WDP_8일차-15장.-데이터베이스-Recovery-수행",
-    "_site/posts/_Oracle-WDP_8일차-14장.-데이터베이스-백업-수행/index.html",
-    "_site/posts/_Oracle-WDP_8일차-14장.-데이터베이스-백업-수행",
     "_site/Untitled.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기~.md",
-    "node_modules/stylelint/lib/rules/declaration-property-value-no-unknown/README.md",
-    "node_modules/stylelint/lib/rules/block-closing-brace-newline-after/README.md",
-    "_posts/2022-08-11-_Tensowflow_Deep-Learning Computer-Vision Guide Notes_2_.md"
+    "node_modules/stylelint/lib/rules/declaration-property-value-no-unknown/README.md"
   ]
 }
