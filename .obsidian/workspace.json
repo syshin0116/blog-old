@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-03-다음 큰 숫자.md",
+                "file": "_posts/2023-07-05-소프트웨어 개발 방법론.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-03-다음 큰 숫자.md",
+                "file": "_posts/2023-07-05-소프트웨어 개발 방법론.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-03-다음 큰 숫자.md",
+                "file": "_posts/2023-07-05-소프트웨어 개발 방법론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-03-다음 큰 숫자.md"
+                "file": "_posts/2023-07-05-소프트웨어 개발 방법론.md"
               }
             }
           }
@@ -148,13 +148,25 @@
   },
   "active": "65116f86b48ea874",
   "lastOpenFiles": [
+    "_data/assets/Pasted image 20230705202748.png",
+    "_data/assets/Pasted image 20230705202727.png",
+    "_data/assets/Pasted image 20230705202629.png",
+    "_data/assets/Pasted image 20230705202524.png",
+    "_data/assets/Pasted image 20230627022649.png",
+    "_data/assets/Pasted image 20230627022632.png",
+    "_data/assets/Pasted image 20230627022334.png",
+    "_site/Pasted image 20230705202629.png.md",
+    "Pasted image 20230705202629.png.md",
+    "_posts/2023-07-05-소프트웨어 개발 방법론.md",
+    "_posts/2023-07-03-다음 큰 숫자.md",
+    "_site/posts/소프트웨어-개발-방법론/index.html",
+    "_site/posts/소프트웨어-개발-방법론",
     "_site/posts/소프트웨어-공학/index.html",
     "_site/posts/소프트웨어-공학",
     "_site/categories/정보처리기사/index.html",
     "_site/categories/정보처리기사",
     "_posts/2023-07-05-소프트웨어 공학.md",
     "_posts/2023-07-01-숫자의 표현.md",
-    "_posts/2023-07-03-다음 큰 숫자.md",
     "_site/posts/다음-큰-숫자/index.html",
     "_site/posts/다음-큰-숫자",
     "_drafts/2023-05-06-_ORACLE-WDP_1일차.md",
@@ -177,12 +189,6 @@
     "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기/index.html",
-    "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기",
-    "_site/posts/_paper-summary_Track-Anything-Segment-Anything-Meets-Videos/index.html",
-    "_site/posts/_paper-summary_Track-Anything-Segment-Anything-Meets-Videos",
-    "_site/posts/_Oracle-WDP_8일차-15장.-데이터베이스-Recovery-수행/index.html",
-    "_site/Untitled.md",
-    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기~.md",
-    "node_modules/stylelint/lib/rules/declaration-property-value-no-unknown/README.md"
+    "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기"
   ]
 }
