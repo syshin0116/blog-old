@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-05-소프트웨어 개발 방법론.md",
+                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-05-소프트웨어 개발 방법론.md",
+                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-05-소프트웨어 개발 방법론.md",
+                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-05-소프트웨어 개발 방법론.md"
+                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "9a35af63c78643da",
   "lastOpenFiles": [
-    "_posts/2023-07-05-소프트웨어 공학.md",
+    "_site/tags/paper/index.html",
+    "_site/tags/paper",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
+    "_posts/2023-07-05-소프트웨어 공학.md",
     "_data/assets/Pasted image 20230705202748.png",
     "_data/assets/Pasted image 20230705202727.png",
     "_data/assets/Pasted image 20230705202629.png",
@@ -188,7 +190,6 @@
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
-    "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기/index.html",
-    "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기"
+    "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기/index.html"
   ]
 }

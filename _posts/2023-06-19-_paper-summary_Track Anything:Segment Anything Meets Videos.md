@@ -1,8 +1,8 @@
 ---
 title: "[Paper-Summary]Track Anything: Segment Anything Meets Videos"
-date: 2023-06-19 17:00:00 +0900
+date: 2023-06-20 17:00:00 +0900
 categories: [ETC, Paper-Summary]
-tags: [tam, sam]     # TAG names should always be lowercase
+tags: [tam, sam, paper]     # TAG names should always be lowercase
 ---
 
 
@@ -21,7 +21,6 @@ Can we achieve high-performance tracking/segmentation in videos through the way 
 The Track Anything Model (TAM) can achieve high-performance tracking and segmentation in videos through interactive methods, liberating researchers from labor-intensive annotation and initialization, and facilitating related research in the field of video object tracking and segmentation.
 
 **Field:** Computer Vision -> Video Object Tracking(VOT) -> Video Object Segmentation (VOS)
-
 
 ## The Process
 The Track-Anything process is divided into four steps:
@@ -90,9 +89,9 @@ TAM combines SAM, a large segmentation model, and XMem, an advanced VOS model. I
 - TAM offers one-pass interactive tracking and segmentation for efficient annotation and a user-friendly tracking interface. It requires minimal human participation to solve challenges in video object perception.
 - TAM demonstrates superior performance and high usability in complex scenes and has numerous potential applications.
 
-## Conclusion + Personal Perspective
+## Personal Perspective
 
-In conclusion, the Track Anything Model (TAM) is a promising approach to video object tracking and segmentation, providing a user-friendly, interactive, and efficient solution to a variety of video tasks. Its capacity to deliver impressive results with minimal user input not only underscores its performance but also places user convenience at the forefront. These aspects suggest a powerful potential for TAM in becoming a go-to tool for video analysis and editing in the future.
+The Track Anything Model (TAM) is a promising approach to video object tracking and segmentation, providing a user-friendly, interactive, and efficient solution to a variety of video tasks. Its capacity to deliver impressive results with minimal user input not only underscores its performance but also places user convenience at the forefront. These aspects suggest a powerful potential for TAM in becoming a go-to tool for video analysis and editing in the future.
 
 Some areas where I personally believe the Track Anything Model (TAM) can be effectively implemented include Video Annotation, Long-term Object Tracking, Video Editing, and as a Visualized Development Toolkit for various video tasks. In Video Annotation, TAM's interactive nature simplifies tasks such as object tracking and segmentation. For Long-term Object Tracking, TAM's ability to handle shot changes in lengthy videos is invaluable. With Video Editing, TAM's object segmentation capabilities can vastly improve video modification tasks. Lastly, TAM serves as a Visualized Development Toolkit, providing real-time implementation and visualization of models for a myriad of video tasks.
 
