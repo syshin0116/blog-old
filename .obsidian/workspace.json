@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
+                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
+                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
+                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md"
+                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "9a35af63c78643da",
   "lastOpenFiles": [
+    "_posts/2023-06-19-Track Anything Segment Anything Meets Videos.md",
     "_site/tags/paper/index.html",
     "_site/tags/paper",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
@@ -188,8 +189,6 @@
     "_drafts/2023-06-03-_Oracle-WDP_8일차-14장. 데이터베이스 백업 수행.md",
     "_drafts/2023-06-03-_Oracle-WDP_8일차-15장. 데이터베이스 Recovery 수행.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
-    "_posts/2023-06-19-_paper-summary_Track Anything:Segment Anything Meets Videos.md",
-    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
-    "_site/posts/SQL-그룹별-조건에-맞는-식당-목록-출력하기/index.html"
+    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md"
   ]
 }
