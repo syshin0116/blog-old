@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
+                "file": "_posts/2023-07-05-소프트웨어 공학.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c99d69e8f98fb75a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-07-07-.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
+                "file": "2023-07-07-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
+                "file": "2023-07-07-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md"
+                "file": "2023-07-07-.md"
               }
             }
           }
@@ -146,13 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a35af63c78643da",
+  "active": "c99d69e8f98fb75a",
   "lastOpenFiles": [
-    "_posts/2023-06-19-Track Anything Segment Anything Meets Videos.md",
+    "_posts/2023-07-05-소프트웨어 공학.md",
+    "2023-07-07-.md",
+    "_posts/2023-06-19-Paper Summery-Track Anything Segment Anything Meets Videos.md",
+    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_site/tags/paper/index.html",
     "_site/tags/paper",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
-    "_posts/2023-07-05-소프트웨어 공학.md",
     "_data/assets/Pasted image 20230705202748.png",
     "_data/assets/Pasted image 20230705202727.png",
     "_data/assets/Pasted image 20230705202629.png",
@@ -188,7 +203,6 @@
     "_drafts/2023-06-03-_Oracle-WDP_8일차-13장. 백업 및 Recovery 구성.md",
     "_drafts/2023-06-03-_Oracle-WDP_8일차-14장. 데이터베이스 백업 수행.md",
     "_drafts/2023-06-03-_Oracle-WDP_8일차-15장. 데이터베이스 Recovery 수행.md",
-    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
-    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md"
+    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md"
   ]
 }
