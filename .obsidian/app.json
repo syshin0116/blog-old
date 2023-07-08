@@ -1,4 +1,7 @@
 {
   "attachmentFolderPath": "assets/attachments",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }
