@@ -13,7 +13,7 @@ tags: [ppv, para]
 ## PPV
 Pillars, Pipelines, Vaults (PPV): 일부 조직이나 경영 관련 문맥에서 "PPV"는 시스템이나 프로세스의 성공과 원활한 운영에 중요한 세 가지 구성요소를 나타낸다. 각 요소는 특정한 측면을 대표한다:
 
-![[assets/attachments/Pasted image 20230627022334.png]]
+![[Pasted image 20230627022334 1.png]]
 
 ### Pillars (기둥): 
 Pillars는 조직이나 시스템을 이끄는 기본 원칙, 핵심 가치, 또는 전반적인 목표를 상징한다. 종종 조직 또는 개인이 달성하려는 주요 목표나 이상적인 가치를 나타낸다.
@@ -30,7 +30,7 @@ PPV의 개념은 기둥, 파이프라인, 금고라는 세 가지 요소가 조�
 
 Project, Areas, Resources, Archives (PARA): 개인적인 지식 관리 분야에서 "PARA"는 Tiago Forte가 개발한 정보를 효과적으로 구조화하고 관리하기 위한 조직 체계를 나타낸다. PARA는 다음과 같은 의미를 가지고 있다.
 
-![[assets/attachments/Pasted image 20230627022632.png]]
+![[Pasted image 20230627022632 1.png]]
 
 ### Projects (프로젝트): 
 Projects는 특정한 결과, 목표 또는 작업을 완료하기 위해 일련의 작업이 필요한 것을 나타낸다. 보통 목표와 마감일을 가지고 있다.
