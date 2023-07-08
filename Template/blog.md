@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "프로젝트 계획"
+title: ""
 date: {{date}} {{time}}
 categories: [대분류, 소분류]
 tags: []
