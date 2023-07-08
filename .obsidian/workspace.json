@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-07-07-.md",
+                "file": "2023-07-07-프로젝트 계획.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-07-07-.md",
+                "file": "2023-07-07-프로젝트 계획.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-07-07-.md",
+                "file": "2023-07-07-프로젝트 계획.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-07-07-.md"
+                "file": "2023-07-07-프로젝트 계획.md"
               }
             }
           }
@@ -162,7 +163,7 @@
   "active": "c99d69e8f98fb75a",
   "lastOpenFiles": [
     "_posts/2023-07-05-소프트웨어 공학.md",
-    "2023-07-07-.md",
+    "2023-07-07-프로젝트 계획.md",
     "_posts/2023-06-19-Paper Summery-Track Anything Segment Anything Meets Videos.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_site/tags/paper/index.html",
