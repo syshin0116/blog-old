@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1fdc01126f980e4d",
+        "id": "51e929cf32fa1e89",
         "type": "tabs",
         "children": [
           {
-            "id": "4bda862ebb46f613",
+            "id": "c59801722a1d5582",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-07-08-프로젝트 계획 및 분석.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-08-프로젝트 계획 및 분석.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-08-프로젝트 계획 및 분석.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2023-07-08-프로젝트 계획 및 분석.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4bda862ebb46f613",
+  "active": "c59801722a1d5582",
   "lastOpenFiles": [
-    "_posts/Untitled.md",
     "_posts/2023-07-08-프로젝트 계획 및 분석.md",
+    "_posts/2023-07-11-소프트웨어 설계.md",
+    "_posts/Untitled.md",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
     "_site/assets/img/Pasted image 20230708201101.png",
     "assets/img/Pasted image 20230708201101.png",
@@ -193,7 +185,6 @@
     "_drafts/2023-05-08-title.md",
     "_drafts/2023-05-13-_ORACLE-WDP_3일차.md",
     "_drafts/2023-05-14-_ORACLE-WDP_4일차.md",
-    "_drafts/2023-05-20-_ORACLE-WDP_5일차.md",
-    "_drafts/2023-05-21-_ORACLE-WDP_ 6일차.md"
+    "_drafts/2023-05-20-_ORACLE-WDP_5일차.md"
   ]
 }
