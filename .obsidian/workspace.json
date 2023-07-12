@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,6 +150,7 @@
   },
   "active": "c59801722a1d5582",
   "lastOpenFiles": [
+    "_site/assets/img/Pasted image 20230712172502.png",
     "assets/img/Pasted image 20230712172502.png",
     "_site/posts/소프트웨어-설계/index.html",
     "_site/posts/소프트웨어-설계",
@@ -169,7 +171,6 @@
     "Pasted image 20230705202629.png.md",
     "_posts/test 1.png.md",
     "_site/assets/attachments/test 1.png",
-    "_site/assets/attachments/test.png",
     "_site/assets/attachments/Pasted 1.md",
     "_site/assets/attachments/Pasted.md",
     "_site/assets/attachments",
