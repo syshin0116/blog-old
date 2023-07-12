@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "useMarkdownLinks": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "spellcheck": false
 }
