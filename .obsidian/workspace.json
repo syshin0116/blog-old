@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,6 +149,7 @@
   },
   "active": "c59801722a1d5582",
   "lastOpenFiles": [
+    "assets/img/Pasted image 20230712172502.png",
     "_site/posts/소프트웨어-설계/index.html",
     "_site/posts/소프트웨어-설계",
     "_posts/2023-07-08-프로젝트 계획 및 분석.md",
@@ -185,7 +185,6 @@
     "2023-07-07-프로젝트 계획.md",
     "Template/blog.md",
     "Template/Programmers Template.md",
-    "Template",
     "_posts/2023-06-19-Paper Summery-Track Anything Segment Anything Meets Videos.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_site/Pasted image 20230705202629.png.md",
