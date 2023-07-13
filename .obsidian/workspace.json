@@ -18,8 +18,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6fa5c0b47a82cc69",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8822ad5a33f66b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-13-AWS RDS 생성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -86,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-11-소프트웨어 설계.md",
+                "file": "_posts/2023-07-13-AWS RDS 생성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-11-소프트웨어 설계.md",
+                "file": "_posts/2023-07-13-AWS RDS 생성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-11-소프트웨어 설계.md"
+                "file": "_posts/2023-07-13-AWS RDS 생성.md"
               }
             }
           }
@@ -148,14 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c59801722a1d5582",
+  "active": "8822ad5a33f66b3f",
   "lastOpenFiles": [
+    "_site/posts/AWS-RDS-생성/index.html",
+    "_site/posts/AWS-RDS-생성",
+    "_site/categories/사용법/index.html",
+    "_site/categories/사용법",
+    "_site/2023-07-13-AWS RDS 생성.html",
+    "_site/2023-07-13-AWS RDS 생성.md",
+    "_posts/2023-07-11-소프트웨어 설계.md",
+    "_posts/2023-07-13-AWS RDS 생성.md",
     "_site/assets/img/Pasted image 20230712172502.png",
     "assets/img/Pasted image 20230712172502.png",
     "_site/posts/소프트웨어-설계/index.html",
     "_site/posts/소프트웨어-설계",
     "_posts/2023-07-08-프로젝트 계획 및 분석.md",
-    "_posts/2023-07-11-소프트웨어 설계.md",
     "_posts/Untitled.md",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
     "_site/assets/img/Pasted image 20230708201101.png",
@@ -170,18 +197,12 @@
     "_site/assets/img/Pasted image 20230708200128.png",
     "Pasted image 20230705202629.png.md",
     "_posts/test 1.png.md",
-    "_site/assets/attachments/test 1.png",
     "_site/assets/attachments/Pasted 1.md",
     "_site/assets/attachments/Pasted.md",
     "_site/assets/attachments",
     "_site/posts/프로젝트-계획-및-분석/index.html",
     "_site/posts/프로젝트-계획-및-분석",
     "_site/posts/Paper-Summery-Track-Anything-Segment-Anything-Meets-Videos/index.html",
-    "_site/posts/Paper-Summery-Track-Anything-Segment-Anything-Meets-Videos",
-    "_site/Template/blog.html",
-    "_site/Template/Programmers Template.html",
-    "_site/Template",
-    "Untitled.md",
     "Untitled 1.md",
     "2023-07-07-프로젝트 계획.md",
     "Template/blog.md",
@@ -194,7 +215,6 @@
     "_drafts/2023-05-06-_ORACLE-WDP_1일차.md",
     "_drafts/2023-05-07-_ORACLE-WDP_2일차.md",
     "_drafts/2023-05-08-title.md",
-    "_drafts/2023-05-13-_ORACLE-WDP_3일차.md",
-    "_drafts/2023-05-14-_ORACLE-WDP_4일차.md"
+    "_drafts/2023-05-13-_ORACLE-WDP_3일차.md"
   ]
 }
