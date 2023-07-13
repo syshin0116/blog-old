@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-13-AWS RDS 생성.md",
+                "file": "_posts/2023-07-11-소프트웨어 설계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-13-AWS RDS 생성.md",
+                "file": "_posts/2023-07-11-소프트웨어 설계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-13-AWS RDS 생성.md"
+                "file": "_posts/2023-07-11-소프트웨어 설계.md"
               }
             }
           }
@@ -168,16 +168,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8822ad5a33f66b3f",
+  "active": "c59801722a1d5582",
   "lastOpenFiles": [
+    "_posts/2023-07-13-AWS RDS 생성.md",
+    "_posts/2023-07-11-소프트웨어 설계.md",
     "_site/posts/AWS-RDS-생성/index.html",
     "_site/posts/AWS-RDS-생성",
     "_site/categories/사용법/index.html",
     "_site/categories/사용법",
     "_site/2023-07-13-AWS RDS 생성.html",
     "_site/2023-07-13-AWS RDS 생성.md",
-    "_posts/2023-07-11-소프트웨어 설계.md",
-    "_posts/2023-07-13-AWS RDS 생성.md",
     "_site/assets/img/Pasted image 20230712172502.png",
     "assets/img/Pasted image 20230712172502.png",
     "_site/posts/소프트웨어-설계/index.html",
@@ -202,7 +202,6 @@
     "_site/assets/attachments",
     "_site/posts/프로젝트-계획-및-분석/index.html",
     "_site/posts/프로젝트-계획-및-분석",
-    "_site/posts/Paper-Summery-Track-Anything-Segment-Anything-Meets-Videos/index.html",
     "Untitled 1.md",
     "2023-07-07-프로젝트 계획.md",
     "Template/blog.md",
