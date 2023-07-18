@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-16-화면 설계.md",
+                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-16-화면 설계.md",
+                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-16-화면 설계.md",
+                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-16-화면 설계.md"
+                "file": "_posts/2023-07-16-서버 프로그램 구현.md"
               }
             }
           }
