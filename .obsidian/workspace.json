@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-16-화면 설계.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-16-화면 설계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-16-화면 설계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md"
+                "file": "_posts/2023-07-16-화면 설계.md"
               }
             }
           }
@@ -175,6 +174,7 @@
   },
   "active": "eee0241681ff2a76",
   "lastOpenFiles": [
+    "_posts/Untitled.md",
     "_posts/2023-07-16-화면 설계.md",
     "_posts/2023-07-16-서버 프로그램 구현.md",
     "_posts/2023-07-11-소프트웨어 설계.md",
@@ -219,7 +219,6 @@
     "_posts/2023-07-01-숫자의 표현.md",
     "_drafts/2023-05-06-_ORACLE-WDP_1일차.md",
     "_drafts/2023-05-07-_ORACLE-WDP_2일차.md",
-    "_drafts/2023-05-08-title.md",
-    "_drafts/2023-05-13-_ORACLE-WDP_3일차.md"
+    "_drafts/2023-05-08-title.md"
   ]
 }
