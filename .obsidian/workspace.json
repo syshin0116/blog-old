@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-11-소프트웨어 설계.md",
+                "file": "_posts/2023-07-19-데이터 분석 기초-2일차.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-11-소프트웨어 설계.md",
+                "file": "_posts/2023-07-19-데이터 분석 기초-2일차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-11-소프트웨어 설계.md",
+                "file": "_posts/2023-07-19-데이터 분석 기초-2일차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-11-소프트웨어 설계.md"
+                "file": "_posts/2023-07-19-데이터 분석 기초-2일차.md"
               }
             }
           }
@@ -149,12 +148,15 @@
   },
   "active": "8822ad5a33f66b3f",
   "lastOpenFiles": [
+    "_posts/2023-07-18-데이터 분석 기초-1일차.md",
+    "_posts/2023-07-19-데이터 분석 기초-2일차.md",
+    "_posts/2023-07-11-소프트웨어 설계.md",
+    "_posts/2023-07-19-데이터분석-2일차.md",
+    "_posts/2023-07-19-데이터분석-2일차.textClipping",
     "_posts/2023-07-16-화면 설계.md",
     "node_modules/lodash.truncate/README.md",
-    "_posts/2023-07-18-데이터 분석 기초-1일차.md",
     "_posts/2023-07-16-서버 프로그램 구현.md",
     "_posts/Untitled.md",
-    "_posts/2023-07-11-소프트웨어 설계.md",
     "_posts/2023-07-13-AWS RDS 생성.md",
     "_site/posts/AWS-RDS-생성/index.html",
     "_site/posts/AWS-RDS-생성",
@@ -184,7 +186,6 @@
     "_site/assets/attachments/Pasted.md",
     "_site/assets/attachments",
     "_site/posts/프로젝트-계획-및-분석/index.html",
-    "_site/posts/프로젝트-계획-및-분석",
     "Untitled 1.md",
     "2023-07-07-프로젝트 계획.md",
     "Template/blog.md",
@@ -192,8 +193,6 @@
     "_posts/2023-06-19-Paper Summery-Track Anything Segment Anything Meets Videos.md",
     "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
     "_site/Pasted image 20230705202629.png.md",
-    "_posts/2023-07-03-다음 큰 숫자.md",
-    "_posts/2023-07-01-숫자의 표현.md",
-    "_drafts/2023-05-06-_ORACLE-WDP_1일차.md"
+    "_posts/2023-07-03-다음 큰 숫자.md"
   ]
 }
