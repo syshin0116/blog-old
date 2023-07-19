@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#lvl1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4d9fd5c0220be13",
+  "active": "532ba78387a8225a",
   "lastOpenFiles": [
     "_posts/2023-07-17-.md",
     "_posts/2023-07-16-서버 프로그램 구현.md",
