@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-18-데이터 분석 기초-1일차.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#lvl1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-18-데이터 분석 기초-1일차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-18-데이터 분석 기초-1일차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md"
+                "file": "_posts/2023-07-18-데이터 분석 기초-1일차.md"
               }
             }
           }
@@ -160,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "532ba78387a8225a",
+  "active": "f4d9fd5c0220be13",
   "lastOpenFiles": [
-    "_posts/2023-07-17-.md",
     "_posts/2023-07-16-서버 프로그램 구현.md",
+    "_posts/2023-07-17-.md",
     "_posts/2023-07-16-화면 설계.md",
     "_posts/2023-07-18-데이터 분석 기초-1일차.md",
     "_posts/2023-07-19-데이터 분석 기초-2일차.md",
