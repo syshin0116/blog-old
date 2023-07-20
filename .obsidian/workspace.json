@@ -23,11 +23,9 @@
             "id": "f4d9fd5c0220be13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "_posts/2023-07-18-데이터 분석 기초-1일차.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "assets/img"
               }
             }
           }
@@ -77,8 +75,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "61558f8890ec7a78",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -98,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-18-데이터 분석 기초-1일차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-18-데이터 분석 기초-1일차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2023-07-18-데이터 분석 기초-1일차.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,11 +164,15 @@
   },
   "active": "f4d9fd5c0220be13",
   "lastOpenFiles": [
+    "assets/img/img.md",
+    "_posts/2023-07-20-SQL로 데이터베이스 배우기-1일차.md",
+    "_posts/2023-07-18-데이터 분석 기초-1일차.md",
+    "_posts/2023-07-19-데이터 분석 기초-2일차.md",
+    "Context/spacesLastSync.log",
+    "Context",
     "_posts/2023-07-16-서버 프로그램 구현.md",
     "_posts/2023-07-17-.md",
     "_posts/2023-07-16-화면 설계.md",
-    "_posts/2023-07-18-데이터 분석 기초-1일차.md",
-    "_posts/2023-07-19-데이터 분석 기초-2일차.md",
     "_posts/2023-07-05-소프트웨어 공학.md",
     "_posts/2023-07-11-소프트웨어 설계.md",
     "_posts/2023-07-19-데이터분석-2일차.md",
@@ -197,15 +204,11 @@
     "_posts/test 1.png.md",
     "_site/assets/attachments/Pasted 1.md",
     "_site/assets/attachments/Pasted.md",
-    "_site/assets/attachments",
-    "_site/posts/프로젝트-계획-및-분석/index.html",
     "Untitled 1.md",
     "2023-07-07-프로젝트 계획.md",
     "Template/blog.md",
     "Template/Programmers Template.md",
     "_posts/2023-06-19-Paper Summery-Track Anything Segment Anything Meets Videos.md",
-    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
-    "_site/Pasted image 20230705202629.png.md",
-    "_posts/2023-07-03-다음 큰 숫자.md"
+    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md"
   ]
 }
