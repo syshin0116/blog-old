@@ -35,7 +35,10 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedFolders": {
-    "syshin0116.github.io": []
+    "syshin0116.github.io": [
+      "assets",
+      "assets/img"
+    ]
   },
   "expandedSpaces": [
     "/",
@@ -71,7 +74,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1689818889309,
+  "spacesAutoBackupLast": 1689819846131,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "alias",

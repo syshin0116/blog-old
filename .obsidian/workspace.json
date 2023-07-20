@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,10 +154,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61558f8890ec7a78",
+  "active": "8822ad5a33f66b3f",
   "lastOpenFiles": [
-    "_data/assets/Pasted image 20230708201101.png",
+    "assets/img/img.md",
+    "assets/img/test1.png",
     "_posts/2023-07-20-SQL로 데이터베이스 배우기-1일차.md",
+    "assets/img/Pasted image 20230712172502.png",
+    "_site/assets/assets.md",
+    "assets/assets.md",
+    "_data/assets/Pasted image 20230708201101.png",
     "_site/posts/SQL로-데이터베이스-배우기-1일차/index.html",
     "_site/posts/SQL로-데이터베이스-배우기-1일차",
     "_site/posts/데이터-분석-기초-2일차/index.html",
@@ -170,7 +174,6 @@
     "_site/posts/화면-설계/index.html",
     "_site/posts/화면-설계",
     "_site/assets/img/img.md",
-    "assets/img/img.md",
     "_posts/2023-07-18-데이터 분석 기초-1일차.md",
     "_posts/2023-07-19-데이터 분석 기초-2일차.md",
     "_posts/2023-07-16-서버 프로그램 구현.md",
@@ -183,14 +186,12 @@
     "_posts/2023-07-13-AWS RDS 생성.md",
     "_site/2023-07-13-AWS RDS 생성.md",
     "_site/assets/img/Pasted image 20230712172502.png",
-    "assets/img/Pasted image 20230712172502.png",
     "_posts/2023-07-08-프로젝트 계획 및 분석.md",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
     "_site/assets/img/Pasted image 20230708201101.png",
     "_posts/Pasted image 20230705202727 1.png.md",
     "_site/assets/img/test1.png",
     "_site/assets/img/Pasted image 20230708200445.png",
-    "assets/img/test1.png",
     "_site/assets/img/Pasted image 20230708200316.png",
     "_site/assets/img/Pasted image 20230708200208.png",
     "_site/assets/img/Pasted image 20230708200128.png",
@@ -199,8 +200,6 @@
     "_site/assets/attachments/Pasted 1.md",
     "_site/assets/attachments/Pasted.md",
     "Untitled 1.md",
-    "2023-07-07-프로젝트 계획.md",
-    "Template/blog.md",
-    "Template/Programmers Template.md"
+    "2023-07-07-프로젝트 계획.md"
   ]
 }
