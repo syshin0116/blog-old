@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-19-데이터 분석 기초-2일차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa57d3f629093151",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-20-SQL로 데이터베이스 배우기-1일차.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-19-정처기-2과목-데이터베이스 구축.md",
+                "file": "_posts/2023-07-24-파이썬 강의.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78129abd6f04d66e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-19-데이터 분석 기초-2일차.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#정처기중요",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,12 +122,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -119,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-24-파이썬 강의.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md",
+                "file": "_posts/2023-07-24-파이썬 강의.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,16 +183,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-16-서버 프로그램 구현.md"
+                "file": "_posts/2023-07-24-파이썬 강의.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 235.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,22 +205,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "532ba78387a8225a",
+  "active": "0b78eb2a5595602b",
   "lastOpenFiles": [
+    "_posts/2023-07-19-데이터 분석 기초-2일차.md",
+    "_posts/2023-07-24-파이썬 강의.md",
+    "_posts/2023-07-21-정처기-3과목-운영체제.md",
+    "_posts/2023-07-20-SQL로 데이터베이스 배우기-1일차.md",
+    "_posts/2023-05-16-_lvl3_최고의 집합.md",
     "_posts/2023-07-19-정처기-2과목-데이터베이스 구축.md",
     "_posts/2023-07-16-서버 프로그램 구현.md",
     "_posts/2023-07-05-소프트웨어 공학.md",
     "_posts/2023-05-27-_SQLD_1과목-데이터 모델링의 이해.md",
-    "_posts/2023-07-21-정처기-3과목-운영체제.md",
     "_site/posts/정처기-3과목-운영체제/index.html",
     "_site/posts/정처기-3과목-운영체제",
-    "_posts/2023-07-20-SQL로 데이터베이스 배우기-1일차.md",
     "_drafts/2023-05-21-_ORACLE-WDP_ 6일차.md",
     "_site/posts/정처기-2과목-데이터베이스-구축/index.html",
     "_site/posts/정처기-2과목-데이터베이스-구축",
     "_posts/2023-07-16-화면 설계.md",
     "_posts/2023-07-18-데이터 분석 기초-1일차.md",
-    "_posts/2023-07-19-데이터 분석 기초-2일차.md",
     "assets/img/favicons/test1.png",
     "assets/img/favicons/mstile-150x150.png",
     "assets/img/favicons/favicon-32x32.png",
@@ -225,7 +252,6 @@
     "_posts/2023-07-08-프로젝트 계획 및 분석.md",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
     "_posts/Pasted image 20230705202727 1.png.md",
-    "Pasted image 20230705202629.png.md",
-    "_posts/test 1.png.md"
+    "Pasted image 20230705202629.png.md"
   ]
 }
