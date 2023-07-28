@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "95325bca367e920c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-28-인공지능.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "78129abd6f04d66e",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-26-데이터분석.md",
+                "file": "_posts/2023-07-28-인공지능.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-26-데이터분석.md",
+                "file": "_posts/2023-07-28-인공지능.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-26-데이터분석.md"
+                "file": "_posts/2023-07-28-인공지능.md"
               }
             }
           }
@@ -227,10 +239,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ef33efcdbc55533",
+  "active": "95325bca367e920c",
   "lastOpenFiles": [
-    "_posts/2023-07-25-판다스 라이브러리.md",
     "_posts/2023-07-26-데이터분석.md",
+    "_posts/2023-07-28-인공지능.md",
+    "_posts/2023-07-25-판다스 라이브러리.md",
     "_site/posts/판다스-라이브러리/index.html",
     "_site/posts/판다스-라이브러리",
     "_site/posts/파이썬-강의/index.html",
@@ -273,7 +286,6 @@
     "node_modules/lodash.truncate/README.md",
     "_posts/2023-07-13-AWS RDS 생성.md",
     "_site/2023-07-13-AWS RDS 생성.md",
-    "_posts/2023-07-08-프로젝트 계획 및 분석.md",
-    "_posts/2023-07-05-소프트웨어 개발 방법론.md"
+    "_posts/2023-07-08-프로젝트 계획 및 분석.md"
   ]
 }
