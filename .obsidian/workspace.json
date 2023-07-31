@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6ec093438e8f4bf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-07-31-파이썬 데이터 처리 프로그래밍.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-29-이중우선순위큐.md",
+                "file": "_posts/2023-07-31-파이썬 데이터 처리 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-29-이중우선순위큐.md",
+                "file": "_posts/2023-07-31-파이썬 데이터 처리 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-29-이중우선순위큐.md"
+                "file": "_posts/2023-07-31-파이썬 데이터 처리 프로그래밍.md"
               }
             }
           }
@@ -167,8 +179,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78129abd6f04d66e",
+  "active": "6ec093438e8f4bf4",
   "lastOpenFiles": [
+    "_site/posts/SQL로-데이터베이스-다루기-1일차/index.html",
+    "_site/posts/SQL로-데이터베이스-다루기-1일차",
+    "_posts/2023-07-20-SQL로 데이터베이스 다루기-1일차.md",
+    "_posts/2023-07-31-파이썬 데이터 처리 프로그래밍.md",
+    "_site/posts/파이썬-데이터-처리-프로그래밍/index.html",
+    "_site/posts/파이썬-데이터-처리-프로그래밍",
+    "_posts/2023-07-29-이중우선순위큐.md",
+    "_posts/2023-07-21-정처기-3과목-운영체제.md",
     "_posts/2023-07-28-인공지능.md",
     "_site/posts/이중우선순위큐/index.html",
     "_site/posts/이중우선순위큐",
@@ -176,19 +196,13 @@
     "_site/posts/인공지능",
     "_site/posts/데이터분석/index.html",
     "_site/posts/데이터분석",
-    "_posts/2023-07-29-이중우선순위큐.md",
     "_posts/2023-07-01-숫자의 표현.md",
     "_posts/2023-07-25-판다스 라이브러리.md",
     "_posts/2023-05-16-_lvl3_최고의 집합.md",
     "_posts/2023-07-26-데이터분석.md",
     "_posts/2023-07-24-파이썬 강의.md",
-    "_posts/2023-07-20-SQL로 데이터베이스 배우기-1일차.md",
     "_posts/2023-07-19-데이터 분석 기초-2일차.md",
     "_site/posts/판다스-라이브러리/index.html",
-    "_site/posts/판다스-라이브러리",
-    "_site/posts/파이썬-강의/index.html",
-    "_site/posts/파이썬-강의",
-    "_posts/2023-07-21-정처기-3과목-운영체제.md",
     "_posts/2023-07-11-소프트웨어 설계.md",
     "_posts/2023-07-16-화면 설계.md",
     "_posts/2023-07-16-서버 프로그램 구현.md",
@@ -212,7 +226,6 @@
     "_site/assets/assets.md",
     "_site/assets/img/img.md",
     "_posts/2023-07-17-.md",
-    "_posts/2023-07-19-데이터분석-2일차.md",
-    "node_modules/lodash.truncate/README.md"
+    "_posts/2023-07-19-데이터분석-2일차.md"
   ]
 }
