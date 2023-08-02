@@ -4,5 +4,6 @@
   "newFileLocation": "current",
   "useMarkdownLinks": true,
   "newLinkFormat": "absolute",
-  "spellcheck": false
+  "spellcheck": false,
+  "strictLineBreaks": true
 }
