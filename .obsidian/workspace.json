@@ -37,26 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-31-파이썬 데이터 처리 프로그래밍.md",
+                "file": "_posts/2023-07-31-SeSAC-파이썬 데이터 처리 프로그래밍-1일차.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "65836920d4f575f7",
+            "id": "0ec6afc12763ed1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-01-파이썬 데이터 처리 프로그래밍.md",
+                "file": "_posts/2023-08-01-SeSAC-파이썬 데이터 처리 프로그래밍-2일차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5b4d16372da3492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-01-파이썬 데이터 처리 프로그래밍.md",
+                "file": "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-01-파이썬 데이터 처리 프로그래밍.md",
+                "file": "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-01-파이썬 데이터 처리 프로그래밍.md"
+                "file": "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md"
               }
             }
           }
@@ -191,29 +203,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65836920d4f575f7",
+  "active": "f5b4d16372da3492",
   "lastOpenFiles": [
-    "_site/page7/index.html",
-    "_site/page7",
-    "_posts/2023-07-31-파이썬 데이터 처리 프로그래밍.md",
-    "_posts/2023-08-01-파이썬 데이터 처리 프로그래밍.md",
-    "_posts/2023-07-20-SQL로 데이터베이스 다루기-1일차.md",
-    "_site/posts/SQL로-데이터베이스-다루기-1일차/index.html",
-    "_site/posts/SQL로-데이터베이스-다루기-1일차",
-    "_site/posts/파이썬-데이터-처리-프로그래밍/index.html",
-    "_site/posts/파이썬-데이터-처리-프로그래밍",
+    "_site/posts/SeSAC-파이썬-데이터-처리-프로그래밍-2일차/index.html",
+    "_site/posts/SeSAC-파이썬-데이터-처리-프로그래밍-2일차",
+    "_site/posts/SeSAC-파이썬-데이터-처리-프로그래밍-1일차/index.html",
+    "_site/posts/SeSAC-파이썬-데이터-처리-프로그래밍-1일차",
+    "_site/posts/SeSAC-파이썬-데이터-처리-프로그래밍-3일차/index.html",
+    "_site/posts/SeSAC-파이썬-데이터-처리-프로그래밍-3일차",
+    "_posts/2023-07-31-SeSAC-파이썬 데이터 처리 프로그래밍-1일차.md",
+    "_posts/2023-08-02-ADsP-1장. 데이터의 이해.md",
+    "_posts/2023-08-01-SeSAC-파이썬 데이터 처리 프로그래밍-2일차.md",
+    "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
+    "_site/posts/파이썬-데이터-처리-프로그래밍-3일차/index.html",
+    "_site/posts/파이썬-데이터-처리-프로그래밍-3일차",
+    "_site/posts/파이썬-데이터-처리-프로그래밍-2일차/index.html",
+    "_site/posts/파이썬-데이터-처리-프로그래밍-2일차",
     "_posts/2023-07-29-이중우선순위큐.md",
-    "_posts/2023-07-21-정처기-3과목-운영체제.md",
     "_posts/2023-07-28-인공지능.md",
-    "_site/posts/이중우선순위큐/index.html",
-    "_site/posts/이중우선순위큐",
-    "_site/posts/인공지능/index.html",
-    "_site/posts/인공지능",
-    "_site/posts/데이터분석/index.html",
+    "_posts/2023-07-26-데이터분석.md",
+    "_site/posts/파이썬-데이터-처리-프로그래밍-1일차/index.html",
+    "_posts/2023-07-20-SQL로 데이터베이스 다루기-1일차.md",
+    "_posts/2023-07-21-정처기-3과목-운영체제.md",
     "_posts/2023-07-01-숫자의 표현.md",
     "_posts/2023-07-25-판다스 라이브러리.md",
     "_posts/2023-05-16-_lvl3_최고의 집합.md",
-    "_posts/2023-07-26-데이터분석.md",
     "_posts/2023-07-24-파이썬 강의.md",
     "_posts/2023-07-19-데이터 분석 기초-2일차.md",
     "_posts/2023-07-11-소프트웨어 설계.md",
@@ -236,8 +250,6 @@
     "_site/assets/img/test1.png",
     "assets/img/img.md",
     "assets/img/Pasted image 20230712172502.png",
-    "_site/assets/assets.md",
-    "_site/assets/img/img.md",
-    "_posts/2023-07-17-.md"
+    "_site/assets/assets.md"
   ]
 }
