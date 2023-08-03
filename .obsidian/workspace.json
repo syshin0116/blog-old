@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
+                "file": "_posts/2023-08-02-자바의정석-2장-변수.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "dc1c5ea5f7d7eeb8",
+            "id": "3e25df5e3144f2ef",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
+                "file": "_posts/2023-08-02-자바의정석-2장-변수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
+                "file": "_posts/2023-08-02-자바의정석-2장-변수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md"
+                "file": "_posts/2023-08-02-자바의정석-2장-변수.md"
               }
             }
           },
@@ -202,9 +202,9 @@
   },
   "active": "321befea1163db1f",
   "lastOpenFiles": [
-    "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
     "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
     "_posts/2023-08-02-자바의정석-2장-변수.md",
+    "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
     "_posts/2023-08-02-ADsP-1장. 데이터의 이해.md",
     "_posts/2023-07-28-인공지능.md",
     "_posts/2023-07-26-데이터분석.md",

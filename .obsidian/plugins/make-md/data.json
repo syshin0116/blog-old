@@ -43,7 +43,8 @@
   "expandedSpaces": [
     "/",
     null,
-    "syshin0116.github.io"
+    "syshin0116.github.io",
+    null
   ],
   "openFolders": [],
   "fileIcons": [],
@@ -74,7 +75,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1689823131225,
+  "spacesAutoBackupLast": 1691028202764,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "alias",
