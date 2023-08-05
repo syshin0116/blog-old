@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-date: {{date}} {{time}}
+title: "[lvl#]제목"
+date: {{date}} {{time}} +0900
 categories: [Code-Test, Programmers]
 tags: []
 ---
