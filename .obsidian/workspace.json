@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1장. 데이터의 이해.md",
+                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1장. 데이터의 이해.md",
+                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1장. 데이터의 이해.md",
+                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1장. 데이터의 이해.md"
+                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md"
               }
             }
           },
@@ -217,7 +217,7 @@
   "active": "df696ab7051d4552",
   "lastOpenFiles": [
     "_posts/2023-08-07-데이터분석 프로젝트-1일차.md",
-    "_posts/2023-08-02-ADsP-1장. 데이터의 이해.md",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
     "_posts/2023-08-03-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
     "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
