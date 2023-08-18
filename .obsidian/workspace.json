@@ -32,6 +32,54 @@
             }
           },
           {
+            "id": "e9fcabe8526f28fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e2c33ea9d1dd401",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a05cdcd53b1b5c89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-08-12-파이썬 주소 처리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c16696aadce82435",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0667b702937bd857",
             "type": "leaf",
             "state": {
@@ -44,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -110,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
+                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
+                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-10-데이터분석 관련 영상 시청.md"
+                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md"
               }
             }
           },
@@ -180,32 +228,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "11ebd696d9ea7a67",
+  "active": "c16696aadce82435",
   "lastOpenFiles": [
-    "_site/posts/프로젝트/index.html",
-    "_site/posts/프로젝트",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+    "_posts/2023-08-14-데이터과학 입문.md",
+    "_site/posts/데이터과학-입문/index.html",
+    "_site/posts/데이터과학-입문",
+    "_site/posts/프로젝트-수업/index.html",
+    "_site/posts/프로젝트-수업",
+    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
+    "_posts/2023-08-12-파이썬 주소 처리.md",
+    "_site/posts/2023-08-12-파이썬-주소-처리/index.html",
+    "_site/posts/2023-08-12-파이썬-주소-처리",
+    "_site/posts/파이썬-주소-처리/index.html",
+    "_site/posts/파이썬-주소-처리",
+    "_site/categories/소분류/index.html",
+    "_site/categories/소분류",
+    "_drafts/AWS RDS 접속 방법.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.md",
     "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
-    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
-    "_site/posts/파이썬-라이브러리를-활용한-데이터-분석-1일차/index.html",
-    "_site/posts/파이썬-라이브러리를-활용한-데이터-분석-1일차",
-    "_site/page8/index.html",
-    "_site/page8",
-    "_site/categories/데이터-분석-프로젝트/index.html",
-    "_site/categories/데이터-분석-프로젝트",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
-    "_site/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.html",
-    "_site/2023-08-09-데이터 분석 프로젝트-1일차.html",
     "_site/2023-08-09-데이터 분석 프로젝트-1일차.md",
     "_site/2023-08-09-.md",
     "_site/Untitled.md",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
     "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
-    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2023-08-05-lvl3-네트워크.md",
     "assets/template/Programmers Template.md",
     "_posts/2023-08-03-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
-    "_site/posts/ADsP-2과목.-데이터-분석-기획/index.html",
     "_site/assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
     "_posts/2023-08-06-lvl2-하노이의 탑.md",
     "_posts/2023-07-29-이중우선순위큐.md",
@@ -216,10 +267,6 @@
     "_posts/2023-08-01-SeSAC-파이썬 데이터 처리 프로그래밍-2일차.md",
     "_posts/2023-07-31-SeSAC-파이썬 데이터 처리 프로그래밍-1일차.md",
     "_posts/2023-07-20-SQL로 데이터베이스 다루기-1일차.md",
-    "_posts/2023-07-19-데이터 분석 기초-2일차.md",
-    "assets/template/Blog Template.md",
-    "2023-08-05-C언어 특강.md",
-    "_site/2023-08-05-C언어 특강.md",
     "assets/img/favicons/test1.png",
     "assets/img/favicons/mstile-150x150.png",
     "assets/img/favicons/favicon-32x32.png",
