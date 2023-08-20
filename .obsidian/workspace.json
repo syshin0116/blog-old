@@ -73,7 +73,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+                "file": "_posts/2023-08-14-데이터과학 입문.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c69fd9f5670c9b36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/Streamlit.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+                "file": "_posts/Streamlit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+                "file": "_posts/Streamlit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md"
+                "file": "_posts/Streamlit.md"
               }
             }
           },
@@ -228,11 +240,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c16696aadce82435",
+  "active": "c69fd9f5670c9b36",
   "lastOpenFiles": [
-    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
-    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_posts/2023-08-14-데이터과학 입문.md",
+    "_posts/Streamlit.md",
+    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_site/posts/데이터과학-입문/index.html",
     "_site/posts/데이터과학-입문",
     "_site/posts/프로젝트-수업/index.html",
