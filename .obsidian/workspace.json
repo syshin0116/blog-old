@@ -4,107 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "41d50fc322c31dc9",
+        "id": "46bc4806611cddda",
         "type": "tabs",
         "children": [
           {
-            "id": "058760fade516faa",
+            "id": "aac11c123003a681",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11ebd696d9ea7a67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9fcabe8526f28fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e2c33ea9d1dd401",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a05cdcd53b1b5c89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-12-파이썬 주소 처리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c16696aadce82435",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-14-데이터과학 입문.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c69fd9f5670c9b36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/Streamlit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0667b702937bd857",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Streamlit.md",
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Streamlit.md",
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Streamlit.md"
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md"
               }
             }
           },
@@ -240,10 +155,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c69fd9f5670c9b36",
+  "active": "aac11c123003a681",
   "lastOpenFiles": [
+    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+    "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
     "_posts/2023-08-14-데이터과학 입문.md",
-    "_posts/Streamlit.md",
+    "_posts/2023-08-12-파이썬 주소 처리.md",
+    "_posts/2023-08-20-Streamlit.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_site/posts/데이터과학-입문/index.html",
@@ -251,7 +169,6 @@
     "_site/posts/프로젝트-수업/index.html",
     "_site/posts/프로젝트-수업",
     "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
-    "_posts/2023-08-12-파이썬 주소 처리.md",
     "_site/posts/2023-08-12-파이썬-주소-처리/index.html",
     "_site/posts/2023-08-12-파이썬-주소-처리",
     "_site/posts/파이썬-주소-처리/index.html",
@@ -266,7 +183,6 @@
     "_site/2023-08-09-.md",
     "_site/Untitled.md",
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
-    "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
     "_posts/2023-08-05-lvl3-네트워크.md",
     "assets/template/Programmers Template.md",
     "_posts/2023-08-03-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
@@ -279,7 +195,6 @@
     "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
     "_posts/2023-08-01-SeSAC-파이썬 데이터 처리 프로그래밍-2일차.md",
     "_posts/2023-07-31-SeSAC-파이썬 데이터 처리 프로그래밍-1일차.md",
-    "_posts/2023-07-20-SQL로 데이터베이스 다루기-1일차.md",
     "assets/img/favicons/test1.png",
     "assets/img/favicons/mstile-150x150.png",
     "assets/img/favicons/favicon-32x32.png",
