@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/경진대회.md",
+                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,13 +204,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e9db4fdf68014033",
+  "active": "f6e7658d5a9eac3c",
   "lastOpenFiles": [
+    "_posts/경진대회.md",
+    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+    "_posts/2023-08-24-MongoDB.md",
+    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
     "assets/template/Blog Template.md",
     "assets/template/Programmers Template.md",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
     "_posts/2023-07-28-SeSAC-인공지능.md",
-    "_posts/경진대회.md",
     "_posts/2023-07-26-SeSAC-데이터분석.md",
     "_posts/2023-07-24-SeSAC-파이썬 강의.md",
     "_posts/2023-07-21-정처기-3과목-운영체제.md",
@@ -230,8 +232,6 @@
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_posts/2023-08-01-SeSAC-파이썬 데이터 처리 프로그래밍-2일차.md",
-    "_posts/2023-07-31-SeSAC-파이썬 데이터 처리 프로그래밍-1일차.md",
-    "_posts/2023-07-29-SeSAC-이중우선순위큐.md",
     "_site/posts/데이터과학-입문/index.html",
     "_site/posts/데이터과학-입문",
     "_site/posts/프로젝트-수업/index.html",
