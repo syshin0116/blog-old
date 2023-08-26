@@ -5,5 +5,12 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "absolute",
   "spellcheck": false,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

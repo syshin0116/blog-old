@@ -8,79 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aac11c123003a681",
+            "id": "0d067bffb03bc5cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+                "file": "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b07b308ae4afe69b",
+            "id": "c616da99b4e30c01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-18-SeSAC-데이터 분석 기초-1일차.md",
+                "file": "_posts/2023-08-25-PCCP-3일차.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f6e7658d5a9eac3c",
+            "id": "c1af1ebfa934c21a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b81c5cbd97474fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34680dcd239bc447",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9db4fdf68014033",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
+                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
+                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md"
+                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md"
               }
             }
           },
@@ -203,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,18 +178,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "1b81c5cbd97474fd",
+  "active": "c1af1ebfa934c21a",
   "lastOpenFiles": [
-    "_posts/2023-08-25-SeSAC-Roboflow.md",
+    "_posts/빅데이터, AI 경진대회.md",
+    "_posts/빅데이터, AI 경진대회.html",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
+    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
+    "_posts/2023-08-25-PCCP-3일차.md",
+    "_posts/2023-08-25-SeSAC-Roboflow.md",
+    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
+    "_posts/2,6,6], [6,3,7], [4,6,7], [6,5,11], [2,5,12], [5,3,20], [2,4,8], [4,3,9.md",
+    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+    "_posts/2023-08-08-프로젝트 소통역량 강화.md",
+    "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.md",
+    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
     "_posts/2023-08-12-파이썬 주소 처리.md",
     "_posts/2023-08-14-데이터과학 입문.md",
-    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
-    "_posts/경진대회.md",
-    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
     "_posts/2023-08-24-MongoDB.md",
     "assets/template/Blog Template.md",
     "assets/template/Programmers Template.md",
@@ -236,14 +210,6 @@
     "_posts/2023-07-19-SeSAC-정처기-2과목-데이터베이스 구축.md",
     "_posts/2023-07-19-SeSAC-데이터 분석 기초-2일차.md",
     "_posts/2023-07-18-SeSAC-데이터 분석 기초-1일차.md",
-    "_posts/2023-07-16-서버 프로그램 구현.md",
-    "_posts/2023-07-13-AWS RDS 생성.md",
-    "_posts/2023-07-08-프로젝트 계획 및 분석.md",
-    "_posts/2023-07-03-다음 큰 숫자.md",
-    "_posts/2023-06-28-최솟값 만들기.md",
-    "_posts/2023-06-24-SQL-그룹별 조건에 맞는 식당 목록 출력하기.md",
-    "_posts/2023-06-25-PPV and PARA.md",
-    "_posts/2023-06-30-이진 변환 반복하기.md",
     "_site/posts/데이터과학-입문/index.html",
     "_site/posts/데이터과학-입문",
     "_site/posts/프로젝트-수업/index.html",
@@ -253,7 +219,6 @@
     "_site/posts/파이썬-주소-처리/index.html",
     "_site/posts/파이썬-주소-처리",
     "_site/categories/소분류/index.html",
-    "_site/categories/소분류",
     "_site/assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
     "assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
     "assets/img/favicons/test1.png",
