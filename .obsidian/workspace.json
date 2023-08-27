@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md",
+                "file": "_posts/2023-08-08-프로젝트 소통역량 강화.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md",
+                "file": "_posts/2023-08-08-프로젝트 소통역량 강화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md",
+                "file": "_posts/2023-08-08-프로젝트 소통역량 강화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md"
+                "file": "_posts/2023-08-08-프로젝트 소통역량 강화.md"
               }
             }
           },
@@ -195,23 +195,25 @@
   },
   "active": "34c681e80357906c",
   "lastOpenFiles": [
-    "_posts/빅데이터, AI 경진대회.md",
+    "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.md",
+    "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
+    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
+    "_posts/2023-08-14-데이터과학 입문.md",
+    "_posts/2023-08-12-파이썬 주소 처리.md",
+    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
     "_posts/2023-08-27-기술 정리.md",
-    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
-    "_posts/빅데이터, AI 경진대회.html",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
-    "_posts/2023-08-25-PCCP-3일차.md",
+    "_posts/빅데이터, AI 경진대회.md",
     "_posts/2023-08-25-SeSAC-Roboflow.md",
+    "_posts/2023-08-25-PCCP-3일차.md",
+    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
+    "_posts/2023-08-24-MongoDB.md",
+    "_posts/2023-08-08-프로젝트 소통역량 강화.md",
+    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
+    "_posts/2023-08-20-Streamlit.md",
+    "_posts/빅데이터, AI 경진대회.html",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2,6,6], [6,3,7], [4,6,7], [6,5,11], [2,5,12], [5,3,20], [2,4,8], [4,3,9.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
-    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
-    "_posts/2023-08-08-프로젝트 소통역량 강화.md",
-    "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.md",
-    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
-    "_posts/2023-08-12-파이썬 주소 처리.md",
-    "_posts/2023-08-14-데이터과학 입문.md",
-    "_posts/2023-08-24-MongoDB.md",
     "assets/template/Blog Template.md",
     "assets/template/Programmers Template.md",
     "_posts/2023-07-28-SeSAC-인공지능.md",
@@ -220,8 +222,6 @@
     "_posts/2023-07-21-정처기-3과목-운영체제.md",
     "_posts/2023-07-20-SeSAC-SQL로 데이터베이스 다루기-1일차.md",
     "_posts/2023-07-19-SeSAC-정처기-2과목-데이터베이스 구축.md",
-    "_posts/2023-07-19-SeSAC-데이터 분석 기초-2일차.md",
-    "_posts/2023-07-18-SeSAC-데이터 분석 기초-1일차.md",
     "_site/posts/데이터과학-입문/index.html",
     "_site/posts/데이터과학-입문",
     "_site/posts/프로젝트-수업/index.html",
