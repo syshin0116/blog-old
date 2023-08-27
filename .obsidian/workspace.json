@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "34c681e80357906c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-08-27-기술 정리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md",
+                "file": "_posts/2023-08-27-기술 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md",
+                "file": "_posts/2023-08-27-기술 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-25-lvl3-합승 택시 요금.md"
+                "file": "_posts/2023-08-27-기술 정리.md"
               }
             }
           },
@@ -167,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5,
-    "collapsed": true
+    "width": 235.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,12 +193,13 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "c1af1ebfa934c21a",
+  "active": "34c681e80357906c",
   "lastOpenFiles": [
+    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
+    "_posts/2023-08-27-기술 정리.md",
     "_posts/빅데이터, AI 경진대회.md",
     "_posts/빅데이터, AI 경진대회.html",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝.md",
-    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
     "_posts/2023-08-25-PCCP-3일차.md",
     "_posts/2023-08-25-SeSAC-Roboflow.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
