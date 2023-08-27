@@ -26,6 +26,10 @@
 	- 참가 접수: **7. 31. ~ 9. 11.**
 	- 제출 마감일: **9. 27.**
 - 특정 분야는 학생에 제한되어있는걸로 알고있는데 어떤건지 다시 찾아봐야함
+
+![](https://i.imgur.com/8u17joF.png)
+
+
 ![](https://i.imgur.com/LtXn49Z.png)
 
 ![](https://i.imgur.com/Iillinn.png)
