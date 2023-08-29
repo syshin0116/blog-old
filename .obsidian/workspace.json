@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c616da99b4e30c01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-25-PCCP-3일차.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34c681e80357906c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01b4fbbd01f20086",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72fac1abc9a4e68b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-27-기술 정리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f2bda5cb006e5c70",
             "type": "leaf",
             "state": {
@@ -66,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "61feac56a46b69f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap6. 비지도 학습.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap6. 비지도 학습.md",
+                "file": "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap6. 비지도 학습.md",
+                "file": "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap6. 비지도 학습.md"
+                "file": "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md"
               }
             }
           },
@@ -217,18 +156,19 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "61feac56a46b69f6",
+  "active": "f2bda5cb006e5c70",
   "lastOpenFiles": [
-    "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap6. 비지도 학습.md",
+    "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
+    "_posts/2023-08-27-기술 정리.md",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/빅데이터, AI 경진대회.md",
     "_posts/2023-08-14-데이터과학 입문.md",
     "_posts/2023-08-12-파이썬 주소 처리.md",
     "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
     "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
-    "_posts/2023-08-27-기술 정리.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-25-SeSAC-Roboflow.md",
     "_posts/your_image_link_here.md",
     "_posts/2023-08-25-PCCP-3일차.md",
@@ -245,7 +185,6 @@
     "_posts/2023-08-24-MongoDB.md",
     "_posts/2023-08-20-Streamlit.md",
     "_posts/빅데이터, AI 경진대회.html",
-    "_posts/2,6,6], [6,3,7], [4,6,7], [6,5,11], [2,5,12], [5,3,20], [2,4,8], [4,3,9.md",
     "_site/posts/데이터과학-입문/index.html",
     "_site/posts/데이터과학-입문",
     "_site/posts/프로젝트-수업/index.html",
