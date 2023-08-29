@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5026054382324
+    "width": 400.5
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -189,24 +189,26 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
   "active": "01b4fbbd01f20086",
   "lastOpenFiles": [
-    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+    "_posts/2023-08-14-데이터과학 입문.md",
+    "_posts/2023-08-12-파이썬 주소 처리.md",
+    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
     "_posts/빅데이터, AI 경진대회.md",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_posts/2023-08-27-기술 정리.md",
+    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-25-SeSAC-Roboflow.md",
     "_posts/your_image_link_here.md",
     "_posts/2023-08-25-PCCP-3일차.md",
     "_posts/2023-08-25-lvl3-합승 택시 요금.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
-    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
-    "_posts/2023-08-14-데이터과학 입문.md",
-    "_posts/2023-08-12-파이썬 주소 처리.md",
     "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
@@ -215,7 +217,6 @@
     "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
     "_posts/2023-08-05-lvl3-네트워크.md",
     "_posts/2023-08-06-lvl2-하노이의 탑.md",
-    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
     "_posts/2023-08-24-MongoDB.md",
     "_posts/2023-08-20-Streamlit.md",
     "_posts/빅데이터, AI 경진대회.html",
