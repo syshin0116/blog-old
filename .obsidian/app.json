@@ -7,10 +7,10 @@
   "spellcheck": false,
   "strictLineBreaks": true,
   "pdfExportSettings": {
-    "includeName": false,
-    "pageSize": "Letter",
-    "landscape": false,
-    "margin": "0",
+    "includeName": true,
+    "pageSize": "Tabloid",
+    "landscape": true,
+    "margin": "1",
     "downscalePercent": 100
   }
 }
