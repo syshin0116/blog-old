@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
+                "file": "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
+                "file": "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
+                "file": "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md"
+                "file": "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md"
               }
             }
           },
@@ -195,13 +195,13 @@
   },
   "active": "bf0f52da4b55cdee",
   "lastOpenFiles": [
+    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-25-lvl3-합승 택시 요금.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.md",
     "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_site/categories/혼공-머신러닝-딥러닝/index.html",
     "_site/categories/혼공-머신러닝-딥러닝",
