@@ -54,9 +54,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b25c4431ee392e41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/데이콘 신약개발 대회.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-27-기술 정리.md",
+                "file": "_posts/2023-08-31-장병철 교수님의 머신러닝 & 딥러닝 요약.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-27-기술 정리.md",
+                "file": "_posts/2023-08-31-장병철 교수님의 머신러닝 & 딥러닝 요약.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-27-기술 정리.md"
+                "file": "_posts/2023-08-31-장병철 교수님의 머신러닝 & 딥러닝 요약.md"
               }
             }
           },
@@ -179,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 332.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +205,10 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "bf0f52da4b55cdee",
+  "active": "29275701ad9cfe65",
   "lastOpenFiles": [
+    "_posts/데이콘 신약개발 대회.md",
+    "_posts/2023-08-27-기술 정리.md",
     "_posts/2023-08-31-장병철 교수님의 머신러닝 & 딥러닝 요약.md",
     "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
@@ -228,11 +242,9 @@
     "_posts/output_36_0.png.md",
     "_posts/output_9_0.png.md",
     "_posts/2022-12-30-_Pytorch_ Vision Transformer notes.md",
-    "_posts/2023-08-27-기술 정리.md",
     "_posts/2023-08-25-SeSAC-Roboflow.md",
     "_posts/2023-08-30-SeSAC-혼공 머신러닝+딥러닝-Chap6. 비지도 학습.md",
     "_posts/2023-08-14-데이터과학 입문.md",
-    "_posts/2023-08-12-파이썬 주소 처리.md",
     "_site/assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
     "assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
     "assets/img/favicons/test1.png",
