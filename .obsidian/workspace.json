@@ -4,70 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "1041e4a720184294",
+        "id": "2d88a83cd453a4ec",
         "type": "tabs",
         "children": [
           {
-            "id": "29275701ad9cfe65",
+            "id": "6c044b8e7c6f7e35",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/데이콘 신약개발 대회.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "8f0ef2f3698b3124",
+            "id": "2409e5aff4799a1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c4489a1f3d9d6cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf0f52da4b55cdee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-27-기술 정리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b25c4431ee392e41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/데이콘 신약개발 대회.md",
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "소분류",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -133,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/데이콘 신약개발 대회.md",
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/데이콘 신약개발 대회.md",
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/데이콘 신약개발 대회.md"
+                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md"
               }
             }
           },
@@ -205,31 +167,35 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "29275701ad9cfe65",
+  "active": "2409e5aff4799a1d",
   "lastOpenFiles": [
-    "_posts/git commit.md",
-    "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
+    "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
+    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
+    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2일차.md",
+    "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
+    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Ch6. 비지도 학습.md",
+    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
+    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
+    "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
     "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
-    "_posts/2023 스마트 농업 AI 경진대회.md",
+    "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
+    "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_posts/데이콘 신약개발 대회.md",
+    "_posts/git commit.md",
+    "_posts/.md",
+    "_posts/2023-08-25-PCCP-3일차.md",
+    "_posts/2023-08-27-기술 정리.md",
+    "_posts/2023 스마트 농업 AI 경진대회.md",
     "_posts/2023-07-18-SeSAC-데이터 분석 기초-1일차.md",
     "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
-    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
-    "_posts/2023-08-27-기술 정리.md",
-    "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-25-lvl3-합승 택시 요금.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1일차.md",
-    "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
-    "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_site/categories/혼공-머신러닝-딥러닝/index.html",
     "_site/categories/혼공-머신러닝-딥러닝",
-    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap6. 비지도 학습.md",
-    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
     "_posts/빅데이터, AI 경진대회.md",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝-Ch9.-텍스트를-위한-인공-신경망/index.html",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝-Ch9.-텍스트를-위한-인공-신경망",
@@ -237,14 +203,10 @@
     "_site/categories/대분류",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝/index.html",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝",
-    "_posts/SeSAC 매칭데이 AI, 빅데이터 관련 정리.md",
     "_site/assets/img/9월 새싹(SeSAC) 매칭데이 참여기업_AI, 데이터 관련 기업 정리ver.xlsx",
     "assets/img/~$9월 새싹(SeSAC) 매칭데이 참여기업_AI, 데이터 관련 기업 정리ver.xlsx",
     "_site/assets/img/convolution_schematic.webp",
     "assets/img/convolution_schematic.webp",
-    "assets/template/Blog Template.md",
-    "_posts/output_36_0.png.md",
-    "_posts/output_9_0.png.md",
     "_site/assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
     "assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
     "assets/img/favicons/test1.png",
