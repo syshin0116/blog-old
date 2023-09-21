@@ -21,14 +21,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+                "file": "_posts/데이콘 신약개발 대회.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea0cd8d68dde833d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/토마토.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68103dcf99777f29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/데이콘 신약개발 대회.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06679d2d5b816d3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/데이콘 신약개발 대회.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d448ef625f8d70f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -78,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 486.5
+    "width": 354.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -94,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+                "file": "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+                "file": "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md"
+                "file": "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md"
               }
             }
           },
@@ -145,14 +193,23 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "9302f6a0d235f132",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 332.5,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,14 +223,19 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "2409e5aff4799a1d",
+  "active": "3d448ef625f8d70f",
   "lastOpenFiles": [
-    "assets/template/Blog Template.md",
+    "_posts/데이콘 신약개발 대회.md",
+    "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
+    "_posts/2023-08-27-기술 정리.md",
+    "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
+    "_posts/새싹 매칭데이 0915.md",
+    "_posts/토마토.md",
     "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+    "assets/template/Blog Template.md",
     "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2.md",
     "_posts/2023-08-14-파이썬 라이브러리를 활용한 데이터분석-3.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
-    "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Ch6. 비지도 학습.md",
@@ -183,17 +245,12 @@
     "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
     "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
-    "_posts/데이콘 신약개발 대회.md",
     "_posts/git commit.md",
     "_posts/.md",
     "_posts/2023-08-25-PCCP-3일차.md",
-    "_posts/2023-08-27-기술 정리.md",
     "_posts/2023 스마트 농업 AI 경진대회.md",
     "_posts/2023-07-18-SeSAC-데이터 분석 기초-1일차.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
-    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
-    "_posts/2023-08-08-프로젝트 소통역량 강화.md",
-    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_site/categories/혼공-머신러닝-딥러닝/index.html",
     "_site/categories/혼공-머신러닝-딥러닝",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝-Ch9.-텍스트를-위한-인공-신경망/index.html",
