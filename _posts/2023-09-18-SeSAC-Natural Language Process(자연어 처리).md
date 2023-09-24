@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Transformers
+title: Natural Language Process(자연어 처리)
 date: 2023-09-18 09:03 +0900
 categories:
   - SeSAC
