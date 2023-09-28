@@ -90,14 +90,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
+                "file": "_posts/데이콘 신약개발 대회.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be2d53c200077a89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-09-29-회의록 작성 어플.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -147,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5024719238281,
-    "collapsed": true
+    "width": 354.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -164,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
+                "file": "_posts/2023-09-29-회의록 작성 어플.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
+                "file": "_posts/2023-09-29-회의록 작성 어플.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md"
+                "file": "_posts/2023-09-29-회의록 작성 어플.md"
               }
             }
           },
@@ -246,10 +257,12 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "a197fb5390285336",
+  "active": "be2d53c200077a89",
   "lastOpenFiles": [
-    "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
+    "_posts/데이콘 신약개발 대회.md",
+    "_posts/2023-09-29-회의록 작성 어플.md",
     "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
+    "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-25-lvl3-합승 택시 요금.md",
@@ -259,7 +272,6 @@
     "_data/assets/Pasted image 20230708201101.png",
     "_drafts/2023-05-08-title.md",
     "_posts/새싹 매칭데이 0915.md",
-    "_posts/데이콘 신약개발 대회.md",
     "_posts/2023-08-27-기술 정리.md",
     "_posts/토마토.md",
     "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
@@ -274,7 +286,6 @@
     "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
     "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
     "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
-    "_posts/git commit.md",
     "_site/categories/혼공-머신러닝-딥러닝/index.html",
     "_site/categories/혼공-머신러닝-딥러닝",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝-Ch9.-텍스트를-위한-인공-신경망/index.html",
