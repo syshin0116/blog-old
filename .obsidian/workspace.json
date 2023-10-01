@@ -4,41 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "581cd12b92fcfe3d",
-        "type": "tabs",
-        "dimension": 48.917748917748916,
-        "children": [
-          {
-            "id": "002ad23e902e7c2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f16c5dca529833a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "2d88a83cd453a4ec",
         "type": "tabs",
-        "dimension": 51.082251082251084,
         "children": [
           {
             "id": "6c044b8e7c6f7e35",
@@ -102,14 +69,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-29-회의록 작성 어플.md",
+                "file": "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "156e144a5d4d79d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-10-1-lvl2-삼각 달팽이.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -175,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-29-회의록 작성 어플.md",
+                "file": "_posts/2023-10-1-lvl2-삼각 달팽이.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-29-회의록 작성 어플.md",
+                "file": "_posts/2023-10-1-lvl2-삼각 달팽이.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-29-회의록 작성 어플.md"
+                "file": "_posts/2023-10-1-lvl2-삼각 달팽이.md"
               }
             }
           },
@@ -257,12 +236,14 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "be2d53c200077a89",
+  "active": "156e144a5d4d79d5",
   "lastOpenFiles": [
-    "_posts/데이콘 신약개발 대회.md",
+    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
+    "_posts/2023-10-1-lvl2-삼각 달팽이.md",
     "_posts/2023-09-29-회의록 작성 어플.md",
-    "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
+    "_posts/데이콘 신약개발 대회.md",
+    "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-25-lvl3-합승 택시 요금.md",
@@ -284,8 +265,6 @@
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
     "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
-    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
-    "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_site/categories/혼공-머신러닝-딥러닝/index.html",
     "_site/categories/혼공-머신러닝-딥러닝",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝-Ch9.-텍스트를-위한-인공-신경망/index.html",
