@@ -69,14 +69,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/데이콘 신약개발 대회.md",
+                "file": "_posts/2023-09-29-회의록 작성 어플.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5abf1a8b9b2c9543",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-09-29-회의록 작성 어플.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/데이콘 신약개발 대회.md",
+                "file": "_posts/2023-09-29-회의록 작성 어플.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/데이콘 신약개발 대회.md",
+                "file": "_posts/2023-09-29-회의록 작성 어플.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/데이콘 신약개발 대회.md"
+                "file": "_posts/2023-09-29-회의록 작성 어플.md"
               }
             }
           },
@@ -224,11 +236,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "65116f86b48ea874",
+  "active": "5abf1a8b9b2c9543",
   "lastOpenFiles": [
-    "_posts/토마토.md",
-    "_drafts/데이콘 신약개발 대회.md",
     "_posts/2023-10-1-lvl2-삼각 달팽이.md",
+    "_drafts/데이콘 신약개발 대회.md",
+    "_posts/토마토.md",
     "_posts/2023-09-22-빅분기.md",
     "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
     "_posts/2023-09-29-회의록 작성 어플.md",
