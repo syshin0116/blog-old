@@ -8,87 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c044b8e7c6f7e35",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "06679d2d5b816d3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/데이콘 신약개발 대회.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d448ef625f8d70f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a197fb5390285336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/데이콘 신약개발 대회.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be2d53c200077a89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "156e144a5d4d79d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-09-29-대화 요약 어플.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5abf1a8b9b2c9543",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-29-대화 요약 어플.md",
+                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5024719238281
+    "width": 536.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -154,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-09-29-대화 요약 어플.md",
+                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-09-29-대화 요약 어플.md",
+                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-09-29-대화 요약 어플.md"
+                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md"
               }
             }
           },
@@ -236,35 +167,35 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "5abf1a8b9b2c9543",
+  "active": "65116f86b48ea874",
   "lastOpenFiles": [
-    "_posts/2023-10-1-lvl2-삼각 달팽이.md",
-    "_drafts/데이콘 신약개발 대회.md",
-    "_posts/토마토.md",
-    "_posts/2023-09-22-빅분기.md",
-    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
-    "_posts/2023-09-29-대화 요약 어플.md",
     "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
-    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
-    "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
-    "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
-    "_data/assets/Pasted image 20230708201101.png",
-    "_drafts/2023-05-08-title.md",
-    "_drafts/새싹 매칭데이 0915.md",
+    "_posts/2023-09-22-빅분기.md",
     "_posts/2023-08-27-기술 정리.md",
-    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
-    "assets/template/Blog Template.md",
+    "_posts/2023-08-25-SeSAC-Roboflow.md",
+    "_posts/2023-08-25-PCCP-3일차.md",
+    "_posts/2023-09-29-대화 요약 어플.md",
+    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+    "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2.md",
     "_posts/2023-08-14-파이썬 라이브러리를 활용한 데이터분석-3.md",
-    "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
+    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
+    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
     "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Ch6. 비지도 학습.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
-    "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
+    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
+    "_drafts/데이콘 신약개발 대회.md",
+    "_posts/2023-10-1-lvl2-삼각 달팽이.md",
+    "_posts/토마토.md",
+    "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
+    "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
+    "_data/assets/Pasted image 20230708201101.png",
     "_site/categories/혼공-머신러닝-딥러닝/index.html",
     "_site/categories/혼공-머신러닝-딥러닝",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝-Ch9.-텍스트를-위한-인공-신경망/index.html",
