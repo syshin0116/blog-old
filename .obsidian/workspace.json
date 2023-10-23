@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 536.5024719238281
+    "width": 505.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -167,8 +167,9 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "65116f86b48ea874",
+  "active": "5abf1a8b9b2c9543",
   "lastOpenFiles": [
+    "assets/img/~$9월 새싹(SeSAC) 매칭데이 참여기업_AI, 데이터 관련 기업 정리ver.xlsx",
     "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
@@ -194,7 +195,6 @@
     "_posts/2023-10-1-lvl2-삼각 달팽이.md",
     "_posts/토마토.md",
     "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
-    "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
     "_data/assets/Pasted image 20230708201101.png",
     "_site/categories/혼공-머신러닝-딥러닝/index.html",
     "_site/categories/혼공-머신러닝-딥러닝",
@@ -205,7 +205,6 @@
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝/index.html",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝",
     "_site/assets/img/9월 새싹(SeSAC) 매칭데이 참여기업_AI, 데이터 관련 기업 정리ver.xlsx",
-    "assets/img/~$9월 새싹(SeSAC) 매칭데이 참여기업_AI, 데이터 관련 기업 정리ver.xlsx",
     "_site/assets/img/convolution_schematic.webp",
     "assets/img/convolution_schematic.webp",
     "_site/assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
