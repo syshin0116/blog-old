@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0a8252e5c46503d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,8 +167,10 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b0a8252e5c46503d",
+  "active": "5abf1a8b9b2c9543",
   "lastOpenFiles": [
+    "assets/img/Gen-2 1237187628, the character evolve, Screenshot 2023-10-2, M 5.mp4",
+    "assets/img/0cd6eb19-d2dd-4b4a-9622-920e5734f371.mp4",
     "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
     "assets/img/~$9월 새싹(SeSAC) 매칭데이 참여기업_AI, 데이터 관련 기업 정리ver.xlsx",
@@ -208,7 +197,6 @@
     "_drafts/데이콘 신약개발 대회.md",
     "_posts/2023-10-1-lvl2-삼각 달팽이.md",
     "_posts/토마토.md",
-    "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
     "_data/assets/Pasted image 20230708201101.png",
     "_site/categories/혼공-머신러닝-딥러닝/index.html",
     "_site/categories/혼공-머신러닝-딥러닝",
@@ -218,7 +206,6 @@
     "_site/categories/대분류",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝/index.html",
     "_site/posts/SeSAC-혼공-머신러닝+딥러닝",
-    "_site/assets/img/9월 새싹(SeSAC) 매칭데이 참여기업_AI, 데이터 관련 기업 정리ver.xlsx",
     "_site/assets/img/convolution_schematic.webp",
     "assets/img/convolution_schematic.webp",
     "_site/assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
