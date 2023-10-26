@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-09-08-_Github_Github정리.md",
+                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-09-08-_Github_Github정리.md",
+                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-09-08-_Github_Github정리.md",
+                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-09-08-_Github_Github정리.md"
+                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "cd6a0373fa4c99e0",
   "lastOpenFiles": [
+    "_posts/2022-09-08-_Github_Github정리.md",
     "_posts/2023 스마트 농업 AI 경진대회.md",
     "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
     "_posts/Untitled.md",
@@ -213,7 +214,6 @@
     "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Ch6. 비지도 학습.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
-    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
-    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md"
+    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md"
   ]
 }
