@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2d88a83cd453a4ec",
+        "id": "25a74d68379bb7ed",
         "type": "tabs",
         "children": [
           {
-            "id": "5abf1a8b9b2c9543",
+            "id": "cd6a0373fa4c99e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
+                "file": "_posts/2022-09-08-_Github_Github정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "generali",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 505.5024719238281
+    "width": 387.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
+                "file": "_posts/2022-09-08-_Github_Github정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
+                "file": "_posts/2022-09-08-_Github_Github정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md"
+                "file": "_posts/2022-09-08-_Github_Github정리.md"
               }
             }
           },
@@ -167,13 +167,35 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "5abf1a8b9b2c9543",
+  "active": "cd6a0373fa4c99e0",
   "lastOpenFiles": [
-    "assets/img/Gen-2 1237187628, the character evolve, Screenshot 2023-10-2, M 5.mp4",
-    "assets/img/0cd6eb19-d2dd-4b4a-9622-920e5734f371.mp4",
-    "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
+    "_posts/2023 스마트 농업 AI 경진대회.md",
     "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
-    "assets/img/~$9월 새싹(SeSAC) 매칭데이 참여기업_AI, 데이터 관련 기업 정리ver.xlsx",
+    "_posts/Untitled.md",
+    "assets/img/Untitled 12 1.png",
+    "assets/img/Untitled 13.png",
+    "assets/img/정보처리기사_프로그램 문제풀이 특강_C언어 (2).pdf",
+    "assets/img/1 1.mp4",
+    "assets/img/0cd6eb19-d2dd-4b4a-9622-920e5734f371.mp4",
+    "assets/img/%EC%83%88%EC%8B%B9_3D 1.png",
+    "assets/img/%EC%83%88%EC%8B%B9_3D.png",
+    "assets/img/%EC%83%88%EC%8B%B9_%ED%94%BC%EC%B9%B4%EC%86%8C 1.png",
+    "assets/img/%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%87%E1%85%AE%E1%86%AF%E1%84%85%E1%85%A5.mp3",
+    "assets/img/%E1%84%82%E1%85%A5%E1%86%AB_%E1%84%8B%E1%85%AE%E1%84%85%E1%85%B5%E1%84%8B%E1%85%B3%E1%84%81%E1%85%AE%E1%86%B7 1.mp3",
+    "assets/img/%E1%84%82%E1%85%A5%E1%86%AB_%E1%84%8B%E1%85%AE%E1%84%85%E1%85%B5%E1%84%8B%E1%85%B3%E1%84%81%E1%85%AE%E1%86%B7.mp3",
+    "assets/img/00002-2190181178 2.png",
+    "assets/img/Pasted image 20231026165500.png",
+    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
+    "_posts/Untitled 1.md",
+    "assets/img/Pasted image 20231026165420.png",
+    "assets/img/Pasted image 20231026165403.png",
+    "assets/img/Pasted image 20231026165352.png",
+    "assets/img/third 1.mp4",
+    "assets/img/second 1.mp4",
+    "assets/img/riffusion 1.wav",
+    "assets/img/result2 1.mp4",
+    "_posts/2023-07-11-소프트웨어 설계.md",
+    "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
     "_posts/2023-09-22-빅분기.md",
@@ -186,34 +208,12 @@
     "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2.md",
     "_posts/2023-08-14-파이썬 라이브러리를 활용한 데이터분석-3.md",
-    "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-08-25-lvl3-합승 택시 요금.md",
     "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Ch6. 비지도 학습.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
-    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
-    "_drafts/데이콘 신약개발 대회.md",
-    "_posts/2023-10-1-lvl2-삼각 달팽이.md",
-    "_posts/토마토.md",
-    "_data/assets/Pasted image 20230708201101.png",
-    "_site/categories/혼공-머신러닝-딥러닝/index.html",
-    "_site/categories/혼공-머신러닝-딥러닝",
-    "_site/posts/SeSAC-혼공-머신러닝+딥러닝-Ch9.-텍스트를-위한-인공-신경망/index.html",
-    "_site/posts/SeSAC-혼공-머신러닝+딥러닝-Ch9.-텍스트를-위한-인공-신경망",
-    "_site/categories/대분류/index.html",
-    "_site/categories/대분류",
-    "_site/posts/SeSAC-혼공-머신러닝+딥러닝/index.html",
-    "_site/posts/SeSAC-혼공-머신러닝+딥러닝",
-    "_site/assets/img/convolution_schematic.webp",
-    "assets/img/convolution_schematic.webp",
-    "_site/assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
-    "assets/img/게임으로 배우기_ 목표와 성과 진단게임 1.jpg",
-    "assets/img/favicons/test1.png",
-    "assets/img/favicons/mstile-150x150.png",
-    "assets/img/favicons/favicon-32x32.png",
-    "assets/img/favicons/favicon-16x16.png",
-    "assets/img/favicons/apple-touch-icon.png"
+    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md"
   ]
 }
