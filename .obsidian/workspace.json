@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dcc901d2fdc509e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-10-29-비전 프로젝트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
+                "file": "_posts/2023-10-29-비전 프로젝트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
+                "file": "_posts/2023-10-29-비전 프로젝트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md"
+                "file": "_posts/2023-10-29-비전 프로젝트.md"
               }
             }
           },
@@ -167,12 +180,12 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "cd6a0373fa4c99e0",
+  "active": "dcc901d2fdc509e0",
   "lastOpenFiles": [
+    "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
+    "_posts/2023-10-29-비전 프로젝트.md",
     "_posts/2022-09-08-_Github_Github정리.md",
     "_posts/2023 스마트 농업 AI 경진대회.md",
-    "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
-    "_posts/Untitled.md",
     "assets/img/Untitled 12 1.png",
     "assets/img/Untitled 13.png",
     "assets/img/정보처리기사_프로그램 문제풀이 특강_C언어 (2).pdf",
