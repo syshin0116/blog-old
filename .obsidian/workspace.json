@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "715a366391f0f569",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-10-31-협업툴 정리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -182,8 +194,9 @@
   },
   "active": "dcc901d2fdc509e0",
   "lastOpenFiles": [
-    "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
+    "_posts/2023-10-31-협업툴 정리.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+    "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
     "_posts/2022-09-08-_Github_Github정리.md",
     "_posts/2023 스마트 농업 AI 경진대회.md",
     "assets/img/Untitled 12 1.png",
@@ -226,7 +239,6 @@
     "_posts/2023-08-25-lvl3-합승 택시 요금.md",
     "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Ch6. 비지도 학습.md",
-    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
-    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md"
+    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md"
   ]
 }
