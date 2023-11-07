@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md"
+                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md"
               }
             }
           },
@@ -206,6 +206,7 @@
   },
   "active": "3028d31e47cfba9b",
   "lastOpenFiles": [
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_posts/2023-09-29-대화 요약 어플.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
@@ -245,7 +246,6 @@
     "_posts/2023-08-27-기술 정리.md",
     "_posts/2023-08-25-SeSAC-Roboflow.md",
     "_posts/2023-08-25-PCCP-3일차.md",
-    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2.md",
     "_posts/2023-08-14-파이썬 라이브러리를 활용한 데이터분석-3.md",
