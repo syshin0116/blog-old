@@ -37,9 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md",
+                "file": "_posts/2023-08-06-lvl2-하노이의 탑.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "5feb20b618699d53",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "assets/img/LazyEstate_부동산 경매 낙찰가 예측 모델.pdf"
               }
             }
           },
@@ -122,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md",
+                "file": "_posts/2023-08-06-lvl2-하노이의 탑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md",
+                "file": "_posts/2023-08-06-lvl2-하노이의 탑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md"
+                "file": "_posts/2023-08-06-lvl2-하노이의 탑.md"
               }
             }
           },
@@ -206,15 +216,17 @@
   },
   "active": "3028d31e47cfba9b",
   "lastOpenFiles": [
-    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
-    "_posts/2023-09-29-대화 요약 어플.md",
+    "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
+    "_posts/2023-08-08-프로젝트 소통역량 강화.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-11-7-포트폴리오 내용 정리.md",
+    "assets/img/LazyEstate_부동산 경매 낙찰가 예측 모델.pdf",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+    "_posts/2023-09-29-대화 요약 어플.md",
     "_posts/2023-05-27-_SQLD_1과목-데이터 모델링의 이해.md",
     "assets/img/움악 발표.pdf",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pdf alias",
-    "assets/img/LazyEstate_부동산 경매 낙찰가 예측 모델.pdf",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pptx",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pdf",
     "assets/img/한국어_대화_요약_발표자료.pdf",
@@ -249,8 +261,6 @@
     "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
     "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2.md",
     "_posts/2023-08-14-파이썬 라이브러리를 활용한 데이터분석-3.md",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
-    "_posts/2023-08-25-lvl3-합승 택시 요금.md",
-    "_posts/2023-08-28-SeSAC-혼공 머신러닝+딥러닝-Ch5트리 알고리즘.md"
+    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md"
   ]
 }
