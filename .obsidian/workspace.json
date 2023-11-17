@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "3d52c8d1bcacb3e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5feb20b618699d53",
             "type": "leaf",
             "state": {
@@ -78,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -226,11 +238,12 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "782675cf3fd03e59",
+  "active": "3d52c8d1bcacb3e5",
   "lastOpenFiles": [
-    "_posts/2023-08-27-기술 정리.md",
-    "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-11-7-포트폴리오 내용 정리.md",
+    "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+    "_posts/2023-11-17.md",
+    "_posts/2023-08-27-기술 정리.md",
     "_posts/2023-11-09-Docker-실습.md",
     "_posts/2023-08-06-lvl2-하노이의 탑.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
@@ -272,7 +285,6 @@
     "_posts/2023-09-22-빅분기.md",
     "_posts/2023-08-25-SeSAC-Roboflow.md",
     "_posts/2023-08-25-PCCP-3일차.md",
-    "_posts/2023-08-10-데이터분석 관련 영상 시청.md",
-    "_posts/2023-08-11-파이썬 라이브러리를 활용한 데이터분석-2.md"
+    "_posts/2023-08-10-데이터분석 관련 영상 시청.md"
   ]
 }
