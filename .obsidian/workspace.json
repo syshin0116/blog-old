@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd6a0373fa4c99e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dcc901d2fdc509e0",
             "type": "leaf",
             "state": {
@@ -61,36 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5feb20b618699d53",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "assets/img/LazyEstate_부동산 경매 낙찰가 예측 모델.pdf"
-              }
-            }
-          },
-          {
-            "id": "715a366391f0f569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-10-31-협업툴 정리.md",
+                "file": "_posts/2023-11-18-포트폴리오_draft.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,8 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,18 +203,26 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "3d52c8d1bcacb3e5",
+  "active": "782675cf3fd03e59",
   "lastOpenFiles": [
-    "_posts/2023-11-7-포트폴리오 내용 정리.md",
+    "assets/img/번호판_인식_주차장_샘플.gif",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
-    "_posts/2023-11-17.md",
-    "_posts/2023-08-27-기술 정리.md",
+    "assets/img/번호판_인식_주차장.gif",
+    "assets/img/Traffic_Light_Detection.gif",
+    "assets/img/Line_Violation_sample.gif",
+    "_posts/2023-11-18-포트폴리오_draft.md",
+    "_posts/2023-11-7-포트폴리오 내용 정리.md",
+    "_posts/2023-11-17-딥러닝 영상처리.md",
+    "assets/img/LazyEstate_부동산 경매 낙찰가 예측 모델.pdf",
+    "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
+    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
     "_posts/2023-11-09-Docker-실습.md",
+    "_posts/2023-08-27-기술 정리.md",
+    "_posts/2023-10-31-협업툴 정리.md",
     "_posts/2023-08-06-lvl2-하노이의 탑.md",
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
-    "assets/img/LazyEstate_부동산 경매 낙찰가 예측 모델.pdf",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2023-09-29-대화 요약 어플.md",
     "_posts/2023-05-27-_SQLD_1과목-데이터 모델링의 이해.md",
@@ -263,7 +236,6 @@
     "assets/img/sample_portfolio.pdf",
     "assets/img/~$LazyEstate_부동산 경매 낙찰가 예측 모델.pptx",
     "assets/portfolio/LazyEstate_뉴스기사_분석_streamlit.png",
-    "_posts/2023-10-31-협업툴 정리.md",
     "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
     "_posts/2022-09-08-_Github_Github정리.md",
     "_posts/2023 스마트 농업 AI 경진대회.md",
@@ -272,19 +244,11 @@
     "assets/img/%EC%83%88%EC%8B%B9_3D 1.png",
     "assets/img/%EC%83%88%EC%8B%B9_3D.png",
     "assets/img/%EC%83%88%EC%8B%B9_%ED%94%BC%EC%B9%B4%EC%86%8C 1.png",
-    "assets/img/00002-2190181178 2.png",
-    "assets/img/Pasted image 20231026165500.png",
     "_posts/2023-08-21-빅데이터의 다음 단계는 예측 분석이다.md",
     "_posts/Untitled 1.md",
-    "assets/img/Pasted image 20231026165420.png",
-    "assets/img/Pasted image 20231026165403.png",
     "_posts/2023-07-11-소프트웨어 설계.md",
     "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
     "_posts/2023-09-18-SeSAC-Natural Language Process(자연어 처리).md",
-    "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
-    "_posts/2023-09-22-빅분기.md",
-    "_posts/2023-08-25-SeSAC-Roboflow.md",
-    "_posts/2023-08-25-PCCP-3일차.md",
-    "_posts/2023-08-10-데이터분석 관련 영상 시청.md"
+    "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md"
   ]
 }
