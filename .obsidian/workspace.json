@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "1e2aad09e99a9853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-11-19-Men in Black readme file.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3d52c8d1bcacb3e5",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+                "file": "_posts/2023-11-19-Men in Black readme file.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+                "file": "_posts/2023-11-19-Men in Black readme file.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md"
+                "file": "_posts/2023-11-19-Men in Black readme file.md"
               }
             }
           },
@@ -203,10 +215,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "782675cf3fd03e59",
+  "active": "1e2aad09e99a9853",
   "lastOpenFiles": [
-    "assets/img/번호판_인식_주차장_샘플.gif",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
+    "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
     "assets/img/Line_Violation_sample.gif",
