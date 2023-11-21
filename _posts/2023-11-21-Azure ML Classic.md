@@ -10,6 +10,9 @@ math: true
 ---
 ## Azure ml classic
 
+- No Coding Tool 이 아닌 Low Coding Tool이라 부른다
+- `Python`이나 `R` 코드를 사용할 수 있기 때문
+
 ### 접속
 1. https://studio.azureml.net/ 접속
 2. 회원가입 & 로그인
@@ -101,3 +104,7 @@ math: true
 
 
 ![](https://i.imgur.com/lRwz7Ww.png)
+
+- `Scored Labels` 선택 후 compare to Survived
+
+![](https://i.imgur.com/dTB5R7G.png)
