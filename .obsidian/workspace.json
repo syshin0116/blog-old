@@ -8,120 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dcc901d2fdc509e0",
+            "id": "0732231e645eb25c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3028d31e47cfba9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-7-포트폴리오 내용 정리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "782675cf3fd03e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e2aad09e99a9853",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-17-딥러닝 영상처리.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3665e3d50c71adfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a5a49f088cbbc61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-21-Orange 실습.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d52c8d1bcacb3e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-18-포트폴리오_draft.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29babf62c8e9fa56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e3905bd5be98923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-21-Orange 실습.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e311c98a76c359fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
+                "file": "_posts/2023-11-22-딥러닝 영상처리3.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mini batch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
+                "file": "_posts/2023-11-22-딥러닝 영상처리3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
+                "file": "_posts/2023-11-22-딥러닝 영상처리3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-20-딥러닝 영상처리2.md"
+                "file": "_posts/2023-11-22-딥러닝 영상처리3.md"
               }
             }
           },
@@ -287,23 +178,25 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "65116f86b48ea874",
+  "active": "0732231e645eb25c",
   "lastOpenFiles": [
-    "_posts/2023-11-17-딥러닝 영상처리.md",
-    "_posts/2023-11-20-딥러닝 영상처리2.md",
-    "_posts/2023-11-19-Men in Black readme file.md",
-    "_posts/2023-11-21-Azure ML Classic.md",
+    "_posts/output_3_2.png.md",
+    "_posts/2023-11-22-딥러닝 영상처리3.md",
     "_posts/2023-11-21-Orange 실습.md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
     "_posts/2023-11-18-포트폴리오_draft.md",
+    "_posts/2023-11-20-딥러닝 영상처리2.md",
+    "_posts/2023-11-17-딥러닝 영상처리.md",
+    "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+    "_posts/2023-11-7-포트폴리오 내용 정리.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
+    "_posts/2023-11-21-Azure ML Classic.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
-    "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
     "assets/img/Line_Violation_sample.gif",
-    "_posts/2023-11-7-포트폴리오 내용 정리.md",
     "assets/img/LazyEstate_부동산 경매 낙찰가 예측 모델.pdf",
     "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
@@ -328,8 +221,6 @@
     "assets/img/~$LazyEstate_부동산 경매 낙찰가 예측 모델.pptx",
     "assets/portfolio/LazyEstate_뉴스기사_분석_streamlit.png",
     "_posts/2023-10-23-SeSAC 3주년 프로젝트.md",
-    "_posts/2022-09-08-_Github_Github정리.md",
-    "_posts/2023 스마트 농업 AI 경진대회.md",
     "assets/img/Untitled 12 1.png",
     "assets/img/Untitled 13.png",
     "assets/img/%EC%83%88%EC%8B%B9_3D 1.png",
