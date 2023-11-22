@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-21-Azure ML Classic.md",
+                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-21-Azure ML Classic.md",
+                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-21-Azure ML Classic.md",
+                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-21-Azure ML Classic.md"
+                "file": "_posts/2023-11-20-딥러닝 영상처리2.md"
               }
             }
           },
@@ -287,16 +287,16 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "e311c98a76c359fe",
+  "active": "65116f86b48ea874",
   "lastOpenFiles": [
-    "_posts/2023-11-21-Orange 실습.md",
-    "_posts/2023-11-21-Azure ML Classic.md",
+    "_posts/2023-11-17-딥러닝 영상처리.md",
     "_posts/2023-11-20-딥러닝 영상처리2.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
+    "_posts/2023-11-21-Azure ML Classic.md",
+    "_posts/2023-11-21-Orange 실습.md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
     "_posts/2023-11-18-포트폴리오_draft.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
-    "_posts/2023-11-17-딥러닝 영상처리.md",
-    "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
