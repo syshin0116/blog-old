@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-1유형.md",
+                "file": "_posts/2023-11-27-빅분기-실기-기초.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e18f845b2c325f45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-11-27-빅분기-실기-기초.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-1유형.md",
+                "file": "_posts/2023-11-27-빅분기-실기-기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-1유형.md",
+                "file": "_posts/2023-11-27-빅분기-실기-기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-1유형.md"
+                "file": "_posts/2023-11-27-빅분기-실기-기초.md"
               }
             }
           },
@@ -179,10 +191,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "926827255d050dde",
+  "active": "e18f845b2c325f45",
   "lastOpenFiles": [
+    "_posts/2023-11-29-.md",
+    "_posts/2023-11-27-빅분기-실기-기초.md",
     "_posts/2023-11-23-딥러닝 영상처리4.md",
-    "_posts/2023-11-27-빅분기-실기-1유형.md",
     "_posts/2023-11-20-딥러닝 영상처리2.md",
     "_posts/2023-11-22-딥러닝 영상처리3.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
@@ -211,7 +224,6 @@
     "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
-    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "assets/img/움악 발표.pdf",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pdf alias",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pptx",
