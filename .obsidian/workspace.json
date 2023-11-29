@@ -4,47 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "99629c791f38a8c1",
+        "id": "5e1fe48594cc215f",
         "type": "tabs",
         "children": [
           {
-            "id": "0b0ee8f635b06d3d",
+            "id": "aa69c98be7a59192",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-23-딥러닝 영상처리4.md",
+                "file": "_posts/2023-11-27-빅분기-실기-1유형.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "926827255d050dde",
+            "id": "1cba9384a29b9699",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-기초.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e18f845b2c325f45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-기초.md",
+                "file": "_posts/2023-11-29-.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-기초.md",
+                "file": "_posts/2023-11-27-빅분기-실기-1유형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-기초.md",
+                "file": "_posts/2023-11-27-빅분기-실기-1유형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-27-빅분기-실기-기초.md"
+                "file": "_posts/2023-11-27-빅분기-실기-1유형.md"
               }
             }
           },
@@ -191,13 +178,13 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "e18f845b2c325f45",
+  "active": "aa69c98be7a59192",
   "lastOpenFiles": [
     "_posts/2023-11-29-.md",
-    "_posts/2023-11-27-빅분기-실기-기초.md",
+    "_posts/2023-11-27-빅분기-실기-1유형.md",
+    "_posts/2023-11-22-딥러닝 영상처리3.md",
     "_posts/2023-11-23-딥러닝 영상처리4.md",
     "_posts/2023-11-20-딥러닝 영상처리2.md",
-    "_posts/2023-11-22-딥러닝 영상처리3.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-11-24-딥러닝 영상처리5.md",
     "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
