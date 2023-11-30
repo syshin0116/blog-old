@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1b15bc2b4ecceefa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-11-07-포트폴리오 내용 정리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-30-Transformers 실습.md",
+                "file": "_posts/2023-11-07-포트폴리오 내용 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-30-Transformers 실습.md",
+                "file": "_posts/2023-11-07-포트폴리오 내용 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-30-Transformers 실습.md"
+                "file": "_posts/2023-11-07-포트폴리오 내용 정리.md"
               }
             }
           },
@@ -191,24 +203,26 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fb4cd2f615649191",
+  "active": "1b15bc2b4ecceefa",
   "lastOpenFiles": [
-    "_posts/2023-11-29-Transformers 강의 정리.md",
+    "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-11-30-Transformers 실습.md",
+    "_posts/2023-11-17-딥러닝 영상처리.md",
+    "_posts/2023-11-18-포트폴리오_draft.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
+    "_posts/2023-11-20-딥러닝 영상처리2.md",
+    "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
+    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
+    "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
+    "_posts/2023-11-29-Transformers 강의 정리.md",
     "_posts/2023-11-27-빅분기-실기-1유형.md",
     "_posts/2023-11-22-딥러닝 영상처리3.md",
     "_posts/2023-11-23-딥러닝 영상처리4.md",
-    "_posts/2023-11-20-딥러닝 영상처리2.md",
-    "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-11-24-딥러닝 영상처리5.md",
-    "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
     "_posts/output_3_2.png.md",
     "_posts/2023-11-21-Orange 실습.md",
-    "_posts/2023-11-18-포트폴리오_draft.md",
-    "_posts/2023-11-17-딥러닝 영상처리.md",
-    "_posts/2023-11-7-포트폴리오 내용 정리.md",
-    "_posts/2023-11-19-Men in Black readme file.md",
+    "_posts/2023-11-07-포트폴리오 내용 정리.md",
     "_posts/2023-11-21-Azure ML Classic.md",
     "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
     "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
@@ -222,8 +236,6 @@
     "_posts/2023-08-27-기술 정리.md",
     "_posts/2023-10-31-협업툴 정리.md",
     "_posts/2023-08-06-lvl2-하노이의 탑.md",
-    "_posts/2023-08-08-ADsP-2과목.  데이터 분석 기획.md",
-    "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
     "assets/img/움악 발표.pdf",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pdf alias",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pptx",
