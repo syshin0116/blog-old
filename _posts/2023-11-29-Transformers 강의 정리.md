@@ -1,3 +1,15 @@
+---
+layout: post
+title: Transformers
+date: 2023-11-30 16:08 +0900
+categories:
+  - SeSAC
+  - NLP
+tags: 
+math: true
+---
+
+## Intro: 
 ### Attention Function
 
 - Q = Query: t 시점의 디코더 셀에서의 은닉 상태
@@ -70,6 +82,3 @@ Seq to Seq 논문: [https://proceedings.neurips.cc/paper_files/paper/2014/file/a
 ![](https://i.imgur.com/61Oa9Rh.png)
 
 
-#### Masked Decoder Self-Attention
-
-#### Encoder-Decoder Attention
