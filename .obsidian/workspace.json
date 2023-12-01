@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "2c4c68d894fecce5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-02-빅분기-실기-3유형.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fb4cd2f615649191",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-30-빅분기-실기-2유형.md",
+                "file": "_posts/2023-12-02-빅분기-실기-3유형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-30-빅분기-실기-2유형.md",
+                "file": "_posts/2023-12-02-빅분기-실기-3유형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-30-빅분기-실기-2유형.md"
+                "file": "_posts/2023-12-02-빅분기-실기-3유형.md"
               }
             }
           },
@@ -215,10 +227,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "9f1d2344687a4471",
+  "active": "2c4c68d894fecce5",
   "lastOpenFiles": [
     "_posts/2023-11-27-빅분기-실기-1유형.md",
     "_posts/2023-11-30-빅분기-실기-2유형.md",
+    "_posts/2023-12-02-빅분기-실기-3유형.md",
     "_posts/2023-11-29-Transformers 강의 정리.md",
     "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-11-07-포트폴리오 내용 정리.md",
@@ -247,7 +260,6 @@
     "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
     "_posts/2023-11-09-Docker-실습.md",
     "_posts/2023-08-27-기술 정리.md",
-    "_posts/2023-10-31-협업툴 정리.md",
     "assets/img/움악 발표.pdf",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pdf alias",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pptx",
