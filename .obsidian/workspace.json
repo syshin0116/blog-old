@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+                "file": "_posts/2023-11-30-빅분기-실기-2유형.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+                "file": "_posts/2023-11-30-빅분기-실기-2유형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+                "file": "_posts/2023-11-30-빅분기-실기-2유형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md"
+                "file": "_posts/2023-11-30-빅분기-실기-2유형.md"
               }
             }
           },
@@ -215,12 +215,12 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "65116f86b48ea874",
+  "active": "9f1d2344687a4471",
   "lastOpenFiles": [
-    "_posts/2023-11-19-Men in Black readme file.md",
-    "_posts/2023-11-30-빅분기-실기-2유형.md",
     "_posts/2023-11-27-빅분기-실기-1유형.md",
+    "_posts/2023-11-30-빅분기-실기-2유형.md",
     "_posts/2023-11-29-Transformers 강의 정리.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-11-07-포트폴리오 내용 정리.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-11-30-Transformers 실습.md",
