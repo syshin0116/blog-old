@@ -23,3 +23,12 @@ https://paperswithcode.com/task/monocular-depth-estimation
 #### 논문:
 
 [Self-Supervised Object Distance Estimation Using a Monocular Camera](https://www.mdpi.com/1424-8220/22/8/2936)
+
+
+
+
+포트폴리오 citation 논문 정리:
+
+- Sort: https://arxiv.org/abs/1602.00763
+- DeepSort: https://arxiv.org/pdf/1703.07402.pdf
+
