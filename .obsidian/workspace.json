@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "841a3f3fca6b80c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-11-Git Blog Themes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9f1d2344687a4471",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-05-MiDas v3.md",
+                "file": "_posts/2023-12-11-Git Blog Themes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-05-MiDas v3.md",
+                "file": "_posts/2023-12-11-Git Blog Themes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-05-MiDas v3.md"
+                "file": "_posts/2023-12-11-Git Blog Themes.md"
               }
             }
           },
@@ -203,10 +215,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a823706625a55834",
+  "active": "841a3f3fca6b80c8",
   "lastOpenFiles": [
-    "_posts/2023-12-03-Monocular Depth Estimation.md",
+    "_posts/2023-11-07-포트폴리오 내용 정리.md",
+    "_posts/2023-12-11-Git Blog Themes.md",
     "_posts/2023-12-05-MiDas v3.md",
+    "_posts/2023-12-03-Monocular Depth Estimation.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-12-02-빅분기-실기-3유형.md",
     "_posts/2023-11-27-빅분기-실기-1유형.md",
@@ -214,7 +228,6 @@
     "_posts/2023-11-29-Transformers 강의 정리.md",
     "_posts/2023-11-30-빅분기-실기-2유형.md",
     "_posts/2023-11-19-Men in Black readme file.md",
-    "_posts/2023-11-07-포트폴리오 내용 정리.md",
     "_posts/2023-11-17-딥러닝 영상처리.md",
     "_posts/2023-11-18-포트폴리오_draft.md",
     "_posts/2023-11-20-딥러닝 영상처리2.md",
@@ -235,7 +248,6 @@
     "assets/img/Traffic_Light_Detection.gif",
     "assets/img/Line_Violation_sample.gif",
     "assets/img/LazyEstate_부동산 경매 낙찰가 예측 모델.pdf",
-    "_posts/2023-08-04-SeSAC-파이썬 데이터 처리 프로그래밍-5일차.md",
     "assets/img/움악 발표.pdf",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pdf alias",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pptx",
