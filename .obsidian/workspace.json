@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md",
+                "file": "_posts/2023-12-05-MiDas v3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md",
+                "file": "_posts/2023-12-05-MiDas v3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md"
+                "file": "_posts/2023-12-05-MiDas v3.md"
               }
             }
           },
@@ -215,10 +215,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0c2857d48afb9eb5",
+  "active": "a823706625a55834",
   "lastOpenFiles": [
-    "_posts/2023-12-05-MiDas v3.md",
     "_posts/2023-12-19-ZoeDepth.md",
+    "_posts/2023-12-05-MiDas v3.md",
     "_posts/2023-12-11-Git Blog Themes.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
