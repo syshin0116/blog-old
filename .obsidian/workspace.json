@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "0654042229416d2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-23-Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0c2857d48afb9eb5",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md",
+                "file": "_posts/2023-12-23-Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md",
+                "file": "_posts/2023-12-23-Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md"
+                "file": "_posts/2023-12-23-Docker.md"
               }
             }
           },
@@ -215,11 +227,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a823706625a55834",
+  "active": "0654042229416d2b",
   "lastOpenFiles": [
+    "_posts/2023-12-19-ZoeDepth.md",
+    "_posts/2023-12-23-Docker.md",
     "_posts/2023-12-02-빅분기-실기-3유형.md",
     "_posts/2023-12-03-Monocular Depth Estimation.md",
-    "_posts/2023-12-19-ZoeDepth.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-12-05-MiDas v3.md",
     "_posts/2023-11-19-Men in Black readme file.md",
@@ -242,7 +255,6 @@
     "_posts/2023-11-29-Transformers 강의 정리.md",
     "_posts/2023-11-30-빅분기-실기-2유형.md",
     "_posts/2023-11-17-딥러닝 영상처리.md",
-    "_posts/2023-11-18-포트폴리오_draft.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
