@@ -25,3 +25,7 @@ math: true
 ### 확인용
 
 https://github.com/topics/developer-portfolio-template
+
+
+# Jekyll 기반의 GitHub Page 생성
+https://www.youtube.com/watch?v=2ClW2LdqP30&list=PL7nkwz9MkASx1wxXK51n7KtwQyXgoNL70
