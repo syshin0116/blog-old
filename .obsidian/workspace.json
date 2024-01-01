@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-12-11-Git Blog Themes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-11-Git Blog Themes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-11-Git Blog Themes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-11-Git Blog Themes.md"
+                "file": "README.md"
               }
             }
           },
@@ -229,6 +229,10 @@
   },
   "active": "0654042229416d2b",
   "lastOpenFiles": [
+    "_tabs/about.md",
+    "_tabs/archives.md",
+    "_tabs/categories.md",
+    "_posts/2023-12-11-Git Blog Themes.md",
     "_posts/2023-12-23-Docker.md",
     "_posts/2023-12-19-ZoeDepth.md",
     "_posts/2023-12-02-빅분기-실기-3유형.md",
@@ -236,7 +240,6 @@
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-12-05-MiDas v3.md",
     "_posts/2023-11-19-Men in Black readme file.md",
-    "_posts/2023-12-11-Git Blog Themes.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
     "_posts/2023-08-02-자바의정석-2장-변수.md",
@@ -252,9 +255,6 @@
     "_posts/2023-11-07-포트폴리오 내용 정리.md",
     "_posts/2023-11-27-빅분기-실기-1유형.md",
     "_posts/2023-11-30-Transformers 실습.md",
-    "_posts/2023-11-29-Transformers 강의 정리.md",
-    "_posts/2023-11-30-빅분기-실기-2유형.md",
-    "_posts/2023-11-17-딥러닝 영상처리.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
