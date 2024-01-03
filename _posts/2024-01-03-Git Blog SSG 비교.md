@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git BLog 종류
+title: Git Blog SSG 비교
 date: 2024-01-03 17:25 +0900
 categories:
   - ETC
