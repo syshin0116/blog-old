@@ -21,13 +21,8 @@ math: true
 
 출처: [https://star-history.com/](https://star-history.com/)
 
-<a href="https://star-history.com/#gatsbyjs/gatsby&gohugoio/hugo&hexojs/hexo&jekyll/&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=gatsbyjs/gatsby,gohugoio/hugo,hexojs/hexo,jekyll/&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=gatsbyjs/gatsby,gohugoio/hugo,hexojs/hexo,jekyll/&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=gatsbyjs/gatsby,gohugoio/hugo,hexojs/hexo,jekyll/&type=Date" />
-  </picture>
-</a>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jekyll/jekyll,hexojs/hexo,gatsbyjs/gatsby,gohugoio/hugo&type=Date)](https://star-history.com/#jekyll/jekyll&hexojs/hexo&gatsbyjs/gatsby&gohugoio/hugo&Date)
 
 
 ### 언어별 SSG Github stars 수
