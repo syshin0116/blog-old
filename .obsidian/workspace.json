@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-01-03-Git BLog 종류.md",
+                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-01-03-Git BLog 종류.md",
+                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-01-03-Git BLog 종류.md",
+                "file": "_posts/2023-11-20-딥러닝 영상처리2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-01-03-Git BLog 종류.md"
+                "file": "_posts/2023-11-20-딥러닝 영상처리2.md"
               }
             }
           },
@@ -193,10 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da895b2f4e8049aa",
+  "active": "65116f86b48ea874",
   "lastOpenFiles": [
-    "_posts/2024-01-01-깃 블로그 생성.md",
+    "_posts/2023-11-20-딥러닝 영상처리2.md.sb-6cc10674-Urgng9",
     "_posts/2024-01-03-Git BLog 종류.md",
+    "_posts/2024-01-01-깃 블로그 생성.md",
     "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-11-20-딥러닝 영상처리2.md",
     "_posts/2023-12-02-빅분기-실기-3유형.md",
@@ -220,7 +221,6 @@
     "_posts/2023-07-18-SeSAC-데이터 분석 기초-1일차.md",
     "node_modules/read-pkg-up/node_modules/type-fest/readme.md",
     "node_modules/stylelint/lib/rules/max-empty-lines/README.md",
-    "node_modules/type-fest/readme.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
