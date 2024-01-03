@@ -13,66 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-12-02-빅분기-실기-3유형.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9831c47c8b79abdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-12-03-Monocular Depth Estimation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a823706625a55834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0654042229416d2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95b0f9bd251b108f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7518f425a0cf4662",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "_posts/2024-01-01-깃 블로그 생성.md",
                 "mode": "source",
                 "source": false
@@ -80,31 +20,31 @@
             }
           },
           {
-            "id": "0c2857d48afb9eb5",
+            "id": "da895b2f4e8049aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
+                "file": "_posts/2024-01-03-Git BLog 종류.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9f1d2344687a4471",
+            "id": "c1be7c095ba5c49e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-30-빅분기-실기-2유형.md",
+                "file": "_posts/2023-11-19-Men in Black readme file.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-01-01-깃 블로그 생성.md",
+                "file": "_posts/2024-01-03-Git BLog 종류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-01-01-깃 블로그 생성.md",
+                "file": "_posts/2024-01-03-Git BLog 종류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-01-01-깃 블로그 생성.md"
+                "file": "_posts/2024-01-03-Git BLog 종류.md"
               }
             }
           },
@@ -253,21 +193,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7518f425a0cf4662",
+  "active": "da895b2f4e8049aa",
   "lastOpenFiles": [
-    "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md",
     "_posts/2024-01-01-깃 블로그 생성.md",
+    "_posts/2024-01-03-Git BLog 종류.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
+    "_posts/2023-11-20-딥러닝 영상처리2.md",
+    "_posts/2023-12-02-빅분기-실기-3유형.md",
+    "_posts/2023-12-03-Monocular Depth Estimation.md",
+    "_posts/2023-12-19-ZoeDepth.md",
+    "README.md",
+    "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md",
+    "_posts/2023-11-30-빅분기-실기-2유형.md",
+    "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_tabs/about.md",
     "_tabs/archives.md",
     "_tabs/categories.md",
     "_posts/2023-12-11-Git Blog Themes.md",
     "_posts/2023-12-23-Docker.md",
-    "_posts/2023-12-19-ZoeDepth.md",
-    "_posts/2023-12-02-빅분기-실기-3유형.md",
-    "_posts/2023-12-03-Monocular Depth Estimation.md",
-    "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-12-05-MiDas v3.md",
-    "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
     "_posts/2023-08-02-자바의정석-2장-변수.md",
@@ -277,10 +221,6 @@
     "node_modules/read-pkg-up/node_modules/type-fest/readme.md",
     "node_modules/stylelint/lib/rules/max-empty-lines/README.md",
     "node_modules/type-fest/readme.md",
-    "_posts/2023-08-24-SeSAC-혼공 머신러닝+딥러닝-Ch3,4.md",
-    "_posts/2023-08-31-혼공 머신러닝 & 딥러닝 요약.md",
-    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-정리.md",
-    "_posts/2023-11-07-포트폴리오 내용 정리.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
