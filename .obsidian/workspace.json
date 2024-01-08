@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-01-05-Hugo 블로그 생성 연습.md",
+                "file": "_posts/2023-12-11-Git Blog Themes.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-01-05-Hugo 블로그 생성 연습.md",
+                "file": "_posts/2023-12-11-Git Blog Themes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-01-05-Hugo 블로그 생성 연습.md",
+                "file": "_posts/2023-12-11-Git Blog Themes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-01-05-Hugo 블로그 생성 연습.md"
+                "file": "_posts/2023-12-11-Git Blog Themes.md"
               }
             }
           },
@@ -207,8 +207,8 @@
   },
   "active": "377bc10aa3abd531",
   "lastOpenFiles": [
-    "_posts/2024-01-03-Git Blog SSG 비교.md",
     "_posts/2024-01-05-Hugo 블로그 생성 연습.md",
+    "_posts/2024-01-03-Git Blog SSG 비교.md",
     "_posts/2024-01-01-깃 블로그 생성.md",
     "_posts/2023-11-30-Transformers 실습.md",
     "_posts/2023-11-20-딥러닝 영상처리2.md",
