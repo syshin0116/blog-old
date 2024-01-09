@@ -8,7 +8,6 @@ categories:
 tags: 
 math: true
 ---
-
 # Men-in-Black
 
 ## 1. 개요
@@ -22,10 +21,123 @@ math: true
 ### [Line Violation Detection](https://github.com/SeSAC-Men-in-Black/Men-in-Black/tree/074ad63391bab45290966de5b0f9d747f9a252ae/Line%20violation%20detection) by [진한별](https://github.com/Moonbyeol)
 <details>
 <summary>Details</summary>
-<br>
+
+## 진행 과정:
+
+1. 차량 인식
+2. 차선 인식
+3. 위반 탐지지
+
+## 모델 구성 및 분류:
+
+### 1. 차량 인식 모델
+   
+    a. 모델 구성
+   
+       ⅰ. Detection Model : Mask R-CNN
+   
+       ⅱ. BackBone Network : ResNet101
+   
+       ⅲ. BackBone Pre-trained : torchvision://resnet101
+   
+       ⅳ. Loss function : SeesawLoss
+   
+       ⅴ. Optimizer : SGD, lr 초기값: 1e-6
+   
+    b. Class 분류
+   
+       ⅰ. 이륜차(vehicle_bike) : 10066
+   
+       ⅱ. 버스(vehicle_bus) : 75198
+   
+       ⅲ. 승용차(vehicle_car) : 232013
+   
+       ⅳ. 트럭(vehicle_truck) : 28905
+
+### 2. 차선 인식 모델
+
+    a. 모델 구성
+   
+       ⅰ. Detection Model : FCN(Fully Convolutional Network)
+   
+       ⅱ. BackBone Network : ResNet50
+   
+       ⅲ. Loss function : FocalLoss
+   
+       ⅳ. Optimizer : Adam, lr 초기값: 0.001
+   
+    b. Class 분류
+   
+       ⅰ. 색상별
+   
+           1) 청색(lane_blue) : 133654
+   
+           2) 갓길차선(lane_shoulder) : 55639
+   
+           3) 흰색(lane_white) : 128181
+   
+           4) 황색(lane_yellow) : 29554
+   
+       ⅱ. 타입별
+   
+            1) 1줄 점선(single_dashed) : 78953
+   
+            2) 1줄 실선(single_solid) : 181342
+   
+            3) 2줄 실선(double_solid) : 84914
+   
+            4) 좌점선_우실선(left_dashed_double) : 1095
+   
+            5) 좌실선_우점선(right_dashed_double) : 724
+   
+
+### 3. 위반 탐지 모델
+
+    a. 모델 구성
+   
+       ⅰ. Detection Model : ResNet18
+   
+       ⅱ. Loss function : CrossEntropyLoss
+   
+       ⅲ. Optimizer : SGD, lr 초기값: 0.001
+   
+    b. Class 분류
+   
+       ⅰ. 정상(normal): 197618
+   
+       ⅱ. 위험(danger): 31229
+   
+       ⅲ. 위반(violation): 117335
+   
+    c. 위반 탐지 과정
+   
+       ⅰ. 정상
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/2e074200-ff13-47c8-9781-ea10440611ae)
+
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/a0ce2c45-06a2-4d8b-a9a9-1856df83fd89)
+
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/8fc3ccee-c625-48f9-a12c-6e77046a8507)
+   
+       ⅱ. 위험
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/7d8d9cea-9e1d-4f7b-8391-93abd1474d1b)
+
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/f463b8a0-07ad-4f24-b5fb-65cd146aa369)
+
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/4e0f5535-8d59-4045-87c9-d13ea7040ba2)
+   
+        ⅲ. 위반
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/139735ea-e164-4e1f-9834-fd0bec7cd076)
+
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/8cc27f2e-a4d5-484e-b559-e01796cd88c3)
+
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/1c059bb2-0456-4fd9-bcd8-7a576c1e315c)
+
+
+
+
 </details>
 
-### [Traffic Light Detection](https://github.com/SeSAC-Men-in-Black/Men-in-Black/tree/main/Traffic%20Light) by [최우석](https://github.com/Wangws1004)
+### [Traffic Light Recognition](https://github.com/SeSAC-Men-in-Black/Men-in-Black/tree/main/Traffic-Light-Recognition) by [최우석](https://github.com/Wangws1004)
 <details>
 <summary>Details</summary>
 <br>
@@ -202,7 +314,13 @@ Canny Edge Detection:
 - Try Segmentation
 </details>
 
-## 3. 데이터셋 & 사용 툴
+### [Monocular Depth Estimation](https://github.com/syshin0116/Men-in-Black/tree/main/Monocular%20Depth%20Estimation)
+- [ZoeDepth](https://github.com/syshin0116/Men-in-Black/tree/main/Monocular%20Depth%20Estimation/ZoeDepth) by [신승엽](https://github.com/syshin0116)
+- [VDE](https://github.com/syshin0116/Men-in-Black/tree/main/Monocular%20Depth%20Estimation/VDE) by [진한별](https://github.com/Moonbyeol)
+- [MonoDepth2](https://github.com/syshin0116/Men-in-Black/tree/main/Monocular%20Depth%20Estimation/MonoDepth2) by [이현지](https://github.com/FrontHeadNULL)
+- [End-to-end-Learning](https://github.com/syshin0116/Men-in-Black/tree/main/Monocular%20Depth%20Estimation/End-to-end-Learning) by [최우석](https://github.com/Wangws1004)
+
+## 3. 데이터셋
 
 #### [COCO Dataset](https://cocodataset.org/#home)
 - 330K images (>200K labeled)
@@ -248,15 +366,32 @@ Canny Edge Detection:
 
 ## 4. 사용 툴
 
-![](https://i.imgur.com/I0kSdG1.png)
+| Category 	| Techs 	|
+|---	|:---:	|
+| 🖥️ 개발  	| ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)|
+| ☁️ 환경 	| ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)|
+| 📋 협업 	| ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)|
+
 ## 5. 프로젝트 일정 
 
 ![](https://i.imgur.com/35Cr1cR.png)
 
+![image](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140369529/0c31325c-acec-4954-a768-e079714aa469)
 
-| 항목          | COCO 데이터셋                                                                                                                                                                   | 로보플로우 차량 번호판 인식                                                                                | AI 허브 데이터셋                                                                                           |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| URL           | [링크](https://cocodataset.org/#home)                                                                                                                                           | [링크](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4) | [링크](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=628) |
-| 설명          | • 객체 탐지<br>• 분할<br>• 캡션<br>• 33만 개 이미지<br>• 150만 개 객체 인스턴스<br>• 80개 객체 카테고리<br>• 91개 스터프 카테고리<br>• 이미지 당 5개 캡션<br>• 25만 명 키포인트 | • 차량 번호판 인식<br>• 다양한 번호판 이미지<br>• 주석 처리된 데이터<br>• 번호판 번호 및 문자 인식         | • 한국어 데이터셋<br>• 다양한 도메인<br>• 자연어 처리<br>• 이미지 인식<br>• 지역 특화 데이터               |
-| 사용 사례     | 객체 탐지, 분할 및 이미지 캡셔닝 모델을 훈련하고 평가하는 데 사용됩니다.                                                                                                        | 차량 번호판 탐지 및 인식 모델 개발 및 테스트에 이상적입니다.                                               | 특히 한국어 또는 지역 특화 데이터가 필요한 다양한 AI 애플리케이션에 적합합니다.                                     |
 
+## 6. 모델 구조
+
+![KakaoTalk_20231221_173206463](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/09883330-4bb9-4651-9688-28010e4458c9)
+![KakaoTalk_20231208_151131324](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/9f171f80-f9a8-4ffc-8ff1-b17b0f7967dd)
+
+## 7. 참고 문헌
+
+- Bhat, Shariq Farooq, et al. “Zoedepth: Zero-Shot Transfer by Combining Relative and Metric Depth.” arXiv.Org, 23 Feb. 2023, arxiv.org/abs/2302.12288. 
+- Birkl, Reiner, et al. “Midas V3.1 -- a Model Zoo for Robust Monocular Relative Depth Estimation.” arXiv.Org, 26 July 2023, arxiv.org/abs/2307.14460. 
+- Godard, Clément, et al. “Digging into Self-Supervised Monocular Depth Estimation.” arXiv.Org, 17 Aug. 2019, arxiv.org/abs/1806.01260. 
+- He, Kaiming, et al. “Mask R-CNN.” arXiv.Org, 24 Jan. 2018, arxiv.org/abs/1703.06870. 
+- Lee, Seungyoo, et al. “Vehicle Distance Estimation from a Monocular Camera for Advanced Driver Assistance Systems.” MDPI, Multidisciplinary Digital Publishing Institute, 15 Dec. 2022, www.mdpi.com/2073-8994/14/12/2657. 
+- Lin, Tsung-Yi, et al. “Microsoft Coco: Common Objects in Context.” arXiv.Org, 21 Feb. 2015, arxiv.org/abs/1405.0312. 
+- Ranftl, René, et al. “Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-Shot Cross-Dataset Transfer.” arXiv.Org, 25 Aug. 2020, arxiv.org/abs/1907.01341. 
+- Reis, Dillon, et al. “Real-Time Flying Object Detection with Yolov8.” arXiv.Org, 17 May 2023, arxiv.org/abs/2305.09972. 
+- Song, Zhenbo, et al. “End-to-End Learning for Inter-Vehicle Distance and Relative Velocity Estimation in ADAS with a Monocular Camera.” arXiv.Org, 9 June 2020, arxiv.org/abs/2006.04082. 
