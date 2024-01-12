@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a4c999212e8dd57d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-01-12-메타코드 서포터즈.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md",
+                "file": "_posts/2024-01-12-메타코드 서포터즈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md",
+                "file": "_posts/2024-01-12-메타코드 서포터즈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-19-ZoeDepth.md"
+                "file": "_posts/2024-01-12-메타코드 서포터즈.md"
               }
             }
           },
@@ -205,10 +217,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c1be7c095ba5c49e",
+  "active": "a4c999212e8dd57d",
   "lastOpenFiles": [
-    "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-12-19-ZoeDepth.md",
+    "_posts/2024-01-12-메타코드 서포터즈.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-12-05-MiDas v3.md",
     "_posts/2023-10-29-차량 블랙박스 영상속 도로 교통 법규 위반 차량 감지.md",
     "_posts/2023-11-30-Transformers 실습.md",
@@ -233,7 +246,6 @@
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
     "_posts/2023-07-18-SeSAC-데이터 분석 기초-1일차.md",
-    "node_modules/read-pkg-up/node_modules/type-fest/readme.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
