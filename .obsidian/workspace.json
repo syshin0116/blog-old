@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d20026d00c1a6cd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-01-15-Github Action google-protobuf 오류.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-23-Docker.md",
+                "file": "_posts/2024-01-15-Github Action google-protobuf 오류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-23-Docker.md",
+                "file": "_posts/2024-01-15-Github Action google-protobuf 오류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-23-Docker.md"
+                "file": "_posts/2024-01-15-Github Action google-protobuf 오류.md"
               }
             }
           },
@@ -217,8 +229,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a4c999212e8dd57d",
+  "active": "d20026d00c1a6cd5",
   "lastOpenFiles": [
+    "_posts/2023-12-23-Docker.md",
+    "_posts/2024-01-15-Github Action google-protobuf 오류.md",
     "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2024-01-12-메타코드 서포터즈 후기.md",
     "_posts/2023-12-19-ZoeDepth.md",
@@ -239,13 +253,11 @@
     "_tabs/about.md",
     "_tabs/archives.md",
     "_tabs/categories.md",
-    "_posts/2023-12-23-Docker.md",
     "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
     "_posts/2023-08-08-프로젝트 소통역량 강화.md",
     "_posts/2023-08-02-자바의정석-2장-변수.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2023-08-02-SeSAC-파이썬 데이터 처리 프로그래밍-3일차.md",
-    "_posts/2023-07-18-SeSAC-데이터 분석 기초-1일차.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
