@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5e1fe48594cc215f",
+        "id": "25f2d102e1ed07c1",
         "type": "tabs",
         "children": [
           {
-            "id": "c75a59ff7629f61e",
+            "id": "c736054359e9ac13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-01-18-통계 기초의 모든것.md",
+                "file": "2024-01-22-데이스쿨 랭커 특강 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-01-18-통계 기초의 모든것.md",
+                "file": "2024-01-22-데이스쿨 랭커 특강 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-01-18-통계 기초의 모든것.md",
+                "file": "2024-01-22-데이스쿨 랭커 특강 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-01-18-통계 기초의 모든것.md"
+                "file": "2024-01-22-데이스쿨 랭커 특강 정리.md"
               }
             }
           },
@@ -170,8 +170,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c75a59ff7629f61e",
+  "active": "c736054359e9ac13",
   "lastOpenFiles": [
+    "2024-01-22-데이스쿨 랭커 특강 정리.md",
     "_posts/2024-01-18-통계 기초의 모든것.md",
     "_posts/2024-01-18-포트폴리오 내용 정리.md",
     "_posts/2023-11-19-Men in Black readme file.md",
@@ -198,7 +199,6 @@
     "_tabs/about.md",
     "_tabs/archives.md",
     "_tabs/categories.md",
-    "_posts/2023-08-09-파이썬 라이브러리를 활용한 데이터 분석-1.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
