@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281,
-    "collapsed": true
+    "width": 387.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -172,6 +171,11 @@
   },
   "active": "c736054359e9ac13",
   "lastOpenFiles": [
+    "assets/img/Pasted image 20240123073723.png",
+    "assets/img/번호판_인식_주차장_샘플 (1).mp4",
+    "assets/img/Pasted image 20240123071432.png",
+    "assets/img/Pasted image 20240123070536.png",
+    "assets/img/Pasted image 20240123070501.png",
     "2024-01-22-데이스쿨 랭커 특강 정리.md",
     "_posts/2024-01-18-통계 기초의 모든것.md",
     "_posts/2024-01-18-포트폴리오 내용 정리.md",
@@ -198,7 +202,6 @@
     "_posts/2023-11-30-빅분기-실기-2유형.md",
     "_tabs/about.md",
     "_tabs/archives.md",
-    "_tabs/categories.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
@@ -211,12 +214,8 @@
     "assets/img/한국어_대화_요약_발표자료.pdf",
     "assets/img/서울시 새로운 자전거도로 노선 제안.html alias",
     "assets/img/서울_시민데이터를_활용한_도시문제_해결_경진대회_7팀_발표자료.pptx alias",
-    "assets/img/sample_portfolio.pdf",
     "assets/portfolio/LazyEstate_뉴스기사_분석_streamlit.png",
     "assets/img/Untitled 12 1.png",
-    "assets/img/Untitled 13.png",
-    "assets/img/%EC%83%88%EC%8B%B9_3D 1.png",
-    "assets/img/%EC%83%88%EC%8B%B9_3D.png",
-    "assets/img/%EC%83%88%EC%8B%B9_%ED%94%BC%EC%B9%B4%EC%86%8C 1.png"
+    "assets/img/Untitled 13.png"
   ]
 }
