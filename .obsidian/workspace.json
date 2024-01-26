@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-01-24-맥북 M3 개발 세팅.md",
+                "file": "_drafts/2024-01-24-맥북 M3 개발 세팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-01-25-포텐데이 팀원 명단.md",
+                "file": "_posts/2024-01-18-통계 기초의 모든것.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-01-25-포텐데이 팀원 명단.md",
+                "file": "_posts/2024-01-18-통계 기초의 모든것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-01-25-포텐데이 팀원 명단.md",
+                "file": "_posts/2024-01-18-통계 기초의 모든것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-01-25-포텐데이 팀원 명단.md"
+                "file": "_posts/2024-01-18-통계 기초의 모든것.md"
               }
             }
           },
@@ -208,9 +208,11 @@
   },
   "active": "7d943d551e9eb739",
   "lastOpenFiles": [
+    "_drafts/2024-01-25-포텐데이 팀원 명단.md",
+    "_drafts/2024-01-24-맥북 M3 개발 세팅.md",
+    "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
+    "_drafts/2023-05-08-title.md",
     "_posts/2024-01-22-데이스쿨 랭커 특강 정리.md",
-    "_posts/2024-01-25-포텐데이 팀원 명단.md",
-    "2024-01-24-맥북 M3 개발 세팅.md",
     "assets/img/Pasted image 20240123073723.png",
     "assets/img/번호판_인식_주차장_샘플 (1).mp4",
     "assets/img/Pasted image 20240123071432.png",
@@ -238,8 +240,6 @@
     "_posts/2023-12-03-Monocular Depth Estimation.md",
     "README.md",
     "_posts/2022-08-01-_lvl1_로또의 최고 순위와 최저 순위.md",
-    "_posts/2023-11-30-빅분기-실기-2유형.md",
-    "_tabs/about.md",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
     "assets/img/Traffic_Light_Detection.gif",
