@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-01-28-포텐데이 회고.md",
+                "file": "_drafts/2024-01-24-맥북 M3 개발 세팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-01-28-포텐데이 회고.md",
+                "file": "_drafts/2024-01-24-맥북 M3 개발 세팅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-01-28-포텐데이 회고.md",
+                "file": "_drafts/2024-01-24-맥북 M3 개발 세팅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-01-28-포텐데이 회고.md"
+                "file": "_drafts/2024-01-24-맥북 M3 개발 세팅.md"
               }
             }
           },
@@ -220,8 +220,8 @@
   },
   "active": "34e676bcb57bf802",
   "lastOpenFiles": [
-    "_posts/2024-01-22-데이스쿨 랭커 특강 정리.md",
     "_posts/2024-01-28-포텐데이 회고.md",
+    "_posts/2024-01-22-데이스쿨 랭커 특강 정리.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2023-06-25-PPV and PARA.md",
     "_posts/2024-01-18-통계 기초의 모든것.md",
