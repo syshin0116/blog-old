@@ -26,3 +26,7 @@ Agenda: Practical Oriented
 	- LLM's -- LLM's Amd Chatmodels
 	- PRomt Templates
 	- Output Parser(PromptTemplate + LLM + OutputParser)
+
+
+requirements.txt에 ipykernel을 추가하지 않는 이유:
+	개발 단계에서만 필요하지 deploy시엔 필요하지 않음
