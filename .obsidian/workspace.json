@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "33a1aed505fb2fd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -130,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281,
-    "collapsed": true
+    "width": 387.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -147,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-02-02-LangChain.md",
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-02-02-LangChain.md",
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-02-02-LangChain.md"
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md"
               }
             }
           },
@@ -231,10 +242,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "83049defa1a47668",
+  "active": "33a1aed505fb2fd1",
   "lastOpenFiles": [
-    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2024-02-02-LangChain.md",
+    "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
+    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_drafts/2024-01-24-맥북 M3 개발 세팅.md",
     "_posts/2024-01-28-포텐데이 회고.md",
     "_posts/2024-01-22-데이스쿨 랭커 특강 정리.md",
@@ -263,7 +275,6 @@
     "_posts/2024-01-05-Hugo 블로그 생성 연습.md",
     "_posts/2024-01-03-Git Blog SSG 비교.md",
     "_posts/2024-01-01-깃 블로그 생성.md",
-    "_posts/2023-11-20-딥러닝 영상처리2.md",
     "_posts/2023-11-20-딥러닝 영상처리2.md.sb-6cc10674-Urgng9",
     "assets/img/번호판_인식_주차장_샘플.gif",
     "assets/img/번호판_인식_주차장.gif",
