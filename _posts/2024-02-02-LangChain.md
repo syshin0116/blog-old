@@ -30,3 +30,14 @@ Agenda: Practical Oriented
 
 requirements.txt에 ipykernel을 추가하지 않는 이유:
 	개발 단계에서만 필요하지 deploy시엔 필요하지 않음
+
+
+
+
+### PDF Query with Langchain and Cassandra DB
+### Apache Cassandra(Astra DB)
+- open source No-SQL database 
+- scalability and high availability
+
+#### DATAX
+- tool used to create Cassandra DB
