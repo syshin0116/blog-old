@@ -32,8 +32,6 @@ requirements.txt에 ipykernel을 추가하지 않는 이유:
 	개발 단계에서만 필요하지 deploy시엔 필요하지 않음
 
 
-
-
 ### PDF Query with Langchain and Cassandra DB
 ### Apache Cassandra(Astra DB)
 - open source No-SQL database 
@@ -41,3 +39,8 @@ requirements.txt에 ipykernel을 추가하지 않는 이유:
 
 #### DATAX
 - tool used to create Cassandra DB
+
+
+#### Vector Search
+- enhances machine learning models by allowing similarity comparisons of embeddings
+- a capability of Astra DB
