@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-02-02-LangChain.md",
+                "file": "_posts/2023-11-19-Men in Black readme file.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-02-02-LangChain.md",
+                "file": "_posts/2023-11-19-Men in Black readme file.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-02-02-LangChain.md",
+                "file": "_posts/2023-11-19-Men in Black readme file.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-02-02-LangChain.md"
+                "file": "_posts/2023-11-19-Men in Black readme file.md"
               }
             }
           },
@@ -244,8 +244,8 @@
   },
   "active": "83049defa1a47668",
   "lastOpenFiles": [
-    "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
     "_posts/2024-02-02-LangChain.md",
+    "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_drafts/2024-01-24-맥북 M3 개발 세팅.md",
     "_posts/2024-01-28-포텐데이 회고.md",

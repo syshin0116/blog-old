@@ -246,6 +246,10 @@ Image sizes: 640 train, 640 val
 
 ![](https://i.imgur.com/1B8dgOW.png)
 
+![](https://i.imgur.com/Ml5ZYbH.png)
+
+![](https://i.imgur.com/p7nY8Mx.png)
+
 ## 3. OCR(Optical Character Recognition)
 
 Model: EasyOCR
@@ -384,7 +388,24 @@ Canny Edge Detection:
 ![KakaoTalk_20231221_173206463](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/09883330-4bb9-4651-9688-28010e4458c9)
 ![KakaoTalk_20231208_151131324](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/140053617/9f171f80-f9a8-4ffc-8ff1-b17b0f7967dd)
 
-## 7. 참고 문헌
+## 7. 결과
+
+### Line Violation Detection
+![](https://i.imgur.com/Y0zF3xK.gif)
+
+### Traffic Light Recognition
+![](https://i.imgur.com/l8Pfqdw.gif)
+
+### License Plate Recognition
+![](https://i.imgur.com/hGnGJXv.gif)
+![번호판_result](https://github.com/SeSAC-Men-in-Black/Men-in-Black/assets/99532836/78355fa4-4104-4a43-a21f-9ab55822a435)
+
+
+### Monocular Depth Estimation
+![](https://i.imgur.com/tZfKRJr.gif)
+
+
+## 8. 참고 문헌
 
 - Bhat, Shariq Farooq, et al. “Zoedepth: Zero-Shot Transfer by Combining Relative and Metric Depth.” arXiv.Org, 23 Feb. 2023, arxiv.org/abs/2302.12288. 
 - Birkl, Reiner, et al. “Midas V3.1 -- a Model Zoo for Robust Monocular Relative Depth Estimation.” arXiv.Org, 26 July 2023, arxiv.org/abs/2307.14460. 
