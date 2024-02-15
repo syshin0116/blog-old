@@ -416,3 +416,4 @@ Canny Edge Detection:
 - Ranftl, René, et al. “Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-Shot Cross-Dataset Transfer.” arXiv.Org, 25 Aug. 2020, arxiv.org/abs/1907.01341. 
 - Reis, Dillon, et al. “Real-Time Flying Object Detection with Yolov8.” arXiv.Org, 17 May 2023, arxiv.org/abs/2305.09972. 
 - Song, Zhenbo, et al. “End-to-End Learning for Inter-Vehicle Distance and Relative Velocity Estimation in ADAS with a Monocular Camera.” arXiv.Org, 9 June 2020, arxiv.org/abs/2006.04082. 
+

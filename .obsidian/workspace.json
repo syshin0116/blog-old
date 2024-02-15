@@ -227,8 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,14 +243,16 @@
   },
   "active": "83049defa1a47668",
   "lastOpenFiles": [
-    "_posts/2024-02-02-LangChain.md",
+    "_posts/2024-01-18-포트폴리오 내용 정리.md",
+    "_posts/2024-01-18-통계 기초의 모든것.md",
     "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
+    "_posts/2024-02-02-LangChain.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_drafts/2024-01-24-맥북 M3 개발 세팅.md",
     "_posts/2024-01-28-포텐데이 회고.md",
     "_posts/2024-01-22-데이스쿨 랭커 특강 정리.md",
     "_posts/2023-06-25-PPV and PARA.md",
-    "_posts/2024-01-18-통계 기초의 모든것.md",
     "_drafts/2024-01-25-포텐데이 팀원 명단.md",
     "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
     "_drafts/2023-05-08-title.md",
@@ -260,8 +261,6 @@
     "assets/img/Pasted image 20240123071432.png",
     "assets/img/Pasted image 20240123070536.png",
     "assets/img/Pasted image 20240123070501.png",
-    "_posts/2024-01-18-포트폴리오 내용 정리.md",
-    "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-11-18-포트폴리오_draft.md",
     "_posts/2024-01-17-_lvl2_뒤에 있는 큰 수 찾기.md",
     "_posts/2024-01-15-Github Action google-protobuf 오류.md",
