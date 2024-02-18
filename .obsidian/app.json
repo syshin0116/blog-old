@@ -8,8 +8,8 @@
   "strictLineBreaks": true,
   "pdfExportSettings": {
     "includeName": true,
-    "pageSize": "Tabloid",
-    "landscape": true,
+    "pageSize": "A4",
+    "landscape": false,
     "margin": "1",
     "downscalePercent": 100
   }
