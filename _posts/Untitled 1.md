@@ -1,0 +1,53 @@
+![](https://i.imgur.com/cpXoCYf.png)
+
+
+![](https://i.imgur.com/5QCtzpx.png)
+
+![](https://i.imgur.com/2LARpuo.png)
+
+![](https://i.imgur.com/o3tpqgX.png)
+
+
+## Pretrian을 더 시켜야 하는 경우
+
+![](https://i.imgur.com/QSUEIFh.png)
+
+![](https://i.imgur.com/0EkqSvi.png)
+
++ 한국어 추가 학습
+
+
+![](https://i.imgur.com/n7Cz5UG.png)
+
+![](https://i.imgur.com/jaWHNiN.png)
+
+![](https://i.imgur.com/oEuWV4a.png)
+
+
+### RLHF (Reinforcement Learning with Human Feedback)
+![](https://i.imgur.com/Bvx5WOO.png)
+
+리워드 모델을 통해 평가
+- ex) 이 답변이 다른 답변보다 좋은 답변일 확률이 0.2
+
+#### 두가지 문제접
+- Reward Model 학습이 어려움
+- 강화학습을 이용했을대 생기는 불안정성
+
+
+### DPO(Direct Preference Optimization)
+![](https://i.imgur.com/9CDIYGK.png)
+
+#### RLHF에서 보완된 방식
+- Reward Model을 없앰
+- 강화학습 불안전성 완화
+
+### 프롬프트 엔지니어링
+
+![](https://i.imgur.com/21OR2oL.png)
+
+
+![](https://i.imgur.com/0DICcUT.png)
+
+![](https://i.imgur.com/Bex59KB.png)
+

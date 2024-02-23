@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-02-16-메타코드-ADSP-1과목.md",
+                "file": "_posts/Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281,
-    "collapsed": true
+    "width": 387.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-02-16-메타코드-ADSP-1과목.md",
+                "file": "_posts/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-02-16-메타코드-ADSP-1과목.md",
+                "file": "_posts/Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-02-16-메타코드-ADSP-1과목.md"
+                "file": "_posts/Untitled 1.md"
               }
             }
           },
@@ -197,10 +196,12 @@
   },
   "active": "fca14c234b0134b4",
   "lastOpenFiles": [
+    "_posts/2024-02-16-메타코드-ADSP-1과목.md",
+    "_posts/().md",
+    "_posts/Untitled 1.md",
+    "_posts/Untitled.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/2024-02-20-메타코드-ADSP-2과목.md",
-    "_posts/Untitled.md",
-    "_posts/2024-02-16-메타코드-ADSP-1과목.md",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
     "_site/posts/메타코드-ADSP-1과목/index.html",
@@ -240,7 +241,6 @@
     "_posts/2024-01-15-Github Action google-protobuf 오류.md",
     "_posts/2023-12-23-Docker.md",
     "_posts/2024-01-12-메타코드 서포터즈 후기.md",
-    "_posts/2023-12-19-ZoeDepth.md",
-    "_posts/2023-12-05-MiDas v3.md"
+    "_posts/2023-12-19-ZoeDepth.md"
   ]
 }
