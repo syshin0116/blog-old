@@ -44,3 +44,68 @@ requirements.txt에 ipykernel을 추가하지 않는 이유:
 #### Vector Search
 - enhances machine learning models by allowing similarity comparisons of embeddings
 - a capability of Astra DB
+
+
+
+## Agenda(Generative AI)
+
+1. About LLama 2
+2. Research Paper of LLama 2
+3. Apply and download the llama2 model
+4. Huggingface
+5. End to End Project(Blog Generation LLM App)
+
+
+### LLama2
+
+
+![](https://i.imgur.com/S4Ysuim.png)
+
+
+#### research paper:
+
+https://arxiv.org/pdf/2307.09288.pdf
+
+- Training Details
+	- Adopted most pretraining settings and model architecture from Lamma 1
+	- Standard transformer architecture
+	- pre-normalization using RMSNorm
+	- SwiGLU activation function
+	- Hyperparameters
+		- AdamW optimizer
+		- cosine learning rate schedule, warmup 2000 steps
+		- decay final learning rate down to 10% of peark learning rate
+		- weight decay of 0.1
+		- gradient clipping of 1.0
+
+- Comparison to Lamma1: 
+	- increased context length
+	- GQA: grouped-query attention
+
+![](https://i.imgur.com/WmosUsb.png)
+
+
+- Training Hardware & Carbon Footprint
+	- Meta's Research Super Cluster & internal production clusters
+		- **NVIDIA A100**s for both clusters
+
+![](https://i.imgur.com/wquoJ3D.png)
+
+
+- Fine-tuning
+	- instruction tuning & RLHF(Reinforced Learning and Human Feedback)
+	- Supervised Fine-Tuning(SFT)
+
+![](https://i.imgur.com/uFChR4F.png)
+
+
+- Reward Modeling
+
+
+
+### Blog Generation
+
+
+- langchain.llms.CTransformers doc
+	- https://python.langchain.com/docs/integrations/providers/ctransformers
+- 

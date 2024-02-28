@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-02-27-맥북 초기 세팅.md",
+                "file": "_posts/2024-02-02-LangChain.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281
+    "width": 387.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-02-27-맥북 초기 세팅.md",
+                "file": "_posts/2024-02-02-LangChain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-02-27-맥북 초기 세팅.md",
+                "file": "_posts/2024-02-02-LangChain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-02-27-맥북 초기 세팅.md"
+                "file": "_posts/2024-02-02-LangChain.md"
               }
             }
           },
@@ -191,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 332.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,9 +209,11 @@
   },
   "active": "65116f86b48ea874",
   "lastOpenFiles": [
+    "_drafts/새싹 매칭데이 0915.md",
     "_drafts/2024-02-26-맥북 개발 세팅.md",
-    "_posts/2024-02-27-맥북 초기 세팅.md",
+    "_drafts/2024-01-25-포텐데이 팀원 명단.md",
     "_drafts/AWS RDS 접속 방법.md",
+    "_posts/2024-02-27-맥북 초기 세팅.md",
     "_posts/2024-02-20-메타코드-ADSP-2과목.md",
     "_posts/2024-02-16-메타코드-ADSP-1과목.md",
     "_posts/2024-02-24-LLM 강의 정리.md",
@@ -246,12 +250,10 @@
     "_posts/2024-01-28-포텐데이 회고.md",
     "_posts/2024-01-22-데이스쿨 랭커 특강 정리.md",
     "_posts/2023-06-25-PPV and PARA.md",
-    "_drafts/2024-01-25-포텐데이 팀원 명단.md",
     "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
     "_drafts/2023-05-08-title.md",
     "_posts/2023-11-18-포트폴리오_draft.md",
     "_posts/2024-01-17-_lvl2_뒤에 있는 큰 수 찾기.md",
-    "_posts/2024-01-15-Github Action google-protobuf 오류.md",
-    "_posts/2023-12-23-Docker.md"
+    "_posts/2024-01-15-Github Action google-protobuf 오류.md"
   ]
 }
