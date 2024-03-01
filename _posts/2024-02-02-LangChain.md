@@ -108,4 +108,5 @@ https://arxiv.org/pdf/2307.09288.pdf
 
 - langchain.llms.CTransformers doc
 	- https://python.langchain.com/docs/integrations/providers/ctransformers
-- 
+
+![](https://i.imgur.com/HqZce6q.png)
