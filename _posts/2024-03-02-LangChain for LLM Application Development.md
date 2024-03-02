@@ -8,11 +8,11 @@ categories:
 tags: 
 math: true
 ---
-## LangChain for LLM Application Development
+# LangChain for LLM Application Development
 
 https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/
 
-### Components
+## Components
 
 Models
 - LLMs: 20+ integrations
@@ -43,7 +43,7 @@ Agents
 - Agents armed with specific tools for a specific application
 
 
-### Langchain: Models, Prompts, and Output Parsers
+## Langchain: Models, Prompts, and Output Parsers
 
 Why use prompt templates?
 - allow reuse good long detailed prompts 
@@ -56,12 +56,9 @@ Why use prompt templates?
 ### Code
 #### Chat API : OpenAI
 
-  
 
-Let's start with a direct API calls to OpenAI.
+	Let's start with a direct API calls to OpenAI.
 
-  
-  
 
 ```python
 
@@ -95,11 +92,8 @@ get_completion("What is 1+1?")
 ```
 
   
-  
-  
-  
 
-'As an AI language model, I can tell you that the answer to 1+1 is 2.'
+	'As an AI language model, I can tell you that the answer to 1+1 is 2.'
 
   
   
@@ -132,7 +126,7 @@ right now, matey!
 
   
 
-Let's start with a direct API calls to OpenAI.
+	Let's start with a direct API calls to OpenAI.
 
   
   
@@ -173,7 +167,7 @@ get_completion("What is 1+1?")
   
   
 
-'As an AI language model, I can tell you that the answer to 1+1 is 2.'
+	'As an AI language model, I can tell you that the answer to 1+1 is 2.'
 
   
   
@@ -258,7 +252,7 @@ right now, matey!
 
   
 
-Let's start with defining how we would like the LLM output to look like:
+	Let's start with defining how we would like the LLM output to look like:
 
   
   
@@ -282,7 +276,7 @@ Let's start with defining how we would like the LLM output to look like:
   
   
 
-{'gift': False, 'delivery_days': 5, 'price_value': 'pretty affordable!'}
+	{'gift': False, 'delivery_days': 5, 'price_value': 'pretty affordable!'}
 
   
   
@@ -372,7 +366,7 @@ print(prompt_template)
 
   
 
-input_variables=['text'] output_parser=None partial_variables={} messages=[HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['text'], output_parser=None, partial_variables={}, template='For the following text, extract the following information:\n\ngift: Was the item purchased as a gift for someone else? Answer True if yes, False if not or unknown.\n\ndelivery_days: How many days did it take for the product to arrive? If this information is not found, output -1.\n\nprice_value: Extract any sentences about the value or price,and output them as a comma separated Python list.\n\nFormat the output as JSON with the following keys:\ngift\ndelivery_days\nprice_value\n\ntext: {text}\n', template_format='f-string', validate_template=True), additional_kwargs={})]
+	input_variables=['text'] output_parser=None partial_variables={} messages=[HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['text'], output_parser=None, partial_variables={}, template='For the following text, extract the following information:\n\ngift: Was the item purchased as a gift for someone else? Answer True if yes, False if not or unknown.\n\ndelivery_days: How many days did it take for the product to arrive? If this information is not found, output -1.\n\nprice_value: Extract any sentences about the value or price,and output them as a comma separated Python list.\n\nFormat the output as JSON with the following keys:\ngift\ndelivery_days\nprice_value\n\ntext: {text}\n', template_format='f-string', validate_template=True), additional_kwargs={})]
 
   
   
@@ -392,15 +386,15 @@ print(response.content)
 
   
 
-{
-
-"gift": true,
-
-"delivery_days": 2,
-
-"price_value": ["It's slightly more expensive than the other leaf blowers out there, but I think it's worth it for the extra features."]
-
-}
+	{
+	
+	"gift": true,
+	
+	"delivery_days": 2,
+	
+	"price_value": ["It's slightly more expensive than the other leaf blowers out there, but I think it's worth it for the extra features."]
+	
+	}
 
   
   
@@ -417,7 +411,7 @@ type(response.content)
   
   
 
-str
+	str
 
   
   
@@ -443,24 +437,24 @@ response.content.get('gift')
 
   
 
-AttributeError Traceback (most recent call last)
-
-  
-
-Cell In[35], line 4
-
-1 # You will get an error by running this line of code
-
-2 # because'gift' is not a dictionary
-
-3 # 'gift' is a string
-
-----> 4 response.content.get('gift')
-
-  
-  
-
-AttributeError: 'str' object has no attribute 'get'
+	AttributeError Traceback (most recent call last)
+	
+	  
+	
+	Cell In[35], line 4
+	
+	1 # You will get an error by running this line of code
+	
+	2 # because'gift' is not a dictionary
+	
+	3 # 'gift' is a string
+	
+	----> 4 response.content.get('gift')
+	
+	  
+	  
+	
+	AttributeError: 'str' object has no attribute 'get'
 
   
   
@@ -630,17 +624,17 @@ print(messages[0].content)
 
   
 
-For the following text, extract the following information:
-
-gift: Was the item purchased as a gift for someone else? Answer True if yes, False if not or unknown.
-
-delivery_days: How many days did it take for the productto arrive? If this information is not found, output -1.
-
-price_value: Extract any sentences about the value or price,and output them as a comma separated Python list.
-
-text: This leaf blower is pretty amazing. It has four settings:candle blower, gentle breeze, windy city, and tornado. It arrived in two days, just in time for my wife's anniversary present. I think my wife liked it so much she was speechless. So far I've been the only one using it, and I've been using it every other morning to clear the leaves on our lawn. It's slightly more expensive than the other leaf blowers out there, but I think it's worth it for the extra features.
-
-The output should be a markdown code snippet formatted in the following schema, including the leading and trailing "\`\`\`json" and "\`\`\`":
+	For the following text, extract the following information:
+	
+	gift: Was the item purchased as a gift for someone else? Answer True if yes, False if not or unknown.
+	
+	delivery_days: How many days did it take for the productto arrive? If this information is not found, output -1.
+	
+	price_value: Extract any sentences about the value or price,and output them as a comma separated Python list.
+	
+	text: This leaf blower is pretty amazing. It has four settings:candle blower, gentle breeze, windy city, and tornado. It arrived in two days, just in time for my wife's anniversary present. I think my wife liked it so much she was speechless. So far I've been the only one using it, and I've been using it every other morning to clear the leaves on our lawn. It's slightly more expensive than the other leaf blowers out there, but I think it's worth it for the extra features.
+	
+	The output should be a markdown code snippet formatted in the following schema, including the leading and trailing "\`\`\`json" and "\`\`\`":
 
 ```json
 
@@ -715,11 +709,11 @@ output_dict
   
   
 
-{'gift': True,
-
-'delivery_days': '2',
-
-'price_value': ["It's slightly more expensive than the other leaf blowers out there, but I think it's worth it for the extra features."]}
+	{'gift': True,
+	
+	'delivery_days': '2',
+	
+	'price_value': ["It's slightly more expensive than the other leaf blowers out there, but I think it's worth it for the extra features."]}
 
   
   
