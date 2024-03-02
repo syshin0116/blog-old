@@ -258,27 +258,3 @@ st.write(getLlama2Response(llm, input_text, no_words, blog_style))
 - **추천 시스템**: 사용자 선호도나 행동을 벡터로 표현해 개인화된 추천 생성
 
 
-## LangChain for LLM Application Development
-
-https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/
-
-### Components
-
-Models
-- LLMs: 20+ integrations
-- Chat Models
-- Text Embedding Models: 10+ integrations
-
-Prompts
-- Prompt Templates
-- Output Parsers: 5+ implementations
-- Retry/fixing logic
-- Example Selectors: 5+ implementations
-
-Indexes
-- Document Loaders: 50+ implementations
-- Text Splitters: 10+ implementations
-- Vector stores: 10+ integrations
-- Retrievers: 5+ integrations/implementations
-
-
