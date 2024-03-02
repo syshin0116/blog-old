@@ -109,7 +109,11 @@ https://arxiv.org/pdf/2307.09288.pdf
 - langchain.llms.CTransformers doc
 	- https://python.langchain.com/docs/integrations/providers/ctransformers
 
-![](https://i.imgur.com/HqZce6q.png)
+![](https://i.imgur.com/yIlHym2.png)
+
+![](https://i.imgur.com/ogrxVs9.png)
+
+
 ```python
 
 import streamlit as st
@@ -224,4 +228,57 @@ if submit:
 st.write(getLlama2Response(llm, input_text, no_words, blog_style))
 ```
 
-![](https://i.imgur.com/VxnDetd.png)
+
+
+### LLM APPS
+
+1. Load pdf
+2. Convert to text chunks
+3. Use OpenAI Embeddings to convert to vectors
+4. Store vectors to search DB(Pincecone)
+5. When User Queries inputs, apply similiary search to get result
+
+
+![](https://i.imgur.com/V0cMx9u.png)
+
+
+![](https://i.imgur.com/pSEh6nC.png)
+#### Pinecone이란?
+
+- **관리형 벡터 검색 서비스**: 머신러닝 모델이 만들어낸 고차원 벡터를 저장, 벡터 간의 유사성을 기반으로 검색할 수 있음
+- **고성능 & 유사성 검색 지원**: 수백만 벡터를 몇 밀리초 안에 검색. 유클리드, 코사인 유사도 등 다양한 측정 기준 제공
+- **확장성**: 클라우드 기반으로 사용량에 따라 자동 스케일링
+- **보안 강화**: 데이터 보호 및 프라이버시에 초점
+- **간편한 API**: 쉽게 벡터 검색 기능을 앱에 통합할 수 있는 사용자 친화적 API
+
+#### 사용 사례
+
+- **자연어 처리**: 문서, 질문-답변, 기사 등의 유사성 검색에 활용
+- **이미지 인식 및 검색**: 이미지를 벡터로 변환해 유사 이미지 검색 가능
+- **추천 시스템**: 사용자 선호도나 행동을 벡터로 표현해 개인화된 추천 생성
+
+
+## LangChain for LLM Application Development
+
+https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/
+
+### Components
+
+Models
+- LLMs: 20+ integrations
+- Chat Models
+- Text Embedding Models: 10+ integrations
+
+Prompts
+- Prompt Templates
+- Output Parsers: 5+ implementations
+- Retry/fixing logic
+- Example Selectors: 5+ implementations
+
+Indexes
+- Document Loaders: 50+ implementations
+- Text Splitters: 10+ implementations
+- Vector stores: 10+ integrations
+- Retrievers: 5+ integrations/implementations
+
+
