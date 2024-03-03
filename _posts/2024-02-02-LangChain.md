@@ -3,8 +3,8 @@ layout: post
 title: LangChain
 date: 2024-02-02 16:20 +0900
 categories:
-  - ETC
-  - Tech
+  - Deep-Learning
+  - LangChain
 tags: 
 math: true
 ---

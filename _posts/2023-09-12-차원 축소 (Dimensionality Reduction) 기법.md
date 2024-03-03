@@ -4,8 +4,8 @@ title: 차원 축소 (Dimensionality Reduction) 기법
 date: 2023-09-12 15:59 +0900
 categories:
   - Deep-Learning
-  - Tech
-tags: []
+  - 기법
+tags: 
 math: true
 ---
 
