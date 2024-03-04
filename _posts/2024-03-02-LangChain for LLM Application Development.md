@@ -2781,7 +2781,7 @@ agent("What is the 25% of 300?")
 > 	Entering new AgentExecutor chain...
 	Thought: We need to calculate 25% of 300, which means we need to multiply 300 by 0.25.
 	
-	Action:
+	Action:\
 	```
 	{
 	  "action": "Calculator",
