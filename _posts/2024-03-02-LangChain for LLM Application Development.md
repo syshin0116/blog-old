@@ -904,19 +904,19 @@ conversation.predict(input="Hi, my name is Andrew")
 
   
 
-	[1m> Entering new ConversationChain chain...[0m
+	[1m> Entering new ConversationChain chain...[0m
 	
 	Prompt after formatting:
 	
-	[32;1m[1;3mThe following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.
+	[32;1m[1;3mThe following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.
 	
 	Current conversation:
 	
 	Human: Hi, my name is Andrew
 	
-	AI:[0m
+	AI:[0m
 	
-	[1m> Finished chain.[0m
+	[1m> Finished chain.[0m
 
   
 
@@ -933,11 +933,11 @@ conversation.predict(input="What is 1+1?")
 
   
 	
-	[1m> Entering new ConversationChain chain...[0m
+	[1m> Entering new ConversationChain chain...[0m
 	
 	Prompt after formatting:
 	
-	[32;1m[1;3mThe following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.
+	[32;1m[1;3mThe following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.
 	
 	Current conversation:
 	
@@ -947,9 +947,9 @@ conversation.predict(input="What is 1+1?")
 	
 	Human: What is 1+1?
 	
-	AI:[0m
+	AI:[0m
 	
-	[1m> Finished chain.[0m
+	[1m> Finished chain.[0m
 	
 	  
 	  
@@ -970,11 +970,11 @@ conversation.predict(input="What is my name?")
 
   
 	
-	[1m> Entering new ConversationChain chain...[0m
+	[1m> Entering new ConversationChain chain...[0m
 	
 	Prompt after formatting:
 	
-	[32;1m[1;3mThe following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.
+	[32;1m[1;3mThe following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.
 	
 	Current conversation:
 	
@@ -988,9 +988,9 @@ conversation.predict(input="What is my name?")
 	
 	Human: What is my name?
 	
-	AI:[0m
+	AI:[0m
 	
-	[1m> Finished chain.[0m
+	[1m> Finished chain.[0m
 	
 	  
 	  
@@ -1331,11 +1331,11 @@ conversation.predict(input="What would be a good demo to show?")
 
   
 
-	[1m> Entering new ConversationChain chain...[0m
+	[1m> Entering new ConversationChain chain...[0m
 	
 	Prompt after formatting:
 	
-	[32;1m[1;3mThe following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.
+	[32;1m[1;3mThe following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.
 	
 	Current conversation:
 	
@@ -1343,9 +1343,9 @@ conversation.predict(input="What would be a good demo to show?")
 	
 	Human: What would be a good demo to show?
 	
-	AI:[0m
+	AI:[0m
 	
-	[1m> Finished chain.[0m
+	[1m> Finished chain.[0m
 	
 	  
 	  
@@ -2159,9 +2159,9 @@ response = qa_stuff.run(query)
 
   
 
-[1m> Entering new RetrievalQA chain...[0m
+[1m> Entering new RetrievalQA chain...[0m
 
-[1m> Finished chain.[0m
+[1m> Finished chain.[0m
 
   
   
