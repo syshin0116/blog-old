@@ -16,31 +16,10 @@ tag test
 
 #tagtest
 
-OBsidian notion backlink test
-[2024-03-09-Obsidian to Notion 자동화](_posts/2024-03-09-Obsidian%20to%20Notion%20자동화.md)
 
+처음부터 테스트
 
-[2024-03-09-Obsidian to Notion 자동화](_posts/2024-03-09-Obsidian%20to%20Notion%20자동화.md)
+Internal Link test
 
-
-[2024-03-09-Github Publisher](_posts/2024-03-09-Github%20Publisher.md)
-
-langchain
-
-[2024-02-02-LangChain](2024-02-02-LangChain.md)
-
-langgraph
-[2024-03-06-LangGraph](_posts/2024-03-06-LangGraph.md)
-
-
-linkebreak test-firstline
-second line
-
-space between lines
-
-changes
-
-https://python.langchain.com/docs/langgraph
-
-[https://python.langchain.com/docs/langgraph](https://python.langchain.com/docs/langgraph)
+[[_posts/2024-03-09-Github Publisher|2024-03-09-Github Publisher]]
 

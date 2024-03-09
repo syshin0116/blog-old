@@ -2,7 +2,7 @@
   "attachmentFolderPath": "assets/img",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "newLinkFormat": "absolute",
   "spellcheck": false,
   "strictLineBreaks": true,
