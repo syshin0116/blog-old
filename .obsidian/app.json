@@ -5,7 +5,7 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "absolute",
   "spellcheck": false,
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",

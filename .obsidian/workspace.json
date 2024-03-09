@@ -4,83 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "25f2d102e1ed07c1",
+        "id": "4ad142f42d79d463",
         "type": "tabs",
         "children": [
           {
-            "id": "36cffed3689056b2",
+            "id": "ec546dab1c330027",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+                "file": "_posts/2024-03-09-Github Publisher.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "29c5b45937152abf",
+            "id": "851d195aa2408101",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-02-20-메타코드-ADSP-2과목.md",
+                "file": "_posts/날짜없는 노트 테스트.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fca14c234b0134b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-02-LangChain for LLM Application Development.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6a43a97cdcef9b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b400111bab99b2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25c9fa38d10fc0a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-06-LangGraph.md",
-                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
+                "file": "_posts/날짜없는 노트 테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
+                "file": "_posts/날짜없는 노트 테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md"
+                "file": "_posts/날짜없는 노트 테스트.md"
               }
             }
           },
@@ -224,18 +178,32 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "3b400111bab99b2a",
+  "active": "851d195aa2408101",
   "lastOpenFiles": [
-    "_posts/Untitled.md",
-    "_posts/2024-03-09-Obsidian to Notion 자동화.md",
+    "_posts/2024-03-09-Github Publisher.md",
+    "_posts/날짜없는 노트 테스트.md",
     "_posts/2024-03-06-LangGraph.md",
-    "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+    "_posts/2023-08-03-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
+    "_posts/2024-03-09-Obsidian to Notion 자동화.md",
+    "().md",
+    "github-publisher/2024-03-09-Github Publisher.md",
+    "github-publisher",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "_posts/2024-03-02-LangChain for LLM Application Development.md",
+    "_posts/2024-02-20-메타코드-ADSP-2과목.md",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+    "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+    "_posts/notion test1.md",
+    "_posts/notion test with tags.md",
+    "_posts/notion test with links.md",
+    "obsidian-notion link.md",
+    "obsidian-notion test.md",
+    "README.md",
+    "_posts/2024-01-18-포트폴리오 내용 정리.md",
+    "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
     "_posts/2024-02-24-LLM 강의 정리.md",
     "_posts/2024-02-02-LangChain.md",
@@ -243,26 +211,11 @@
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2023-11-09-Docker-실습.md",
     "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
-    "_posts/2023-08-29-SeSAC-혼공 머신러닝+딥러닝-Chap7. 딥러닝.md",
-    "_posts/2023-08-27-기술 정리.md",
-    "_posts/2023-05-08-Docker와 VM 차이.md",
-    "_posts/2022-08-19-_lvl2__2022 KAKAO TECH INTERNSHIP_두 큐 합 같게 만들기.md",
-    "_posts/2023-07-21-정처기-3과목-운영체제.md",
-    "_posts/2023-07-19-SeSAC-정처기-2과목-데이터베이스 구축.md",
-    "_posts/2023-07-16-화면 설계.md",
-    "_posts/2023-07-16-서버 프로그램 구현.md",
-    "_posts/2023-07-11-소프트웨어 설계.md",
-    "_posts/2023-07-08-프로젝트 계획 및 분석.md",
-    "_posts/2023-07-05-소프트웨어 공학.md",
-    "_posts/2023-07-05-소프트웨어 개발 방법론.md",
-    "_posts/2024-01-18-통계 기초의 모든것.md",
-    "_posts/2024-01-22-데이스쿨 랭커 특강 정리.md",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
     "_site/posts/메타코드-ADSP-1과목/index.html",
     "_site/posts/메타코드-ADSP-1과목",
     "_site/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
-    "2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "_site/assets/img/favicons/safari-pinned-tab.svg",
     "_site/assets/img/favicons/android-chrome-256x256.png",
     "assets/img/favicons/safari-pinned-tab.svg",
@@ -275,7 +228,6 @@
     "assets/img/favicons/IMG_6255_Original.jpg",
     "_site/posts/메타코드-ADSP/index.html",
     "_site/posts/메타코드-ADSP",
-    "_site/posts/AI-개발자-채용-AI-관련-지식-필기/index.html",
-    "_site/posts/AI-개발자-채용-AI-관련-지식-필기"
+    "_site/posts/AI-개발자-채용-AI-관련-지식-필기/index.html"
   ]
 }
