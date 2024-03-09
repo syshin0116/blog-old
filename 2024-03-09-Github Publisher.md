@@ -11,7 +11,7 @@ tags:
 math: true
 share: "true"
 ---
-
+£
 ## Intro: 
 
 tag test
@@ -23,3 +23,9 @@ OBsidian notion backlink test
 
 Langchain wikidoc link test
 [2024-03-02-LangChain for LLM Application Development](./2024-03-02-LangChain%2520for%2520LLM%2520Application%2520Development.md#)
+
+
+[2024-02-02-LangChain](./2024-02-02-LangChain.md#)
+
+
+[Untitled](./Untitled.md#)
