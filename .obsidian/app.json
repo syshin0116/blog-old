@@ -3,7 +3,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "useMarkdownLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "shortest",
   "spellcheck": false,
   "strictLineBreaks": true,
   "pdfExportSettings": {
