@@ -19,7 +19,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 0
+    "rateLimit": 5000
   },
   "upload": {
     "behavior": "obsidian",
@@ -87,14 +87,15 @@
         "applyRegex": []
       }
     },
-    "noticeError": false,
-    "displayModalRepoEditing": false,
+    "noticeError": true,
+    "displayModalRepoEditing": true,
     "setFrontmatterKey": "Set",
     "migrated": true,
     "shareAll": {
       "enable": true,
       "excludedFileName": "DRAFT"
-    }
+    },
+    "dev": true
   },
-  "tabsID": "upload-configuration"
+  "tabsID": "plugin-settings"
 }

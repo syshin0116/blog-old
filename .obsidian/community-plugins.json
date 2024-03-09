@@ -1,5 +1,6 @@
 [
   "obsidian-git",
   "obsidian-imgur-plugin",
-  "dataview"
+  "dataview",
+  "obsidian-mkdocs-publisher"
 ]
