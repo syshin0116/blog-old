@@ -21,5 +21,5 @@ tag test
 
 Internal Link test
 
-[[_posts/2024-03-09-Github Publisher|2024-03-09-Github Publisher]]
+[2024-03-09-Github Publisher](_posts/2024-03-09-Github%20Publisher.md)
 
