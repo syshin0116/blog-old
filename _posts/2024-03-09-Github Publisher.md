@@ -20,6 +20,10 @@ OBsidian notion backlink test
 [2024-03-09-Obsidian to Notion 자동화](_posts/2024-03-09-Obsidian%20to%20Notion%20자동화.md)
 
 
+[2024-03-09-Obsidian to Notion 자동화](_posts/2024-03-09-Obsidian%20to%20Notion%20자동화.md)
+
+
+[2024-03-09-Github Publisher](_posts/2024-03-09-Github%20Publisher.md)
 langchain
 [2024-02-02-LangChain](_posts/2024-02-02-LangChain.md)
 

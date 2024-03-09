@@ -51,19 +51,19 @@
     "dataview": true,
     "censorText": [],
     "tags": {
-      "inline": true,
+      "inline": false,
       "exclude": [],
       "fields": []
     },
     "links": {
       "internal": true,
-      "unshared": false,
-      "wiki": true,
-      "slugify": "disable"
+      "unshared": true,
+      "wiki": false,
+      "slugify": "lower"
     }
   },
   "embed": {
-    "attachments": true,
+    "attachments": false,
     "overrideAttachments": [],
     "keySendFile": [],
     "notes": false,
@@ -90,7 +90,11 @@
     "noticeError": false,
     "displayModalRepoEditing": false,
     "setFrontmatterKey": "Set",
-    "migrated": true
+    "migrated": true,
+    "shareAll": {
+      "enable": true,
+      "excludedFileName": "DRAFT"
+    }
   },
   "tabsID": "text-conversion"
 }
