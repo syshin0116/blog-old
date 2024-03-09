@@ -19,10 +19,10 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4023
+    "rateLimit": 4998
   },
   "upload": {
-    "behavior": "obsidian",
+    "behavior": "fixed",
     "defaultName": "",
     "rootFolder": "",
     "yamlFolderKey": "",
@@ -58,7 +58,7 @@
     "links": {
       "internal": true,
       "unshared": true,
-      "wiki": false,
+      "wiki": true,
       "slugify": "lower"
     }
   },
@@ -96,5 +96,5 @@
       "excludedFileName": "DRAFT"
     }
   },
-  "tabsID": "text-conversion"
+  "tabsID": "github-configuration"
 }
