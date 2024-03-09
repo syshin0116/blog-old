@@ -24,7 +24,9 @@ OBsidian notion backlink test
 
 
 [2024-03-09-Github Publisher](_posts/2024-03-09-Github%20Publisher.md)
+
 langchain
+
 [2024-02-02-LangChain](2024-02-02-LangChain.md)
 
 langgraph
