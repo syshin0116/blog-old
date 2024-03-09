@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+                "file": "_posts/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b400111bab99b2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md"
+                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md"
               }
             }
           },
@@ -217,10 +229,11 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "c6a43a97cdcef9b5",
+  "active": "3b400111bab99b2a",
   "lastOpenFiles": [
-    "_posts/2024-03-06-LangGraph.md",
     "_posts/Untitled.md",
+    "_posts/2024-03-09-Obsidian to Notion 자동화.md",
+    "_posts/2024-03-06-LangGraph.md",
     "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
     "_posts/2024-03-02-LangChain for LLM Application Development.md",
     "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
@@ -244,7 +257,6 @@
     "_posts/2023-07-05-소프트웨어 개발 방법론.md",
     "_posts/2024-01-18-통계 기초의 모든것.md",
     "_posts/2024-01-22-데이스쿨 랭커 특강 정리.md",
-    "_posts/2024-01-18-포트폴리오 내용 정리.md",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
     "_site/posts/메타코드-ADSP-1과목/index.html",
