@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md",
+                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md",
+                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md",
+                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md"
+                "file": "_posts/2024-03-09-Obsidian to Notion 자동화.md"
               }
             }
           },
@@ -182,8 +182,8 @@
   },
   "active": "ec546dab1c330027",
   "lastOpenFiles": [
-    "_posts/날짜없는 노트 테스트.md",
     "_posts/2024-03-09-Github Publisher.md",
+    "_posts/날짜없는 노트 테스트.md",
     "_posts/2024-02-02-LangChain.md",
     "_posts/2024-03-09-Obsidian to Notion 자동화.md",
     "_posts/2024-03-06-LangGraph.md",
