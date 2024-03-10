@@ -24,3 +24,7 @@ Internal Link test
 
 [[_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트|2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트]]
 
+
+
+https://alexoliveira.cc/guide/jekyll-with-obsidian
+
