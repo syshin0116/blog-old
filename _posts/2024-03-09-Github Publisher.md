@@ -28,3 +28,54 @@ Internal Link test
 
 https://alexoliveira.cc/guide/jekyll-with-obsidian
 
+```
+{
+  "githubRepo": "blog",
+  "githubName": "kurko",
+  "GhToken": "ghp_[REDACTED]",
+  "githubBranch": "main",
+  "shareKey": "share",
+  "ExcludedFolder": "",
+  "fileMenu": true,
+  "editorMenu": true,
+  "downloadedFolder": "fixed",
+  "folderDefaultName": "obsidian",
+  "yamlFolderKey": "",
+  "rootFolder": "",
+  "workflowName": "",
+  "embedImage": true,
+  "defaultImageFolder": "images/obsidian",
+  "autoCleanUp": true,
+  "autoCleanUpExcluded": "",
+  "folderNote": false,
+  "convertWikiLinks": true,
+  "convertForGithub": true,
+  "subFolder": "",
+  "embedNotes": false,
+  "copyLink": false,
+  "mainLink": "",
+  "linkRemover": "",
+  "hardBreak": false,
+  "logNotice": false,
+  "convertDataview": true,
+  "useFrontmatterTitle": true,
+  "censorText": [
+    {
+      "entry": "(?<!\\`)\\[(.*?)\\]\\((?!(http|\\/*image|obsidian\\/image))(\\.\\/)*(.+?)(\\.md)*\\)",
+      "replace": "[$1]({% link obsidian/$4.md %})"
+    },
+    {
+      "entry": "(?<!\\`)\\[(.*?)\\]\\(((obsidian\\/)?image)(.+)\\)",
+      "replace": "[$1](/image$4)"
+    }
+  ],
+  "inlineTags": false,
+  "dataviewFields": [],
+  "excludeDataviewValue": [],
+  "metadataFileFields": [
+    "obsidian"
+  ],
+  "frontmatterTitleKey": "filename",
+  "shareExternalModified": false
+}
+```
