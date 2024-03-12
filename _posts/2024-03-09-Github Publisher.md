@@ -27,7 +27,10 @@ Internal Link test
 
 https://alexoliveira.cc/guide/jekyll-with-obsidian
 
-```
+
+
+
+```yml
 {
   "githubRepo": "blog",
   "githubName": "kurko",
