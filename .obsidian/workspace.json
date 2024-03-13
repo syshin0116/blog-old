@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md",
+                "file": "_posts/2024-03-12-Anomaly Detection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "$4",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md",
+                "file": "_posts/2024-03-12-Anomaly Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md",
+                "file": "_posts/2024-03-12-Anomaly Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md"
+                "file": "_posts/2024-03-12-Anomaly Detection.md"
               }
             }
           },
@@ -197,8 +196,8 @@
   },
   "active": "5ac29d54ada149fa",
   "lastOpenFiles": [
-    "_posts/2024-03-02-LangChain for LLM Application Development.md",
     "_posts/2024-03-09-Github Publisher.md",
+    "_posts/2024-03-02-LangChain for LLM Application Development.md",
     "_posts/2024-03-09-Obsidian to Notion 자동화.md",
     "_posts/2024-03-06-LangGraph.md",
     "_posts/2024-03-12-Anomaly Detection.md",
