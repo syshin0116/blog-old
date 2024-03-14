@@ -14,8 +14,6 @@ math: true
 ### [Company Bankruptcy Prediction](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
 
   
-  
-  
 
 ## 참고 Git repo
 
