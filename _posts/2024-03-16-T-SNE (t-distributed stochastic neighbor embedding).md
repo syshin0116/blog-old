@@ -9,12 +9,15 @@ tags:
 math: true
 ---
 
+`t-SNE`는 `PCA`와 다르게 비선형 차원분석
+
+
 ![](https://i.imgur.com/ivLJbS5.png)
 
 ## **Dimensionality Reduction의 의미**
 
 - 수많은 feature들을 가지고 있는 데이터셋에서 feature들 간의 관계를 파악하기가 어렵다
-- **feature의 수가 너무 많으면** 머신 러닝 **모델의 성능을 저하**시키곤 하고 **overfit**을 발생시킨다
+- **feature의 수가 너무 많으면** 머신 러닝 **모델의 성능을 저하**시키곤 하고 **overfit**을 발생시킨다
 - `dimensionality reduction(차원 축소)`는 중요한 feature의 갯수는 남기고 불필요한 feature의 갯수를 줄이는 데 사용되곤 한다
 
 ### 효과
@@ -81,10 +84,29 @@ math: true
 	- 자유도가 30이 넘으면 정규분포와 비슷하기 떄문에 t-분포는 자유도 30이하에서 주로 사용
 
 
-  
+## Code
 
-- t-분포에서 확률 변수를 T�로 표현하면 T�는 모평균 μ�의 추정에 사용되는 추정 통계량을 의미합니다. 이는 표준정규분포에서 표준화 변량인 Z�와 같이 표본 평균 ¯X�¯를 변환한 것과 같은 의미입니다.
+```python
+from sklearn.manifold import TSNE
+
+tsne= TSNE(n_components=2,
+		   verbose=1,
+		   learning_rate=1000,
+		   perplexity=100,
+		   n_iter=1000)
+tsne_result = tsne.fit_transform(train_feature_reduced)
+```
+
+### [parameter 설명](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)  
+- `n_components`(`Default = 2`): 줄일 목표 차원수
+- `verbose` 
+- `learning_rate`: ML의 기초적인 파라미터. 높으면 빠르지만 최솟값을 찾기가 힘들고 낮으면 너무 느리다. `Default = 200` 이지만 주로 10~1000까지 사용된다.
+- `perplexity`(`Default = 30`): 복잡도에 관련된 파라미터로 이웃 간에 거리에 대한 파라미터이다. 너무 높이면 거의 한점 처럼보이고 너무 낮으면 cluster를 잘 시키기 힘들다. `Default = 30`으로 5~50를 쓴다. 실제로 cluster를 잘 시키기 위해 200이상으로 높혔더니 정말 형체가 사라졌다.
+- `n_iter`: 몇 번 돌릴 것인지에 대한 파라미터. `Default = 1000`이다. 너무 적게 돌리면 의미가 없기 때문에 250이상을 쓰라고 나와있다.
 
 참고: https://velog.io/@swan9405/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-T-SNE-T-distributed-Stochastic-Neighbor-Embedding
 
 https://gaussian37.github.io/ml-concept-t_sne/#
+
+
+
