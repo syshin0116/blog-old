@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "91ab499b72c6e12e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "851d195aa2408101",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-12-Anomaly Detection.md",
+                "file": "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-12-Anomaly Detection.md",
+                "file": "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-12-Anomaly Detection.md"
+                "file": "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md"
               }
             }
           },
@@ -194,11 +207,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ac29d54ada149fa",
+  "active": "91ab499b72c6e12e",
   "lastOpenFiles": [
+    "_posts/2024-03-12-Anomaly Detection.md",
+    "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md",
     "_posts/2024-02-27-맥북 초기 세팅.md",
     "_posts/2024-03-13-Paper Review-Deep Learning for Anomaly Detection.md",
-    "_posts/2024-03-12-Anomaly Detection.md",
     "_posts/2024-03-09-Github Publisher.md",
     "_posts/2024-03-02-LangChain for LLM Application Development.md",
     "_posts/2024-03-09-Obsidian to Notion 자동화.md",
@@ -223,7 +237,6 @@
     "_posts/2023-11-19-Men in Black readme file.md",
     "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
     "_posts/2024-02-24-LLM 강의 정리.md",
-    "_posts/2022-12-30-_Pytorch_ Vision Transformer notes.md",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
     "_site/posts/메타코드-ADSP-1과목/index.html",

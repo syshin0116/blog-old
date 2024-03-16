@@ -179,17 +179,14 @@ X_train_over, y_train_over = smote.fit_sample(X_train, y_train)
 
 #### 장단점
 - 장점:
-- 비교적 활발하게 연구가 진행되고 있으며, 정상 sample만 있어도 학습이 가능하다
+	- 비교적 활발하게 연구가 진행되고 있으며, 정상 sample만 있어도 학습이 가능하다
 - 단점:
-- Supervised Anomaly Detection 방법론과 비교했을 때 상대적으로 정확도가 떨어진다
+	- Supervised Anomaly Detection 방법론과 비교했을 때 상대적으로 정확도가 떨어진다
 
-  
 
 ### Unsupervised Anomaly Detection
-
 -  대부분의 데이터가 정상 sample이라는 가정을 하여 Label 취득 없이 학습을 시키는 방법론
 
-  
 
 #### 방식
 
@@ -223,12 +220,12 @@ X_train_over, y_train_over = smote.fit_sample(X_train, y_train)
 #### 논문
 
 - [**Improving Unsupervised Defect Segmentation by Applying Structural Similarity to Autoencoders**](https://arxiv.org/pdf/1807.02011.pdf)
-
 - [**Deep Autoencoding Models for Unsupervised Anomaly Segmentation in Brain MR Images**](https://arxiv.org/pdf/1804.04488.pdf)
-
 - [**MVTec AD – A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection**](https://www.mvtec.com/fileadmin/Redaktion/mvtec.com/company/research/mvtec_ad.pdf)
 
-  
+
+
+
 
 #### 장단점
 
