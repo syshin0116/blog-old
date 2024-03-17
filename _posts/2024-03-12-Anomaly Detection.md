@@ -10,10 +10,7 @@ math: true
 ---
 
 ## Dataset
-
 ### [Company Bankruptcy Prediction](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
-
-  
 
 ## 참고 Git repo
 
@@ -86,52 +83,6 @@ Source : [https://archive.ics.uci.edu/ml/datasets/Taiwanese+Bankruptcy+Predicti
   
   
   
-
-## 정리
-
-
-### Oversampling & Undersampling
-
-![](https://i.imgur.com/IXz5Spf.png)
-
-
-#### Oversampling
-
-- 소수 클래스의 샘플 수를 인위적으로 늘려서 클래스 간의 불균형을 해소하는 방법
-
-- SMOTE (Synthetic Minority Over-sampling Technique): 소수 클래스 데이터 포인트 사이를 보간하여 새로운 데이터 포인트를 생성
-
-##### SMOTE(Synthetic Minority Over-sampling Technique) 개념
-
-- 대표적인 OverSampling 기법
-- **낮은 비율 클래스 데이터들의 최근접 이웃을 이용**하여 새로운 데이터를 생성
-- 완전히 똑같은 특성을 가진 데이터를 복사하는 것이 아님
-
-
-근접해 있는 데이터들과 일정한 거리를 떨어진 위치에 데이터를 생성 하는 과정
-
-![](https://blog.kakaocdn.net/dn/GaITt/btqGmTl4AeX/qkrQ3yl4LjsNyDorwyr5Gk/img.png)
-
-출처: https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets
-
-주의 사항:
-- [재현율과 정밀도](https://hwi-doc.tistory.com/entry/%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80%ED%95%98%EA%B8%B0-%EC%A0%95%ED%99%95%EB%8F%84%EB%A7%8C-%EB%86%92%EC%9C%BC%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EB%AA%A8%EB%8D%B8?category=910648)
-	- 양성 데이터가 음성 데이터보다 훨씬 부족한 데이터로 예를 들었을때,
-	- 오버 샘플링을 하게 되면 양성으로 예측하는 비율이 높아지기 때문에 정밀도가 감소하게 된다 (반대로 재현율은 증가하게 된다).
-	- 따라서 정밀도의 감소율을 낮추고 재현율의 증가율은 높이는 방법에 유의하며 SMOTE 패키지를 사용해야 한다
-  
-```python
-# imbalanced-learn 패키지 
-from imlearn.over_sampling import SMOTE 
-# 검증 데이터나 테스트 데이터가 아닌 학습데이터에서만 오버샘플링 사용할 것 
-smote = SMOTE(random_state=11) 
-X_train_over, y_train_over = smote.fit_sample(X_train, y_train)
-```
-#### Undersampling
-
-- 다수 클래스의 샘플 수를 줄여서 불균형을 해소
-- 정보 손실이 발생할 수 있기 때문에 데이터의 양이 많지 않을 때 주의해서 사용해야 한다
-- 계산 비용을 줄이고 싶을 때 유용
 
 ## 방법론
 
@@ -238,6 +189,52 @@ X_train_over, y_train_over = smote.fit_sample(X_train, y_train)
 ![Anomaly Detection 관련 3가지 용어의 분류 방법 정리](https://i.imgur.com/C947qx3.png)
 
   
+
+## 정리
+
+
+### Oversampling & Undersampling
+
+![](https://i.imgur.com/IXz5Spf.png)
+
+
+#### Oversampling
+
+- 소수 클래스의 샘플 수를 인위적으로 늘려서 클래스 간의 불균형을 해소하는 방법
+
+- SMOTE (Synthetic Minority Over-sampling Technique): 소수 클래스 데이터 포인트 사이를 보간하여 새로운 데이터 포인트를 생성
+
+##### SMOTE(Synthetic Minority Over-sampling Technique) 개념
+
+- 대표적인 OverSampling 기법
+- **낮은 비율 클래스 데이터들의 최근접 이웃을 이용**하여 새로운 데이터를 생성
+- 완전히 똑같은 특성을 가진 데이터를 복사하는 것이 아님
+
+
+근접해 있는 데이터들과 일정한 거리를 떨어진 위치에 데이터를 생성 하는 과정
+
+![](https://blog.kakaocdn.net/dn/GaITt/btqGmTl4AeX/qkrQ3yl4LjsNyDorwyr5Gk/img.png)
+
+출처: https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets
+
+주의 사항:
+- [재현율과 정밀도](https://hwi-doc.tistory.com/entry/%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80%ED%95%98%EA%B8%B0-%EC%A0%95%ED%99%95%EB%8F%84%EB%A7%8C-%EB%86%92%EC%9C%BC%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EB%AA%A8%EB%8D%B8?category=910648)
+	- 양성 데이터가 음성 데이터보다 훨씬 부족한 데이터로 예를 들었을때,
+	- 오버 샘플링을 하게 되면 양성으로 예측하는 비율이 높아지기 때문에 정밀도가 감소하게 된다 (반대로 재현율은 증가하게 된다).
+	- 따라서 정밀도의 감소율을 낮추고 재현율의 증가율은 높이는 방법에 유의하며 SMOTE 패키지를 사용해야 한다
+  
+```python
+# imbalanced-learn 패키지 
+from imlearn.over_sampling import SMOTE 
+# 검증 데이터나 테스트 데이터가 아닌 학습데이터에서만 오버샘플링 사용할 것 
+smote = SMOTE(random_state=11) 
+X_train_over, y_train_over = smote.fit_sample(X_train, y_train)
+```
+#### Undersampling
+
+- 다수 클래스의 샘플 수를 줄여서 불균형을 해소
+- 정보 손실이 발생할 수 있기 때문에 데이터의 양이 많지 않을 때 주의해서 사용해야 한다
+- 계산 비용을 줄이고 싶을 때 유용
 
 ## 최신 모델
 
