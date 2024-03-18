@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-17-Monkey Patching.md",
+                "file": "_posts/2024-03-12-Anomaly Detection.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca1ba5452b82756e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-17-Monkey Patching.md",
+                "file": "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-17-Monkey Patching.md",
+                "file": "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-17-Monkey Patching.md"
+                "file": "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md"
               }
             }
           },
@@ -220,11 +233,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c9e205797beaa9d",
+  "active": "ca1ba5452b82756e",
   "lastOpenFiles": [
     "_posts/2024-03-12-Anomaly Detection.md",
-    "_posts/2024-03-17-Monkey Patching.md",
+    "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
     "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md",
+    "_posts/2024-03-17-Monkey Patching.md",
     "_posts/2024-02-27-맥북 초기 세팅.md",
     "_posts/2024-03-13-Paper Review-Deep Learning for Anomaly Detection.md",
     "_posts/2024-03-09-Github Publisher.md",
@@ -249,7 +263,6 @@
     "README.md",
     "_posts/2024-01-18-포트폴리오 내용 정리.md",
     "_posts/2023-11-19-Men in Black readme file.md",
-    "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
     "_site/posts/메타코드-ADSP-1과목/index.html",
