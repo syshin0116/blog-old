@@ -8,85 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec546dab1c330027",
+            "id": "8739113b90cee77e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/날짜없는 노트 테스트.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ac29d54ada149fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-12-Anomaly Detection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91ab499b72c6e12e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-12-Anomaly Detection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c9e205797beaa9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-12-Anomaly Detection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca1ba5452b82756e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "851d195aa2408101",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/날짜없는 노트 테스트.md",
+                "file": "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "langsmith",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281
+    "width": 387.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -152,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
+                "file": "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
+                "file": "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md"
+                "file": "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md"
               }
             }
           },
@@ -233,19 +168,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca1ba5452b82756e",
+  "active": "8739113b90cee77e",
   "lastOpenFiles": [
-    "_posts/2024-03-12-Anomaly Detection.md",
+    "_posts/날짜없는 노트 테스트.md",
+    "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
+    "_posts/2024-03-21-LangSmith.md",
+    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
+    "_posts/2024-03-19-Figma 사용법.md",
     "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
-    "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md",
+    "_posts/2024-03-12-Anomaly Detection.md",
+    "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
     "_posts/2024-03-17-Monkey Patching.md",
+    "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md",
     "_posts/2024-02-27-맥북 초기 세팅.md",
     "_posts/2024-03-13-Paper Review-Deep Learning for Anomaly Detection.md",
     "_posts/2024-03-09-Github Publisher.md",
     "_posts/2024-03-02-LangChain for LLM Application Development.md",
     "_posts/2024-03-09-Obsidian to Notion 자동화.md",
     "_posts/2024-03-06-LangGraph.md",
-    "_posts/날짜없는 노트 테스트.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "_posts/2024-02-02-LangChain.md",
     "_posts/2023-08-03-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
@@ -254,15 +194,10 @@
     "github-publisher",
     "_posts/2024-02-20-메타코드-ADSP-2과목.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
-    "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
     "_posts/notion test1.md",
     "_posts/notion test with tags.md",
     "_posts/notion test with links.md",
     "obsidian-notion link.md",
-    "obsidian-notion test.md",
-    "README.md",
-    "_posts/2024-01-18-포트폴리오 내용 정리.md",
-    "_posts/2023-11-19-Men in Black readme file.md",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
     "_site/posts/메타코드-ADSP-1과목/index.html",
