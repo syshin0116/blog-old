@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
+                "file": "_posts/2024-03-21-LangSmith.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce4297f62759dd53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-03-25-Linux 환경 구축하기.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281,
-    "collapsed": true
+    "width": 387.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
+                "file": "_posts/2024-03-25-Linux 환경 구축하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
+                "file": "_posts/2024-03-25-Linux 환경 구축하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md"
+                "file": "_posts/2024-03-25-Linux 환경 구축하기.md"
               }
             }
           },
@@ -156,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 332.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,11 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8739113b90cee77e",
+  "active": "ce4297f62759dd53",
   "lastOpenFiles": [
-    "_posts/날짜없는 노트 테스트.md",
-    "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
     "_posts/2024-03-21-LangSmith.md",
+    "_posts/2024-03-25-Linux 환경 구축하기.md",
+    "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
+    "_posts/날짜없는 노트 테스트.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2024-03-19-Figma 사용법.md",
     "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
@@ -197,7 +212,6 @@
     "_posts/notion test1.md",
     "_posts/notion test with tags.md",
     "_posts/notion test with links.md",
-    "obsidian-notion link.md",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
     "_site/posts/메타코드-ADSP-1과목/index.html",
