@@ -11,7 +11,7 @@ math: true
 ### 문제 상황
 
 - WSL(Windows Subsystem for Linux) 환경에서 Docker Compose를 사용해 Flask(백엔드), MySQL(DB), Nginx(프록시) 컨테이너 설치
-- MySQL에 `kadap@%` 계정을 만들고 proposalDB 권한 부여
+- MySQL에 `test@%` 계정을 만들고 proposalDB 권한 부여
 - Flask에서 pymysql로 MySQL 접속 시도하지만 실패
 
 ### 해결 과정
@@ -25,7 +25,7 @@ math: true
 
 - MySQL 컨테이너에 접속: `docker exec -it <mysql_container_name> mysql -u root -p`
 - `SELECT User, Host FROM mysql.user;` 로 `kadap@%` 계정 존재 확인
-- `SHOW GRANTS FOR 'kadap'@'%';` 로 proposalDB 권한 확인
+- `SHOW GRANTS FOR 'test'@'%';` 로 proposalDB 권한 확인
 
 #### 3. Flask 코드 확인
 
@@ -57,6 +57,6 @@ math: true
 
 #### 9. MySQL 계정 추가 (선택)
 
-- `kadap@localhost` 계정 추가로 생성하여 보안 강화 가능
+- `test@localhost` 계정 추가로 생성하여 보안 강화 가능
 
 
