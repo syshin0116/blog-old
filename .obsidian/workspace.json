@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c2fd48be12a6fa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-03-28-통합 프로젝트 기술.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md",
+                "file": "_posts/2024-03-28-통합 프로젝트 기술.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md",
+                "file": "_posts/2024-03-28-통합 프로젝트 기술.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md"
+                "file": "_posts/2024-03-28-통합 프로젝트 기술.md"
               }
             }
           },
@@ -195,10 +208,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48e17ba68255f7af",
+  "active": "4c2fd48be12a6fa3",
   "lastOpenFiles": [
-    "_posts/2024-03-25-Linux 환경 구축하기.md",
     "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md",
+    "_posts/2024-03-28-통합 프로젝트 기술.md",
+    "_posts/2024-03-25-Linux 환경 구축하기.md",
     "_posts/날짜없는 노트 테스트.md",
     "_posts/2024-03-21-LangSmith.md",
     "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
@@ -224,7 +238,6 @@
     "_posts/2024-02-20-메타코드-ADSP-2과목.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
     "_posts/notion test1.md",
-    "_posts/notion test with tags.md",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
     "_site/posts/메타코드-ADSP-1과목/index.html",
