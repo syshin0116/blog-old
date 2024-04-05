@@ -86,6 +86,19 @@
             }
           },
           {
+            "id": "8ccf93b76f77923c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "28cde2a1b2b76b9a",
             "type": "leaf",
             "state": {
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
+                "file": "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
+                "file": "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md"
+                "file": "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md"
               }
             }
           },
@@ -246,10 +259,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b732dcb0bb0306b",
+  "active": "8ccf93b76f77923c",
   "lastOpenFiles": [
-    "_posts/2024-04-04-LayoutLM.md",
     "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
+    "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
+    "_posts/2024-04-04-LayoutLM.md",
     "_posts/2024-03-31-Supervisord.md",
     "_posts/2023-05-08-Docker와 VM 차이.md",
     "_posts/2024-03-28-통합 프로젝트 기술.md",
@@ -274,7 +288,6 @@
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "_posts/2024-02-02-LangChain.md",
     "_posts/2023-08-03-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
-    "().md",
     "github-publisher",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
