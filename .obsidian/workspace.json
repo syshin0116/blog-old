@@ -8,72 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8739113b90cee77e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-21-LangSmith.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce4297f62759dd53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-25-Linux 환경 구축하기.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48e17ba68255f7af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4c2fd48be12a6fa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-03-28-통합 프로젝트 기술.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19ed3a4689ed0f00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-04-LayoutLM.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b732dcb0bb0306b",
+            "id": "a5a76b1ba097633e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,7 +21,7 @@
             }
           },
           {
-            "id": "8ccf93b76f77923c",
+            "id": "0445f39f8a46b28f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -99,12 +34,12 @@
             }
           },
           {
-            "id": "28cde2a1b2b76b9a",
+            "id": "910bdc84a451a4f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-05-08-Docker와 VM 차이.md",
+                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -112,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
+                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
+                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md"
+                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md"
               }
             }
           },
@@ -259,18 +194,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ccf93b76f77923c",
+  "active": "910bdc84a451a4f5",
   "lastOpenFiles": [
-    "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
     "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
+    "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
+    "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
+    "_posts/2024-04-08-Django.md",
+    "_posts/2023-05-08-Docker와 VM 차이.md",
+    "_posts/2024-03-21-LangSmith.md",
+    "_posts/2024-03-25-Linux 환경 구축하기.md",
+    "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md",
+    "_posts/2024-03-28-통합 프로젝트 기술.md",
     "_posts/2024-04-04-LayoutLM.md",
     "_posts/2024-03-31-Supervisord.md",
-    "_posts/2023-05-08-Docker와 VM 차이.md",
-    "_posts/2024-03-28-통합 프로젝트 기술.md",
-    "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md",
-    "_posts/2024-03-25-Linux 환경 구축하기.md",
     "_posts/날짜없는 노트 테스트.md",
-    "_posts/2024-03-21-LangSmith.md",
     "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2024-03-19-Figma 사용법.md",
@@ -286,8 +223,6 @@
     "_posts/2024-03-09-Obsidian to Notion 자동화.md",
     "_posts/2024-03-06-LangGraph.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
-    "_posts/2024-02-02-LangChain.md",
-    "_posts/2023-08-03-SeSAC-파이썬 데이터 처리 프로그래밍-4일차.md",
     "github-publisher",
     "_site/posts/메타코드-ADSP-2과목/index.html",
     "_site/posts/메타코드-ADSP-2과목",
