@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
-                "mode": "source",
+                "file": "_posts/2024-04-10-Django.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
+                "file": "_posts/2024-04-10-Django.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
+                "file": "_posts/2024-04-10-Django.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md"
+                "file": "_posts/2024-04-10-Django.md"
               }
             }
           },
@@ -196,10 +196,11 @@
   },
   "active": "910bdc84a451a4f5",
   "lastOpenFiles": [
-    "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
     "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
+    "_posts/2024-03-19-Figma 사용법.md",
+    "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
     "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
-    "_posts/2024-04-08-Django.md",
+    "_posts/2024-04-10-Django.md",
     "_posts/2023-05-08-Docker와 VM 차이.md",
     "_posts/2024-03-21-LangSmith.md",
     "_posts/2024-03-25-Linux 환경 구축하기.md",
@@ -210,7 +211,6 @@
     "_posts/날짜없는 노트 테스트.md",
     "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
-    "_posts/2024-03-19-Figma 사용법.md",
     "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
     "_posts/2024-03-12-Anomaly Detection.md",
     "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
