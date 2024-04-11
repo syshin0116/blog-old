@@ -32,22 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "910bdc84a451a4f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-10-Django.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-10-Django.md",
+                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-10-Django.md",
+                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-10-Django.md"
+                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md"
               }
             }
           },
@@ -194,13 +181,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "910bdc84a451a4f5",
+  "active": "0445f39f8a46b28f",
   "lastOpenFiles": [
+    "_posts/2024-04-10-Django.md",
     "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
     "_posts/2024-03-19-Figma 사용법.md",
     "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
     "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
-    "_posts/2024-04-10-Django.md",
     "_posts/2023-05-08-Docker와 VM 차이.md",
     "_posts/2024-03-21-LangSmith.md",
     "_posts/2024-03-25-Linux 환경 구축하기.md",
