@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb4c1de3513334ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "https://chirpy-img.netlify.apptbn:ANd9GcRpQvhMPXDDEBxF3YcFfy7gSFh538xGvBhkkzqhodPROA&s ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +119,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
+                "file": "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
+                "file": "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md"
+                "file": "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md"
               }
             }
           },
@@ -207,11 +221,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a20e05f3d085a214",
+  "active": "fb4c1de3513334ee",
   "lastOpenFiles": [
+    "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
+    "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
     "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
     "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
-    "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
     "_posts/2024-04-11-LLM Chain Chatbot + RAG.md",
     "_posts/2024-04-10-Django.md",
     "_posts/2024-03-19-Figma 사용법.md",
@@ -234,7 +249,6 @@
     "_posts/2024-02-27-맥북 초기 세팅.md",
     "_posts/2024-03-13-Paper Review-Deep Learning for Anomaly Detection.md",
     "_posts/2024-03-09-Github Publisher.md",
-    "_posts/2024-03-02-LangChain for LLM Application Development.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "github-publisher",
     "_site/posts/메타코드-ADSP-2과목/index.html",
