@@ -119,8 +119,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -223,15 +222,15 @@
   },
   "active": "a20e05f3d085a214",
   "lastOpenFiles": [
-    "_posts/2024-03-09-Github Publisher.md",
-    "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
-    "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
     "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
     "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
+    "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
+    "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
+    "_posts/2024-03-09-Github Publisher.md",
+    "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
     "_posts/2024-04-11-LLM Chain Chatbot + RAG.md",
     "_posts/2024-04-10-Django.md",
     "_posts/2024-03-19-Figma 사용법.md",
-    "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
     "_posts/2023-05-08-Docker와 VM 차이.md",
     "_posts/2024-03-21-LangSmith.md",
     "_posts/2024-03-25-Linux 환경 구축하기.md",
