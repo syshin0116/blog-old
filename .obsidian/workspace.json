@@ -73,6 +73,19 @@
             }
           },
           {
+            "id": "51955228e5134168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-04-26-Ceph.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fb4c1de3513334ee",
             "type": "leaf",
             "state": {
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -152,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-04-24-개발 서버 네트워크 문제.md",
+                "file": "_posts/2024-04-26-Ceph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-04-24-개발 서버 네트워크 문제.md",
+                "file": "_posts/2024-04-26-Ceph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-04-24-개발 서버 네트워크 문제.md"
+                "file": "_posts/2024-04-26-Ceph.md"
               }
             }
           },
@@ -233,10 +246,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "420a863c818d62b3",
+  "active": "51955228e5134168",
   "lastOpenFiles": [
-    "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
     "_posts/2024-04-24-개발 서버 네트워크 문제.md",
+    "_posts/2024-04-26-Ceph.md",
+    "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
     "_posts/2024-04-11-LLM Chain Chatbot + RAG.md",
     "_posts/회의록.md",
     "_posts/2024-03-31-Supervisord.md",
@@ -260,7 +274,6 @@
     "_posts/2024-03-12-Anomaly Detection.md",
     "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
     "_posts/2024-03-17-Monkey Patching.md",
-    "_posts/2024-03-16-T-SNE (t-distributed stochastic neighbor embedding).md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "github-publisher",
     "_site/posts/메타코드-ADSP-2과목/index.html",
