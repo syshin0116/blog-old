@@ -8,137 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a5a76b1ba097633e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0445f39f8a46b28f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82cfd92b4944625a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a20e05f3d085a214",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "420a863c818d62b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-24-개발 서버 네트워크 문제.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51955228e5134168",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-26-Ceph.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fdf65d9b8b837d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-29-RAG+Groq.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8aa44f2b1af7c200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-04-29-RAG+Groq.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c62014d0fb0634e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fb4c1de3513334ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-09-Github Publisher.md",
+                "file": "_drafts/2024-05-06-공모전 Overview.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281
+    "width": 387.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -204,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
+                "file": "_drafts/2024-05-06-공모전 Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
+                "file": "_drafts/2024-05-06-공모전 Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-05-Agent 사용 RAG+Tavily.md"
+                "file": "_drafts/2024-05-06-공모전 Overview.md"
               }
             }
           },
@@ -286,25 +169,64 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c62014d0fb0634e2",
+  "floating": {
+    "id": "9c986e56fa8e5dbb",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6acfbbf2e5e57fd2",
+        "type": "window",
+        "children": [
+          {
+            "id": "47adc2c8d10dc672",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f3c88e94a0a2db98",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_drafts/2024-04-29-공모전 회의록.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -556,
+        "y": -1667,
+        "width": 1504,
+        "height": 1589,
+        "maximize": false,
+        "zoom": 3
+      }
+    ]
+  },
+  "active": "fb4c1de3513334ee",
   "lastOpenFiles": [
-    "_posts/2024-04-29-RAG+Groq.md",
-    "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_drafts/2024-04-29-공모전 회의록.md",
-    "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
-    "2024-04-29-공모전 회의록.pdf.sb-b3912312-p9OX6L",
-    "2024-04-29-공모전 회의록.pdf",
+    "_drafts/2024-05-06-공모전 Overview.md",
+    "_posts/2024-03-09-Github Publisher.md",
+    "_posts/2024-04-29-RAG+Groq.md",
     "_posts/2024-04-26-Ceph.md",
     "_posts/2024-04-24-개발 서버 네트워크 문제.md",
     "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
+    "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
+    "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
+    "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
+    "2024-04-29-공모전 회의록.pdf.sb-b3912312-p9OX6L",
+    "2024-04-29-공모전 회의록.pdf",
     "_posts/2024-04-11-LLM Chain Chatbot + RAG.md",
     "_posts/회의록.md",
     "_posts/2024-03-31-Supervisord.md",
     "_posts/2024-04-04-LayoutLM.md",
     "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
-    "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
     "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
-    "_posts/2024-03-09-Github Publisher.md",
     "_posts/2024-04-10-Django.md",
     "_posts/2024-03-19-Figma 사용법.md",
     "_posts/2023-05-08-Docker와 VM 차이.md",
@@ -315,7 +237,6 @@
     "_posts/날짜없는 노트 테스트.md",
     "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
-    "_posts/2024-03-18-Imbalanced Data Prediction(Anomaly Detection).md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "github-publisher",
     "_site/posts/메타코드-ADSP-2과목/index.html",
