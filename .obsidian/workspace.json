@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2024-05-06-공모전 Overview.md",
+                "file": "_drafts/새싹 매칭데이 0915.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281,
-    "collapsed": true
+    "width": 387.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2024-05-06-공모전 Overview.md",
+                "file": "_drafts/새싹 매칭데이 0915.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2024-05-06-공모전 Overview.md",
+                "file": "_drafts/새싹 매칭데이 0915.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2024-05-06-공모전 Overview.md"
+                "file": "_drafts/새싹 매칭데이 0915.md"
               }
             }
           },
@@ -209,8 +208,10 @@
   },
   "active": "fb4c1de3513334ee",
   "lastOpenFiles": [
-    "_drafts/2024-04-29-공모전 회의록.md",
     "_drafts/2024-05-06-공모전 Overview.md",
+    "_drafts/AWS RDS 접속 방법.md",
+    "_drafts/데이콘 신약개발 대회.md",
+    "_drafts/2024-04-29-공모전 회의록.md",
     "_posts/2024-03-09-Github Publisher.md",
     "_posts/2024-04-29-RAG+Groq.md",
     "_posts/2024-04-26-Ceph.md",
@@ -235,8 +236,6 @@
     "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md",
     "_posts/2024-03-28-통합 프로젝트 기술.md",
     "_posts/날짜없는 노트 테스트.md",
-    "_posts/2024-03-22-초거대 AI 확산 생태계 조성 사업 설명회.md",
-    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "github-publisher",
     "_site/posts/메타코드-ADSP-2과목/index.html",
