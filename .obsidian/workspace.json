@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "4ad142f42d79d463",
+        "id": "1ef8bb1cce25cd60",
         "type": "tabs",
         "children": [
           {
-            "id": "fb4c1de3513334ee",
+            "id": "fe3f580e50afbc0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/새싹 매칭데이 0915.md",
+                "file": "_drafts/2024-05-06-공모전 Overview.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c31f074a7b996a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/사업계획서.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91a74d215b794f85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/2024-05-13-공모전 회의록.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://chirpy-img.netlify.apptbn:ANd9GcRpQvhMPXDDEBxF3YcFfy7gSFh538xGvBhkkzqhodPROA&s ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/새싹 매칭데이 0915.md",
+                "file": "_drafts/사업계획서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/새싹 매칭데이 0915.md",
+                "file": "_drafts/사업계획서.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/새싹 매칭데이 0915.md"
+                "file": "_drafts/사업계획서.md"
               }
             }
           },
@@ -168,50 +195,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "9c986e56fa8e5dbb",
-    "type": "floating",
-    "children": [
-      {
-        "id": "6acfbbf2e5e57fd2",
-        "type": "window",
-        "children": [
-          {
-            "id": "47adc2c8d10dc672",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f3c88e94a0a2db98",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_drafts/2024-04-29-공모전 회의록.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -556,
-        "y": -1667,
-        "width": 1504,
-        "height": 1589,
-        "maximize": false,
-        "zoom": 3
-      }
-    ]
-  },
-  "active": "fb4c1de3513334ee",
+  "active": "2c31f074a7b996a5",
   "lastOpenFiles": [
     "_drafts/2024-05-06-공모전 Overview.md",
+    "_drafts/사업계획서.md",
+    "_drafts/2024-05-13-공모전 회의록.md",
+    "_drafts/2024-04-29-공모전 회의록.md",
+    "assets/img/제품,서비스+개발+부문_사업계획서.pdf",
+    "assets/img/아이디어+기획+부문_아이디어+제안서.pdf",
+    "assets/img/공통4_콘텐츠+활용+동의서.pdf",
+    "assets/img/공통3_참가자+서약서+및+저작물+이용+동의서.pdf",
+    "assets/img/공통2_개인정보수집,이용동의서.pdf",
+    "assets/img/공통1_참가신청서+양식(안).pdf",
+    "assets/img/★필독_제출서류+목록+및+안내사항+유의사항.pdf",
+    "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
+    "_drafts/마이디스크.md",
+    "_drafts/새싹 매칭데이 0915.md",
     "_drafts/AWS RDS 접속 방법.md",
     "_drafts/데이콘 신약개발 대회.md",
-    "_drafts/2024-04-29-공모전 회의록.md",
     "_posts/2024-03-09-Github Publisher.md",
     "_posts/2024-04-29-RAG+Groq.md",
     "_posts/2024-04-26-Ceph.md",
@@ -231,18 +232,7 @@
     "_posts/2024-04-10-Django.md",
     "_posts/2024-03-19-Figma 사용법.md",
     "_posts/2023-05-08-Docker와 VM 차이.md",
-    "_posts/2024-03-21-LangSmith.md",
-    "_posts/2024-03-25-Linux 환경 구축하기.md",
-    "_posts/2024-03-27-Docker Compose에서 Flask와 MySQL 연결 문제.md",
-    "_posts/2024-03-28-통합 프로젝트 기술.md",
-    "_posts/날짜없는 노트 테스트.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
-    "github-publisher",
-    "_site/posts/메타코드-ADSP-2과목/index.html",
-    "_site/posts/메타코드-ADSP-2과목",
-    "_site/posts/메타코드-ADSP-1과목/index.html",
-    "_site/posts/메타코드-ADSP-1과목",
-    "_site/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "_site/assets/img/favicons/safari-pinned-tab.svg",
     "_site/assets/img/favicons/android-chrome-256x256.png",
     "assets/img/favicons/safari-pinned-tab.svg",
@@ -252,7 +242,6 @@
     "_site/assets/img/favicons/avatar.jpg",
     "assets/img/favicons/avatar.jpg",
     "_site/assets/img/favicons/IMG_6255_Original.jpg",
-    "assets/img/favicons/IMG_6255_Original.jpg",
-    "_site/posts/메타코드-ADSP/index.html"
+    "assets/img/favicons/IMG_6255_Original.jpg"
   ]
 }
