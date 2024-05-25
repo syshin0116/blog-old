@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "8cbedf4931a8cb59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/LLamaIndex.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "91a74d215b794f85",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
+                "file": "_posts/LLamaIndex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
+                "file": "_posts/LLamaIndex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-22-RAG용 PDF Loader 비교.md"
+                "file": "_posts/LLamaIndex.md"
               }
             }
           },
@@ -208,10 +221,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d40441c6255bd37",
+  "active": "8cbedf4931a8cb59",
   "lastOpenFiles": [
-    "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
+    "_posts/LLamaIndex.md",
+    "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_drafts/새싹 매칭데이 0915.md",
     "_drafts/사업계획서.md",
     "_drafts/2024-05-06-공모전 Overview.md",
@@ -244,7 +258,6 @@
     "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
     "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
     "_posts/2024-04-10-Django.md",
-    "_posts/2024-03-19-Figma 사용법.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "_site/assets/img/favicons/safari-pinned-tab.svg",
     "_site/assets/img/favicons/android-chrome-256x256.png",
