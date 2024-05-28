@@ -73,6 +73,19 @@
             }
           },
           {
+            "id": "ed0426779cb96d5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "91a74d215b794f85",
             "type": "leaf",
             "state": {
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -152,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-26-위코 웨비나 노트.md",
+                "file": "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-26-위코 웨비나 노트.md",
+                "file": "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-26-위코 웨비나 노트.md"
+                "file": "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md"
               }
             }
           },
@@ -234,10 +247,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "453c98359b6a272c",
+  "active": "ed0426779cb96d5b",
   "lastOpenFiles": [
-    "_posts/LLamaIndex.md",
     "_posts/2024-05-26-위코 웨비나 노트.md",
+    "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
+    "_posts/LLamaIndex.md",
     "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
     "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_drafts/새싹 매칭데이 0915.md",
@@ -270,7 +284,6 @@
     "_posts/2024-03-31-Supervisord.md",
     "_posts/2024-04-04-LayoutLM.md",
     "_posts/2024-04-12-원티드 프리온보딩 백엔드-Docker-4일차.md",
-    "_posts/2024-04-05-원디트 프리온보딩 백엔드-Docker-1일차.md",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
     "_site/assets/img/favicons/safari-pinned-tab.svg",
     "_site/assets/img/favicons/android-chrome-256x256.png",
