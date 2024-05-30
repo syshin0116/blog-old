@@ -99,6 +99,19 @@
             }
           },
           {
+            "id": "e7971cbc93b0fcc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "91a74d215b794f85",
             "type": "leaf",
             "state": {
@@ -112,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -178,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-03-김동규 연구원님.md",
+                "file": "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-03-김동규 연구원님.md",
+                "file": "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-03-김동규 연구원님.md"
+                "file": "_posts/2024-05-30-LlamaIndex 온라인 세미나.md"
               }
             }
           },
@@ -260,11 +273,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "867e76e7543836b3",
+  "active": "e7971cbc93b0fcc5",
   "lastOpenFiles": [
+    "_posts/2024-06-03-김동규 연구원님.md",
+    "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
     "assets/img/Pasted image 20240529231716.png",
     "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
-    "_posts/2024-06-03-김동규 연구원님.md",
     "_posts/2024-05-26-위코 웨비나 노트.md",
     "_posts/LLamaIndex.md",
     "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
@@ -306,7 +320,6 @@
     "assets/img/avatar.jpg",
     "_site/assets/img/favicons/avatar.jpg",
     "assets/img/favicons/avatar.jpg",
-    "_site/assets/img/favicons/IMG_6255_Original.jpg",
-    "assets/img/favicons/IMG_6255_Original.jpg"
+    "_site/assets/img/favicons/IMG_6255_Original.jpg"
   ]
 }
