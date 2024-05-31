@@ -9,8 +9,8 @@ tags:
 math: true
 ---
 
-# 조우철님 발표 
-
+# Why I use LlamaIndex
+- 조우철님 발표 
 - Applied AI Researcer @POSCO E&C
 
 ## LlamaIndex 장점
@@ -67,3 +67,27 @@ AI로 Evaluation을 대체하는 많은 시도가 있지만 한계가 있다
 
 
 ### Prometheus
+
+![](https://i.imgur.com/CKRDNH8.png)
+
+
+# Building RAG Applications with LlamaIndex
+
+- Ravi Theja
+	- developer advocate @ LlamaIndex
+
+## Why is RAG Needed?
+
+## Necessity of LlamaIndex
+
+## RAG Components
+
+## Use Cases
+
+### QA, Summarization
+
+### Document Comparisons
+
+## Recursive Rretrieval
+
+## Data Agents
