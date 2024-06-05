@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-03-김동규 연구원님.md",
+                "file": "_posts/2024-06-03-사업계획서_초안.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -201,8 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281,
-    "collapsed": true
+    "width": 387.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -218,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-03-김동규 연구원님.md",
+                "file": "_posts/2024-06-03-사업계획서_초안.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-03-김동규 연구원님.md",
+                "file": "_posts/2024-06-03-사업계획서_초안.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-03-김동규 연구원님.md"
+                "file": "_posts/2024-06-03-사업계획서_초안.md"
               }
             }
           },
@@ -287,8 +286,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -302,12 +300,13 @@
   },
   "active": "50578ecfe5ed2fdf",
   "lastOpenFiles": [
-    "_posts/2024-06-03-사업계획서.md",
+    "_drafts/2024-05-06-공모전 Overview.md",
+    "_posts/2024-06-03-김동규 연구원님.md",
+    "_posts/2024-06-03-사업계획서_초안.md",
     "_posts/2024-06-03-제안요청서.md",
     "_posts/EasyBit.md",
     "_posts/LLamaIndex.md",
     "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
-    "_posts/2024-06-03-김동규 연구원님.md",
     "assets/img/Pasted image 20240529231716.png",
     "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
     "_posts/2024-05-26-위코 웨비나 노트.md",
@@ -315,7 +314,6 @@
     "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_drafts/새싹 매칭데이 0915.md",
     "_drafts/사업계획서.md",
-    "_drafts/2024-05-06-공모전 Overview.md",
     "_drafts/2024-05-13-공모전 회의록.md",
     "_drafts/2024-04-29-공모전 회의록.md",
     "assets/img/제품,서비스+개발+부문_사업계획서.pdf",
