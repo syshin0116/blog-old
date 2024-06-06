@@ -125,6 +125,19 @@
             }
           },
           {
+            "id": "1ffefdad8e545fa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-05-사업계획서-1,2번.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fec769604a02bd59",
             "type": "leaf",
             "state": {
@@ -151,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -217,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-03-사업계획서_초안.md",
+                "file": "_posts/2024-06-05-사업계획서-1,2번.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-03-사업계획서_초안.md",
+                "file": "_posts/2024-06-05-사업계획서-1,2번.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-03-사업계획서_초안.md"
+                "file": "_posts/2024-06-05-사업계획서-1,2번.md"
               }
             }
           },
@@ -298,11 +311,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50578ecfe5ed2fdf",
+  "active": "1ffefdad8e545fa3",
   "lastOpenFiles": [
+    "_posts/2024-06-03-사업계획서_초안.md",
+    "_posts/2024-06-05-사업계획서-1,2번.md",
     "_drafts/2024-05-06-공모전 Overview.md",
     "_posts/2024-06-03-김동규 연구원님.md",
-    "_posts/2024-06-03-사업계획서_초안.md",
     "_posts/2024-06-03-제안요청서.md",
     "_posts/EasyBit.md",
     "_posts/LLamaIndex.md",
@@ -333,7 +347,6 @@
     "_posts/2024-04-24-개발 서버 네트워크 문제.md",
     "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
     "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
-    "_posts/2024-04-05-원티드 프리온보딩 백엔드-Docker-2일차.md",
     "2024-04-29-공모전 회의록.pdf.sb-b3912312-p9OX6L",
     "2024-04-29-공모전 회의록.pdf",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
