@@ -14,7 +14,7 @@ def remove_prohibited_control_code(file_path):
 
 
 # 포함할 디렉토리 목록
-included_dirs = {"_posts"}
+included_dirs = {"_posts", "_site"}
 
 for root, dirs, files in os.walk("."):
     # 포함할 디렉토리만 탐색
