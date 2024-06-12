@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md",
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -206,7 +206,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:sqld",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,8 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281,
-    "collapsed": true
+    "width": 387.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -244,7 +243,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md",
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +260,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md",
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md"
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md"
               }
             }
           },
@@ -327,8 +326,9 @@
   },
   "active": "7864be86eafd3082",
   "lastOpenFiles": [
-    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+    "_posts/2023-05-27-SQLD_1과목-데이터 모델링의 이해.md",
     "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md",
+    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
     "_posts/2024-06-05-사업계획서-1,2번.md",
     "_posts/EasyBit.md",
     "_posts/2024-06-03-사업계획서_초안.md",
@@ -360,7 +360,6 @@
     "_posts/2024-03-09-Github Publisher.md",
     "_posts/2024-04-29-RAG+Groq.md",
     "_posts/2024-04-26-Ceph.md",
-    "_posts/2024-04-24-개발 서버 네트워크 문제.md",
     "2024-04-29-공모전 회의록.pdf.sb-b3912312-p9OX6L",
     "2024-04-29-공모전 회의록.pdf",
     "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.pdf",
