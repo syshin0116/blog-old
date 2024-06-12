@@ -13,13 +13,15 @@ def remove_prohibited_control_code(file_path):
     print(f"Prohibited control code points removed from {file_path}")
 
 
-# 포함할 디렉토리 목록
-included_dirs = {"_posts", "_site"}
+# 포함할 디렉토리 목록 및 확장자 목록
+included_dirs = {"_posts", "_site", "_drafts"}
+included_extensions = {".html"}
 
 for root, dirs, files in os.walk("."):
     # 포함할 디렉토리만 탐색
     dirs[:] = [d for d in dirs if d in included_dirs]
     for file in files:
-        file_path = os.path.join(root, file)
-        if any(dir in file_path for dir in included_dirs):
-            remove_prohibited_control_code(file_path)
+        if any(file.endswith(ext) for ext in included_extensions):
+            file_path = os.path.join(root, file)
+            if any(dir in file_path for dir in included_dirs):
+                remove_prohibited_control_code(file_path)
