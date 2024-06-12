@@ -1,0 +1,32 @@
+name: Remove Prohibited Control Code Points
+
+on: [push, pull_request]
+
+jobs:
+  remove-control-codes:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install --upgrade pip
+
+    - name: Run control code removal script
+      run: python remove_control_code.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add .
+        git commit -m "Remove prohibited control code points"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
