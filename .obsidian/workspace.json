@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-18-포트폴리오_draft.md",
+                "file": "_drafts/2024-05-13-공모전 회의록.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-18-포트폴리오_draft.md",
+                "file": "_drafts/2024-05-13-공모전 회의록.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-18-포트폴리오_draft.md",
+                "file": "_drafts/2024-05-13-공모전 회의록.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-18-포트폴리오_draft.md"
+                "file": "_drafts/2024-05-13-공모전 회의록.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "91a74d215b794f85",
   "lastOpenFiles": [
+    "_posts/2023-11-18-포트폴리오_draft.md",
     "_drafts/2024-05-13-공모전 회의록.md",
     "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md",
     "_posts/2024-06-03-제안요청서.md",
