@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8961be60d796f355",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +178,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91a74d215b794f85",
+  "active": "8961be60d796f355",
   "lastOpenFiles": [
     "_posts/2023-11-18-포트폴리오_draft.md",
     "_drafts/2024-05-13-공모전 회의록.md",
