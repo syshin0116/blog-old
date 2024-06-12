@@ -1,22 +1,39 @@
-name: Remove Prohibited Control Code Points
+name: Jekyll Site CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  remove-control-codes:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
 
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        bundler-cache: true
+
     - name: Install dependencies
-      run: pip install --upgrade pip
+      run: bundle install
+
+    - name: Build the site
+      run: bundle exec jekyll build
 
     - name: Run control code removal script
       run: python remove_control_code.py
+
+    - name: Test the site
+      run: bundle exec htmlproofer ./_site --disable-external --check-html --allow_hash_href

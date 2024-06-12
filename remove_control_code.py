@@ -12,7 +12,7 @@ def remove_prohibited_control_code(file_path):
         cleaned_content = content.replace("\x08", "")  # U+0008
         cleaned_content = cleaned_content.replace("&#8;", "")
         cleaned_content = cleaned_content.replace("&#x8;", "")
-        cleaned_content = cleaned_content.replace("\x08", "")
+        cleaned_content = cleaned_content.replace("0x08", "")
 
         cleaned_length = len(cleaned_content)
         removed_count = original_length - cleaned_length
