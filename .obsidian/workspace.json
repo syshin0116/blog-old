@@ -24,14 +24,30 @@
             "id": "8961be60d796f355",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6441d67f631009e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-06-13-프로젝트구조.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/2024-05-13-공모전 회의록.md",
+                "file": "_posts/2024-06-13-프로젝트구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/2024-05-13-공모전 회의록.md",
+                "file": "_posts/2024-06-13-프로젝트구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_drafts/2024-05-13-공모전 회의록.md"
+                "file": "_posts/2024-06-13-프로젝트구조.md"
               }
             }
           },
@@ -178,22 +194,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8961be60d796f355",
+  "active": "6441d67f631009e1",
   "lastOpenFiles": [
+    "_posts/2024-06-03-사업계획서_초안.md",
+    "_posts/2024-06-13-프로젝트구조.md",
+    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+    "_posts/2024-06-03-김동규 연구원님.md",
+    "_posts/2024-06-03-제안요청서.md",
+    "_posts/2024-06-05-사업계획서-1,2번.md",
     "_posts/2023-11-18-포트폴리오_draft.md",
     "_drafts/2024-05-13-공모전 회의록.md",
     "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md",
-    "_posts/2024-06-03-제안요청서.md",
     "_drafts/2024-05-06-공모전 Overview.md",
     "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
     "_posts/2024-05-26-위코 웨비나 노트.md",
     "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
-    "_posts/2024-06-03-김동규 연구원님.md",
     "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
-    "_posts/2024-06-03-사업계획서_초안.md",
-    "_posts/2024-06-05-사업계획서-1,2번.md",
-    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
     "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
     "remove_control_code.py",
     "remove",
@@ -215,7 +232,6 @@
     "_drafts/AWS RDS 접속 방법.md",
     "_drafts/데이콘 신약개발 대회.md",
     "_posts/2024-03-09-Github Publisher.md",
-    "_posts/2024-04-29-RAG+Groq.md",
     "2024-04-29-공모전 회의록.pdf.sb-b3912312-p9OX6L",
     "_site/assets/img/favicons/safari-pinned-tab.svg",
     "_site/assets/img/favicons/android-chrome-256x256.png",
