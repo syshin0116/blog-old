@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1ef8bb1cce25cd60",
+        "id": "09c2d6e405a93864",
         "type": "tabs",
         "children": [
           {
-            "id": "91a74d215b794f85",
+            "id": "113ee8fc2b74b7ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/2024-05-13-공모전 회의록.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8961be60d796f355",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6441d67f631009e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-13-프로젝트구조.md",
+                "file": "_posts/2024-05-26-위코 웨비나 노트.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-13-프로젝트구조.md",
+                "file": "_posts/2024-05-26-위코 웨비나 노트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-13-프로젝트구조.md",
+                "file": "_posts/2024-05-26-위코 웨비나 노트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-13-프로젝트구조.md"
+                "file": "_posts/2024-05-26-위코 웨비나 노트.md"
               }
             }
           },
@@ -194,33 +167,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6441d67f631009e1",
+  "active": "113ee8fc2b74b7ea",
   "lastOpenFiles": [
-    "_posts/2024-06-03-사업계획서_초안.md",
-    "_posts/2024-06-13-프로젝트구조.md",
-    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
-    "_posts/2024-06-03-김동규 연구원님.md",
-    "_posts/2024-06-03-제안요청서.md",
-    "_posts/2024-06-05-사업계획서-1,2번.md",
-    "_posts/2023-11-18-포트폴리오_draft.md",
-    "_drafts/2024-05-13-공모전 회의록.md",
-    "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md",
-    "_drafts/2024-05-06-공모전 Overview.md",
-    "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
+    "_posts/2024-04-29-RAG+Groq.md",
+    "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_posts/2024-05-26-위코 웨비나 노트.md",
     "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
     "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
+    "_posts/2024-06-03-김동규 연구원님.md",
+    "_posts/2024-06-05-사업계획서-1,2번.md",
+    "_posts/2024-06-03-사업계획서_초안.md",
+    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+    "_posts/2024-06-13-고용노동 공모전 프로젝트구조.md",
+    "_posts/2024-04-26-Ceph.md",
+    "_posts/2024-04-24-개발 서버 네트워크 문제.md",
+    "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
+    "_posts/2024-06-03-제안요청서.md",
+    "_drafts/새싹 매칭데이 0915.md",
+    "_drafts/2024-05-13-공모전 회의록.md",
+    "_drafts/데이콘 신약개발 대회.md",
     "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
+    "_posts/2023-11-18-포트폴리오_draft.md",
+    "_posts/2024-06-10-고용노동 공공데이터 활용 공모전 기술 스택.md",
+    "_drafts/2024-05-06-공모전 Overview.md",
     "remove_control_code.py",
     "remove",
     "_posts/2023-05-27-SQLD_1과목-데이터 모델링의 이해.md",
     "_posts/EasyBit.md",
     "_posts/LLamaIndex.md",
     "assets/img/Pasted image 20240529231716.png",
-    "_drafts/새싹 매칭데이 0915.md",
     "_drafts/사업계획서.md",
-    "_drafts/2024-04-29-공모전 회의록.md",
     "assets/img/제품,서비스+개발+부문_사업계획서.pdf",
     "assets/img/아이디어+기획+부문_아이디어+제안서.pdf",
     "assets/img/공통4_콘텐츠+활용+동의서.pdf",
@@ -228,10 +205,6 @@
     "assets/img/공통2_개인정보수집,이용동의서.pdf",
     "assets/img/공통1_참가신청서+양식(안).pdf",
     "assets/img/★필독_제출서류+목록+및+안내사항+유의사항.pdf",
-    "_drafts/마이디스크.md",
-    "_drafts/AWS RDS 접속 방법.md",
-    "_drafts/데이콘 신약개발 대회.md",
-    "_posts/2024-03-09-Github Publisher.md",
     "2024-04-29-공모전 회의록.pdf.sb-b3912312-p9OX6L",
     "_site/assets/img/favicons/safari-pinned-tab.svg",
     "_site/assets/img/favicons/android-chrome-256x256.png",
