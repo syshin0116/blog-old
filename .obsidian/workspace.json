@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:sqld",
+                "query": "개발자 채용",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md"
+                "file": "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md"
               }
             }
           },
@@ -167,11 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a70335e9d99644ef",
+  "active": "65116f86b48ea874",
   "lastOpenFiles": [
+    "_posts/2024-04-29-RAG+Groq.md",
+    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
     "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
     "assets/template/Blog Template.md",
-    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
     "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
     "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
     "_posts/2024-06-03-사업계획서_초안.md",
@@ -186,7 +187,6 @@
     "_posts/2023-11-30-빅분기-실기-2유형.md",
     "_posts/2023-12-02-빅분기-실기-3유형.md",
     "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
-    "_posts/2024-04-29-RAG+Groq.md",
     "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "_posts/2024-04-26-Ceph.md",
     "_posts/2024-04-24-개발 서버 네트워크 문제.md",
