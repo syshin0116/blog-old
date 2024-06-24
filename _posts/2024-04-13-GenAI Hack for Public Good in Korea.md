@@ -3,8 +3,8 @@ layout: post
 title: GenAI Hack for Public Good in Korea
 date: 2024-04-13 13:22 +0900
 categories:
-  - Project
-  - Hackathon
+  - ETC
+  - 세미나
 tags: 
 math: true
 ---
