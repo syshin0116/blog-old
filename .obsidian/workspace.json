@@ -97,9 +97,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9b1d9e63fb0e0b38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -128,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "langgraph",
+                "query": "github publisher",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-15-중국어 1회.md",
+                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-15-중국어 1회.md",
+                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-15-중국어 1회.md"
+                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md"
               }
             }
           },
@@ -247,10 +260,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c02a6f504512297",
+  "active": "9b1d9e63fb0e0b38",
   "lastOpenFiles": [
-    "_posts/2024-07-13-TeddyNote LangGraph.md",
+    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+    "assets/img/Pasted image 20240717213033.png",
     "_posts/2024-07-15-중국어 1회.md",
+    "_posts/2024-03-09-Github Publisher.md",
+    "_posts/2024-07-13-TeddyNote LangGraph.md",
     "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
     "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
     "_posts/2024-07-03-JS 함수 최적화.md",
@@ -272,9 +288,6 @@
     "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
     "_posts/2024-05-26-위코 웨비나 노트.md",
     "_posts/2023-11-27-빅분기-실기-1유형.md",
-    "_posts/2023-11-30-빅분기-실기-2유형.md",
-    "_posts/2023-12-02-빅분기-실기-3유형.md",
-    "_posts/2024-05-05-Agent 사용 RAG+Tavily.md",
     "remove_control_code.py",
     "remove",
     "assets/img/Pasted image 20240529231716.png",
@@ -293,7 +306,6 @@
     "_site/assets/img/avatar.jpg",
     "assets/img/avatar.jpg",
     "_site/assets/img/favicons/avatar.jpg",
-    "assets/img/favicons/avatar.jpg",
-    "_site/assets/img/favicons/IMG_6255_Original.jpg"
+    "assets/img/favicons/avatar.jpg"
   ]
 }
