@@ -30,3 +30,9 @@ _site/
 vendor/
 
 .obsidian/plugins/
+
+
+
+
+# Ignore Smart Connections folder
+.smart-connections

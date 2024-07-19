@@ -8,84 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a70335e9d99644ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-06-03-사업계획서_초안.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7238280fadb2421",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf7ad37f6698e023",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-03-JS 함수 최적화.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb0b09524de5ec5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5980ffd5acc6fc48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-13-TeddyNote LangGraph.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "057cb2cce355d06f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-13-TeddyNote LangGraph.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7c02a6f504512297",
             "type": "leaf",
             "state": {
@@ -99,12 +21,38 @@
             }
           },
           {
-            "id": "9b1d9e63fb0e0b38",
+            "id": "3feedb888f1d97e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+                "file": "_posts/2024-07-19-중국어2회.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca1a2de148b3574f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/DevDay/Why Text Extraction is hard(PyPDF2).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "984a8437951dc685",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/DevDay/Why are PDFs so hard for computers to extract data from?.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -112,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "github publisher",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281
+    "width": 248.5
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -178,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+                "file": "_posts/2024-07-19-중국어2회.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+                "file": "_posts/2024-07-19-중국어2회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,16 +166,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md"
+                "file": "_posts/2024-07-19-중국어2회.md"
               }
-            }
-          },
-          {
-            "id": "536b5b0c80fa77a5",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           },
           {
@@ -241,52 +181,86 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "44f2acc7700681ba",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "73a4564649aebd53",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "0c8f4b6cdcd8ff0c",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 268.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "translate:Open translation view": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "9b1d9e63fb0e0b38",
+  "active": "3feedb888f1d97e3",
   "lastOpenFiles": [
-    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
-    "assets/img/Pasted image 20240717213033.png",
     "_posts/2024-07-15-중국어 1회.md",
-    "_posts/2024-03-09-Github Publisher.md",
-    "_posts/2024-07-13-TeddyNote LangGraph.md",
-    "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
-    "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
-    "_posts/2024-07-03-JS 함수 최적화.md",
-    "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
-    "_posts/2024-03-06-LangGraph.md",
-    "_posts/2024-06-24-고용노동 공모전 계획.md",
+    "_posts/2024-07-19-중국어2회.md",
+    "_drafts/Untitled.md",
+    "_drafts/새싹 매칭데이 0915.md",
+    "_drafts/DevDay/Why Text Extraction is hard(PyPDF2).md",
+    "_drafts/DevDay/Why are PDFs so hard for computers to extract data from?.md",
+    "_drafts/DevDay/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG.md",
+    "_drafts/DevDay/발표 내용.md",
+    "_posts/2023-07-20-SeSAC-SQL로 데이터베이스 다루기-1일차.md",
     "_posts/2024-06-03-사업계획서_초안.md",
-    "_posts/2024-06-05-사업계획서-1,2번.md",
-    "_posts/2024-06-24-ai-talk-show-2024.md",
-    "_posts/2024-02-05-AI 개발자 채용 AI 관련 지식 필기.md",
-    "_posts/2024-04-29-RAG+Groq.md",
-    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
-    "_posts/2022-07-25-Tensorflow_Deep-Learning Computer-Vision Guide Notes1.md",
-    "assets/template/Blog Template.md",
-    "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
-    "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
-    "_posts/2024-06-03-김동규 연구원님.md",
-    "_posts/2024-06-13-고용노동 공모전 프로젝트구조.md",
-    "_posts/2024-04-13-GenAI Hack for Public Good in Korea.md",
-    "_posts/2024-05-26-위코 웨비나 노트.md",
-    "_posts/2023-11-27-빅분기-실기-1유형.md",
+    "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
+    "_posts/2024-07-03-JS 함수 최적화.md",
+    "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
+    "_posts/2024-07-13-TeddyNote LangGraph.md",
+    "_drafts/DevDay/Multivector Retriever.md",
+    "_drafts/DevDay/DevDay-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_drafts/2024-05-13-공모전 회의록.md",
+    "smart-chats/UNTITLED CHAT 2024-07-19 01 46 10.md",
+    "smart-chats",
+    "assets/img/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG (1).md",
+    "assets/img/Multivector Retriever.md",
+    "assets/img/DevDay-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_drafts/DevDay",
+    "_drafts/2024-02-26-맥북 개발 세팅.md",
+    "_drafts/2024-05-06-공모전 Overview.md",
+    "_drafts/2024-04-29-공모전 회의록.md",
+    "_drafts/마이디스크.md",
+    "_drafts/사업계획서.md",
+    "assets/img/Pasted image 20240717213033.png",
     "remove_control_code.py",
     "remove",
     "assets/img/Pasted image 20240529231716.png",
@@ -296,8 +270,6 @@
     "assets/img/공통3_참가자+서약서+및+저작물+이용+동의서.pdf",
     "assets/img/공통2_개인정보수집,이용동의서.pdf",
     "assets/img/공통1_참가신청서+양식(안).pdf",
-    "assets/img/★필독_제출서류+목록+및+안내사항+유의사항.pdf",
-    "2024-04-29-공모전 회의록.pdf.sb-b3912312-p9OX6L",
     "_site/assets/img/favicons/safari-pinned-tab.svg",
     "_site/assets/img/favicons/android-chrome-256x256.png",
     "assets/img/favicons/safari-pinned-tab.svg",
