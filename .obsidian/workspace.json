@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-15-중국어 1회.md",
+                "file": "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,15 +21,121 @@
             }
           },
           {
-            "id": "3feedb888f1d97e3",
+            "id": "9a955ce509313813",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-19-중국어2회.md",
+                "file": "_posts/2024-007-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "98731f81ff93f293",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/Pasted image 20240722024817.png"
+              }
+            }
+          },
+          {
+            "id": "d27155a907add2ff",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/Pasted image 20240722020856.png"
+              }
+            }
+          },
+          {
+            "id": "934f8f3dea1506c9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/Pasted image 20240722002105.png"
+              }
+            }
+          },
+          {
+            "id": "3c973a2d1a512dcf",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/Pasted image 20240721234946.png"
+              }
+            }
+          },
+          {
+            "id": "b8313dc0451be4f3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/Pasted image 20240721234946.png"
+              }
+            }
+          },
+          {
+            "id": "ac553ff2c5ac2378",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/img/Pasted image 20240722024817.png"
+              }
+            }
+          },
+          {
+            "id": "7e41e2baa1a00a71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2464c11134df7dc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/DevDay/ViDoRe-Visual Document Retrieval Benchmark.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49d14884c8d65ec0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "_drafts/DevDay/Excalidraw-Multivector Retriever.md"
+              }
+            }
+          },
+          {
+            "id": "da86faf5653cdf42",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Method1.md"
               }
             }
           },
@@ -39,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/DevDay/Why Text Extraction is hard(PyPDF2).md",
+                "file": "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +158,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/DevDay/Why are PDFs so hard for computers to extract data from?.md",
+                "file": "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-19-중국어2회.md",
+                "file": "_posts/2024-007-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-19-중국어2회.md",
+                "file": "_posts/2024-007-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-19-중국어2회.md"
+                "file": "_posts/2024-007-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md"
               }
             }
           },
@@ -211,13 +317,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -225,58 +329,57 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "translate:Open translation view": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3feedb888f1d97e3",
+  "active": "9a955ce509313813",
   "lastOpenFiles": [
-    "_posts/2024-07-15-중국어 1회.md",
+    "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_posts/2024-007-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
+    "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
+    "_drafts/DevDay/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG.md",
+    "_drafts/DevDay/ViDoRe-Visual Document Retrieval Benchmark.md",
+    "_drafts/DevDay/DevDay 발표 내용 정리.md",
+    "_drafts/DevDay/ChartGemma-Visual Instruction-tuning for Chart Reasoning in the Wild.md",
+    "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
+    "assets/img/Pasted image 20240722024817.png",
+    "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
+    "_drafts/DevDay/MultiVector Retriever.md",
+    "assets/img/Pasted image 20240722020856.png",
+    "assets/img/Pasted image 20240722002105.png",
+    "assets/img/Pasted image 20240721234946.png",
     "_posts/2024-07-19-중국어2회.md",
+    "assets/img/Pasted image 20240722175422.png",
+    "assets/img/Pasted image 20240722175356.png",
+    "assets/img/Pasted image 20240722174954.png",
+    "assets/img/Pasted image 20240722174905.png",
+    "assets/img/Pasted image 20240722174431.png",
+    "assets/img/Pasted image 20240722174411.png",
+    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+    "_posts/Untitled.md",
+    "_posts/Untitled 1.md",
+    "Excalidraw/Method1.md",
+    "_posts/2024-07-15-중국어 1회.md",
+    "Excalidraw",
+    "_drafts/DevDay/DevDay-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
     "_drafts/Untitled.md",
     "_drafts/새싹 매칭데이 0915.md",
-    "_drafts/DevDay/Why Text Extraction is hard(PyPDF2).md",
-    "_drafts/DevDay/Why are PDFs so hard for computers to extract data from?.md",
-    "_drafts/DevDay/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG.md",
-    "_drafts/DevDay/발표 내용.md",
     "_posts/2023-07-20-SeSAC-SQL로 데이터베이스 다루기-1일차.md",
     "_posts/2024-06-03-사업계획서_초안.md",
     "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
     "_posts/2024-07-03-JS 함수 최적화.md",
     "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
-    "_posts/2024-07-13-TeddyNote LangGraph.md",
-    "_drafts/DevDay/Multivector Retriever.md",
-    "_drafts/DevDay/DevDay-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_drafts/2024-05-13-공모전 회의록.md",
-    "smart-chats/UNTITLED CHAT 2024-07-19 01 46 10.md",
     "smart-chats",
-    "assets/img/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG (1).md",
-    "assets/img/Multivector Retriever.md",
-    "assets/img/DevDay-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_drafts/DevDay",
-    "_drafts/2024-02-26-맥북 개발 세팅.md",
-    "_drafts/2024-05-06-공모전 Overview.md",
-    "_drafts/2024-04-29-공모전 회의록.md",
-    "_drafts/마이디스크.md",
-    "_drafts/사업계획서.md",
-    "assets/img/Pasted image 20240717213033.png",
     "remove_control_code.py",
     "remove",
-    "assets/img/Pasted image 20240529231716.png",
     "assets/img/제품,서비스+개발+부문_사업계획서.pdf",
     "assets/img/아이디어+기획+부문_아이디어+제안서.pdf",
     "assets/img/공통4_콘텐츠+활용+동의서.pdf",
     "assets/img/공통3_참가자+서약서+및+저작물+이용+동의서.pdf",
-    "assets/img/공통2_개인정보수집,이용동의서.pdf",
-    "assets/img/공통1_참가신청서+양식(안).pdf",
-    "_site/assets/img/favicons/safari-pinned-tab.svg",
-    "_site/assets/img/favicons/android-chrome-256x256.png",
-    "assets/img/favicons/safari-pinned-tab.svg",
-    "assets/img/favicons/android-chrome-256x256.png",
-    "_site/assets/img/avatar.jpg",
-    "assets/img/avatar.jpg",
-    "_site/assets/img/favicons/avatar.jpg",
-    "assets/img/favicons/avatar.jpg"
+    "assets/img/공통2_개인정보수집,이용동의서.pdf"
   ]
 }
