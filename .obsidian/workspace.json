@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c02a6f504512297",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a955ce509313813",
+            "id": "984a8437951dc685",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,22 +19,15 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "3e3af639922d89eb",
+        "type": "tabs",
+        "children": [
           {
-            "id": "392cf7875af13a43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1aee39c8a481f515",
+            "id": "9a955ce509313813",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,154 +38,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "185b118442d937c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98731f81ff93f293",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/Pasted image 20240722024817.png"
-              }
-            }
-          },
-          {
-            "id": "d27155a907add2ff",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/Pasted image 20240722020856.png"
-              }
-            }
-          },
-          {
-            "id": "934f8f3dea1506c9",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/Pasted image 20240722002105.png"
-              }
-            }
-          },
-          {
-            "id": "3c973a2d1a512dcf",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/Pasted image 20240721234946.png"
-              }
-            }
-          },
-          {
-            "id": "b8313dc0451be4f3",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/Pasted image 20240721234946.png"
-              }
-            }
-          },
-          {
-            "id": "ac553ff2c5ac2378",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/Pasted image 20240722024817.png"
-              }
-            }
-          },
-          {
-            "id": "7e41e2baa1a00a71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2464c11134df7dc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/DevDay/ViDoRe-Visual Document Retrieval Benchmark.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49d14884c8d65ec0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_drafts/DevDay/Excalidraw-Multivector Retriever.md"
-              }
-            }
-          },
-          {
-            "id": "da86faf5653cdf42",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Method1.md"
-              }
-            }
-          },
-          {
-            "id": "ca1a2de148b3574f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "984a8437951dc685",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -372,27 +206,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a955ce509313813",
+  "active": "984a8437951dc685",
   "lastOpenFiles": [
-    "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
-    "_drafts/DevDay/ChartGemma-Visual Instruction-tuning for Chart Reasoning in the Wild.md",
+    "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
+    "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
+    "Excalidraw/Method1.md",
+    "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
+    "_drafts/DevDay/ViDoRe-Visual Document Retrieval Benchmark.md",
     "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
-    "_drafts/DevDay/DevDay 발표 내용 정리.md",
+    "assets/img/Pasted image 20240722024817.png",
+    "assets/img/Pasted image 20240721234946.png",
+    "assets/img/Pasted image 20240722002105.png",
+    "assets/img/Pasted image 20240722020856.png",
+    "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
+    "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_posts/2024-07-24-중국어 4회.md",
+    "_drafts/DevDay/ChartGemma-Visual Instruction-tuning for Chart Reasoning in the Wild.md",
+    "_drafts/DevDay/DevDay 발표 내용 정리.md",
     "_posts/2024-07-22-중국어 3회.md",
     "_posts/2022-08-03-_lvl1_폰켓몬.md",
     "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
-    "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
     "_drafts/DevDay/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG.md",
-    "_drafts/DevDay/ViDoRe-Visual Document Retrieval Benchmark.md",
-    "assets/img/Pasted image 20240722024817.png",
-    "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
     "_drafts/DevDay/MultiVector Retriever.md",
-    "assets/img/Pasted image 20240722020856.png",
-    "assets/img/Pasted image 20240722002105.png",
-    "assets/img/Pasted image 20240721234946.png",
     "_posts/2024-07-19-중국어2회.md",
     "assets/img/Pasted image 20240722175422.png",
     "assets/img/Pasted image 20240722175356.png",
@@ -402,7 +237,6 @@
     "assets/img/Pasted image 20240722174411.png",
     "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
     "_posts/Untitled 1.md",
-    "Excalidraw/Method1.md",
     "_posts/2024-07-15-중국어 1회.md",
     "Excalidraw",
     "_drafts/DevDay/DevDay-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
@@ -410,7 +244,6 @@
     "_drafts/Untitled.md",
     "_drafts/새싹 매칭데이 0915.md",
     "_posts/2023-07-20-SeSAC-SQL로 데이터베이스 다루기-1일차.md",
-    "_posts/2024-06-03-사업계획서_초안.md",
     "smart-chats",
     "_drafts/DevDay",
     "remove_control_code.py",
