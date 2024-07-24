@@ -5,7 +5,14 @@ date: 2024-07-24 20:41 +0900
 categories:
   - ETC
   - 세미나
-tags: 
+tags:
+  - 세미나
+  - 모두의연구소
+  - VESSL
+  - LLMOps
+  - Weaviate
+  - 삼성SDS
+  - Liner
 math: true
 ---
 
