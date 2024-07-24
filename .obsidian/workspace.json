@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "185b118442d937c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "98731f81ff93f293",
             "type": "leaf",
             "state": {
@@ -192,7 +205,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -258,7 +271,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-24-중국어 4회.md",
+                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,7 +288,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-24-중국어 4회.md",
+                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -298,7 +311,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-24-중국어 4회.md"
+                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md"
               }
             }
           },
@@ -359,20 +372,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1aee39c8a481f515",
+  "active": "185b118442d937c0",
   "lastOpenFiles": [
-    "_posts/2024-07-22-중국어 3회.md",
-    "_posts/2024-07-24-중국어 4회.md",
+    "_drafts/DevDay/ChartGemma-Visual Instruction-tuning for Chart Reasoning in the Wild.md",
+    "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
+    "_drafts/DevDay/DevDay 발표 내용 정리.md",
     "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_posts/2024-07-24-.md",
+    "_posts/2024-07-24-중국어 4회.md",
+    "_posts/2024-07-22-중국어 3회.md",
     "_posts/2022-08-03-_lvl1_폰켓몬.md",
     "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
     "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
     "_drafts/DevDay/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG.md",
     "_drafts/DevDay/ViDoRe-Visual Document Retrieval Benchmark.md",
-    "_drafts/DevDay/DevDay 발표 내용 정리.md",
-    "_drafts/DevDay/ChartGemma-Visual Instruction-tuning for Chart Reasoning in the Wild.md",
-    "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
     "assets/img/Pasted image 20240722024817.png",
     "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
     "_drafts/DevDay/MultiVector Retriever.md",
@@ -397,7 +411,6 @@
     "_drafts/새싹 매칭데이 0915.md",
     "_posts/2023-07-20-SeSAC-SQL로 데이터베이스 다루기-1일차.md",
     "_posts/2024-06-03-사업계획서_초안.md",
-    "_posts/2024-05-22-RAG용 PDF Loader 비교.md",
     "smart-chats",
     "_drafts/DevDay",
     "remove_control_code.py",
