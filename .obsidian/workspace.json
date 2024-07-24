@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+                "file": "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+                "file": "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -205,7 +205,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,7 +271,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+                "file": "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +288,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+                "file": "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -311,7 +311,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md"
+                "file": "_posts/2024-07-24-​MLOps Now — LLM in Production.md"
               }
             }
           },
@@ -372,13 +372,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "185b118442d937c0",
+  "active": "9a955ce509313813",
   "lastOpenFiles": [
+    "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
     "_drafts/DevDay/ChartGemma-Visual Instruction-tuning for Chart Reasoning in the Wild.md",
     "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
     "_drafts/DevDay/DevDay 발표 내용 정리.md",
-    "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_posts/2024-07-24-.md",
     "_posts/2024-07-24-중국어 4회.md",
     "_posts/2024-07-22-중국어 3회.md",
     "_posts/2022-08-03-_lvl1_폰켓몬.md",
