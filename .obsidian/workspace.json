@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
+                "file": "_posts/2024-07-26-중국어 5회.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
+                "file": "_posts/2024-07-26-중국어 5회.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
+                "file": "_posts/2024-07-26-중국어 5회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-28-프리미엄칼리지 수업 정리.md"
+                "file": "_posts/2024-07-26-중국어 5회.md"
               }
             }
           },
@@ -216,9 +216,9 @@
   },
   "active": "82fc215e1cd33f80",
   "lastOpenFiles": [
+    "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
     "_posts/2024-07-26-중국어 5회.md",
     "_posts/2024-07-24-중국어 4회.md",
-    "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
     "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
     "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
     "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
