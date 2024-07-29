@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "84558e9f94f6d07a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-07-19-중국어2회.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-26-중국어 5회.md",
+                "file": "_posts/2024-07-19-중국어2회.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-26-중국어 5회.md",
+                "file": "_posts/2024-07-19-중국어2회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-26-중국어 5회.md"
+                "file": "_posts/2024-07-19-중국어2회.md"
               }
             }
           },
@@ -214,11 +227,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "82fc215e1cd33f80",
+  "active": "84558e9f94f6d07a",
   "lastOpenFiles": [
-    "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
+    "_posts/2024-07-29-중국어 7회.md",
     "_posts/2024-07-26-중국어 5회.md",
     "_posts/2024-07-24-중국어 4회.md",
+    "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
     "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
     "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
     "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
@@ -252,7 +266,6 @@
     "_drafts/DevDay/DevDay-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
     "_drafts/Untitled.md",
-    "_drafts/새싹 매칭데이 0915.md",
     "smart-chats",
     "_drafts/DevDay",
     "remove_control_code.py",
