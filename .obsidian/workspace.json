@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-19-중국어2회.md",
+                "file": "_posts/2024-07-29-중국어 6회.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-19-중국어2회.md",
+                "file": "_posts/2024-07-29-중국어 6회.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-19-중국어2회.md",
+                "file": "_posts/2024-07-29-중국어 6회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-19-중국어2회.md"
+                "file": "_posts/2024-07-29-중국어 6회.md"
               }
             }
           },
@@ -229,7 +229,8 @@
   },
   "active": "84558e9f94f6d07a",
   "lastOpenFiles": [
-    "_posts/2024-07-29-중국어 7회.md",
+    "_posts/2024-07-19-중국어2회.md",
+    "_posts/2024-07-29-중국어 6회.md",
     "_posts/2024-07-26-중국어 5회.md",
     "_posts/2024-07-24-중국어 4회.md",
     "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
@@ -252,7 +253,6 @@
     "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_drafts/DevDay/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG.md",
     "_drafts/DevDay/MultiVector Retriever.md",
-    "_posts/2024-07-19-중국어2회.md",
     "assets/img/Pasted image 20240722175422.png",
     "assets/img/Pasted image 20240722175356.png",
     "assets/img/Pasted image 20240722174954.png",
