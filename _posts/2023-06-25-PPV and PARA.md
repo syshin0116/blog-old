@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "PPV and PARA"
+title: PPV and PARA
 date: 2023-06-25 19:55:50 +0900
-categories: [ETC, Tech]
-tags: [ppv, para]
+categories:
+  - Second Brain
+  - 이론
+tags:
+  - ppv
+  - para
 ---
 
 ## Intro:

@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "84558e9f94f6d07a",
+            "id": "df9f12e1539ff029",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-29-중국어 6회.md",
+                "file": "_posts/2024-07-29-Zettelkasten.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ppv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 356.50312423706055,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-29-중국어 6회.md",
+                "file": "_posts/2024-07-29-Zettelkasten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-29-중국어 6회.md",
+                "file": "_posts/2024-07-29-Zettelkasten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-29-중국어 6회.md"
+                "file": "_posts/2024-07-29-Zettelkasten.md"
               }
             }
           },
@@ -227,13 +228,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "84558e9f94f6d07a",
+  "active": "df9f12e1539ff029",
   "lastOpenFiles": [
-    "_posts/2024-07-19-중국어2회.md",
+    "assets/img/Pasted image 20240730222234.png",
+    "assets/img/Pasted image 20240730222145.png",
+    "assets/img/Pasted image 20240730222045.png",
+    "assets/img/Pasted image 20240730222040.png",
+    "assets/img/Pasted image 20240730222012.png",
+    "assets/img/Pasted image 20240730221013.png",
+    "assets/img/Screenshot 2024-07-30 at 10.07.58 PM.png",
+    "assets/img/Pasted image 20240730220505.png",
+    "assets/img/Pasted image 20240730220151.png",
+    "assets/img/Pasted image 20240730215837.png",
+    "assets/img/Pasted image 20240730215815.png",
+    "_posts/2023-06-25-PPV and PARA.md",
+    "_posts/2024-07-29-Zettelkasten.md",
     "_posts/2024-07-29-중국어 6회.md",
+    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+    "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
+    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+    "_posts/2024-07-13-TeddyNote LangGraph.md",
+    "_posts/2024-07-15-중국어 1회.md",
+    "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
+    "_posts/2024-07-03-JS 함수 최적화.md",
+    "_posts/2024-06-24-고용노동 공모전 계획.md",
+    "_posts/2024-06-24-ai-talk-show-2024.md",
+    "_posts/2024-06-13-고용노동 공모전 프로젝트구조.md",
+    "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
+    "_posts/2024-07-19-중국어2회.md",
     "_posts/2024-07-26-중국어 5회.md",
     "_posts/2024-07-24-중국어 4회.md",
-    "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
     "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
     "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
     "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
@@ -241,31 +266,7 @@
     "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
     "_drafts/DevDay/ViDoRe-Visual Document Retrieval Benchmark.md",
     "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
-    "assets/img/Pasted image 20240722024817.png",
-    "assets/img/Pasted image 20240721234946.png",
-    "assets/img/Pasted image 20240722002105.png",
-    "assets/img/Pasted image 20240722020856.png",
-    "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_drafts/DevDay/ChartGemma-Visual Instruction-tuning for Chart Reasoning in the Wild.md",
-    "_drafts/DevDay/DevDay 발표 내용 정리.md",
-    "_posts/2024-07-22-중국어 3회.md",
-    "_posts/2022-08-03-_lvl1_폰켓몬.md",
-    "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_drafts/DevDay/Teddy Note - GPT4o 를 사용하여 PDF 내 표와 이미지를 참고하여 답변하는 멀티모달 RAG.md",
-    "_drafts/DevDay/MultiVector Retriever.md",
-    "assets/img/Pasted image 20240722175422.png",
-    "assets/img/Pasted image 20240722175356.png",
-    "assets/img/Pasted image 20240722174954.png",
-    "assets/img/Pasted image 20240722174905.png",
-    "assets/img/Pasted image 20240722174431.png",
-    "assets/img/Pasted image 20240722174411.png",
-    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
-    "_posts/Untitled 1.md",
-    "_posts/2024-07-15-중국어 1회.md",
     "Excalidraw",
-    "_drafts/DevDay/DevDay-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_drafts/2022-08-05-[Python]02장 파이썬 프로그래밍의 기초, 자료형.md",
-    "_drafts/Untitled.md",
     "smart-chats",
     "_drafts/DevDay",
     "remove_control_code.py",
