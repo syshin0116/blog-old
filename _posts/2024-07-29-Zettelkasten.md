@@ -7,6 +7,7 @@ categories:
   - 이론
 tags:
   - second-brain
+  - "#Zettelkasten"
 math: true
 ---
 
@@ -84,4 +85,27 @@ Instead, it is about:
 - when and how will I use this idea?
 
 "Keywords should always be assigned with an eye towards the topic you're working on or interested in, never by looking at the notes in isolation"
+
+
+
+### Fixed Address of Each Note
+
+
+
+![](https://i.imgur.com/8Qn0Wlb.png)
+*Luhmann's numbering system allowed to make sequences and intersperse notes between dajacent notes thourgh adding another character to the end*
+
+
+1. First note assigned to 1
+2. Second note not related to note 1 is assigned 2
+3. But if you want to carry on with note 1, the new note branches off to 1a
+4. If you continue on with 1a, the new note is 1b
+5. If you want to go back and comment on 1a, the new note with comment would be 1a1
+6. and so on
+
+This method makes:
+- organic grouwth possible
+	- this organic growth is how wikis and their wiki-link feature works
+- linking possible
+
 
