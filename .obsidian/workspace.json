@@ -8,64 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "984a8437951dc685",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-24-중국어 4회.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88f4b5b7fa8264e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-24-중국어 4회.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "82fc215e1cd33f80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-26-중국어 5회.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df9f12e1539ff029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-29-중국어 6회.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22a332239a921ac9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-31-중국어 7회.md",
+                "file": "_posts/2024-06-24-ai-talk-show-2024.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -255,8 +203,12 @@
   },
   "active": "187fbaed57dd5854",
   "lastOpenFiles": [
-    "assets/template/Blog Template.md",
+    "_posts/2024-06-24-ai-talk-show-2024.md",
+    "_posts/2024-06-24-고용노동 공모전 계획.md",
+    "_posts/2024-07-26-중국어 5회.md",
     "_posts/2024-08-02-중국어 8회.md",
+    "Excalidraw/Method1.md",
+    "assets/template/Blog Template.md",
     "_posts/2024-07-31-중국어 7회.md",
     "_posts/2024-07-29-Zettelkasten.md",
     "_posts/2024-07-29-중국어 6회.md",
@@ -264,7 +216,6 @@
     "_posts/2024-07-19-중국어2회.md",
     "_posts/2024-07-22-중국어 3회.md",
     "_posts/2024-07-24-중국어 4회.md",
-    "_posts/2024-07-26-중국어 5회.md",
     "assets/img/Pasted image 20240730222234.png",
     "assets/img/Pasted image 20240730222145.png",
     "assets/img/Pasted image 20240730222045.png",
@@ -282,15 +233,12 @@
     "_posts/2024-07-13-TeddyNote LangGraph.md",
     "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
     "_posts/2024-07-03-JS 함수 최적화.md",
-    "_posts/2024-06-24-고용노동 공모전 계획.md",
-    "_posts/2024-06-24-ai-talk-show-2024.md",
     "_posts/2024-06-13-고용노동 공모전 프로젝트구조.md",
     "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
     "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
     "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
-    "Excalidraw/Method1.md",
     "Excalidraw",
     "smart-chats",
     "_drafts/DevDay",
