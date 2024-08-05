@@ -3,8 +3,8 @@ layout: post
 title: Zettelkasten
 date: 2024-07-29 20:59 +0900
 categories:
+  - 연구
   - Second Brain
-  - 이론
 tags:
   - second-brain
   - "#Zettelkasten"

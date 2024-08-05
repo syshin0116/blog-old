@@ -32,9 +32,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82162577e0a3e7bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-02-중국어 8회.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff0c8bceacb6880b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-05-중국어 9회.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -63,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ppv",
+                "query": "para",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-02-중국어 8회.md",
+                "file": "_posts/2024-08-05-중국어 9회.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-02-중국어 8회.md",
+                "file": "_posts/2024-08-05-중국어 9회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-02-중국어 8회.md"
+                "file": "_posts/2024-08-05-중국어 9회.md"
               }
             }
           },
@@ -179,14 +205,21 @@
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {}
             }
+          },
+          {
+            "id": "31120c673c468587",
+            "type": "leaf",
+            "state": {
+              "type": "smart_chatgpt",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 446.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,19 +231,28 @@
       "command-palette:Open command palette": false,
       "translate:Open translation view": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "187fbaed57dd5854",
+  "active": "ff0c8bceacb6880b",
   "lastOpenFiles": [
+    "_posts/2024-08-02-중국어 8회.md",
+    "_posts/2024-08-05-중국어 9회.md",
+    "_posts/2023-06-25-PPV and PARA.md",
+    "_drafts/2023-05-14-_ORACLE-WDP_4일차.md",
+    "_posts/2024-06-05-사업계획서-1,2번.md",
+    "_posts/2024-08-02-Second-Brain-RAG.md",
+    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+    "_posts/2024-06-03-김동규 연구원님.md",
+    "_posts/2024-07-29-Zettelkasten.md",
     "_posts/2024-06-24-ai-talk-show-2024.md",
     "_posts/2024-06-24-고용노동 공모전 계획.md",
     "_posts/2024-07-26-중국어 5회.md",
-    "_posts/2024-08-02-중국어 8회.md",
     "Excalidraw/Method1.md",
     "assets/template/Blog Template.md",
     "_posts/2024-07-31-중국어 7회.md",
-    "_posts/2024-07-29-Zettelkasten.md",
     "_posts/2024-07-29-중국어 6회.md",
     "_posts/2024-07-15-중국어 1회.md",
     "_posts/2024-07-19-중국어2회.md",
@@ -226,19 +268,12 @@
     "assets/img/Pasted image 20240730220505.png",
     "assets/img/Pasted image 20240730220151.png",
     "assets/img/Pasted image 20240730215837.png",
-    "_posts/2023-06-25-PPV and PARA.md",
-    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
     "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
     "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
     "_posts/2024-07-13-TeddyNote LangGraph.md",
     "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
     "_posts/2024-07-03-JS 함수 최적화.md",
     "_posts/2024-06-13-고용노동 공모전 프로젝트구조.md",
-    "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
-    "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
-    "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
     "Excalidraw",
     "smart-chats",
     "_drafts/DevDay",
