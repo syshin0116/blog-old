@@ -52,7 +52,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-05-중국어 9회.md",
+                "file": "_posts/2024-08-06-Building Multimodal Search and RAG.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81892f42b0c418e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-09-ADSP 중요 포인트.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "para",
+                "query": "adsp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-05-중국어 9회.md",
+                "file": "_posts/2024-08-09-ADSP 중요 포인트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-05-중국어 9회.md",
+                "file": "_posts/2024-08-09-ADSP 중요 포인트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-05-중국어 9회.md"
+                "file": "_posts/2024-08-09-ADSP 중요 포인트.md"
               }
             }
           },
@@ -219,7 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 446.5
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,10 +249,16 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "ff0c8bceacb6880b",
+  "active": "81892f42b0c418e6",
   "lastOpenFiles": [
-    "_posts/2024-08-02-중국어 8회.md",
+    "_posts/2024-08-06-Building Multimodal Search and RAG.md",
+    "_posts/2024-08-09-ADSP 중요 포인트.md",
+    "_posts/2024-02-20-메타코드-ADSP-2과목.md",
+    "_posts/2023-08-02-ADsP-1과목. 데이터의 이해.md",
+    "_drafts/DevDay/MultiVector Retriever.md",
+    "_posts/2022-08-08-_lvl1_내적.md",
     "_posts/2024-08-05-중국어 9회.md",
+    "_posts/2024-08-02-중국어 8회.md",
     "_posts/2023-06-25-PPV and PARA.md",
     "_drafts/2023-05-14-_ORACLE-WDP_4일차.md",
     "_posts/2024-06-05-사업계획서-1,2번.md",
@@ -268,12 +287,6 @@
     "assets/img/Pasted image 20240730220505.png",
     "assets/img/Pasted image 20240730220151.png",
     "assets/img/Pasted image 20240730215837.png",
-    "_posts/2024-07-28-프리미엄칼리지 수업 정리.md",
-    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
-    "_posts/2024-07-13-TeddyNote LangGraph.md",
-    "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
-    "_posts/2024-07-03-JS 함수 최적화.md",
-    "_posts/2024-06-13-고용노동 공모전 프로젝트구조.md",
     "Excalidraw",
     "smart-chats",
     "_drafts/DevDay",
