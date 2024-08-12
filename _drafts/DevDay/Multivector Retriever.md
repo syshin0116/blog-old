@@ -22,4 +22,5 @@
     - 문서에 대한 가설 질문을 생성하고 이를 벡터로 변환하여 저장.
     - 예: `ChatOpenAI`를 사용하여 가설 질문을 생성하고 이를 벡터로 변환하여 저장.
 
-![[_drafts/DevDay/Excalidraw-Multivector Retriever]]
+![](https://i.imgur.com/oagBKKs.png)
+
