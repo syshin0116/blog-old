@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-06-Building Multimodal Search and RAG.md",
+                "file": "_posts/2024-08-06-MultiVector Retriever.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -117,7 +117,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+                "file": "_posts/2024-08-13-Chainlit.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c59b9f20f5d9827d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -148,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -177,7 +190,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adsp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md"
+                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md"
               }
             }
           },
@@ -324,11 +337,26 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "7d9473f42d1a5e5a",
+  "active": "c59b9f20f5d9827d",
   "lastOpenFiles": [
+    "_posts/2024-08-06-MultiVector Retriever.md",
+    "_drafts/DevDay/MultiVector Retriever.md",
     "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
+    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+    "_posts/2024-08-15-Knowledge Graphs for RAG.md",
     "_posts/2024-08-13-Chainlit.md",
+    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+    "_posts/2024-08-02-중국어 8회.md",
+    "_posts/2024-07-31-중국어 7회.md",
+    "_posts/2024-07-29-중국어 6회.md",
+    "_posts/2024-07-26-중국어 5회.md",
+    "_posts/2024-08-05-중국어 9회.md",
+    "_posts/2024-07-24-중국어 4회.md",
+    "_posts/2024-07-22-중국어 3회.md",
+    "_posts/2024-07-19-중국어 2회.md",
+    "_posts/2024-07-15-중국어 1회.md",
+    "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
+    "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
     "_drafts/2023-06-03-_Oracle-WDP_8일차-12장. 백업 및 Recovery 개념.md",
     "_drafts/2023-06-03-_Oracle-WDP_8일차-13장. 백업 및 Recovery 구성.md",
     "_drafts/2023-06-03-_Oracle-WDP_8일차-15장. 데이터베이스 Recovery 수행.md",
@@ -337,21 +365,6 @@
     "_drafts/사업계획서.md",
     "_drafts/AWS RDS 접속 방법.md",
     "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
-    "_drafts/DevDay/ChartGemma-Visual Instruction-tuning for Chart Reasoning in the Wild.md",
-    "_drafts/DevDay/ColPali-Efficient Document Retrieval with Vision Language Models.md",
-    "_drafts/DevDay/DevDay 발표 내용 정리.md",
-    "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
-    "_drafts/DevDay/MultiVector Retriever.md",
-    "_drafts/DevDay/PDF에서  컴퓨터에서 데이터를 추출하기 어려운 여러가지 이유.md",
-    "_drafts/DevDay/텍스트 추출이 어려운 이유(PyPDF2).md",
-    "_posts/2023-12-23-Docker.md",
-    "_posts/2023-12-03-Monocular Depth Estimation.md",
-    "_posts/2023-11-19-Men in Black readme file.md",
-    "_posts/2023-09-01-SeSAC-혼공 머신러닝+딥러닝-Ch8. 이미지를 위한 인공 신경망.md",
-    "_posts/2023-09-04-SeSAC-혼공 머신러닝+딥러닝-Ch9. 텍스트를 위한 인공 신경망.md",
-    "_posts/2023-09-12-차원 축소 (Dimensionality Reduction) 기법.md",
-    "_posts/2023-09-22-빅분기.md",
-    "_posts/2023-09-24-SeSAC-Natural Language Process(자연어 처리).md",
     "assets/img/Pasted image 20240730222234.png",
     "assets/img/Pasted image 20240730222145.png",
     "assets/img/Pasted image 20240730222045.png",

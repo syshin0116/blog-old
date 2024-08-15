@@ -3,8 +3,8 @@ layout: post
 title: RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구
 date: 2024-06-08 22:43 +0900
 categories:
-  - Project
-  - RAG
+  - 연구
+  - DevDay
 tags: 
 math: true
 ---
