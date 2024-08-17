@@ -26,7 +26,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-02-중국어 8회.md",
+                "file": "_posts/2024-08-16-Podly Github.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92e2e746f633f971",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-17-Podly 백엔드 Todo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c32f0a1a05acb95b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-16-Podly Github.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -138,6 +164,19 @@
             }
           },
           {
+            "id": "dc6b39ca7f3c0fdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-16-Podly Github.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "03b75945478dca46",
             "type": "leaf",
             "state": {
@@ -161,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
+                "file": "_posts/2024-08-16-Podly Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
+                "file": "_posts/2024-08-16-Podly Github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md"
+                "file": "_posts/2024-08-16-Podly Github.md"
               }
             }
           },
@@ -337,16 +376,20 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "c59b9f20f5d9827d",
+  "active": "c32f0a1a05acb95b",
   "lastOpenFiles": [
+    "_posts/2024-08-17-Podly AI Todo.md",
+    "_posts/2024-08-17-Podly 백엔드 Todo.md",
+    "_posts/2024-08-16-Podly Github.md",
+    "_posts/2024-08-02-중국어 8회.md",
+    "_posts/2024-08-15-Knowledge Graphs for RAG.md",
+    "_posts/2024-07-28-프라임칼리지 수업 정리.md",
     "_posts/2024-08-06-MultiVector Retriever.md",
     "_drafts/DevDay/MultiVector Retriever.md",
     "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
-    "_posts/2024-08-15-Knowledge Graphs for RAG.md",
     "_posts/2024-08-13-Chainlit.md",
     "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
-    "_posts/2024-08-02-중국어 8회.md",
     "_posts/2024-07-31-중국어 7회.md",
     "_posts/2024-07-29-중국어 6회.md",
     "_posts/2024-07-26-중국어 5회.md",
@@ -361,10 +404,6 @@
     "_drafts/2023-06-03-_Oracle-WDP_8일차-13장. 백업 및 Recovery 구성.md",
     "_drafts/2023-06-03-_Oracle-WDP_8일차-15장. 데이터베이스 Recovery 수행.md",
     "_drafts/2023-06-03-_Oracle-WDP_8일차-14장. 데이터베이스 백업 수행.md",
-    "_drafts/새싹 매칭데이 0915.md",
-    "_drafts/사업계획서.md",
-    "_drafts/AWS RDS 접속 방법.md",
-    "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "assets/img/Pasted image 20240730222234.png",
     "assets/img/Pasted image 20240730222145.png",
     "assets/img/Pasted image 20240730222045.png",

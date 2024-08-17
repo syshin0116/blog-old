@@ -53,3 +53,6 @@ Representation: (Person) - \[TEACHES] → (Course) ← \[INTRODUCES] - (Person)
 - Nodes: Can be labeled to group them together
 - Relationships: Always have a type and direction
 
+
+## Querying Knowledge Graphs
+
