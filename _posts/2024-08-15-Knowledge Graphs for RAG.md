@@ -56,3 +56,95 @@ Representation: (Person) - \[TEACHES] → (Course) ← \[INTRODUCES] - (Person)
 
 ## Querying Knowledge Graphs
 
+- Knowledge Graph used: Neo4jGraph
+
+
+```python
+from langchain_community.graphs import Neo4jGraph
+
+kg = Neo4jGraph(
+    url=NEO4J_URI, username=NEO4J_USERNAME, password=NEO4J_PASSWORD, database=NEO4J_DATABASE
+)
+```
+
+
+![](https://i.imgur.com/cutLMPA.png)
+
+
+(Person) - \[ACTED_IN\] → (Movie)
+
+
+### Node properties
+
+![](https://i.imgur.com/A0EADne.png)
+
+
+### Edges-Relationships between a Person and a Movie
+
+![](https://i.imgur.com/nqVR5Jg.png)
+
+- enables description of perplex situations when a person acted in AND directed a movie
+
+
+### Cypher
+- Neo4j's query language
+- uses pattern matching to find thins inside of the grass
+
+#### Basic
+```python
+# number of all the nodes
+cypher = """
+  MATCH (n) 
+  RETURN count(n)
+  """
+```
+
+```python
+result = kg.query(cypher)
+result
+```
+
+	[{'count(n)': 171}]
+
+
+#### Alias
+```python
+cypher = """
+  MATCH (n) 
+  RETURN count(n) AS numberOfNodes
+  """
+result = kg.query(cypher)
+result
+```
+
+	[{'numberOfNodes': 171}]
+
+```python
+print(f"There are {result[0]['numberOfNodes']} nodes in this graph.")
+```
+
+	There are 171 nodes in this graph.
+
+
+#### Match
+
+```python
+cypher = """
+  MATCH (n:Movie) 
+  RETURN count(n) AS numberOfMovies
+  """
+kg.query(cypher)
+```
+
+	[{'numberOfMovies': 38}]
+
+
+```python
+cypher = """
+  MATCH (tom:Person {name:"Tom Hanks"}) 
+  RETURN tom
+  """
+kg.query(cypher)
+```
+	[{'tom': {'born': 1956, 'name': 'Tom Hanks'}}]
+	

@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-16-Podly Github.md",
+                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-16-Podly Github.md",
+                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-16-Podly Github.md",
+                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-16-Podly Github.md"
+                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md"
               }
             }
           },
@@ -379,8 +379,8 @@
   "active": "c32f0a1a05acb95b",
   "lastOpenFiles": [
     "_posts/2024-08-17-Podly AI Todo.md",
-    "_posts/2024-08-17-Podly 백엔드 Todo.md",
     "_posts/2024-08-16-Podly Github.md",
+    "_posts/2024-08-17-Podly 백엔드 Todo.md",
     "_posts/2024-08-02-중국어 8회.md",
     "_posts/2024-08-15-Knowledge Graphs for RAG.md",
     "_posts/2024-07-28-프라임칼리지 수업 정리.md",
