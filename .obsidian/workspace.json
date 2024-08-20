@@ -50,12 +50,9 @@
             "id": "c32f0a1a05acb95b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "_drafts/DevDay/Excalidraw-Multivector Retriever.md"
               }
             }
           },
@@ -63,12 +60,11 @@
             "id": "82162577e0a3e7bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "_posts/2024-08-02-중국어 8회.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": ".smart-env/multi/_drafts_2022-08-05-[Python]02장_파이썬_프로그래밍의_기초,_자료형_md.ajson",
+                "staged": false,
+                "hash": "0aa9cc9a954c7a15a87325c8d9aa045def3e1a3b"
               }
             }
           },
@@ -200,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -266,7 +262,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +278,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,9 +299,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-08-15-Knowledge Graphs for RAG.md"
-              }
+              "state": {}
             }
           },
           {
@@ -353,9 +345,17 @@
               "type": "smart_chatgpt",
               "state": {}
             }
+          },
+          {
+            "id": "8b80f343cd226fe7",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -376,16 +376,23 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "c32f0a1a05acb95b",
+  "active": "82162577e0a3e7bd",
   "lastOpenFiles": [
+    "_drafts/DevDay/Multivector Retriever.md",
+    "Excalidraw/Method1.md",
+    "Excalidraw/Drawing 2024-08-20 23.12.56.excalidraw.md",
+    "_drafts/DevDay/MultiVector Retriever.md",
+    "_drafts/DevDay/Untitled.md",
+    "_posts/2024-08-02-중국어 8회.md",
+    "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
+    "_posts/2024-08-17-Podly 백엔드 Todo.md",
+    "assets/img/Screenshot 2024-08-20 at 11.19.56 PM.png",
+    "assets/img/Pasted Image 20240820231311_865.png",
+    "_posts/2024-08-15-Knowledge Graphs for RAG.md",
     "_posts/2024-08-17-Podly AI Todo.md",
     "_posts/2024-08-16-Podly Github.md",
-    "_posts/2024-08-17-Podly 백엔드 Todo.md",
-    "_posts/2024-08-02-중국어 8회.md",
-    "_posts/2024-08-15-Knowledge Graphs for RAG.md",
     "_posts/2024-07-28-프라임칼리지 수업 정리.md",
     "_posts/2024-08-06-MultiVector Retriever.md",
-    "_drafts/DevDay/MultiVector Retriever.md",
     "_posts/2024-07-23-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
     "_posts/2024-08-13-Chainlit.md",
@@ -399,11 +406,6 @@
     "_posts/2024-07-19-중국어 2회.md",
     "_posts/2024-07-15-중국어 1회.md",
     "_posts/2024-03-05-RAG 우리가 절대 쉽게 결과물을 얻을 수 없는 이유 노트.md",
-    "_posts/2024-07-24-​MLOps Now — LLM in Production.md",
-    "_drafts/2023-06-03-_Oracle-WDP_8일차-12장. 백업 및 Recovery 개념.md",
-    "_drafts/2023-06-03-_Oracle-WDP_8일차-13장. 백업 및 Recovery 구성.md",
-    "_drafts/2023-06-03-_Oracle-WDP_8일차-15장. 데이터베이스 Recovery 수행.md",
-    "_drafts/2023-06-03-_Oracle-WDP_8일차-14장. 데이터베이스 백업 수행.md",
     "assets/img/Pasted image 20240730222234.png",
     "assets/img/Pasted image 20240730222145.png",
     "assets/img/Pasted image 20240730222045.png",
@@ -412,8 +414,6 @@
     "assets/img/Pasted image 20240730221013.png",
     "assets/img/Screenshot 2024-07-30 at 10.07.58 PM.png",
     "assets/img/Pasted image 20240730220505.png",
-    "assets/img/Pasted image 20240730220151.png",
-    "assets/img/Pasted image 20240730215837.png",
     "Excalidraw",
     "smart-chats",
     "_drafts/DevDay",

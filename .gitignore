@@ -30,9 +30,10 @@ _site/
 vendor/
 
 .obsidian/plugins/
-
-
-
+.smart-env/
+smart-chats/
+node_modules/
+Excalidraw/
 
 # Ignore Smart Connections folder
 .smart-connections
