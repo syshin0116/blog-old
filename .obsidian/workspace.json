@@ -29,9 +29,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "19979696c291b4d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/Podly_Authentication 과정.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5024719238281
+    "width": 400.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-30-Podly_개발보고서.md",
+                "file": "_posts/Podly_Authentication 과정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-08-30-Podly_개발보고서.md",
+                "file": "_posts/Podly_Authentication 과정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-30-Podly_개발보고서.md"
+                "file": "_posts/Podly_Authentication 과정.md"
               }
             }
           },
@@ -194,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -216,8 +230,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "cc8dc186b1272fc9",
+  "active": "19979696c291b4d3",
   "lastOpenFiles": [
+    "_posts/2024-08-30-Podly_개발보고서.md",
+    "_posts/2024-08-25-Visual Zettelkasten.md",
+    "_posts/Podly_Authentication 과정.md",
     "_site/posts/Podly_개발보고서/index.html",
     "_site/posts/Podly_개발보고서",
     "_site/posts/Visual-Zettelkasten/index.html",
@@ -228,7 +245,6 @@
     "_site/posts/Podly-백엔드-Todo",
     "_site/posts/Podly-Github/index.html",
     "_site/posts/Podly-Github",
-    "_site/posts/Knowledge-Graphs-for-RAG/index.html",
     "_site/smart-chats/UNTITLED CHAT 2024-07-19 01 46 10.md",
     "_site/assets/img/Screenshot 2024-07-30 at 10.07.58 PM.png",
     "_site/assets/img/Pasted image 20240730222234.png",
@@ -240,8 +256,6 @@
     "_site/assets/img/Pasted image 20240730220505.png",
     "_site/assets/img/Pasted image 20240730220151.png",
     "_site/assets/img/Pasted image 20240730215837.png",
-    "_posts/2024-08-25-Visual Zettelkasten.md",
-    "_posts/2024-08-30-Podly_개발보고서.md",
     "_posts/2024-08-17-Podly 백엔드 Todo.md",
     "_posts/2024-08-13-Chainlit.md",
     "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
