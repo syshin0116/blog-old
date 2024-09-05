@@ -4,5 +4,7 @@
   "obsidian-excalidraw-plugin",
   "obsidian-imgur-plugin",
   "advanced-canvas",
-  "smart-connections"
+  "smart-connections",
+  "obsidian-pandoc",
+  "obsidian-enhancing-export"
 ]

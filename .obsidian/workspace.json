@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-30-Podly_개발보고서.md",
+                "file": "_posts/2024-08-31-Podly_Authentication 과정.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -31,12 +31,38 @@
             }
           },
           {
-            "id": "19979696c291b4d3",
+            "id": "4986a37b6fbe57c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Podly_Authentication 과정.md",
+                "file": "_posts/2024-09-01-Podly_플로우.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b42c06d42254857c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-01-Podly_플로우.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d11d0bdb07e7e499",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-04-Podly_화면.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Podly_Authentication 과정.md",
+                "file": "_posts/2024-09-04-Podly_화면.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Podly_Authentication 과정.md",
+                "file": "_posts/2024-09-04-Podly_화면.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Podly_Authentication 과정.md"
+                "file": "_posts/2024-09-04-Podly_화면.md"
               }
             }
           },
@@ -230,11 +256,17 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "19979696c291b4d3",
+  "active": "d11d0bdb07e7e499",
   "lastOpenFiles": [
+    "_posts/2024-09-01-Podly_플로우.md",
+    "_posts/2024-09-04-Podly_화면.md",
+    "_posts/Untitled 1.md",
+    "assets/img/2. 품질관리계획서 (dragged) 1.pdf",
+    "assets/img/2. 품질관리계획서 (dragged).pdf",
     "_posts/2024-08-30-Podly_개발보고서.md",
+    "_posts/2024-08-31-Podly_Authentication 과정.md",
+    "_posts/2024-09-01-Podly_배포.md",
     "_posts/2024-08-25-Visual Zettelkasten.md",
-    "_posts/Podly_Authentication 과정.md",
     "_site/posts/Podly_개발보고서/index.html",
     "_site/posts/Podly_개발보고서",
     "_site/posts/Visual-Zettelkasten/index.html",
@@ -243,8 +275,6 @@
     "_site/posts/Podly-AI-Todo",
     "_site/posts/Podly-백엔드-Todo/index.html",
     "_site/posts/Podly-백엔드-Todo",
-    "_site/posts/Podly-Github/index.html",
-    "_site/posts/Podly-Github",
     "_site/smart-chats/UNTITLED CHAT 2024-07-19 01 46 10.md",
     "_site/assets/img/Screenshot 2024-07-30 at 10.07.58 PM.png",
     "_site/assets/img/Pasted image 20240730222234.png",
@@ -273,10 +303,6 @@
     "Excalidraw/Drawing 2024-08-20 23.12.56.excalidraw.md",
     "_drafts/DevDay/MultiVector Retriever.md",
     "_drafts/DevDay/Untitled.md",
-    "_posts/2024-08-02-중국어 8회.md",
-    "_posts/2024-08-15-Knowledge Graphs for RAG.md",
-    "_posts/2024-08-17-Podly AI Todo.md",
-    "_posts/2024-08-16-Podly Github.md",
-    "_posts/2024-07-28-프라임칼리지 수업 정리.md"
+    "_posts/2024-08-02-중국어 8회.md"
   ]
 }
