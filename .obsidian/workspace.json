@@ -68,9 +68,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1d4dc0fba4a732b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -136,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-04-Podly_화면.md",
+                "file": "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-04-Podly_화면.md",
+                "file": "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-04-Podly_화면.md"
+                "file": "_posts/2024-09-07-TeddyNote-Agentic RAG.md"
               }
             }
           },
@@ -255,10 +268,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "d11d0bdb07e7e499",
+  "active": "1d4dc0fba4a732b0",
   "lastOpenFiles": [
-    "_posts/2024-09-01-Podly_플로우.md",
     "_posts/2024-09-04-Podly_화면.md",
+    "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
+    "_posts/2024-09-01-Podly_플로우.md",
     "_posts/Untitled 1.md",
     "assets/img/2. 품질관리계획서 (dragged) 1.pdf",
     "assets/img/2. 품질관리계획서 (dragged).pdf",
@@ -301,7 +315,6 @@
     "Excalidraw/Method1.md",
     "Excalidraw/Drawing 2024-08-20 23.12.56.excalidraw.md",
     "_drafts/DevDay/MultiVector Retriever.md",
-    "_drafts/DevDay/Untitled.md",
-    "_posts/2024-08-02-중국어 8회.md"
+    "_drafts/DevDay/Untitled.md"
   ]
 }
