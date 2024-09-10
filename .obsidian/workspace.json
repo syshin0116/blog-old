@@ -81,9 +81,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2bcf4565b0d29e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-07-28-프라임칼리지 수업 정리.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -112,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "프리미엄",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
+                "file": "_posts/2024-07-28-프라임칼리지 수업 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
+                "file": "_posts/2024-07-28-프라임칼리지 수업 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-07-TeddyNote-Agentic RAG.md"
+                "file": "_posts/2024-07-28-프라임칼리지 수업 정리.md"
               }
             }
           },
@@ -268,10 +281,12 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "1d4dc0fba4a732b0",
+  "active": "2bcf4565b0d29e14",
   "lastOpenFiles": [
-    "_posts/2024-09-04-Podly_화면.md",
+    "_posts/2024-09-08-선형대수-연립일차방정식.md",
+    "_posts/2024-07-28-프라임칼리지 수업 정리.md",
     "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
+    "_posts/2024-09-04-Podly_화면.md",
     "_posts/2024-09-01-Podly_플로우.md",
     "_posts/Untitled 1.md",
     "assets/img/2. 품질관리계획서 (dragged) 1.pdf",
@@ -313,8 +328,6 @@
     "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
     "_drafts/DevDay/Multivector Retriever.md",
     "Excalidraw/Method1.md",
-    "Excalidraw/Drawing 2024-08-20 23.12.56.excalidraw.md",
-    "_drafts/DevDay/MultiVector Retriever.md",
-    "_drafts/DevDay/Untitled.md"
+    "Excalidraw/Drawing 2024-08-20 23.12.56.excalidraw.md"
   ]
 }
