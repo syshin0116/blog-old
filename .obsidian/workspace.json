@@ -88,7 +88,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-28-프라임칼리지 수업 정리.md",
+                "file": "_posts/2024-09-08-선형대수-연립일차방정식.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de9f55101fe9adf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-07-29-Zettelkasten.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3883691a8d247f10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -162,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-28-프라임칼리지 수업 정리.md",
+                "file": "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-28-프라임칼리지 수업 정리.md",
+                "file": "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-28-프라임칼리지 수업 정리.md"
+                "file": "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md"
               }
             }
           },
@@ -281,8 +307,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2bcf4565b0d29e14",
+  "active": "3883691a8d247f10",
   "lastOpenFiles": [
+    "_posts/2024-07-29-Zettelkasten.md",
+    "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
+    "_posts/2024-09-18-카카오 챗봇만들기.md",
     "_posts/2024-09-08-선형대수-연립일차방정식.md",
     "_posts/2024-07-28-프라임칼리지 수업 정리.md",
     "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
@@ -325,9 +354,6 @@
     "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
     "_posts/2024-08-02-Second-Brain-RAG.md",
     "_posts/2024-06-03-사업계획서_초안.md",
-    "_drafts/DevDay/Excalidraw-Multivector Retriever.md",
-    "_drafts/DevDay/Multivector Retriever.md",
-    "Excalidraw/Method1.md",
-    "Excalidraw/Drawing 2024-08-20 23.12.56.excalidraw.md"
+    "_drafts/DevDay/Excalidraw-Multivector Retriever.md"
   ]
 }
