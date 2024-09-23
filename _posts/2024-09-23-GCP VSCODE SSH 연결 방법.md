@@ -58,7 +58,7 @@ ssh-keygen -t rsa -f ~/.ssh/podly_gcp_ssh -C syshin0116
 
 ![](https://i.imgur.com/R631NQ1.png)
 
-## GCP VM에 생성한 SSH 등록
+## GCP VM에 생성한 SSH 등록
 
 ### 1. GCP Console에서 VM 선택
 
@@ -68,7 +68,7 @@ ssh-keygen -t rsa -f ~/.ssh/podly_gcp_ssh -C syshin0116
 
 ![](https://i.imgur.com/tkdMV2q.png)
 
-SSH Key 부분에 이전에 생성한 SSH key(`파일명.pub` 의 내용)을 복사해서 넣어주면 된다:
+SSH Key 부분에 이전에 생성한 SSH key(`파일명.pub` 의 내용)을 복사해서 넣어주면 된다:
 
 ![](https://i.imgur.com/JNsPxA1.png)
 ![](https://i.imgur.com/NKVpVh0.png)
