@@ -31,55 +31,55 @@ Modular RAG 논문: [https://arxiv.org/html/2407.21059v1](https://arxiv.org/html
 - **Chroma, Faiss, Milvus**: 다양한 벡터 스토어로, 검색 성능을 향상시키기 위해 선택적으로 사용
 
 ## 구조
+```
 
-project/
+modular-rag/
 │
-├── app/
-│   ├── main.py                        # FastAPI 메인 엔트리 포인트
-│   ├── routers/                       # API 경로 관리 (필요 최소화)
-│   │   └── core.py                    # 핵심 API 라우팅
-│   │
-│   ├── services/                      # 다양한 서비스 모듈
-│   │   ├── retrievals/                # 검색 관련 로직 폴더
-│   │   │   ├── pre_retrieval.py       # Pre-retrieval 단계
-│   │   │   ├── retrieval.py           # Retrieval 단계
-│   │   │   ├── post_retrieval.py      # Post-retrieval 단계
-│   │   ├── vector_stores/             # 벡터 스토어 관련 폴더
-│   │   │   ├── chroma_store.py        # Chroma 벡터 스토어
-│   │   │   ├── faiss_store.py         # Faiss 벡터 스토어
-│   │   │   └── milvus_store.py        # Milvus 벡터 스토어
-│   │   ├── preprocessing/             # Preprocessing 관련 로직 폴더
-│   │   │   ├── data_cleaning.py       # 데이터 클리닝 로직
-│   │   │   ├── data_transformation.py # 데이터 변환 로직
-│   │   ├── web_search.py              # 웹 검색 관련 로직
-│   │   ├── llm_handler.py             # 다양한 LLM 관리 (GPT, Llama 등)
-│   │   ├── prompt_manager.py          # 프롬프트 관리
-│   │   ├── parsers/                   # 파일 파서 모듈
-│   │   │   ├── llama_parser.py        # Llama 파서
-│   │   │   ├── web_parser.py          # 웹 데이터 파서
-│   │   │   └── generic_parser.py      # 기타 형식 파서
-│   │
-│   ├── langgraph/                     # LangGraph 관련 로직 폴더
-│   │   ├── node_definitions.py        # 노드 정의 (LLM, 리트리버, 벡터 스토어 등)
-│   │   ├── langgraph_handler.py       # LangGraph 구성 및 핸들러 (node_definitions 활용)
-│   │
-│   ├── config/
-│   │   └── settings.py                # 설정 파일 (LLM, 리트리버, 파서 및 기타 환경설정)
-│   │
-│   └── utils/                # 유틸리티 함수들
+├── app/                       # FastAPI 애플리케이션 코드
+│   ├── main.py                # FastAPI 메인 엔트리 포인트
+│   ├── routers/               # API 경로 관리
+│   │   └── core.py            # 핵심 API 라우팅
+│   ├── services/              # 서비스 모듈
+│   │   ├── retrievals/        # retrieval 관련 로직
+│   │   │   ├── pre_retrieval.py
+│   │   │   ├── retrieval.py
+│   │   │   ├── post_retrieval.py
+│   │   ├── vectorstores/     # 벡터 스토어 관련
+│   │   │   ├── chroma_store.py
+│   │   │   ├── faiss_store.py
+│   │   │   └── milvus_store.py
+│   │   ├── preprocessing/     # 전처리 관련 로직
+│   │   ├── web_search.py      # 웹 검색 관련
+│   │   ├── llm_handler.py     # 다양한 LLM 관리 (GPT, Llama 등)
+│   │   ├── prompt_manager.py  # 프롬프트 관리
+│   │   ├── parsers/           # 파일 파서 모듈
+│   │   │   ├── llama_parser.py
+│   │   │   ├── web_parser.py
+│   │   │   └── generic_parser.py
 │
-├── docker/
-│   ├── Dockerfile                     # 메인 Dockerfile
-│   ├── docker-compose.yml             # Docker Compose 설정 파일 (DB, Redis 등 나중에 추가)
+├── docker/                    # Docker 설정 파일
+│   ├── fastapi/               # FastAPI 관련 Docker 설정
+│   │   ├── Dockerfile
+│   ├── nginx/                 # Nginx 관련 설정
+│   │   ├── Dockerfile
+│   │   ├── nginx.conf
 │
-├── tests/                             # 테스트 관련 폴더만 생성
-│   ├── __init__.py                    # 테스트 폴더의 패키지화
+├── compose.yaml          # Docker Compose 설정 파일 (루트 디렉토리에 위치)
 │
-├── poetry.lock                        # Poetry 잠금 파일
-├── pyproject.toml                     # Poetry 의존성 및 프로젝트 설정 파일
-└── README.md                          # 프로젝트 설명
-
-
+├── langgraph/                 # LangGraph 관련 로직 폴더
+│   ├── node_definitions.py    # 노드 정의 (LLM, 리트리버, 벡터 스토어 등)
+│   ├── langgraph_handler.py   # LangGraph 구성 및 핸들러 (node_definitions 활용)
+│
+├── config/                    # 설정 파일
+│   └── settings.py            # LLM, 리트리버, 파서 등 환경설정
+│
+├── tests/                     # 테스트 관련 폴더
+│   ├── __init__.py            # 테스트 폴더 초기화
+│
+├── poetry.lock                # Poetry 잠금 파일
+├── pyproject.toml             # Poetry 의존성 및 프로젝트 설정 파일
+└── README.md                  # 프로젝트 설명
+```
 ## 구조 요약
 
 ### services/retrievals
@@ -121,5 +121,3 @@ LLM, 리트리버, 벡터 스토어 등 주요 기능을 각각 노드로 정의
 ### langgraph/langgraph_handler
 
 LangGraph를 관리하고, node_definitions에서 정의된 노드들을 불러와 엣지로 연결해 워크플로우를 구성. 사용자의 요구에 맞춰 동적으로 노드를 선택하거나 연결할 수 있도록 구조화
-
-

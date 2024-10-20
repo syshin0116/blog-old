@@ -36,9 +36,24 @@
               "icon": "lucide-file",
               "title": "2024-10-20-Modular RAG 구조"
             }
+          },
+          {
+            "id": "9e2acf5aabae49b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-10-20-Modular RAG 구조.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-10-20-Modular RAG 구조"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5024719238281
+    "width": 400.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -248,10 +264,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "819eeac7124e2ed5",
+  "active": "9e2acf5aabae49b5",
   "lastOpenFiles": [
-    "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
+    "_posts/2024-.md",
     "_posts/2024-10-20-Modular RAG 구조.md",
+    "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
     "_posts/2024-09-28-9월 주주총회.md",
     "_posts/2024-09-18-카카오 챗봇만들기.md",
     "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
@@ -294,7 +311,6 @@
     "_posts/2024-06-13-고용노동 공모전 프로젝트구조.md",
     "_posts/2024-06-24-고용노동 공모전 계획.md",
     "_posts/2024-07-03-JS 함수 최적화.md",
-    "_posts/2024-07-13-TeddyNote LangGraph.md",
-    "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md"
+    "_posts/2024-07-13-TeddyNote LangGraph.md"
   ]
 }
