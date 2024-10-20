@@ -8,108 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "179f39be80ba78c2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "_posts/2024-08-25-Visual Zettelkasten.md"
-              }
-            }
-          },
-          {
-            "id": "cc8dc186b1272fc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-31-Podly_Authentication 과정.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4986a37b6fbe57c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-09-01-Podly_플로우.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b42c06d42254857c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-09-01-Podly_플로우.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d11d0bdb07e7e499",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-09-04-Podly_화면.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d4dc0fba4a732b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bcf4565b0d29e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-09-08-선형대수-연립일차방정식.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de9f55101fe9adf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-07-29-Zettelkasten.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3883691a8d247f10",
+            "id": "9750d9f292da716e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -118,11 +17,28 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-09-23-GCP VSCODE SSH 연결 방법"
+            }
+          },
+          {
+            "id": "819eeac7124e2ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-10-20-Modular RAG 구조.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-10-20-Modular RAG 구조"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +58,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -157,7 +75,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -165,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -188,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
+                "file": "_posts/2024-10-20-Modular RAG 구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +118,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-10-20-Modular RAG 구조"
             }
           },
           {
@@ -205,10 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
+                "file": "_posts/2024-10-20-Modular RAG 구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-10-20-Modular RAG 구조"
             }
           },
           {
@@ -219,7 +145,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -228,8 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md"
-              }
+                "file": "_posts/2024-10-20-Modular RAG 구조.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-10-20-Modular RAG 구조"
             }
           },
           {
@@ -241,7 +171,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -249,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -257,7 +191,9 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -265,7 +201,9 @@
             "type": "leaf",
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -273,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "smart_chatgpt",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -281,7 +221,9 @@
             "type": "leaf",
             "state": {
               "type": "git-history-view",
-              "state": {}
+              "state": {},
+              "icon": "history",
+              "title": "History"
             }
           }
         ],
@@ -289,8 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,14 +248,18 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "3883691a8d247f10",
+  "active": "819eeac7124e2ed5",
   "lastOpenFiles": [
-    "_posts/2024-07-29-Zettelkasten.md",
     "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
+    "_posts/2024-10-20-Modular RAG 구조.md",
+    "_posts/2024-09-28-9월 주주총회.md",
     "_posts/2024-09-18-카카오 챗봇만들기.md",
+    "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
+    "_posts/2024-08-25-Visual Zettelkasten.md",
+    "_posts/2024-08-15-Knowledge Graphs for RAG.md",
+    "_posts/2024-07-29-Zettelkasten.md",
     "_posts/2024-09-08-선형대수-연립일차방정식.md",
     "_posts/2024-07-28-프라임칼리지 수업 정리.md",
-    "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
     "_posts/2024-09-04-Podly_화면.md",
     "_posts/2024-09-01-Podly_플로우.md",
     "_posts/Untitled 1.md",
@@ -323,7 +268,6 @@
     "_posts/2024-08-30-Podly_개발보고서.md",
     "_posts/2024-08-31-Podly_Authentication 과정.md",
     "_posts/2024-09-01-Podly_배포.md",
-    "_posts/2024-08-25-Visual Zettelkasten.md",
     "_site/posts/Podly_개발보고서/index.html",
     "_site/posts/Podly_개발보고서",
     "_site/posts/Visual-Zettelkasten/index.html",
@@ -351,9 +295,6 @@
     "_posts/2024-06-24-고용노동 공모전 계획.md",
     "_posts/2024-07-03-JS 함수 최적화.md",
     "_posts/2024-07-13-TeddyNote LangGraph.md",
-    "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
-    "_posts/2024-08-02-Second-Brain-RAG.md",
-    "_posts/2024-06-03-사업계획서_초안.md",
-    "_drafts/DevDay/Excalidraw-Multivector Retriever.md"
+    "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md"
   ]
 }
