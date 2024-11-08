@@ -80,6 +80,48 @@ modular-rag/
 ├── pyproject.toml             # Poetry 의존성 및 프로젝트 설정 파일
 └── README.md                  # 프로젝트 설명
 ```
+
+
+
+### 현재: 
+```
+15 directories, 15 files
+❯ tree -L 5
+.
+├── README.md
+├── compose.yaml
+├── docker
+│   ├── Dockerfile.fastapi
+│   ├── Dockerfile.nginx
+│   └── nginx.conf
+├── fastapi
+│   └── app
+│       ├── configs
+│       │   ├── mysql.py
+│       │   ├── redis.py
+│       │   └── settings.py
+│       ├── db
+│       │   ├── crud
+│       │   ├── models
+│       │   │   ├── base.py
+│       │   │   └── user.py
+│       │   ├── schemas
+│       │   │   └── user.py
+│       │   └── session.py
+│       ├── main.py
+│       ├── routers
+│       │   └── user.py
+│       ├── services
+│       │   └── langgraph
+│       ├── static
+│       │   ├── img
+│       │   └── sample.css
+│       └── templates
+│           └── login.html
+├── poetry.lock
+└── pyproject.toml
+```
+
 ## 구조 요약
 
 ### services/retrievals

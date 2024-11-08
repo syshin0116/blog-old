@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5024719238281,
-    "collapsed": true
+    "width": 400.5024719238281
   },
   "right": {
     "id": "4aa194f26ef87e06",
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-20-Modular RAG 구조.md",
+                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-10-20-Modular RAG 구조"
+              "title": "Backlinks for 2024-07-17-AI시대, 기록을 잘하는 방법"
             }
           },
           {
@@ -145,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-20-Modular RAG 구조.md",
+                "file": "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-10-20-Modular RAG 구조"
+              "title": "Outgoing links from 2024-07-17-AI시대, 기록을 잘하는 방법"
             }
           },
           {
@@ -266,8 +265,15 @@
   },
   "active": "9e2acf5aabae49b5",
   "lastOpenFiles": [
-    "_posts/2024-.md",
+    "_posts/2024-10-31-Document Parser.md",
+    "_posts/Untitled.md",
     "_posts/2024-10-20-Modular RAG 구조.md",
+    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
+    "_posts/2024-07-10-마키나락스가 AI를 활용해 최적 제어 로직을 도출하는 방법.md",
+    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
+    "_posts/2024-06-03-김동규 연구원님.md",
+    "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
+    "_posts/2024-.md",
     "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
     "_posts/2024-09-28-9월 주주총회.md",
     "_posts/2024-09-18-카카오 챗봇만들기.md",
@@ -304,13 +310,6 @@
     "_site/assets/img/Pasted image 20240730220505.png",
     "_site/assets/img/Pasted image 20240730220151.png",
     "_site/assets/img/Pasted image 20240730215837.png",
-    "_posts/2024-08-17-Podly 백엔드 Todo.md",
-    "_posts/2024-08-13-Chainlit.md",
-    "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
-    "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
-    "_posts/2024-06-13-고용노동 공모전 프로젝트구조.md",
-    "_posts/2024-06-24-고용노동 공모전 계획.md",
-    "_posts/2024-07-03-JS 함수 최적화.md",
-    "_posts/2024-07-13-TeddyNote LangGraph.md"
+    "_posts/2024-08-17-Podly 백엔드 Todo.md"
   ]
 }
