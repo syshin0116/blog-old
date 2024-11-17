@@ -4,56 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4dab35790ee6ac23",
+        "id": "e8d1312d2c35c9eb",
         "type": "tabs",
         "children": [
           {
-            "id": "9750d9f292da716e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-09-23-GCP VSCODE SSH 연결 방법"
-            }
-          },
-          {
-            "id": "819eeac7124e2ed5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-10-20-Modular RAG 구조.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-10-20-Modular RAG 구조"
-            }
-          },
-          {
-            "id": "9e2acf5aabae49b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-10-20-Modular RAG 구조.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-10-20-Modular RAG 구조"
-            }
-          },
-          {
-            "id": "f1b9dccb59819b71",
+            "id": "0f1e765b23a5851a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,22 +23,22 @@
             }
           },
           {
-            "id": "1e23c5f8deb93a7f",
+            "id": "f7885673c677be96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/20224-11-09-CI CD.md",
+                "file": "_posts/Modular RAG - Chat History.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20224-11-09-CI CD"
+              "title": "Modular RAG - Chat History"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/20224-11-09-CI CD.md"
+                "file": "_posts/Modular RAG - Chat History.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 20224-11-09-CI CD"
+              "title": "Outline of Modular RAG - Chat History"
             }
           },
           {
@@ -293,10 +248,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "1e23c5f8deb93a7f",
+  "active": "f7885673c677be96",
   "lastOpenFiles": [
-    "_posts/2024-10-20-Modular RAG 구조.md",
     "_posts/20224-11-09-CI CD.md",
+    "_posts/Modular RAG - Chat History.md",
+    "Untitled.md",
+    "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
+    "_posts/2024-10-20-Modular RAG 구조.md",
     "assets/img/favicons/android-chrome-512x512.png",
     "_posts/2024-10-31-Document Parser.md",
     "_posts/2024-07-17-AI시대, 기록을 잘하는 방법.md",
@@ -305,7 +263,6 @@
     "_posts/2024-06-03-김동규 연구원님.md",
     "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
     "_posts/2024-.md",
-    "_posts/2024-09-23-GCP VSCODE SSH 연결 방법.md",
     "_posts/2024-09-28-9월 주주총회.md",
     "_posts/2024-09-18-카카오 챗봇만들기.md",
     "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
@@ -330,7 +287,6 @@
     "_site/posts/Podly-AI-Todo",
     "_site/posts/Podly-백엔드-Todo/index.html",
     "_site/posts/Podly-백엔드-Todo",
-    "_site/smart-chats/UNTITLED CHAT 2024-07-19 01 46 10.md",
     "_site/assets/img/Screenshot 2024-07-30 at 10.07.58 PM.png",
     "_site/assets/img/Pasted image 20240730222234.png",
     "_site/assets/img/Pasted image 20240730222145.png",
