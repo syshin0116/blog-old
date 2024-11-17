@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-11-17-방법-Github CI CD - GCP.md",
+                "file": "_posts/2024-11-17-Modular RAG - Chat History.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-17-방법-Github CI CD - GCP"
+              "title": "2024-11-17-Modular RAG - Chat History"
             }
           }
         ],
@@ -171,10 +171,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-11-17-방법-Github CI CD - GCP.md"
+                "file": "_posts/2024-11-17-Modular RAG - Chat History.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-11-17-방법-Github CI CD - GCP"
+              "title": "Outline of 2024-11-17-Modular RAG - Chat History"
             }
           },
           {
@@ -265,9 +265,9 @@
   },
   "active": "dd2faa267d2346e0",
   "lastOpenFiles": [
+    "_posts/2024-11-17-방법-Github CI CD - GCP.md",
     "_posts/2024-10-20-Modular RAG 구조.md",
     "_posts/2024-09-18-카카오 챗봇만들기.md",
-    "_posts/2024-11-17-방법-Github CI CD - GCP.md",
     "_posts/2024-11-09-정리-Github CI CD - GCP.md",
     "_posts/2024-11-17-Modular RAG - Chat History.md",
     "Untitled.md",
