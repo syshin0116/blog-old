@@ -13,7 +13,7 @@ math: true
 
 1 GCP 계정 및 Compute Engine 인스턴스
 2 Docker Hub 계정
-3 GitHub 계정 및 Repository
+3 GitHub 계정 및 Repository
 
 
 ## CI/CD를 위한 큰 순서
