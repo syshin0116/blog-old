@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github CI/CD
+title: "[정리]Github CI/CD - GCP"
 date: 2024-11-09 16:55 +0900
 categories:
   - ETC
@@ -103,13 +103,56 @@ jobs:
 GitHub Actions를 활용하면 GCP에 종속되지 않고도 효율적인 CI/CD 파이프라인을 구축하여 개발 및 배포 프로세스를 자동화할 수 있다.
 
 
-## Github을 이용한 CI/CD 적용
+## 서버에서 코드를 서버에서 docker build 방식 vs docker pull/push 사용 방식
+
+### 1. 코드를 서버에서 docker build 실행
+
+애플리케이션 **소스 코드와 도커 관련 파일**(예: Dockerfile, docker-compose.yaml, .env 등)을 서버로 직접 복사한 뒤, 서버에서 도커 이미지를 빌드하고 컨테이너를 실행한다.
+  
+
+#### 특징
+• **코드를 직접 서버로 복사**
+• 서버에서 매번 새로 docker build를 실행
+• **간단하고 직관적**이지만, 다음과 같은 단점:
+1. 서버마다 코드 복사와 빌드 과정이 필요
+2. 빌드 환경에 따라 빌드 결과가 달라질 수 있다
+3. 민감한 정보(.env, 소스 코드 등)가 서버에 노출될 위험이 있다
+4. 동일한 이미지를 여러 서버에 배포할 때 비효율적일 수 있다
+
+
+### 2. Docker Push/Pull 방식
+
+**로컬 또는 CI/CD 서버**에서 Docker 이미지를 빌드한 뒤, 이미지를 컨테이너 레지스트리(Docker Hub, GCP Artifact Registry 등)에 푸시한다. 서버는 이미지를 푸시한 레지스트리에서 docker pull로 내려받아 컨테이너를 실행한다.
+
+
+#### 특징
+• **코드를 서버로 복사하지 않고**, 빌드된 이미지만 서버에서 내려받아 사용
+• 빌드와 배포가 분리되어 있어 **일관된 빌드 환경**을 보장
+• **이미지 푸시/풀 과정**이 필요하므로 네트워크 트래픽이 발생할 수 있지만, 여러 서버에 동일한 이미지를 배포할 때 효율적이다
+
+
+### 차이점 비교
+
+|**항목**|**서버에서 `docker build`**|**Docker Push/Pull**|
+|---|---|---|
+|**소스 코드 복사**|서버로 직접 복사|서버로 복사하지 않음|
+|**빌드 위치**|서버에서 빌드|로컬 또는 CI/CD 서버에서 빌드|
+|**배포 효율성**|서버마다 별도로 빌드 필요|레지스트리에 이미지를 저장 후 여러 서버에서 `pull`|
+|**일관성**|서버 환경에 따라 빌드 결과 달라질 수 있음|동일한 이미지를 사용하므로 일관성 보장|
+|**민감 정보 관리**|코드와 `.env` 파일이 서버에 노출될 가능성 있음|`.env` 파일은 서버에서만 관리|
+|**복잡도**|단순함|약간의 초기 설정 필요 (레지스트리 연결 등)|
+|**네트워크 사용**|코드 업로드 (소량)|이미지 푸시/풀 (대량)|
+
+> 나는 사실 1번 방법을 수동으로 주로 사용하고 있었으나, 2번 방법을 Github Actions CI/CD로 사용하고자 한다
+
+
+##  테스트: Github Action을 이용한 CI/CD 적용 sample test
 
 
 참고 자료: [https://docs.github.com/en/actions/about-github-actions/understanding-github-actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions) 
 
 
-### Workflow 생성
+### Sample Workflow Test
 
 
 Github Documentation 제공 기본 `github-actions-demo.yml`. `.github/workflows/` 위치에 저장해야 한다
@@ -143,4 +186,14 @@ jobs:
 
 
 ![](https://i.imgur.com/Hek3ndh.png)
+
+Github에 push 시 아래와 같이 Github Action이 동작한다는것을 확인할 수 있다.
+
+
+![](https://i.imgur.com/0ijXeL7.png)
+![](https://i.imgur.com/tij8pdJ.png)
+![](https://i.imgur.com/95M2ztm.png)
+
+
+
 
