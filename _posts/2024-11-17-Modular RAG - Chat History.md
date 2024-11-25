@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modular RAG - Chat History
+title: "[Modular RAG]Chat History"
 date: 2024-11-17 14:35 +0900
 categories:
   - Project

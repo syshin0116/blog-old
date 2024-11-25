@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modular RAG
+title: "[Modular RAG]구조"
 date: 2024-10-20 12:38 +0900
 categories:
   - Project
