@@ -21,8 +21,39 @@
               "icon": "lucide-file",
               "title": "2024-12-04-프롬프트엔지니어링2탄"
             }
+          },
+          {
+            "id": "362e4605c2ec4936",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-12-22-Modular RAG - Short Term, Long Term Memory.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-12-22-Modular RAG - Short Term, Long Term Memory"
+            }
+          },
+          {
+            "id": "2dacdd8ef198ddcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-12-25-DuckDB.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-12-25-DuckDB"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,13 +264,16 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "635af29fdef40a6e",
+  "active": "2dacdd8ef198ddcc",
   "lastOpenFiles": [
-    "_posts/2024-12-01-메타코드 강의 후기_1강_소프트웨어 설계.md",
-    "_posts/2024-12-04-프롬프트엔지니어링2탄.md",
+    "_posts/2024-12-22-Modular RAG - Short Term, Long Term Memory.md",
+    "_posts/2024-12-25-DuckDB.md",
     "_posts/2024-11-25-Modular RAG - RDBMS vs NoSQL.md",
-    "_posts/2024-11-23-정보처리기사 메타코드 intro.md",
     "_posts/2024-11-17-Modular RAG - Chat History.md",
+    "_posts/2024-12-04-프롬프트엔지니어링2탄.md",
+    "_posts/2024-07-28-프라임칼리지 수업 정리.md",
+    "_posts/2024-12-01-메타코드 강의 후기_1강_소프트웨어 설계.md",
+    "_posts/2024-11-23-정보처리기사 메타코드 intro.md",
     "_posts/2024-10-20-Modular RAG 구조.md",
     "_posts/2024-11-17-방법-Github CI CD - GCP.md",
     "_drafts/2024-02-26-맥북 개발 세팅.md",
@@ -259,9 +293,6 @@
     "_posts/2024-.md",
     "_posts/2024-09-28-9월 주주총회.md",
     "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
-    "_posts/2024-08-25-Visual Zettelkasten.md",
-    "_posts/2024-08-15-Knowledge Graphs for RAG.md",
-    "_posts/2024-07-29-Zettelkasten.md",
     "assets/img/2. 품질관리계획서 (dragged) 1.pdf",
     "assets/img/2. 품질관리계획서 (dragged).pdf",
     "_site/posts/Podly_개발보고서/index.html",
