@@ -76,6 +76,7 @@ math: true
 
 
 ### Table of Contents
+```
 
 - [Overview](#overview)
     - [What is Memory?](#what-is-memory)
@@ -105,6 +106,7 @@ math: true
 - [Tips and Best Practices](#tips-and-best-practices)
 - [Complete Code Examples](#complete-code-examples)
 
+```
 
 ### Overview
 
