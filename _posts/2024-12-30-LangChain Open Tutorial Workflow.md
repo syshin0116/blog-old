@@ -22,7 +22,7 @@ math: true
 - 중앙 관리팀 존재(충돌 방지)
 	- Package 추가 희망 시 중앙 팀에게 요청
 
-## Workflow
+## Workflow
 1. [LangChain-OpenTutorial](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial)Fork
 2. 각자 개인 Fork에서 작업
 3. Main(original) repository에 PR(pull request)
