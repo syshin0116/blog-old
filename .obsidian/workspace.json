@@ -51,9 +51,39 @@
               "icon": "lucide-file",
               "title": "2024-12-25-DuckDB"
             }
+          },
+          {
+            "id": "b5fda57fb21b2e74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-01-05-LangChain Open Tutorial - BrainStorm.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-05-LangChain Open Tutorial - BrainStorm"
+            }
+          },
+          {
+            "id": "c28eb12a0b45a570",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-01-05-LangChain Open Tutorial - Week 2- PeerReview.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-05-LangChain Open Tutorial - Week 2- PeerReview"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -264,10 +294,13 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "2dacdd8ef198ddcc",
+  "active": "c28eb12a0b45a570",
   "lastOpenFiles": [
-    "_posts/2024-12-22-Modular RAG - Short Term, Long Term Memory.md",
+    "_posts/2025-01-05-LangChain Open Tutorial - BrainStorm.md",
+    "_posts/2025-01-05-LangChain Open Tutorial - Week 2- PeerReview.md",
+    "_posts/2024-12-30-LangChain Open Tutorial Workflow.md",
     "_posts/2024-12-25-DuckDB.md",
+    "_posts/2024-12-22-Modular RAG - Short Term, Long Term Memory.md",
     "_posts/2024-11-25-Modular RAG - RDBMS vs NoSQL.md",
     "_posts/2024-11-17-Modular RAG - Chat History.md",
     "_posts/2024-12-04-프롬프트엔지니어링2탄.md",
@@ -290,9 +323,6 @@
     "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
     "_posts/2024-06-03-김동규 연구원님.md",
     "_posts/2024-05-30-LlamaIndex 온라인 세미나.md",
-    "_posts/2024-.md",
-    "_posts/2024-09-28-9월 주주총회.md",
-    "_posts/2024-09-07-TeddyNote-Agentic RAG.md",
     "assets/img/2. 품질관리계획서 (dragged) 1.pdf",
     "assets/img/2. 품질관리계획서 (dragged).pdf",
     "_site/posts/Podly_개발보고서/index.html",
