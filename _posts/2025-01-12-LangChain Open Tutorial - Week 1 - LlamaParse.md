@@ -576,3 +576,4 @@ print(docs[0].page_content)
     
     The paper introduces the Transformer, a novel neural network architecture based solely on attention mechanisms, eliminating the need for recurrence and convolutions. This model is designed for sequence transduction tasks, such as machine translation. The Transformer demonstrates superior performance, achieving 28.4 BLEU on the WMT 2014 English-to-German translation task and setting a new state-of-the-art BLEU score of 41.8 on the WMT 2014 English-to-French task. The model is more efficient, requiring less training time and resources, and generalizes well to other tasks, including English constituency parsing.
 
+
