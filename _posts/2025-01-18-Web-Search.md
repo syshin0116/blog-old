@@ -8,14 +8,14 @@ categories:
 tags: 
 math: true
 ---
-
-
 ## Research
 
 - [Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models](https://arxiv.org/abs/2310.04406)
 - [Building (and Breaking) WebLangChain](https://blog.langchain.dev/weblangchain/)
 - [Plan-and-Execute Agents](https://blog.langchain.dev/planning-agents/)
 
+### Paper
+- [An LLM Compiler for Parallel Function Calling](https://arxiv.org/abs/2312.04511)
 
 ### Notebooks
 - [Reasoning without Observation](https://github.com/langchain-ai/langgraph/blob/main/docs/docs/tutorials/rewoo/rewoo.ipynb)
