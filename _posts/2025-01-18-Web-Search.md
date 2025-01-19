@@ -15,7 +15,7 @@ math: true
 - [Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models](https://arxiv.org/abs/2310.04406)
 - [Building (and Breaking) WebLangChain](https://blog.langchain.dev/weblangchain/)
 - [Plan-and-Execute Agents](https://blog.langchain.dev/planning-agents/)
-- 
+
 
 ### Notebooks
 - [Reasoning without Observation](https://github.com/langchain-ai/langgraph/blob/main/docs/docs/tutorials/rewoo/rewoo.ipynb)
@@ -24,155 +24,7 @@ math: true
 
 
 
-
 # Plan-and-Execute Agents
-
-Plan and execute agents promise faster, cheaper, and more performant task execution over previous agent designs. Learn how to build 3 types of planning agents in LangGraph in this post.
-
-[By LangChain](https://blog.langchain.dev/tag/by-langchain/)5 min readFeb 13, 2024
-
-### **Links**
-
-- Plan-and-execute ([Python](https://github.com/langchain-ai/langgraph/blob/main/examples/plan-and-execute/plan-and-execute.ipynb?ref=blog.langchain.dev), [JS](https://github.com/langchain-ai/langgraphjs/blob/main/examples/plan-and-execute/plan-and-execute.ipynb?ref=blog.langchain.dev))
-- LLMCompiler ([Python](https://github.com/langchain-ai/langgraph/blob/main/examples/llm-compiler/LLMCompiler.ipynb?ref=blog.langchain.dev))
-- ReWOO ([Python](https://github.com/langchain-ai/langgraph/blob/main/examples/rewoo/rewoo.ipynb?ref=blog.langchain.dev))
-- [Youtube](https://youtu.be/uRya4zRrRx4?ref=blog.langchain.dev)
-
-We’re releasing three agent architectures in LangGraph showcasing the “plan-and-execute” style agent design. These agents promise a number of improvements over traditional Reasoning and Action (ReAct)-style agents.
-
-⏰ First of all, they can execute multi-step workflow _**faster**,_ since the larger agent doesn’t need to be consulted after each action. Each sub-task can be performed without an additional LLM call (or with a call to a lighter-weight LLM).
-
-💸 Second, they offer **cost savings** over ReAct agents. If LLM calls are used for sub-tasks, they typically can be made to smaller, domain-specific models. The larger model then is only called for (re-)planning steps and to generate the final response.
-
-🏆 Third, they can **perform better** overall (in terms of task completions rate and quality) by forcing the planner to explicitly “think through” all the steps required to accomplish the entire task. Generating the full reasoning steps is a tried-and-true prompting technique to improve outcomes. Subdividing the problem also permits more focused task execution.
-
-## Background
-
-Over the past year, language model-powered agents and state machines have emerged as a promising design pattern for creating flexible and effective ai-powered products.
-
-At their core, agents use LLMs as general-purpose problem-solvers, connecting them with external resources to answer questions or accomplish tasks.
-
-LLM agents typically have the following main steps:
-
-1. Propose action: the LLM generates text to respond directly to a user or to pass to a function.
-2. Execute action: your code invokes other software to do things like query a database or call an API.
-3. Observe: react to the response of the tool call by either calling another function or responding to the user.
-
-The [ReAct](https://arxiv.org/abs/2210.03629?ref=blog.langchain.dev) agent is a great prototypical design for this, as it prompts the language model using a repeated thought, act, observation loop:
-
-```
-Thought: I should call Search() to see the current score of the game.
-Act: Search("What is the current score of game X?")
-Observation: The current score is 24-21
-... (repeat N times)
-```
-
-A typical ReAct-style agent trajectory.
-
-This takes advantage of [Chain-of-thought](https://arxiv.org/abs/2201.11903?ref=blog.langchain.dev) prompting to make a single action choice per step. While this can be effect for simple tasks, it has a couple main downsides:
-
-1. It requires an LLM call for each tool invocation.
-2. The LLM only plans for 1 sub-problem at a time. This may lead to sub-optimal trajectories, since it isn't forced to "reason" about the whole task.
-
-One way to overcome these two shortcomings is through an explicit planning step. Below are two such designs we have implemented in LangGraph.
-
-## **Plan-And-Execute**
-
-🔗 [Python Link](https://github.com/langchain-ai/langgraph/blob/main/examples/plan-and-execute/plan-and-execute.ipynb?ref=blog.langchain.dev)
-
-🔗 [JS Link](https://github.com/langchain-ai/langgraphjs/blob/main/examples/plan-and-execute/plan-and-execute.ipynb?ref=blog.langchain.dev)
-
-![](https://blog.langchain.dev/content/images/2024/02/plan-and-execute.png)
-
-Plan-and-execute Agent
-
-Based loosely on Wang, et. al.’s paper on [Plan-and-Solve Prompting](https://arxiv.org/abs/2305.04091?ref=blog.langchain.dev), and Yohei Nakajima’s [BabyAGI](https://github.com/yoheinakajima/babyagi?ref=blog.langchain.dev) project, this simple architecture is emblematic of the planning agent architecture. It consists of two basic components:
-
-1. A **planner**, which prompts an LLM to generate a multi-step plan to complete a large task.
-2. **Executor**(s), which accept the user query and a step in the plan and invoke 1 or more tools to complete that task.
-
-Once execution is completed, the agent is called again with a re-planning prompt, letting it decide whether to finish with a response or whether to generate a follow-up plan (if the first plan didn’t have the desired effect).
-
-This agent design lets us avoid having to call the large planner LLM for each tool invocation. It still is restricted by serial tool calling and uses an LLM for each task since it doesn't support variable assignment.
-
-## Reasoning WithOut Observations
-
-🔗 [Python Link](https://github.com/langchain-ai/langgraph/blob/main/examples/rewoo/rewoo.ipynb?ref=blog.langchain.dev)
-
-In [ReWOO](https://arxiv.org/abs/2305.18323?ref=blog.langchain.dev), Xu, et. al, propose an agent that removes the need to always use an LLM for each task while still allowing tasks to depend on previous task results. They do so by permitting variable assignment in the planner's output. Below is a diagram of the agent design.
-
-![](https://blog.langchain.dev/content/images/2024/02/rewoo.png)
-
-ReWOO Agent
-
-Its **planner** generates a plan list consisting of interleaving "Plan" (reasoning) and "E#" lines. As an example, given the user query "What are the stats for the quarterbacks of the super bowl contenders this year", the planner may generate the following plan:
-
-```
-Plan: I need to know the teams playing in the superbowl this year
-E1: Search[Who is competing in the superbowl?]
-Plan: I need to know the quarterbacks for each team
-E2: LLM[Quarterback for the first team of #E1]
-Plan: I need to know the quarterbacks for each team
-E3: LLM[Quarter back for the second team of #E1]
-Plan: I need to look up stats for the first quarterback
-E4: Search[Stats for #E2]
-Plan: I need to look up stats for the second quarterback
-E5: Search[Stats for #E3]
-```
-
-Notice how the planner can reference previous outputs using syntax like `#E2` . This means it can execute a task list without having to re-plan every time.
-
-The **worker** node loops through each task and assigns the task output to the corresponding variable. It also replaces variables with their results when calling subsequent calls.
-
-Finally, the **Solver** integrates all these outputs into a final answer.
-
-This agent design can be more effective than a naive plan-and-execute agent since each task can have only the required context (its input and variable values).
-
-It still relies on sequential task execution, however, which can create a longer runtime.
-
-## **LLMCompiler**
-
-🔗 [Python Link](https://github.com/langchain-ai/langgraph/blob/main/examples/llm-compiler/LLMCompiler.ipynb?ref=blog.langchain.dev)
-
-![](https://blog.langchain.dev/content/images/2024/02/llm-compiler-1.png)
-
-LLMCompiler Agent
-
-The **LLMCompiler**, by [Kim, et. al.,](https://arxiv.org/abs/2312.04511?ref=blog.langchain.dev) is an agent architecture designed to further increase the **speed** of task execution beyond the plan-and-execute and ReWOO agents described above, and even beyond OpenAI’s parallel tool calling.
-
-The LLMCompiler has the following main components:
-
-1. **Planner**: streams a DAG of tasks. Each task contains a tool, arguments, and list of dependencies.
-2. **Task Fetching Unit** schedules and executes the tasks. This accepts a stream of tasks. This unit schedules tasks once their dependencies are met. Since many tools involve other calls to search engines or LLMs, the extra parallelism can grant a significant speed boost (the paper claims 3.6x).
-3. **Joiner**: dynamically replan or finish based on the entire graph history (including task execution results) is an LLM step that decides whether to respond with the final answer or whether to pass the progress back to the (re-)planning agent to continue work.
-
-The key runtime-boosting ideas here are:
-
-- **Planner** outputs are **_streamed;_** the output parser eagerly yields task parameters and their dependencies.
-- The **task fetching unit** receives the parsed task stream and schedules tasks once all their dependencies are satisfied.
-- Task arguments can be _variables,_ which are the outputs of previous tasks in the DAG. For instance, the model can call `search("${1}")` to search for queries generated by the output of task 1. This lets the agent work even faster than the "embarrassingly parallel" tool calling in OpenAI.
-
-By formatting tasks as a DAG, the agent can save precious time while invoking tools, leading to an overall better user experience.
-
-## Conclusion
-
-These three agent architectures are prototypical of the "plan-and-execute" design pattern, which separates an LLM-powered "planner" from the tool execution runtime. If your application requires multiple tool invocations or API calls, these types of approaches can reduce the time it takes to return a final result and help you save costs by reducing the frequency of calls to more powerful LLMs.
-
-
----
-
-## Plan-and-Execute Agents
-
-- 기존 ReAct 방식보다 빠르고 저렴하며 높은 성능을 제공하는 에이전트 구조
-- Planner(LLM)와 Executor(툴, 소형 모델)로 분리해 워크플로우를 구성
-- 대형 모델(LLM)은 전체 계획 수립 시에만 사용하고, 실행은 작은 모델이나 특정 도구로 처리
-
-> 대규모 모델을 매번 호출하면 비용이 많이 들고 응답이 느려짐  
-> Plan-and-Execute 구조에서는 대형 모델은 계획 수립 시점에만 호출하고, 세부 작업은 가벼운 프로세스나 모델로 돌려 리소스를 아낄 수 있음
-
----
-
-## 에이전트 설계의 기본 개념
 
 - LLM과 외부 툴(API, DB, 검색엔진 등)을 연결해 문제 해결 또는 작업 수행
 - 전형적인 에이전트 흐름
@@ -189,6 +41,8 @@ These three agent architectures are prototypical of the "plan-and-execute" desig
 ---
 
 ## Plan-And-Execute
+
+![](https://blog.langchain.dev/content/images/2024/02/plan-and-execute.png)
 
 - Wang 등의 Plan-and-Solve Prompting, BabyAGI에서 영감을 받은 구조
 - 동작 방식
@@ -207,6 +61,8 @@ These three agent architectures are prototypical of the "plan-and-execute" desig
 ---
 
 ## ReWOO (Reasoning Without Observations)
+
+![](https://blog.langchain.dev/content/images/2024/02/rewoo.png)
 
 - Xu 등이 제안한 방식으로, 변수를 통한 참조를 지원
 - Planner가 작업 계획(Plan)과 실행(E#)을 한 번에 모두 제시
@@ -230,6 +86,8 @@ These three agent architectures are prototypical of the "plan-and-execute" desig
 ---
 
 ## LLMCompiler
+
+![](https://blog.langchain.dev/content/images/2024/02/llm-compiler-1.png)
 
 - Kim 등이 제안한 고속 실행 지향 에이전트 구조
 - 구성 요소
