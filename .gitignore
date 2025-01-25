@@ -37,3 +37,7 @@ Excalidraw/
 
 # Ignore Smart Connections folder
 .smart-connections
+
+
+_drafts/
+.smtcmp_chat_histories/
