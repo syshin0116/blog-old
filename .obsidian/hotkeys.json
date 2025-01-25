@@ -7,5 +7,23 @@
       ],
       "key": "/"
     }
+  ],
+  "smart-composer:open-new-chat": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "smart-composer:add-selection-to-chat": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
   ]
 }
