@@ -107,5 +107,3 @@ This method makes:
 - organic grouwth possible
 	- this organic growth is how wikis and their wiki-link feature works
 - linking possible
-
-
