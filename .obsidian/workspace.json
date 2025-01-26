@@ -13,13 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-01-25-월간 옵시디안-25년 1월.md",
+                "file": "_posts/2022-08-04-_lvl1__월간 코드 챌린지 시즌3_없는 숫자 더하기.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-25-월간 옵시디안-25년 1월"
+              "title": "2022-08-04-_lvl1__월간 코드 챌린지 시즌3_없는 숫자 더하기"
+            }
+          },
+          {
+            "id": "456ee8a2719ca516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-01-26-Inflearn-UIUX.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-26-Inflearn-UIUX"
+            }
+          },
+          {
+            "id": "09ceeb16d3eae799",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-01-26-paper review-An LLM Compiler for Parallel Function Calling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-26-paper review-An LLM Compiler for Parallel Function Calling"
             }
           },
           {
@@ -37,7 +67,8 @@
               "title": "Template_AI Summary"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,10 +290,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b5fda57fb21b2e74",
+  "active": "09ceeb16d3eae799",
   "lastOpenFiles": [
-    "_drafts/templater/Template_AI Summary.md",
     "_posts/2025-01-25-월간 옵시디안-25년 1월.md",
+    "_posts/2025-01-26-paper review-An LLM Compiler for Parallel Function Calling.md",
+    "_posts/2025-01-26-Inflearn-UIUX.md",
+    "_posts/2022-08-04-_lvl1__월간 코드 챌린지 시즌3_없는 숫자 더하기.md",
+    "_drafts/사업계획서.md",
+    "_drafts/templater/Template_AI Summary.md",
     "_posts/2025-01-05-LangChain Open Tutorial - BrainStorm.md",
     "_posts/2024-12-25-DuckDB.md",
     "_drafts/templater/Untitled.md",
@@ -285,10 +320,6 @@
     "_posts/2024-08-15-Knowledge Graphs for RAG.md",
     "_drafts/DevDay/발표-문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용.md",
     "_posts/2024-06-08-RAG Test Web + 문서(pdf 등) 내 시각 자료와 텍스트의 추출 및 활용 연구.md",
-    "_posts/2024-12-22-Modular RAG - Short Term, Long Term Memory.md",
-    "_posts/2024-12-04-프롬프트엔지니어링2탄.md",
-    "smart-chats/UNTITLED CHAT 2024-07-19 01 46 10.md",
-    "_posts/2023-05-08-Docker와 VM 차이.md",
     "assets/img/favicons/android-chrome-512x512.png",
     "assets/img/2. 품질관리계획서 (dragged) 1.pdf",
     "assets/img/2. 품질관리계획서 (dragged).pdf",
