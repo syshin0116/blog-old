@@ -10,7 +10,7 @@ math: true
 ---
 - paper: [https://arxiv.org/abs/2312.04511](https://arxiv.org/abs/2312.04511)
 - github: [https://github.com/SqueezeAILab/LLMCompiler](https://github.com/SqueezeAILab/LLMCompiler)
-
+- youtube: [https://youtu.be/aoLtTIYAafY?si=9d4O99LWEWpX15Oc](https://youtu.be/aoLtTIYAafY?si=9d4O99LWEWpX15Oc)
 
 ## Abstract
 
