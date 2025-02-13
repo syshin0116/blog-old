@@ -1630,7 +1630,7 @@ await astream_graph(graph, inputs, config=config)
 
 ============================================================
 
-🔄 Node: [1;36mplan_steps_node[0m 🔄
+🔄 Node: plan_steps_node 🔄
 
 ============================================================
 
@@ -1648,7 +1648,7 @@ TaskStep(id='step5', description='Respond with a summary of the impact of AI on 
 
 ============================================================
 
-🔄 Node: [1;36msearch_node[0m 🔄
+🔄 Node: search_node 🔄
 
 ============================================================
 
@@ -1672,13 +1672,13 @@ TaskStep(id='step5', description='Respond with a summary of the impact of AI on 
 
 ============================================================
 
-🔄 Node: [1;36mcollect_search_results_node[0m 🔄
+🔄 Node: collect_search_results_node 🔄
 
 ============================================================
 
 ============================================================
 
-🔄 Node: [1;36mthink_node[0m 🔄
+🔄 Node: think_node 🔄
 
 ============================================================
 
@@ -1717,7 +1717,7 @@ The COVID-19 pandemic significantly disrupted global trade and supply chains, hi
 
 ============================================================
 
-🔄 Node: [1;36mresponse_node[0m 🔄
+🔄 Node: response_node 🔄
 
 ============================================================
 
