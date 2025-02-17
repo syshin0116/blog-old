@@ -73,13 +73,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-01-18-Web-Search.md",
+                "file": "_posts/2022-08-08-_lvl1_소수 만들기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-18-Web-Search"
+              "title": "2022-08-08-_lvl1_소수 만들기"
+            }
+          },
+          {
+            "id": "57f3ed77258940b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-02-17-Migration from Jekyll to Quartz.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-02-17-Migration from Jekyll to Quartz"
             }
           },
           {
@@ -98,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "jenkins",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -321,10 +336,16 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "44da4213c638ea35",
+  "active": "57f3ed77258940b5",
   "lastOpenFiles": [
+    "_posts/2022-08-08-_lvl1_소수 만들기.md",
+    "_posts/2025-02-17-Migration from Jekyll to Quartz.md",
+    "_posts/2023-07-16-서버 프로그램 구현.md",
+    "_posts/2024-03-28-통합 프로젝트 기술.md",
+    "_posts/2024-04-09-원티드 프리온보딩 백엔드-Docker-3일차.md",
+    "_posts/2024-05-27-백엔드 개발자 학습 가이드 웨비나.md",
+    "_posts/2025-01-18-Web-Search.md",
     "_posts/2025-02-12-CoT Based Smart Web Search.md",
-    "_posts/Untitled.md",
     "_posts/2025-01-12-LangChain Open Tutorial - Week 1 - LlamaParse.md",
     "_posts/2022-08-02-_lvl1_완주하지 못한 선수.md",
     "_drafts/2024-05-13-공모전 회의록.md",
@@ -344,13 +365,7 @@
     "_drafts/templater/Untitled.md",
     "_drafts/templater",
     "Clippings/한국자동차연구원.md",
-    "Clippings/한국자동차연구원 1.md",
-    "Clippings/랩큐 - 인공지능 연구개발 & 서비스.md",
-    "_posts/2025-01-18-Web-Search.md",
-    "Clippings/LangGraphWeb-Search Research.md",
     "Clippings",
-    "Untitled.md",
-    "_posts/2024-07-29-Zettelkasten.md",
     "assets/img/favicons/android-chrome-512x512.png",
     "assets/img/2. 품질관리계획서 (dragged) 1.pdf",
     "assets/img/2. 품질관리계획서 (dragged).pdf",
