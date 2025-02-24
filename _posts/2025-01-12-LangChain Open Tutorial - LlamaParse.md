@@ -83,11 +83,6 @@ package.install(
 )
 ```
 
-    
-    [1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m24.3.1[0m
-    [1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
-
-
 ### API Key Configuration
 
 To use `LlamaParse` , you need to [obtain a Llama Cloud API key](https://docs.cloud.llamaindex.ai/llamaparse/getting_started/get_an_api_key).

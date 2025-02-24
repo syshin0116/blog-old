@@ -992,7 +992,7 @@ chunk["messages"][-1].pretty_print()
 
   
 
-================================[1m Human Message [0m=================================
+================================ Human Message  =================================
 
 Hello, I'm Charlie. I work as a software engineer and I'm passionate about AI. Remember this.
 
@@ -1000,7 +1000,7 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:11.951177
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 Tool Calls:
 
@@ -1014,7 +1014,7 @@ content: Charlie is a software engineer and passionate about AI.
 
 context: Charlie introduced themselves and shared their profession and interest.
 
-=================================[1m Tool Message [0m=================================
+================================= Tool Message  =================================
 
 Stored memory 83b21302-d28d-4a7d-b0a9-45f6ab790e37
 
@@ -1028,11 +1028,11 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:13.275082
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 Hello Charlie! It's great to meet you. I've noted that you're a software engineer with a passion for AI. What kind of AI projects are you working on or interested in?
 
-================================[1m Human Message [0m=================================
+================================ Human Message  =================================
 
 I specialize in machine learning algorithms and I'm currently working on a project involving natural language processing.
 
@@ -1046,7 +1046,7 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:14.199902
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 Tool Calls:
 
@@ -1060,7 +1060,7 @@ content: Charlie specializes in machine learning algorithms and is currently wor
 
 context: Charlie shared their area of specialization and current project focus.
 
-=================================[1m Tool Message [0m=================================
+================================= Tool Message  =================================
 
 Stored memory 1d086522-0510-43df-b119-96e66bc8f9d0
 
@@ -1076,11 +1076,11 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:15.287356
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 That sounds fascinating! Natural language processing is such an intriguing field. Are there any particular challenges or goals you're focusing on in your current project?
 
-================================[1m Human Message [0m=================================
+================================ Human Message  =================================
 
 My main goal is to improve sentiment analysis accuracy in multi-lingual texts. It's challenging but exciting.
 
@@ -1096,7 +1096,7 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:16.151716
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 Tool Calls:
 
@@ -1110,7 +1110,7 @@ content: Charlie's main goal in their current project is to improve sentiment an
 
 context: Charlie described the primary goal and challenge of their current project involving natural language processing.
 
-=================================[1m Tool Message [0m=================================
+================================= Tool Message  =================================
 
 Stored memory 427e0614-8768-44f4-8a01-f01c3cf933d3
 
@@ -1128,11 +1128,11 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:18.056567
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 Improving sentiment analysis accuracy in multi-lingual texts sounds like a challenging yet rewarding task. The nuances of different languages can definitely make it complex. How do you tackle the challenges of working with multiple languages? Are there any particular techniques or tools you find especially helpful?
 
-================================[1m Human Message [0m=================================
+================================ Human Message  =================================
 
 We've made some progress using transformer models, but we're still working on handling context and idioms across languages.
 
@@ -1150,11 +1150,11 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:19.171699
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 Transformer models are indeed powerful for capturing context, but idioms can be tricky since they often don't translate directly. It's impressive that you're tackling such a complex issue! Are there any specific languages you're focusing on, or are you working with a broad range?
 
-================================[1m Human Message [0m=================================
+================================ Human Message  =================================
 
 Chinese and English have been the most challenging pair so far due to their vast differences in structure and cultural contexts.
 
@@ -1172,7 +1172,7 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:20.297475
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 Chinese and English do pose a unique set of challenges due to their linguistic and cultural differences. It's intriguing to see how you're addressing these complexities. Have you found any particular strategies effective in bridging these differences, or are there cultural nuances that you're still exploring?
 
@@ -1228,7 +1228,7 @@ chunk["messages"][-1].pretty_print()
 
   
 
-================================[1m Human Message [0m=================================
+================================ Human Message  =================================
 
 Whats my name?
 
@@ -1246,7 +1246,7 @@ system_msg: You are a helpful and friendly chatbot. Get to know the user! Ask qu
 
 System Time: 2025-01-12T15:54:21.511105
 
-==================================[1m Ai Message [0m==================================
+================================== Ai Message  ==================================
 
 Your name is Charlie.
 
