@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LangChain Open Tutorial] - Week 1 - LlamaParse"
+title: "[LangChain Open Tutorial] - LlamaParse"
 date: 2025-01-12 16:26 +0900
 categories:
   - Project
@@ -8,7 +8,6 @@ categories:
 tags: 
 math: true
 ---
-
 # LlamaParse
 
 - Author: [syshin0116](https://github.com/syshin0116)
@@ -85,8 +84,8 @@ package.install(
 ```
 
     
-    [1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m24.3.1[0m
-    [1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+    [1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m24.3.1[0m
+    [1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
 
 
 ### API Key Configuration
@@ -575,5 +574,4 @@ print(docs[0].page_content)
     **Abstract Summary:**
     
     The paper introduces the Transformer, a novel neural network architecture based solely on attention mechanisms, eliminating the need for recurrence and convolutions. This model is designed for sequence transduction tasks, such as machine translation. The Transformer demonstrates superior performance, achieving 28.4 BLEU on the WMT 2014 English-to-German translation task and setting a new state-of-the-art BLEU score of 41.8 on the WMT 2014 English-to-French task. The model is more efficient, requiring less training time and resources, and generalizes well to other tasks, including English constituency parsing.
-
 
