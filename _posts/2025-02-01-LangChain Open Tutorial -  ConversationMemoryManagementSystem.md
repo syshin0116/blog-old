@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[LangChain Open Tutorial]ConversationMemoryManagementSystem"
-date: 2025-02-24 22:26 +0900
+date: 2025-02-01 22:26 +0900
 categories:
   - Project
   - LangChain Open Tutorial
