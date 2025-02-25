@@ -15,11 +15,14 @@ math: true
 
 튜토리얼 기여 과정은 약 7주 동안 진행되었으며, 전체 프로젝트에서 **2000개 이상의 커밋**이 쌓일 정도로 활발하게 진행되었다. 첫 주에는 모든 기여자가 공통적으로 기존 튜토리얼을 검토하고 번역하는 작업을 수행했다. 이후부터는 최대한 **신규 튜토리얼 제작에 집중적으로 참여**하며, 직접 내용을 구성하고 구현하는 작업을 맡았다.
 
+Gitbook: [🦜️🔗 The LangChain Open Tutorial for Everyone](https://langchain-opentutorial.gitbook.io/langchain-opentutorial)
+Github: [LangChain-OpenTutorial](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial)
+
 
 ## 기여 튜토리얼
 
 ### LlamaParse 튜토리얼
-
+- **GitBook:** [LlamaParse Gitbook](https://langchain-opentutorial.gitbook.io/langchain-opentutorial/06-documentloader/12-llamaparse)
 - **GitHub**: [LlamaParse 튜토리얼 코드](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial/blob/main/06-DocumentLoader/13-LlamaParse.ipynb)
 - **Google Colab**: [Colab에서 실행하기](https://colab.research.google.com/github/LangChain-OpenTutorial/LangChain-OpenTutorial/blob/main/06-DocumentLoader/13-LlamaParse.ipynb)
 
@@ -64,6 +67,7 @@ PDF나 이미지 기반 문서에서도 **표, 다이어그램, 강조된 텍스
 
 ### Conversation Memory Management System 튜토리얼
 
+- **GitBook**: [ConversationMemoryManagementSystem GitBook](https://langchain-opentutorial.gitbook.io/langchain-opentutorial/19-cookbook/05-aimemorymanagementsystem/09-conversationmemorymanagementsystem)
 - **GitHub**: [Conversation Memory Management System 튜토리얼 코드](https://github.com/LangChain-OpenTutorial/LangChain-OpenTutorial/blob/main/19-Cookbook/07-Agent/15-CoT-basedSmartWebSearch.ipynb)
 - **Google Colab**: [Colab에서 실행하기](https://colab.research.google.com/github/LangChain-OpenTutorial/LangChain-OpenTutorial/blob/main/19-Cookbook/07-Agent/15-CoT-basedSmartWebSearch.ipynb)
 
