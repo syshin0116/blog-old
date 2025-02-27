@@ -23,3 +23,7 @@ a fast, batteries-included static-site generator that transforms Markdown conten
 - Fully-customizable parsing, filtering, and page generation through plugins
 
 
+
+---
+
+## Building Initiative Quartz
