@@ -163,13 +163,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-02-24-LangChain Open Tutorial project retrospective.md",
+                "file": "_posts/2025-02-28-Migration from Jekyll to Quartz.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-24-LangChain Open Tutorial project retrospective"
+              "title": "2025-02-28-Migration from Jekyll to Quartz"
             }
           },
           {
@@ -413,9 +413,9 @@
   },
   "active": "5ec544d7dfc58702",
   "lastOpenFiles": [
-    "_posts/2025-02-24-LangChain OpenTutorial 회고록.md",
     "_posts/2025-02-24-LangChain Open Tutorial project retrospective.md",
-    "_posts/2025-02-17-Migration from Jekyll to Quartz.md",
+    "_posts/2025-02-24-LangChain OpenTutorial 회고록.md",
+    "_posts/2025-02-28-Migration from Jekyll to Quartz.md",
     "_posts/2025-01-12-LangChain Open Tutorial - LlamaParse.md",
     "_posts/2025-02-12-LangChain Open Tutorial - CoT Based Smart Web Search.md",
     "_posts/2025-02-01-LangChain Open Tutorial -  ConversationMemoryManagementSystem.md",

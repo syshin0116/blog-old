@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migration from Jekyll to Quartz
-date: 2025-02-17 23:34 +0900
+date: 2025-02-28 23:34 +0900
 categories:
   - ETC
   - Tech
